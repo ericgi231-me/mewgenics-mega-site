@@ -16,6 +16,7 @@ import {
   TRINKET_ITEM_OBJECTS,
   MUTATION_OBJECTS
 } from "../data/";
+import { renderTextWithIcons } from "../utils/renderTextWithIcons";
 
 const categories = [
   { key: "collars", label: "Collars", items: COLLAR_OBJECTS },
@@ -111,7 +112,7 @@ function HomePage() {
   };
 
   return (
-    <div className="flex min-h-screen dark" style={{ background: 'var(--color-background)', color: 'var(--color-text)' }}>
+    <div className="flex min-h-screen dark bg-color-background text-color-text">
       <SidebarInfoBox selectedItem={sidebarItem} className="hidden lg:flex sticky top-0 h-screen" />
       <div className="flex-1 p-8 pt-0">
         {/* Header with search bar */}
@@ -123,12 +124,11 @@ function HomePage() {
           return (
             <React.Fragment key={cat.key}>
               <div className="flex items-center my-3 cursor-pointer select-none" onClick={() => toggleCollapse(cat.key)}>
-                <div className="flex-1" style={{ borderTop: '1px solid var(--color-border)' }} />
-                <span className="mx-2 text-2xl font-bold" style={{ color: 'var(--color-primary)', textShadow: '0 1px 2px var(--color-border-dark)' }}>
+                <span className="mx-2 text-2xl font-bold text-color-primary drop-shadow-[0_1px_2px_var(--color-border-dark)]">
                   {cat.label}
-                  <span className="ml-2 text-base align-middle" style={{ color: 'var(--color-secondary)' }}>{isCollapsed ? "▲" : "▼"}</span>
+                  <span className="ml-2 text-base align-middle text-color-secondary">{isCollapsed ? "▲" : "▼"}</span>
                 </span>
-                <div className="flex-1" style={{ borderTop: '1px solid var(--color-border)' }} />
+                <div className="flex-1 border-t border-color-border" />
               </div>
               {!isCollapsed && (
                 cat.subcategories ? (
@@ -139,12 +139,10 @@ function HomePage() {
                     return (
                       <React.Fragment key={sub.key}>
                         <div className="flex items-center my-1 cursor-pointer select-none pl-8" onClick={() => toggleSubCollapse(cat.key, sub.key)}>
-                          <div className="flex-1" style={{ borderTop: '1px solid var(--color-border-dark)' }} />
-                          <span className="mx-2 text-lg font-semibold" style={{ color: 'var(--color-secondary)' }}>
-                            {sub.label}
-                            <span className="ml-2 text-sm align-middle" style={{ color: 'var(--color-primary-dark)' }}>{subIsCollapsed ? "▲" : "▼"}</span>
+                          <span className="mx-2 text-lg font-semibold text-color-secondary">
+                            {renderTextWithIcons(sub.label)}
+                            <span className="ml-2 text-sm align-middle text-color-primary-dark">{subIsCollapsed ? "▲" : "▼"}</span>
                           </span>
-                          <div className="flex-1" style={{ borderTop: '1px solid var(--color-border-dark)' }} />
                         </div>
                         {!subIsCollapsed && (
                           <IconGrid

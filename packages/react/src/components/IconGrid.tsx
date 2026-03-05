@@ -10,7 +10,14 @@ interface IconGridProps {
 
 function IconGrid({ items, selected, setSelected, onHover, onHoverEnd }: IconGridProps) {
   return (
-    <div className="flex flex-wrap items-start gap-1 mx-auto">
+    <div
+      className="grid gap-1 mx-auto"
+      style={{
+        gridTemplateColumns: "repeat(auto-fit, minmax(64px, 1fr))",
+        justifyContent: "center",
+        maxWidth: "100%"
+      }}
+    >
       {items.map((item, idx) => (
         <div
           key={idx}

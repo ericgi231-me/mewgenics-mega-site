@@ -25,7 +25,7 @@ export function renderTextWithIcons(text: string) {
     if (statKey) {
       const icon = STAT_ICON_MAPPINGS[statKey];
       result.push(
-        <span key={"stat-" + i} className="inline-flex items-center mr-1 align-middle">
+        <span key={"stat-" + i} className="inline-flex items-center mr-1 align-middle mb-1">
           {icon && <img src={icon} alt={statKey} className="w-5 h-5 mr-1 align-middle" />}
           <span className="align-middle">{matchText}</span>
         </span>
@@ -38,7 +38,7 @@ export function renderTextWithIcons(text: string) {
     if (collarKey) {
       const icon = COLLAR_ICON_MAPPINGS[collarKey];
       result.push(
-        <span key={"collar-" + i} className="inline-flex items-center mr-1 align-middle">
+        <span key={"collar-" + i} className="inline-flex items-center mr-1 align-middle mb-1">
           {icon && <img src={icon} alt={collarKey} className="w-5 h-5 mr-1 align-middle" />}
           <span className="align-middle">{matchText}</span>
         </span>

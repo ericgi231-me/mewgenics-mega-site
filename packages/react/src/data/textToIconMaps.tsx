@@ -7,7 +7,13 @@ export const STAT_ICON_MAPPINGS = {
   SPD: '/assets/stats/Stat_Speed.png',
   CHA: '/assets/stats/Stat_Charisma.png',
   LCK: '/assets/stats/Stat_Luck.png',
-  ALL: '/assets/stats/STATUS_All_Stats_Up_Icon.svg',
+  STRENGTH: '/assets/stats/Stat_Strength.png',
+  DEXTERITY: '/assets/stats/Stat_Dexterity.png',
+  CONSTITUTION: '/assets/stats/Stat_Constitution.png',
+  INTELLIGENCE: '/assets/stats/Stat_Intelligence.png',
+  SPEED: '/assets/stats/Stat_Speed.png',
+  CHARISMA: '/assets/stats/Stat_Charisma.png',
+  LUCK: '/assets/stats/Stat_Luck.png',
 };
 
 export const COLLAR_ICON_MAPPINGS = {
