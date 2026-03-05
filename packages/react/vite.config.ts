@@ -6,7 +6,6 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
   const port = Number(env.VITE_DEV_FRONTEND_PORT || 5173);
-  const target = `http://localhost:${env.VITE_DEV_BACKEND_PORT || 3000}`;
   
   return {
     plugins: [
@@ -15,15 +14,7 @@ export default defineConfig(({ mode }) => {
     ],
     server: {
       host: true,
-      port,
-      proxy: {
-        '/api': {
-          target,
-          changeOrigin: true,
-          secure: false,
-          rewrite: (path) => path.replace(new RegExp(`^/api`), ''),
-        }
-      },
+      port: port,
     }
   }
 })
