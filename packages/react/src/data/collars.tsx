@@ -1,6 +1,6 @@
 import type { GameObject } from "../types";
 
-export const COLLAR_OBJECTS: GameObject[] = [
+const COLLAR_OBJECTS: GameObject[] = [
   {
     name: 'Collarless',
     icon_path: '/assets/collars/Collarless_icon.png',
@@ -147,3 +147,5 @@ export const COLLAR_OBJECTS: GameObject[] = [
     ],
   },
 ];
+
+export default COLLAR_OBJECTS;

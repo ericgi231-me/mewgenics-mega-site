@@ -3,13 +3,54 @@ import IconGrid from "../components/IconGrid";
 import { ModalInfoBox, SidebarInfoBox } from "../components/InfoBox";
 import SearchBar from "../components/SearchBar";
 import { useSearchFilter } from "../hooks";
-import { COLLAR_OBJECTS } from "../data/collars";
-import { PASSIVE_OBJECTS } from "../data/upgrades/passives";
+import {
+  COLLAR_OBJECTS,
+  COLLARLESS_PASSIVE_OBJECTS,
+  FIGHTER_PASSIVE_OBJECTS,
+  COLLARLESS_ACTIVE_OBJECTS,
+  FIGHTER_ACTIVE_OBJECTS,
+  WEAPON_ITEM_OBJECTS,
+  HEAD_ITEM_OBJECTS,
+  NECK_ITEM_OBJECTS,
+  FACE_ITEM_OBJECTS,
+  TRINKET_ITEM_OBJECTS,
+  MUTATION_OBJECTS
+} from "../data/";
 
 const categories = [
   { key: "collars", label: "Collars", items: COLLAR_OBJECTS },
-  { key: "passives", label: "Passives", items: PASSIVE_OBJECTS },
-  // Add more categories here as needed
+  {
+    key: "passives",
+    label: "Passives",
+    subcategories: [
+      { key: "collarless", label: "Collarless", items: COLLARLESS_PASSIVE_OBJECTS },
+      { key: "fighter", label: "Fighter", items: FIGHTER_PASSIVE_OBJECTS },
+    ],
+  },
+  {
+    key: "actives",
+    label: "Actives",
+    subcategories: [
+      { key: "collarless", label: "Collarless", items: COLLARLESS_ACTIVE_OBJECTS },
+      { key: "fighter", label: "Fighter", items: FIGHTER_ACTIVE_OBJECTS },
+    ],
+  },
+  {
+    key: "items",
+    label: "Items",
+    subcategories: [
+      { key: "weapon", label: "Weapon", items: WEAPON_ITEM_OBJECTS },
+      { key: "head", label: "Head", items: HEAD_ITEM_OBJECTS },
+      { key: "neck", label: "Neck", items: NECK_ITEM_OBJECTS },
+      { key: "face", label: "Face", items: FACE_ITEM_OBJECTS },
+      { key: "trinket", label: "Trinket", items: TRINKET_ITEM_OBJECTS },
+    ],
+  },
+  {
+    key: "mutations",
+    label: "Mutations",
+    items: MUTATION_OBJECTS,
+  },
 ];
 
 type SelectionState = {
@@ -29,68 +70,127 @@ function HomePage() {
   const [modal, setModal] = useState<{ category: string; index: number } | null>(null);
   const { search, setSearch, matchesSearch } = useSearchFilter();
   const [collapsed, setCollapsed] = useState<Record<string, boolean>>({});
+  const [subCollapsed, setSubCollapsed] = useState<Record<string, boolean>>({});
 
   // Sidebar shows hovered item
   let sidebarItem = null;
   if (selection.hoveredCategory && selection.hoveredIndex !== null) {
-    const cat = categories.find(c => c.key === selection.hoveredCategory);
-    if (cat) sidebarItem = cat.items[selection.hoveredIndex];
+    // Support subcategories (key format: "main-sub")
+    const [mainKey, subKey] = selection.hoveredCategory.split("-");
+    const cat = categories.find(c => c.key === mainKey);
+    if (cat) {
+      if (cat.subcategories && subKey) {
+        const sub = cat.subcategories.find(s => s.key === subKey);
+        if (sub && sub.items) sidebarItem = sub.items[selection.hoveredIndex];
+      } else if (cat.items) {
+        sidebarItem = cat.items[selection.hoveredIndex];
+      }
+    }
   }
 
   // Modal shows clicked item
   let modalItem = null;
   if (modal) {
-    const cat = categories.find(c => c.key === modal.category);
-    if (cat) modalItem = cat.items[modal.index];
+    const [mainKey, subKey] = modal.category.split("-");
+    const cat = categories.find(c => c.key === mainKey);
+    if (cat) {
+      if (cat.subcategories && subKey) {
+        const sub = cat.subcategories.find(s => s.key === subKey);
+        if (sub && sub.items) modalItem = sub.items[modal.index];
+      } else if (cat.items) {
+        modalItem = cat.items[modal.index];
+      }
+    }
   }
 
   const toggleCollapse = (key: string) => {
     setCollapsed(prev => ({ ...prev, [key]: !prev[key] }));
   };
+  const toggleSubCollapse = (catKey: string, subKey: string) => {
+    setSubCollapsed(prev => ({ ...prev, [`${catKey}-${subKey}`]: !prev[`${catKey}-${subKey}`] }));
+  };
 
   return (
-    <div className="flex min-h-screen">
-      <SidebarInfoBox selectedItem={sidebarItem} className="hidden lg:flex" />
+    <div className="flex min-h-screen dark" style={{ background: 'var(--color-background)', color: 'var(--color-text)' }}>
+      <SidebarInfoBox selectedItem={sidebarItem} className="hidden lg:flex sticky top-0 h-screen" />
       <div className="flex-1 p-8 pt-0">
         {/* Header with search bar */}
         <div className="flex items-center my-6 gap-4">
           <SearchBar value={search} onChange={setSearch} />
-          <div className="flex-1 border-t border-gray-300" />
         </div>
         {categories.map(cat => {
-          const filteredItems = cat.items.filter(matchesSearch);
           const isCollapsed = collapsed[cat.key];
           return (
             <React.Fragment key={cat.key}>
-              <div className="flex items-center my-6 cursor-pointer select-none" onClick={() => toggleCollapse(cat.key)}>
-                <div className="flex-1 border-t border-gray-300" />
-                <span className="mx-4 text-2xl font-bold">
+              <div className="flex items-center my-3 cursor-pointer select-none" onClick={() => toggleCollapse(cat.key)}>
+                <div className="flex-1" style={{ borderTop: '1px solid var(--color-border)' }} />
+                <span className="mx-2 text-2xl font-bold" style={{ color: 'var(--color-primary)', textShadow: '0 1px 2px var(--color-border-dark)' }}>
                   {cat.label}
-                  <span className="ml-2 text-base align-middle">{isCollapsed ? "▲" : "▼"}</span>
+                  <span className="ml-2 text-base align-middle" style={{ color: 'var(--color-secondary)' }}>{isCollapsed ? "▲" : "▼"}</span>
                 </span>
-                <div className="flex-1 border-t border-gray-300" />
+                <div className="flex-1" style={{ borderTop: '1px solid var(--color-border)' }} />
               </div>
               {!isCollapsed && (
-                <IconGrid
-                  items={filteredItems}
-                  selected={null}
-                  setSelected={idx => {
-                    // Toggle modal: open if closed, close if open and same item
-                    setModal(m =>
-                      m && m.category === cat.key && m.index === idx ? null : { category: cat.key, index: idx }
+                cat.subcategories ? (
+                  cat.subcategories.map(sub => {
+                    const subKey = `${cat.key}-${sub.key}`;
+                    const subIsCollapsed = subCollapsed[subKey];
+                    const filteredSubItems = (sub.items ?? []).filter(matchesSearch);
+                    return (
+                      <React.Fragment key={sub.key}>
+                        <div className="flex items-center my-1 cursor-pointer select-none pl-8" onClick={() => toggleSubCollapse(cat.key, sub.key)}>
+                          <div className="flex-1" style={{ borderTop: '1px solid var(--color-border-dark)' }} />
+                          <span className="mx-2 text-lg font-semibold" style={{ color: 'var(--color-secondary)' }}>
+                            {sub.label}
+                            <span className="ml-2 text-sm align-middle" style={{ color: 'var(--color-primary-dark)' }}>{subIsCollapsed ? "▲" : "▼"}</span>
+                          </span>
+                          <div className="flex-1" style={{ borderTop: '1px solid var(--color-border-dark)' }} />
+                        </div>
+                        {!subIsCollapsed && (
+                          <IconGrid
+                            items={filteredSubItems}
+                            selected={null}
+                            setSelected={idx => {
+                              setModal(m =>
+                                m && m.category === subKey && m.index === idx ? null : { category: subKey, index: idx }
+                              );
+                            }}
+                            onHover={idx => setSelection(sel => ({
+                              ...sel,
+                              hoveredCategory: subKey,
+                              hoveredIndex: idx,
+                            }))}
+                            onHoverEnd={() => setSelection(sel => ({
+                              ...sel,
+                              hoveredCategory: null,
+                              hoveredIndex: null,
+                            }))}
+                          />
+                        )}
+                      </React.Fragment>
                     );
-                  }}
-                  onHover={idx => setSelection(sel => ({
-                    ...sel,
-                    hoveredCategory: cat.key,
-                    hoveredIndex: idx,
-                  }))}
-                  onHoverEnd={() => setSelection(sel => ({
-                    ...sel,
-                    hoveredCategory: null,
-                    hoveredIndex: null,
-                  }))}
-                />
+                  })
+                ) : (
+                  <IconGrid
+                    items={(cat.items ?? []).filter(matchesSearch)}
+                    selected={null}
+                    setSelected={idx => {
+                      setModal(m =>
+                        m && m.category === cat.key && m.index === idx ? null : { category: cat.key, index: idx }
+                      );
+                    }}
+                    onHover={idx => setSelection(sel => ({
+                      ...sel,
+                      hoveredCategory: cat.key,
+                      hoveredIndex: idx,
+                    }))}
+                    onHoverEnd={() => setSelection(sel => ({
+                      ...sel,
+                      hoveredCategory: null,
+                      hoveredIndex: null,
+                    }))}
+                  />
+                )
               )}
             </React.Fragment>
           );

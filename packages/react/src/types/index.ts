@@ -1,2 +1,2 @@
 export type { GameObject } from './gameObjectType'
-export type { Stat } from './statType'
+export type { Stat, Collar } from './enums'
