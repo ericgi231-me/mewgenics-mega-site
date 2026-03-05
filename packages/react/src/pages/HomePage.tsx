@@ -8,7 +8,11 @@ function HomePage() {
   const { selected, setSelected } = useSelectedCollar();
 
   // Define metadata for info box fields
-  const collarFields = [
+  const collarFields: Array<{
+    label: string;
+    field: keyof typeof COLLAR_OBJECTS[number];
+    render?: (value: any) => React.ReactNode;
+  }> = [
     { label: "Name", field: "name" },
     { label: "Description", field: "description" },
     { label: "Unlock", field: "unlock" },
@@ -17,7 +21,7 @@ function HomePage() {
       field: "buffs",
       render: (buffs: any[]) => (
         <ul className="list-disc ml-5">
-          {buffs.map((buff, i) => (
+          {Array.isArray(buffs) && buffs.map((buff, i) => (
             <li key={i}>{buff.stat} +{buff.value}</li>
           ))}
         </ul>
@@ -28,7 +32,7 @@ function HomePage() {
       field: "debuffs",
       render: (debuffs: any[]) => (
         <ul className="list-disc ml-5">
-          {debuffs.map((debuff, i) => (
+          {Array.isArray(debuffs) && debuffs.map((debuff, i) => (
             <li key={i}>{debuff.stat} {debuff.value >= 0 ? "+" : ""}{debuff.value}</li>
           ))}
         </ul>
@@ -37,7 +41,7 @@ function HomePage() {
     {
       label: "Level Up",
       field: "level_up",
-      render: (level_up: any[]) => level_up.join(", "),
+      render: (level_up: any[]) => Array.isArray(level_up) ? level_up.join(", ") : null,
     },
   ];
 
