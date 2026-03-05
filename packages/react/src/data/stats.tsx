@@ -1,4 +1,3 @@
-export type Stat = 'STR' | 'DEX' | 'CON' | 'INT' | 'SPD' | 'CHA' | 'LCK' | 'ALL';
 
 export const STAT_ICON_MAPPINGS = {
   STR: '/assets/stats/Stat_Strength.png',
@@ -8,4 +7,5 @@ export const STAT_ICON_MAPPINGS = {
   SPD: '/assets/stats/Stat_Speed.png',
   CHA: '/assets/stats/Stat_Charisma.png',
   LCK: '/assets/stats/Stat_Luck.png',
+  ALL: '/assets/stats/STATUS_All_Stats_Up_Icon.svg',
 };

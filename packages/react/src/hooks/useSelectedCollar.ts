@@ -1,6 +1,8 @@
 import { useState } from "react";
 
-export function useSelectedCollar() {
+function useSelectedCollar() {
   const [selected, setSelected] = useState<number | null>(null);
   return { selected, setSelected };
 }
+
+export default useSelectedCollar;
