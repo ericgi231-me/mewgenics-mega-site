@@ -1,0 +1,232 @@
+
+import type { GameObject } from "../../types";
+
+const HUNTER_PASSIVE_OBJECTS: GameObject[] = [
+	{
+		name: "Animal Control",
+		icon_path: "/assets/passives/hunter/ABILITY_Animal_Control.svg",
+		description: "Your basic attack causes units to immediately attack an enemy in range.",
+		description2: "Your basic attack causes units to immediately attack an enemy in range. Your basic attack can heal allies.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Brood Mother",
+		icon_path: "/assets/passives/hunter/ABILITY_Brood_Mother.svg",
+		description: "Your familiars and units you Charm gain +2 Damage and +5 HP.",
+		description2: "Your familiars and units you Charm gain +3 Damage, +10 HP, and inflict Poison.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Bullseye",
+		icon_path: "/assets/passives/hunter/ABILITY_Bullseye.svg",
+		description: "Your ranged attacks never miss. +25% critical hit chance.",
+		description2: "Your ranged attacks never miss. +25% critical hit chance. Gain +1 Luck each time you make a critical hit.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Catch Projectiles",
+		icon_path: "/assets/passives/hunter/ABILITY_Catch_Projectiles.svg",
+		description: "33% chance to block enemy projectiles and a 100% chance to block allied projectiles. If you block a projectile, gain +1 Bonus Attack.",
+		description2: "50% chance to block enemy projectiles and a 100% chance to block allied projectiles. If you block a projectile, gain +1 Bonus Attack and +1 All Stats Up.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Fleabag",
+		icon_path: "/assets/passives/hunter/ABILITY_Fleabag.svg",
+		description: "At the end of your turn, spawn Flea familiars equal to the number of enemies you've killed this battle.",
+		description2: "At the end of your turn, spawn Flea familiars equal to the number of enemies you've killed this battle plus two.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Gravity Falls",
+		icon_path: "/assets/passives/hunter/ABILITY_Gravity_Falls.svg",
+		description: "Your basic attack deals +1 damage for each tile you shoot beyond range 3.",
+		description2: "+2 range. Your basic attack deals +1 damage for each tile you shoot beyond range 3.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Hazardous",
+		icon_path: "/assets/passives/hunter/ABILITY_Hazardous.svg",
+		description: "Tile damage and effects are doubled.",
+		description2: "Tile damage and effects are doubled. Allies are immune to tile damage and effects.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Host",
+		icon_path: "/assets/passives/hunter/ABILITY_Host.svg",
+		description: "Start each battle with 2 tiny spider familiars. A spider egg parasite is added to your inventory. You can unequip parasites freely.",
+		description2: "Start each battle with 2 tiny spider familiars. A spider webber parasite is added to your inventory. You can unequip parasites freely.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Hunter's Boon",
+		icon_path: "/assets/passives/hunter/ABILITY_Hunter-s_Boon.svg",
+		description: "When you kill an enemy, gain 5 mana.",
+		description2: "When you kill an enemy, restore all your mana.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Luck Swing",
+		icon_path: "/assets/passives/hunter/ABILITY_Luck_Swing.svg",
+		description: "+50% critical hit chance but +25% chance to miss.",
+		description2: "+3 Luck. +50% critical hit chance but +25% chance to miss.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Quiver",
+		icon_path: "/assets/passives/hunter/ABILITY_Quiver.svg",
+		description: "Save unused basic attacks for future turns.",
+		description2: "Save unused basic attacks for future turns. If you haven't attacked this battle, the number you save is doubled.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Rubber Arrows",
+		icon_path: "/assets/passives/hunter/ABILITY_Rubber_Arrows.svg",
+		description: "Your projectiles bounce to another enemy within 3 tiles.",
+		description2: "Your projectiles bounce to another enemy within 4 tiles, twice!",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Sleep Darts",
+		icon_path: "/assets/passives/hunter/ABILITY_Sleep_Darts.svg",
+		description: "At the start of each battle, you and all allies that don't have weapons gains a temporary Sleep Dart.",
+		description2: "At the start of each battle, you and all allies that don't have weapons gains a temporary Sleep Dart with 2 uses.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Sniper",
+		icon_path: "/assets/passives/hunter/ABILITY_Sniper.svg",
+		description: "Critical hits deal +100% more damage and have a 25% chance to inflict Stun.",
+		description2: "Critical hits deal +200% more damage and have a 33% chance to inflict Stun.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Split Shot",
+		icon_path: "/assets/passives/hunter/ABILITY_Split_Shot.svg",
+		description: "Your basic attack has +1 area but deals 50% less damage.",
+		description2: "Your basic attack has +2 area but deals 50% less damage.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Spotters",
+		icon_path: "/assets/passives/hunter/ABILITY_Spotters.svg",
+		description: "Your basic attack can target tiles adjacent to allies.",
+		description2: "Your basic attack and spells can target tiles adjacent to allies.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Survivalist",
+		icon_path: "/assets/passives/hunter/ABILITY_Survivalist.svg",
+		description: "4 healing consumables and a full water bottle are added to your inventory. You can use consumables on allies. Store +2 food at the end of each battle.",
+		description2: "4 large healing consumables are added to your inventory. You can use consumables on allies. Store +20 food at the end of each battle.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Tainted Mother",
+		icon_path: "/assets/passives/hunter/ABILITY_Tainted_Mother.svg",
+		description: "Your familiars and units you Charm gain +4 Speed and inflict Poison and Bleed.",
+		description2: "Your familiars and units you Charm gain +4 Speed and inflict Poison and Bleed. Start each battle with 4 fly familiars.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Take Aim",
+		icon_path: "/assets/passives/hunter/ABILITY_Take_Aim.svg",
+		description: "Gain +1 range and damage at the start of each turn. You lose this when you move.",
+		description2: "Gain +2 range and damage at the start of each turn. You lose this when you move.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Talk to Animals",
+		icon_path: "/assets/passives/hunter/ABILITY_Talk_to_Animals.svg",
+		description: "Your basic attack inflicts Charm 5 the first time you use it each battle.",
+		description2: "Your basic attack inflicts Charm 5 the first time you use it each battle. Your basic attack has a 25% chance to inflict Charm 1.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Thorn Arrows",
+		icon_path: "/assets/passives/hunter/ABILITY_Thorn_Arrows.svg",
+		description: "Your basic attack spawns brambles.",
+		description2: "Your basic attack spawns brambles in an area.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Thrill of the Hunt",
+		icon_path: "/assets/passives/hunter/ABILITY_Thrill_of_the_Hunt.svg",
+		description: "At the end of each battle, if you killed at least 3 enemies, gain +1 Dexterity permanently and find a random consumable item.",
+		description2: "At the end of each battle, if you killed at least 3 enemies, gain +1 Dexterity permanently and find a random consumable item. +1 Range and Health Regen for every 5 Dexterity you have.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Tower Defense",
+		icon_path: "/assets/passives/hunter/ABILITY_Tower_Defense.svg",
+		description: "When an enemy comes within range, shoot them for 1 damage.",
+		description2: "When an enemy comes within range, use your basic attack on them.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Traps",
+		icon_path: "/assets/passives/hunter/ABILITY_Traps.svg",
+		description: "Your basic attack spawns a bear trap if you shoot an empty tile. Whenever one of your traps triggers, gain +2 Dexterity.",
+		description2: "Your basic attack spawns a bear trap if you shoot an empty tile. Whenever one of your traps triggers, gain +2 Dexterity and +1 Bonus Attack.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+	{
+		name: "Tricky Traps",
+		icon_path: "/assets/passives/hunter/ABILITY_Tricky_Traps.svg",
+		description: "Damage and effects from your traps are doubled.",
+		description2: "Damage and effects from your traps are doubled. Allies don't trigger your traps.",
+		notes: [
+			{ label: "Class", content: "Hunter" },
+		],
+	},
+];
+
+export default HUNTER_PASSIVE_OBJECTS;
