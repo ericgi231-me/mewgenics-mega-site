@@ -6,9 +6,17 @@ function Footer() {
         <span>
           More apps: <a href="https://ericgi231.me" target="_blank" rel="noopener noreferrer" className="hover:underline">ericgi231.me</a>
         </span>
-        <span>|</span>
-        <span>
-          Report bugs or feature requests: <a href="https://github.com/ericgi231-me/mewgenics-mega-site/issues" target="_blank" rel="noopener noreferrer" className="hover:underline">github.com/ericgi231-me/mewgenics-mega-site/issues</a>
+        <span className="hidden sm:inline">|</span>
+            <span className="flex flex-col sm:flex-row items-center text-center w-full sm:w-auto">
+          <span>Bugs & feature requests:</span>
+          <a
+            href="https://github.com/ericgi231-me/mewgenics-mega-site/issues"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline break-all sm:ml-1"
+          >
+            github.com/ericgi231-me/mewgenics-mega-site/issues
+          </a>
         </span>
       </div>
     </footer>
