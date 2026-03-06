@@ -1,3 +1,6 @@
 export { default as Header } from './Header'
 export { ModalInfoBox, SidebarInfoBox } from './InfoBox'
 export { default as ThemeProvider } from './ThemeProvider'
+export { default as IconGrid } from './IconGrid'
+export { default as Footer } from './Footer'
+export { default as SearchBar } from './SearchBar'

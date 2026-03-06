@@ -3,6 +3,7 @@ import IconGrid from "../components/IconGrid";
 import { ModalInfoBox, SidebarInfoBox } from "../components/InfoBox";
 import SearchBar from "../components/SearchBar";
 import { useSearchFilter } from "../hooks";
+import Footer from "../components/Footer";
 import {
   COLLAR_OBJECTS,
   COLLARLESS_PASSIVE_OBJECTS,
@@ -112,91 +113,94 @@ function HomePage() {
   };
 
   return (
-    <div className="flex min-h-screen dark bg-color-background text-color-text">
-      <SidebarInfoBox selectedItem={sidebarItem} className="hidden lg:flex sticky top-0 h-screen" />
-      <div className="flex-1 p-8 pt-0">
-        {/* Header with search bar */}
-        <div className="flex items-center my-6 gap-4">
-          <SearchBar value={search} onChange={setSearch} />
-        </div>
-        {categories.map(cat => {
-          const isCollapsed = collapsed[cat.key];
-          return (
-            <React.Fragment key={cat.key}>
-              <div className="flex items-center my-3 cursor-pointer select-none" onClick={() => toggleCollapse(cat.key)}>
-                <span className="mx-2 text-2xl font-bold text-color-primary drop-shadow-[0_1px_2px_var(--color-border-dark)]">
-                  {cat.label}
-                  <span className="ml-2 text-base align-middle text-color-secondary">{isCollapsed ? "▲" : "▼"}</span>
-                </span>
-                <div className="flex-1 border-t border-color-border" />
-              </div>
-              {!isCollapsed && (
-                cat.subcategories ? (
-                  cat.subcategories.map(sub => {
-                    const subKey = `${cat.key}-${sub.key}`;
-                    const subIsCollapsed = subCollapsed[subKey];
-                    const filteredSubItems = (sub.items ?? []).filter(matchesSearch);
-                    return (
-                      <React.Fragment key={sub.key}>
-                        <div className="flex items-center my-1 cursor-pointer select-none pl-8" onClick={() => toggleSubCollapse(cat.key, sub.key)}>
-                          <span className="mx-2 text-lg font-semibold text-color-secondary">
-                            {renderTextWithIcons(sub.label)}
-                            <span className="ml-2 text-sm align-middle text-color-primary-dark">{subIsCollapsed ? "▲" : "▼"}</span>
-                          </span>
-                        </div>
-                        {!subIsCollapsed && (
-                          <IconGrid
-                            items={filteredSubItems}
-                            selected={null}
-                            setSelected={idx => {
-                              setModal(m =>
-                                m && m.category === subKey && m.index === idx ? null : { category: subKey, index: idx }
-                              );
-                            }}
-                            onHover={idx => setSelection(sel => ({
-                              ...sel,
-                              hoveredCategory: subKey,
-                              hoveredIndex: idx,
-                            }))}
-                            onHoverEnd={() => setSelection(sel => ({
-                              ...sel,
-                              hoveredCategory: null,
-                              hoveredIndex: null,
-                            }))}
-                          />
-                        )}
-                      </React.Fragment>
-                    );
-                  })
-                ) : (
-                  <IconGrid
-                    items={(cat.items ?? []).filter(matchesSearch)}
-                    selected={null}
-                    setSelected={idx => {
-                      setModal(m =>
-                        m && m.category === cat.key && m.index === idx ? null : { category: cat.key, index: idx }
+    <div className="flex flex-col min-h-screen dark bg-color-background text-color-text">
+      <div className="flex flex-1">
+        <SidebarInfoBox selectedItem={sidebarItem} className="hidden lg:flex sticky top-0 h-screen" />
+        <div className="flex-1 p-8 pt-0">
+          {/* Header with search bar */}
+          <div className="flex items-center my-6 gap-4">
+            <SearchBar value={search} onChange={setSearch} />
+          </div>
+          {categories.map(cat => {
+            const isCollapsed = collapsed[cat.key];
+            return (
+              <React.Fragment key={cat.key}>
+                <div className="flex items-center my-3 cursor-pointer select-none" onClick={() => toggleCollapse(cat.key)}>
+                  <span className="mx-2 text-2xl font-bold text-color-primary drop-shadow-[0_1px_2px_var(--color-border-dark)]">
+                    {cat.label}
+                    <span className="ml-2 text-base align-middle text-color-secondary">{isCollapsed ? "▲" : "▼"}</span>
+                  </span>
+                  <div className="flex-1 border-t border-color-border" />
+                </div>
+                {!isCollapsed && (
+                  cat.subcategories ? (
+                    cat.subcategories.map(sub => {
+                      const subKey = `${cat.key}-${sub.key}`;
+                      const subIsCollapsed = subCollapsed[subKey];
+                      const filteredSubItems = (sub.items ?? []).filter(matchesSearch);
+                      return (
+                        <React.Fragment key={sub.key}>
+                          <div className="flex items-center my-1 cursor-pointer select-none pl-8" onClick={() => toggleSubCollapse(cat.key, sub.key)}>
+                            <span className="mx-2 text-lg font-semibold text-color-secondary">
+                              {renderTextWithIcons(sub.label)}
+                              <span className="ml-2 text-sm align-middle text-color-primary-dark">{subIsCollapsed ? "▲" : "▼"}</span>
+                            </span>
+                          </div>
+                          {!subIsCollapsed && (
+                            <IconGrid
+                              items={filteredSubItems}
+                              selected={null}
+                              setSelected={idx => {
+                                setModal(m =>
+                                  m && m.category === subKey && m.index === idx ? null : { category: subKey, index: idx }
+                                );
+                              }}
+                              onHover={idx => setSelection(sel => ({
+                                ...sel,
+                                hoveredCategory: subKey,
+                                hoveredIndex: idx,
+                              }))}
+                              onHoverEnd={() => setSelection(sel => ({
+                                ...sel,
+                                hoveredCategory: null,
+                                hoveredIndex: null,
+                              }))}
+                            />
+                          )}
+                        </React.Fragment>
                       );
-                    }}
-                    onHover={idx => setSelection(sel => ({
-                      ...sel,
-                      hoveredCategory: cat.key,
-                      hoveredIndex: idx,
-                    }))}
-                    onHoverEnd={() => setSelection(sel => ({
-                      ...sel,
-                      hoveredCategory: null,
-                      hoveredIndex: null,
-                    }))}
-                  />
-                )
-              )}
-            </React.Fragment>
-          );
-        })}
-        {modalItem && (
-          <ModalInfoBox selectedItem={modalItem} onClose={() => setModal(null)} />
-        )}
+                    })
+                  ) : (
+                    <IconGrid
+                      items={(cat.items ?? []).filter(matchesSearch)}
+                      selected={null}
+                      setSelected={idx => {
+                        setModal(m =>
+                          m && m.category === cat.key && m.index === idx ? null : { category: cat.key, index: idx }
+                        );
+                      }}
+                      onHover={idx => setSelection(sel => ({
+                        ...sel,
+                        hoveredCategory: cat.key,
+                        hoveredIndex: idx,
+                      }))}
+                      onHoverEnd={() => setSelection(sel => ({
+                        ...sel,
+                        hoveredCategory: null,
+                        hoveredIndex: null,
+                      }))}
+                    />
+                  )
+                )}
+              </React.Fragment>
+            );
+          })}
+          {modalItem && (
+            <ModalInfoBox selectedItem={modalItem} onClose={() => setModal(null)} />
+          )}
+        </div>
       </div>
+      <Footer />
     </div>
   );
 }
