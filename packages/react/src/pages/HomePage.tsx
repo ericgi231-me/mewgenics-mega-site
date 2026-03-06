@@ -105,52 +105,33 @@ const categories = [
 
 type SelectionState = {
   selectedCategory: string | null;
-  selectedIndex: number | null;
+  selectedItem: any | null;
   hoveredCategory: string | null;
-  hoveredIndex: number | null;
+  hoveredItem: any | null;
 };
 
 function HomePage() {
   const [selection, setSelection] = useState<SelectionState>({
     selectedCategory: null,
-    selectedIndex: null,
+    selectedItem: null,
     hoveredCategory: null,
-    hoveredIndex: null,
+    hoveredItem: null,
   });
-  const [modal, setModal] = useState<{ category: string; index: number } | null>(null);
+  const [modal, setModal] = useState<{ category: string; item: any } | null>(null);
   const { search, setSearch, matchesSearch } = useSearchFilter();
   const [collapsed, setCollapsed] = useState<Record<string, boolean>>({});
   const [subCollapsed, setSubCollapsed] = useState<Record<string, boolean>>({});
 
   // Sidebar shows hovered item
   let sidebarItem = null;
-  if (selection.hoveredCategory && selection.hoveredIndex !== null) {
-    // Support subcategories (key format: "main-sub")
-    const [mainKey, subKey] = selection.hoveredCategory.split("-");
-    const cat = categories.find(c => c.key === mainKey);
-    if (cat) {
-      if (cat.subcategories && subKey) {
-        const sub = cat.subcategories.find(s => s.key === subKey);
-        if (sub && sub.items) sidebarItem = sub.items[selection.hoveredIndex];
-      } else if (cat.items) {
-        sidebarItem = cat.items[selection.hoveredIndex];
-      }
-    }
+  if (selection.hoveredItem) {
+    sidebarItem = selection.hoveredItem;
   }
 
   // Modal shows clicked item
   let modalItem = null;
   if (modal) {
-    const [mainKey, subKey] = modal.category.split("-");
-    const cat = categories.find(c => c.key === mainKey);
-    if (cat) {
-      if (cat.subcategories && subKey) {
-        const sub = cat.subcategories.find(s => s.key === subKey);
-        if (sub && sub.items) modalItem = sub.items[modal.index];
-      } else if (cat.items) {
-        modalItem = cat.items[modal.index];
-      }
-    }
+    modalItem = modal.item;
   }
 
   const toggleCollapse = (key: string) => {
@@ -171,6 +152,74 @@ function HomePage() {
           </div>
           {categories.map(cat => {
             const isCollapsed = collapsed[cat.key];
+            // For categories with subcategories, filter out empty subcategories
+            let hasItems = false;
+            let subcategoryElements = null;
+            if (cat.subcategories) {
+              subcategoryElements = cat.subcategories.map(sub => {
+                const subKey = `${cat.key}-${sub.key}`;
+                const subIsCollapsed = subCollapsed[subKey];
+                const filteredSubItems = (sub.items ?? []).filter(matchesSearch);
+                if (filteredSubItems.length === 0) return null;
+                hasItems = true;
+                return (
+                  <React.Fragment key={sub.key}>
+                    <div className="flex items-center my-1 cursor-pointer select-none pl-8" onClick={() => toggleSubCollapse(cat.key, sub.key)}>
+                      <span className="mx-2 text-lg font-semibold text-color-secondary">
+                        {renderTextWithIcons(sub.label)}
+                        <span className="ml-2 text-sm align-middle text-color-primary-dark">{subIsCollapsed ? "▲" : "▼"}</span>
+                      </span>
+                    </div>
+                    {!subIsCollapsed && (
+                      <IconGrid
+                        items={filteredSubItems}
+                        selected={null}
+                        setSelected={idx => {
+                          setModal(m =>
+                            m && m.category === subKey && m.item === filteredSubItems[idx] ? null : { category: subKey, item: filteredSubItems[idx] }
+                          );
+                        }}
+                        onHover={idx => setSelection(sel => ({
+                          ...sel,
+                          hoveredCategory: subKey,
+                          hoveredItem: filteredSubItems[idx],
+                        }))}
+                        onHoverEnd={() => setSelection(sel => ({
+                          ...sel,
+                          hoveredCategory: null,
+                          hoveredItem: null,
+                        }))}
+                      />
+                    )}
+                  </React.Fragment>
+                );
+              });
+            } else {
+              const filteredItems = (cat.items ?? []).filter(matchesSearch);
+              hasItems = filteredItems.length > 0;
+              subcategoryElements = !isCollapsed && hasItems ? (
+                <IconGrid
+                  items={filteredItems}
+                  selected={null}
+                  setSelected={idx => {
+                    setModal(m =>
+                      m && m.category === cat.key && m.item === filteredItems[idx] ? null : { category: cat.key, item: filteredItems[idx] }
+                    );
+                  }}
+                  onHover={idx => setSelection(sel => ({
+                    ...sel,
+                    hoveredCategory: cat.key,
+                    hoveredItem: filteredItems[idx],
+                  }))}
+                  onHoverEnd={() => setSelection(sel => ({
+                    ...sel,
+                    hoveredCategory: null,
+                    hoveredItem: null,
+                  }))}
+                />
+              ) : null;
+            }
+            if (!hasItems) return null;
             return (
               <React.Fragment key={cat.key}>
                 <div className="flex items-center my-3 cursor-pointer select-none" onClick={() => toggleCollapse(cat.key)}>
@@ -180,66 +229,7 @@ function HomePage() {
                   </span>
                   <div className="flex-1 border-t border-color-border" />
                 </div>
-                {!isCollapsed && (
-                  cat.subcategories ? (
-                    cat.subcategories.map(sub => {
-                      const subKey = `${cat.key}-${sub.key}`;
-                      const subIsCollapsed = subCollapsed[subKey];
-                      const filteredSubItems = (sub.items ?? []).filter(matchesSearch);
-                      return (
-                        <React.Fragment key={sub.key}>
-                          <div className="flex items-center my-1 cursor-pointer select-none pl-8" onClick={() => toggleSubCollapse(cat.key, sub.key)}>
-                            <span className="mx-2 text-lg font-semibold text-color-secondary">
-                              {renderTextWithIcons(sub.label)}
-                              <span className="ml-2 text-sm align-middle text-color-primary-dark">{subIsCollapsed ? "▲" : "▼"}</span>
-                            </span>
-                          </div>
-                          {!subIsCollapsed && (
-                            <IconGrid
-                              items={filteredSubItems}
-                              selected={null}
-                              setSelected={idx => {
-                                setModal(m =>
-                                  m && m.category === subKey && m.index === idx ? null : { category: subKey, index: idx }
-                                );
-                              }}
-                              onHover={idx => setSelection(sel => ({
-                                ...sel,
-                                hoveredCategory: subKey,
-                                hoveredIndex: idx,
-                              }))}
-                              onHoverEnd={() => setSelection(sel => ({
-                                ...sel,
-                                hoveredCategory: null,
-                                hoveredIndex: null,
-                              }))}
-                            />
-                          )}
-                        </React.Fragment>
-                      );
-                    })
-                  ) : (
-                    <IconGrid
-                      items={(cat.items ?? []).filter(matchesSearch)}
-                      selected={null}
-                      setSelected={idx => {
-                        setModal(m =>
-                          m && m.category === cat.key && m.index === idx ? null : { category: cat.key, index: idx }
-                        );
-                      }}
-                      onHover={idx => setSelection(sel => ({
-                        ...sel,
-                        hoveredCategory: cat.key,
-                        hoveredIndex: idx,
-                      }))}
-                      onHoverEnd={() => setSelection(sel => ({
-                        ...sel,
-                        hoveredCategory: null,
-                        hoveredIndex: null,
-                      }))}
-                    />
-                  )
-                )}
+                {!isCollapsed && subcategoryElements}
               </React.Fragment>
             );
           })}
