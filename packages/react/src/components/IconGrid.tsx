@@ -10,34 +10,35 @@ interface IconGridProps {
 
 function IconGrid({ items, selected, setSelected, onHover, onHoverEnd }: IconGridProps) {
   return (
-    <div
-      className="grid gap-1 mx-auto"
-      style={{
-        gridTemplateColumns: "repeat(auto-fit, minmax(64px, 1fr))",
-        justifyContent: "center",
-        maxWidth: "100%"
-      }}
-    >
-      {items.map((item, idx) => (
-        <div
-          key={idx}
-          className={`relative cursor-pointer ${selected === idx ? "ring-2" : ""}`}
-          style={{ margin: "2px" }}
-          onClick={() => setSelected(idx)}
-          onMouseEnter={() => onHover && onHover(idx)}
-          onMouseLeave={() => onHoverEnd && onHoverEnd()}
-        >
-          <div className="flex items-center justify-center" style={{ width: "64px", height: "64px" }}>
-            <img
-              src={item.icon_path}
-              alt={item.name}
-              className="object-contain"
-              draggable={false}
-              style={{ maxWidth: "100%", maxHeight: "100%" }}
-            />
+    <div className="flex justify-center w-full">
+      <div
+        className="grid"
+        style={{
+          gridTemplateColumns: "repeat(auto-fill, 64px)",
+          maxWidth: "100%"
+        }}
+      >
+        {items.map((item, idx) => (
+          <div
+            key={idx}
+            className={`relative cursor-pointer ${selected === idx ? "ring-2" : ""}`}
+            style={{ width: "64px", height: "64px" }}
+            onClick={() => setSelected(idx)}
+            onMouseEnter={() => onHover && onHover(idx)}
+            onMouseLeave={() => onHoverEnd && onHoverEnd()}
+          >
+            <div className="flex items-center justify-center w-full h-full">
+              <img
+                src={item.icon_path}
+                alt={item.name}
+                className="object-contain"
+                draggable={false}
+                style={{ maxWidth: "100%", maxHeight: "100%" }}
+              />
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 }

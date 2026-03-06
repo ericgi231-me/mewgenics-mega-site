@@ -8,7 +8,7 @@ const FIGHTER_PASSIVE_OBJECTS: GameObject[] = [
     description2: "When an allied cat is downed, gain All Stats Up 2, heal 50% of your max HP, and take an extra turn.",
     notes: [
       { label: "Class", content: "Fighter" },
-    ],  
+    ],
   },
   {
     name: "Boned",
@@ -17,7 +17,7 @@ const FIGHTER_PASSIVE_OBJECTS: GameObject[] = [
     description2: "When you kill a unit, if you don't have a weapon, gain a Bone Club. Bonus Ability: Throw Weapon.",
     notes: [
       { label: "Class", content: "Fighter" },
-    ],  
+    ],
   },
   {
     name: "Dual Wield",
@@ -26,8 +26,206 @@ const FIGHTER_PASSIVE_OBJECTS: GameObject[] = [
     description2: "When you use your weapon, automatically use it again for free, and then again! for free!",
     notes: [
       { label: "Class", content: "Fighter" },
-    ],  
+    ],
   },
-]
+  {
+    name: "Dumb Muscle",
+    icon_path: "/assets/passives/fighter/ABILITY_Dumb_Muscle.svg",
+    description: "Lose 1 Intelligence each time you take damage. If you have 4 or less INTELLIGENCE, gain +2 Strength and your basic attack inflicts Bruise. At 0 Intelligence, gain +100% critical hit chance.",
+    description2: "Lose 2 Intelligence each time you take damage. If you have 4 or less INTELLIGENCE, gain +2 Strength and your basic attack inflicts Bruise. At 0 Intelligence, gain +100% critical hit chance. At -10 Intelligence, you can use your basic move and attack an additional time each turn.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+  {
+    name: "Fervor",
+    icon_path: "/assets/passives/fighter/ABILITY_Fervor.svg",
+    description: "When you down a unit, you heal 5 HP.",
+    description2: "When you down a unit, you heal 50% of your HP.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+  {
+    name: "Frenzy",
+    icon_path: "/assets/passives/fighter/ABILITY_Frenzy.svg",
+    description: "When you down a unit, gain +2 Strength.",
+    description2: "When you down a unit, gain +2 Strength and +2 Speed.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+  {
+    name: "Hamster Style",
+    icon_path: "/assets/passives/fighter/ABILITY_Hamster_Style.svg",
+    description: "-1 Strength, -1 Constitution, +1 Intelligence. +1 Health Regeneration. Start with 2 Bonus Moves.",
+    description2: "-1 Strength, -1 Constitution, +1 Intelligence. +2 Health Regeneration. Start with 2 Bonus Moves. Your basic attack has a chance to attack multiple times.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+  {
+    name: "Hit Me",
+    icon_path: "/assets/passives/fighter/ABILITY_Hit_Me.svg",
+    description: "When you take damage from an ally, basic attack in the direction you're facing. Damage you take from allies is reduced to 1.",
+    description2: "When you take damage from an ally, basic attack in the direction you're facing. Damage you take from allies is reduced to 1. Whenever you take damage, gain +1 to a random stat.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+  {
+    name: "Hulk Up",
+    icon_path: "/assets/passives/fighter/ABILITY_Hulk_Up.svg",
+    description: "When you take damage, gain +2 Speed.",
+    description2: "+2 Speed. When you take damage, gain +2 Speed and +10% dodge. This caps at 50%.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+  {
+    name: "Math?",
+    icon_path: "/assets/passives/fighter/ABILITY_Math-.svg",
+    description: "Your spells cost 3 mana to cast, but each can be cast only once per turn.",
+    description2: "Your spells cost 0 mana to cast, but each can be cast only once per turn.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+  {
+    name: "Merciless",
+    icon_path: "/assets/passives/fighter/ABILITY_Merciless.svg",
+    description: "When you deal 10 or more damage in a single hit, gain +2 Shield and refresh your movement action.",
+    description2: "When you deal 10 or more damage in a single hit, gain +2 Shield, All Stats Up, and refresh your movement action.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+  {
+    name: "Most Valuable Cat",
+    icon_path: "/assets/passives/fighter/ABILITY_Most_Valuable_Cat.svg",
+    description: "When you or an ally downs another unit, they become The Alpha. If you're The Alpha, take an extra turn at the end of each round.",
+    description2: "You start the battle as The Alpha. Whenever you or an ally downs another unit, they become The Alpha. If you're The Alpha, take an extra turn at the end of each round.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+  {
+    name: "OVERPOWERED!!!",
+    icon_path: "/assets/passives/fighter/ABILITY_OVERPOWERED---.svg",
+    description: "Excess damage you deal to units makes them explode, dealing the excess damage to units around it, except for you.",
+    description2: "Excess damage you deal to units makes them explode, dealing the excess damage to units within 2 tiles of it, except for you.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+  {
+    name: "Patellar Reflex",
+    icon_path: "/assets/passives/fighter/ABILITY_Patellar_Reflex.svg",
+    description: "When a unit damages you, counter-attack dealing 1 damage and inflicting Bruise.",
+    description2: "When a unit damages you, counter-attack with your basic attack and inflict Bruise.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+  {
+    name: "Punch Face",
+    icon_path: "/assets/passives/fighter/ABILITY_Punch_Face.svg",
+    description: "Your basic attacks are critical if they hit the front of a unit.",
+    description2: "Your physical attacks are critical if they hit the front of a unit.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+  {
+    name: "Rat Style",
+    icon_path: "/assets/passives/fighter/ABILITY_Rat_Style.svg",
+    description: "+2 Speed. +10% Dodge Chance.",
+    description2: "+4 Speed. +30% Dodge Chance.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+  {
+    name: "Scars",
+    icon_path: "/assets/passives/fighter/ABILITY_Scars.svg",
+    description: "+1 Brace.",
+    description2: "+3 Brace.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+  {
+    name: "Shoulder Check",
+    icon_path: "/assets/passives/fighter/ABILITY_Shoulder_Check.svg",
+    description: "If you're facing a unit after you move, automatically attack it at 33% damage.",
+    description2: "If you're facing a unit after you move, automatically attack the unit.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+  {
+    name: "Skullcrack",
+    icon_path: "/assets/passives/fighter/ABILITY_Skullcrack.svg",
+    description: "Your basic attack inflicts Bruise.",
+    description2: "Your basic attack inflicts Bruise 2.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+  {
+    name: "Smash!",
+    icon_path: "/assets/passives/fighter/ABILITY_Smash-.svg",
+    description: "Your weapons deals triple damage, but they always break when you use them. Three Sticks are added to your inventory.",
+    description2: "Your weapons deals triple damage, but they have a 50% chance to break when you use them. Three more Sticks are added to your inventory.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+  {
+    name: "Thick Skull",
+    icon_path: "/assets/passives/fighter/ABILITY_Thick_Skull.svg",
+    description: "All injuries you get are Concussions. You get +3 Shield for each concussion you have. This caps at 30 Shield.",
+    description2: "All injuries you get are Concussions. You get +3 Shield and +1 Strength for each concussion you have. This caps at 30 Shield and 10 STRENGTH.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+  {
+    name: "Turtle Style",
+    icon_path: "/assets/passives/fighter/ABILITY_Turtle_Style.svg",
+    description: "+4 Shield, +2 Constitution, -1 Speed.",
+    description2: "+4 Shield, +2 Constitution, -1 Speed. +2 Brace.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+  {
+    name: "Underdog",
+    icon_path: "/assets/passives/fighter/ABILITY_Underdog.svg",
+    description: "You have +2 Strength and +1 Brace for each enemy adjacent to you.",
+    description2: "You have +3 Strength and +2 Brace for each enemy adjacent to you.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+  {
+    name: "Vengeful",
+    icon_path: "/assets/passives/fighter/ABILITY_Vengeful.svg",
+    description: "Your basic attack is always critical on enemies that have damaged you.",
+    description2: "Your basic attack is always critical on enemies units that have damaged you. Inflict Marked on units that contact or attack you.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+  {
+    name: "Weapon Master",
+    icon_path: "/assets/passives/fighter/ABILITY_Weapon_Master.svg",
+    description: "Your weapon and item abilities deal +2 Damage and get +25% critical chance. A pipe is added to your inventory.",
+    description2: "Your weapon and item abilities deal +3 Damage and get +50% critical chance. If you don't have a weapon, gain a random temporary weapon at the beginning of the battle.",
+    notes: [
+      { label: "Class", content: "Fighter" },
+    ],
+  },
+];
 
 export default FIGHTER_PASSIVE_OBJECTS;
