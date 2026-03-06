@@ -143,6 +143,7 @@ const COLLAR_OBJECTS: GameObject[] = [
     description: "You can be anything! Jesters have no limits!",
     unlock: "Beating The Rift",
     notes: [
+      { label: 'Stat Bonus', content: '+1 Extra reroll on level ups' },
       { label: 'Possible Stats on Level Up', content: 'ALL' },
     ],
   },

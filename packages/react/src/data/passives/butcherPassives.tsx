@@ -123,6 +123,7 @@ const BUTCHER_PASSIVE_OBJECTS: GameObject[] = [
 		icon_path: "assets/passives/butcher/ABILITY_Indigestion.svg",
 		description: "Whenever you heal over your max HP, fart and inflict Poison 3 on adjacent units.",
 		description2: "Whenever you heal over your max HP, fart and inflict Poison 3 and Burn 3 on adjacent units.",
+    unlock: "Complete The Boneyard with the Butcher",
 		notes: [
 			{ label: "Class", content: "Butcher" },
 		],

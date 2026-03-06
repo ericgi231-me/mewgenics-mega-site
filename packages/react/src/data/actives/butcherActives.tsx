@@ -396,6 +396,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		icon_path: "assets/actives/butcher/ABILITY_Slice_and_Dice.svg",
 		description: "Dash forward one tile and do a spin attack with Cleave, then repeat twice more.",
 		description2: "Dash forward one tile and do a spin attack with Cleave, then repeat four more times.",
+    unlock: "Complete The Caves with the Butcher",
 		notes: [
 			{ label: "Class", content: "Butcher" },
 			{ label: "Mana Cost", content: "9" },

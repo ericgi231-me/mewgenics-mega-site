@@ -20,6 +20,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
       { label: "Class", content: "Collarless" },
       { label: "Mana Cost", content: "0" },
     ],
+    unlock: "Complete The Core with the Fighter"
   },
   {
     name: "Meow",
@@ -60,6 +61,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
       { label: "Class", content: "Collarless" },
       { label: "Mana Cost", content: "0" },
     ],
+    unlock: "Complete The Core with the Tank"
   },
   {
     name: "Path of the Mage",
@@ -70,6 +72,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
       { label: "Class", content: "Collarless" },
       { label: "Mana Cost", content: "12" },
     ],
+    unlock: "Complete The Core with the Mage"
   },
   {
     name: "Steam Roller",
@@ -110,6 +113,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
       { label: "Class", content: "Collarless" },
       { label: "Mana Cost", content: "0" },
     ],
+    unlock: "Complete The Core with the Psychic"
   },
   {
     name: "Russian Shorthair Roulette",
@@ -400,6 +404,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
       { label: "Class", content: "Collarless" },
       { label: "Mana Cost", content: "2" },
     ],
+    unlock: "Complete The Core with the Druid"
   },
   {
     name: "Step",
@@ -570,6 +575,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
       { label: "Class", content: "Collarless" },
       { label: "Mana Cost", content: "0" },
     ],
+    unlock: "Complete The Core with the Cleric"
   },
   {
     name: "Rouse",
@@ -590,6 +596,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
       { label: "Class", content: "Collarless" },
       { label: "Mana Cost", content: "0" },
     ],
+    unlock: "Complete The Core with the Monk"
   },
   {
     name: "Path of the Jester",
@@ -600,6 +607,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
       { label: "Class", content: "Collarless" },
       { label: "Mana Cost", content: "0" },
     ],
+    unlock: "Complete The Core with the Jester"
   },
   {
     name: "Burgeoning Barrier",
@@ -850,6 +858,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
       { label: "Class", content: "Collarless" },
       { label: "Mana Cost", content: "0" },
     ],
+    unlock: "Complete The Core with the Tinkerer"
   },
   {
     name: "Path of the Necromancer",
@@ -860,6 +869,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
       { label: "Class", content: "Collarless" },
       { label: "Mana Cost", content: "0" },
     ],
+    unlock: "Complete The Core with the Necromancer"
   },
   {
     name: "Desecrate",
@@ -936,6 +946,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     icon_path: "/assets/actives/collarless/ABILITY_Path_Of_The_Void.svg",
     description: "Conjure a random Collarless spell into your bonus spell slot.",
     description2: "Conjure a random upgraded Collarless spell into your bonus spell slot.",
+    unlock: "Complete The Core with a Collarless cat",
     notes: [
       { label: "Class", content: "Collarless" },
       { label: "Mana Cost", content: "1" },
@@ -950,6 +961,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
       { label: "Class", content: "Collarless" },
       { label: "Mana Cost", content: "1" },
     ],
+    unlock: "Complete The Core with the Butcher"
   },
   {
     name: "Stun",
@@ -966,6 +978,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     icon_path: "/assets/actives/collarless/ABILITY_Metronome_-Ability-.svg",
     description: "Cast a random spell.",
     description2: "Cast a random upgraded spell.",
+    unlock: "Complete The Caves with a Collarless cat",
     notes: [
       { label: "Class", content: "Collarless" },
       { label: "Mana Cost", content: "5" },
@@ -1020,6 +1033,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
       { label: "Class", content: "Collarless" },
       { label: "Mana Cost", content: "4" },
     ],
+    unlock: "Complete The Core with the Thief"
   },
   {
     name: "Burgeoning Blast",
@@ -1070,6 +1084,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
       { label: "Class", content: "Collarless" },
       { label: "Mana Cost", content: "5" },
     ],
+    unlock: "Complete The Core with the Hunter"
   },
   {
     name: "Healing Bolt",

@@ -6,6 +6,7 @@ const TANK_PASSIVE_OBJECTS: GameObject[] = [
 		icon_path: "/assets/passives/tank/ABILITY_Bouncer.svg",
 		description: "When an ally takes damage, move 3 tiles toward the source of the damage and attack it if you can.",
 		description2: "When an ally takes damage, full move toward the source of the damage and attack it if you can.",
+    unlock: "Complete The Boneyard with the Tank",
 		notes: [
 			{ label: "Class", content: "Tank" },
 		],

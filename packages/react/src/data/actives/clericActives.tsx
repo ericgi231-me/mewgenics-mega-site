@@ -206,6 +206,7 @@ const CLERIC_ACTIVE_OBJECTS: GameObject[] = [
 		icon_path: "/assets/actives/cleric/ABILITY_Ethereal.svg",
 		description: "Gain 4 Holy Shield, 3 Shield, heal 2 HP, and Brace 1.",
 		description2: "Gain Thorns 6, Reflect 5, 4 Holy Shield, 3 Shield, heal 2 HP and Brace 1.",
+    unlock: "Complete The Caves with the Cleric",
 		notes: [
 			{ label: "Class", content: "Cleric" },
 			{ label: "Mana Cost", content: "16" },

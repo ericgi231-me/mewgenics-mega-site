@@ -216,6 +216,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		icon_path: "/assets/actives/tinkerer/ABILITY_Mech_Suit.svg",
 		description: "Summon a mech suit that can be piloted. (Castable once per battle.)",
 		description2: "Summon a mech suit that can be piloted. (Costs 0 mana. Castable once per battle.)",
+    unlock: "Complete The Caves with the Tinkerer",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
 			{ label: "Mana Cost", content: "15" },

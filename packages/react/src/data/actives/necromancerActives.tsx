@@ -466,6 +466,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		icon_path: "/assets/actives/necromancer/ABILITY_Summon_Shade.svg",
 		description: "Spawn a shadow copy of yourself that fades after its first turn. (The copy can't cast this ability or give extra turns to units.)",
 		description2: "Spawn a shadow copy of yourself that fades after its second turn. (The copy can't cast this ability or give extra turns to units.)",
+    unlock: "Complete The Caves with the Necromancer",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
 			{ label: "Mana Cost", content: "13" },

@@ -247,6 +247,7 @@ const MAGE_ACTIVE_OBJECTS: GameObject[] = [
 		icon_path: "assets/actives/mage/ABILITY_Hyper_Beam.svg",
 		description: "Target a tile. At the start of your next turn, unleash an extremely high damage mega beam on that tile. (Castable once per turn.)",
 		description2: "Target a tile. At the start of your next turn, unleash an extremely high damage mega beam on that tile.",
+    unlock: "Complete The Caves with the Mage",
 		notes: [
 			{ label: "Class", content: "Mage" },
 			{ label: "Mana Cost", content: "3" },

@@ -196,6 +196,7 @@ const HUNTER_PASSIVE_OBJECTS: GameObject[] = [
 		icon_path: "/assets/passives/hunter/ABILITY_Thrill_of_the_Hunt.svg",
 		description: "At the end of each battle, if you killed at least 3 enemies, gain +1 Dexterity permanently and find a random consumable item.",
 		description2: "At the end of each battle, if you killed at least 3 enemies, gain +1 Dexterity permanently and find a random consumable item. +1 Range and Health Regen for every 5 Dexterity you have.",
+    unlock: "Complete The Boneyard with the Hunter",
 		notes: [
 			{ label: "Class", content: "Hunter" },
 		],

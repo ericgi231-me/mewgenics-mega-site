@@ -125,6 +125,7 @@ const NECROMANCER_PASSIVE_OBJECTS: GameObject[] = [
 		icon_path: "/assets/passives/necromancer/ABILITY_Servus_Mortem.svg",
 		description: "Destroy a random non-boss enemy at the start of each battle.",
 		description2: "Destroy a random enemy at the start of each battle. If this hits a boss, deal 50 damage instead.",
+    unlock: "Complete The Boneyard with the Necromancer",
 		notes: [ { label: "Class", content: "Necromancer" } ],
 	},
 	{

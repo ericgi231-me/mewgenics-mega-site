@@ -186,6 +186,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		icon_path: "/assets/actives/thief/ABILITY_Nail_Flurry.svg",
 		description: "Throw 10 1-damage nails that ignore shield.",
 		description2: "Throw 10 1-damage nails that ignore shield. Throw extra nails equal to your DEXTERITY.",
+    unlock: "Complete The Caves with the Thief",
 		notes: [
 			{ label: "Class", content: "Thief" },
 			{ label: "Mana Cost", content: "10" },

@@ -1,5 +1,26 @@
 import type { GameObject } from "../../types";
 
-const JESTER_PASSIVE_OBJECTS: GameObject[] = [];
+const JESTER_PASSIVE_OBJECTS: GameObject[] = [
+	{
+		name: "Goofball",
+		icon_path: "assets/passives/jester/ABILITY_Goofball.svg",
+		description: "Take an extra turn at the start of each round.",
+		description2: "Take 2 extra turns at the start of each round.",
+    unlock: "Complete The Boneyard with the Jester",
+		notes: [
+			{ label: "Class", content: "Jester" }
+		]
+	},
+	{
+		name: "Super Luck",
+		icon_path: "assets/passives/jester/ABILITY_Super_Luck.svg",
+		description: "+21 Luck",
+		description2: "+77 Luck",
+    unlock: "Complete The Boneyard with the Jester",
+		notes: [
+			{ label: "Class", content: "Jester" }
+		]
+	}
+];
 
 export default JESTER_PASSIVE_OBJECTS;

@@ -316,6 +316,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     icon_path: "/assets/actives/fighter/ABILITY_Paw_Breaker.svg",
     description: "A huge punch that breaks your paw... (You get -1 Strength permanently.)",
     description2: "A huge punch that inflicts Bruise and Stun, and breaks your paw... (You get -1 Strength permanently.)",
+    unlock: "Complete The Caves with the Fighter",
     notes: [
       { label: "Class", content: "Fighter" },
       { label: "Mana Cost", content: "5" },

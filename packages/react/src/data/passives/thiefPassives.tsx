@@ -78,6 +78,7 @@ const THIEF_PASSIVE_OBJECTS: GameObject[] = [
 		icon_path: "/assets/passives/thief/ABILITY_First_Strike.svg",
 		description: "Gain an extra turn at the start of the battle.",
 		description2: "Gain an extra turn at the start of the battle. Damage you deal on this turn is always critical.",
+    unlock: "Complete The Boneyard with the Thief",
 		notes: [
 			{ label: "Class", content: "Thief" },
 		],

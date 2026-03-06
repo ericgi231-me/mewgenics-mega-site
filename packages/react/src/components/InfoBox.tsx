@@ -37,7 +37,7 @@ function InfoBox({ selectedItem }: InfoBoxProps) {
       )}
       {item.unlock && (
         <div className="mb-2 relative z-10">
-          <span className="font-semibold text-[var(--color-accent)]">Unlock:</span> <span className="text-[var(--color-text-hover)]">{item.unlock}</span>
+          <span className="font-semibold text-[var(--color-accent)]">Unlock:</span> <span className="text-[var(--color-text-hover)]">{renderTextWithIcons(item.unlock)}</span>
         </div>
       )}
       {/* Divider between unlock and notes */}

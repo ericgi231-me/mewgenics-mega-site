@@ -168,6 +168,7 @@ const DRUID_PASSIVE_OBJECTS: GameObject[] = [
 		   icon_path: "assets/passives/druid/ABILITY_Suicide_Squad.svg",
 		description: "Your controllable familiars gain Self Destruct as their bonus ability.",
 		description2: "Your controllable familiars gain Self Destruct+ as their bonus ability.",
+    unlock: "Complete The Boneyard with the Druid",
 		notes: [
 			{ label: "Class", content: "Druid" },
 		],

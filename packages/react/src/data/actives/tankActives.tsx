@@ -416,6 +416,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		icon_path: "/assets/actives/tank/ABILITY_Suplex.svg",
 		description: "Grab a unit in front of you and slam it into the tile behind you.",
 		description2: "Grab a unit in front of you and slam it into the tile behind you, inflicting Bruise 3 and Immobile.",
+    unlock: "Complete The Caves with the Tank",
 		notes: [
 			{ label: "Class", content: "Tank" },
 			{ label: "Mana Cost", content: "5" },

@@ -37,6 +37,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		icon_path: "/assets/actives/hunter/ABILITY_Ball_of_Spiders.svg",
 		description: "Throw a spider egg that spawns 3 spiderlings on impact.",
 		description2: "Throw a stronger spider egg that spawns 3 spiderlings on impact.",
+    unlock: "Complete The Caves with the Hunter",
 		notes: [
 			{ label: "Class", content: "Hunter" },
 			{ label: "Mana Cost", content: "9" },

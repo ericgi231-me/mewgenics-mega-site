@@ -426,6 +426,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		icon_path: "assets/actives/druid/ABILITY_Summon_Bear.svg",
 		description: "Summon a bear.",
 		description2: "Summon a furious bear! (It has Fury Swipes.)",
+    unlock: "Complete The Caves with the Druid",
 		notes: [
 			{ label: "Class", content: "Druid" },
 			{ label: "Mana Cost", content: "12" },

@@ -213,6 +213,7 @@ const MAGE_PASSIVE_OBJECTS: GameObject[] = [
 		icon_path: "/assets/passives/mage/ABILITY_Three.svg",
 		description: "Every 3rd spell you cast in a turn is cast twice.",
 		description2: "The first spell and every 3rd spell you cast is cast twice.",
+    unlock: "Complete The Boneyard with the Mage",
 		notes: [
 			{ label: "Class", content: "Mage" },
 		]

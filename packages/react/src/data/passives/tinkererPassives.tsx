@@ -6,6 +6,7 @@ const TINKERER_PASSIVE_OBJECTS: GameObject[] = [
 		icon_path: "assets/passives/tinkerer/ABILITY_Armor_Specialist.svg",
 		description: "Your equipment passive effects are doubled.",
 		description2: "Your equipment passive and active effects are doubled.",
+    unlock: "Complete The Boneyard with the Tinkerer",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
 		],

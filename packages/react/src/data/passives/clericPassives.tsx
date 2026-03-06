@@ -87,6 +87,7 @@ const CLERIC_PASSIVE_OBJECTS: GameObject[] = [
 		icon_path: "/assets/passives/cleric/ABILITY_Evil_Patron.svg",
 		description: "Your healing abilities deal damage to enemies. Gain +2 range on tile-targeted healing spells.",
 		description2: "Your healing abilities deal damage to enemies. Holy element damage you deal is doubled. Gain +2 range on tile-targeted healing spells.",
+    unlock: "Complete The Boneyard with the Cleric",
 		notes: [
 			{ label: "Class", content: "Cleric" },
 		],

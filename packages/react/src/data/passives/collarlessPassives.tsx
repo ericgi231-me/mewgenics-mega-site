@@ -53,7 +53,8 @@ const COLLARLESS_PASSIVE_OBJECTS: GameObject[] = [
     description2: "+6 Constitution, +4 Strength, -4 Speed. Butcher abilities are offered when you level up.",
     notes: [
       { label: "Class", content: "Collarless" },
-    ]
+    ],
+    unlock: "Complete The Moon with the Butcher"
   },
   {
     name: "Careful",
@@ -80,7 +81,8 @@ const COLLARLESS_PASSIVE_OBJECTS: GameObject[] = [
     description2: "+4 Constitution, +4 Charisma, -2 Dexterity, -2 Speed. Cleric abilities are offered when you level up.",
     notes: [
       { label: "Class", content: "Collarless" },
-    ]
+    ],
+    unlock: "Complete The Moon with the Cleric"
   },
   {
     name: "Daunt",
@@ -143,7 +145,8 @@ const COLLARLESS_PASSIVE_OBJECTS: GameObject[] = [
       description2: "+6 Charisma, +2 Luck, -4 Constitution. Druid abilities are offered when you level up.",
       notes: [
         { label: "Class", content: "Collarless" },
-      ]
+      ],
+      unlock: "Complete The Moon with the Druid"
     },
     {
       name: "E-Tank",
@@ -170,7 +173,8 @@ const COLLARLESS_PASSIVE_OBJECTS: GameObject[] = [
       description2: "+4 Strength, +2 Speed, -2 Intelligence. Fighter abilities are offered when you level up.",
       notes: [
         { label: "Class", content: "Collarless" },
-      ]
+      ],
+      unlock: "Complete The Moon with the Fighter"
     },
     {
       name: "First Impression",
@@ -215,7 +219,8 @@ const COLLARLESS_PASSIVE_OBJECTS: GameObject[] = [
       description2: "+6 Dexterity, +4 Luck, -2 Constitution, -4 Speed. Hunter abilities are offered when you level up.",
       notes: [
         { label: "Class", content: "Collarless" },
-      ]
+      ],
+      unlock: "Complete The Moon with the Hunter"
     },
     {
       name: "Infested",
@@ -233,7 +238,8 @@ const COLLARLESS_PASSIVE_OBJECTS: GameObject[] = [
       description2: "+2 Strength, +2 Dexterity, +2 Constitution, +2 Intelligence, +2 Charisma, +2 Speed, +2 Luck. Abilities from any class are offered when you level up. You can reroll your level up options twice.",
       notes: [
         { label: "Class", content: "Collarless" },
-      ]
+      ],
+      unlock: "Complete The Moon with the Jester"
     },
     {
       name: "Late Bloomer",
@@ -287,7 +293,8 @@ const COLLARLESS_PASSIVE_OBJECTS: GameObject[] = [
       description2: "+4 Intelligence, +4 Charisma, -2 Constitution, -2 Strength. Mage abilities are offered when you level up.",
       notes: [
         { label: "Class", content: "Collarless" },
-      ]
+      ],
+      unlock: "Complete The Moon with the Mage"
     },
     {
       name: "Mange",
@@ -341,7 +348,8 @@ const COLLARLESS_PASSIVE_OBJECTS: GameObject[] = [
       description2: "+4 Intelligence, +4 Charisma, -2 Strength, -2 Dexterity. Monk abilities are offered when you level up.",
       notes: [
         { label: "Class", content: "Collarless" },
-      ]
+      ],
+      unlock: "Complete The Moon with the Monk"
     },
     {
       name: "Natural Healing",
@@ -359,7 +367,8 @@ const COLLARLESS_PASSIVE_OBJECTS: GameObject[] = [
       description2: "+4 Constitution, +2 Charisma, -4 Strength. Necromancer abilities are offered when you level up.",
       notes: [
         { label: "Class", content: "Collarless" },
-      ]
+      ],
+      unlock: "Complete The Moon with the Necromancer"
     },
     {
       name: "Overconfident",
@@ -395,7 +404,8 @@ const COLLARLESS_PASSIVE_OBJECTS: GameObject[] = [
       description2: "+4 Intelligence, +4 Charisma, -2 Speed, -2 Constitution. Psychic abilities are offered when you level up.",
       notes: [
         { label: "Class", content: "Collarless" },
-      ]
+      ],
+      unlock: "Complete The Moon with the Psychic"
     },
     {
       name: "Pulp",
@@ -456,6 +466,7 @@ const COLLARLESS_PASSIVE_OBJECTS: GameObject[] = [
       icon_path: "/assets/passives/collarless/ABILITY_Skill_Share.svg",
       description: "Your other passive ability is shared with the other cats in your party at the start of each battle.",
       description2: "Your other passive ability is shared with the other cats in your party at the start of each battle. When breeding, your children will always inherit your other passive.",
+      unlock: "Complete The Boneyard with a Collarless cat",
       notes: [
         { label: "Class", content: "Collarless" },
       ]
@@ -494,7 +505,8 @@ const COLLARLESS_PASSIVE_OBJECTS: GameObject[] = [
       description2: "+8 Constitution, -2 Dexterity, -2 Intelligence. Tank abilities are offered when you level up.",
       notes: [
         { label: "Class", content: "Collarless" },
-      ]
+      ],
+      unlock: "Complete The Moon with the Tank"
     },
     {
       name: "Thief's Soul",
@@ -503,7 +515,8 @@ const COLLARLESS_PASSIVE_OBJECTS: GameObject[] = [
       description2: "+8 Speed, +2 Luck, +2 Strength, +2 Constitution. Thief abilities are offered when you level up.",
       notes: [
         { label: "Class", content: "Collarless" },
-      ]
+      ],
+      unlock: "Complete The Moon with the Thief"
     },
     {
       name: "Tinkerer's Soul",
@@ -512,7 +525,8 @@ const COLLARLESS_PASSIVE_OBJECTS: GameObject[] = [
       description2: "+8 Intelligence, -2 Charisma, -2 Luck. Tinkerer abilities are offered when you level up.",
       notes: [
         { label: "Class", content: "Collarless" },
-      ]
+      ],
+      unlock: "Complete The Moon with the Tinkerer"
     },
     {
       name: "Unrestricted",
@@ -537,6 +551,7 @@ const COLLARLESS_PASSIVE_OBJECTS: GameObject[] = [
       icon_path: "/assets/passives/collarless/ABILITY_Void_Soul.svg",
       description: "Only upgraded Collarless abilities are offered when you level up.",
       description2: "Only upgraded Collarless abilities are offered when you level up. Collarless spells cost 1 less mana.",
+      unlock: "Complete The Moon with a Collarless cat",
       notes: [
         { label: "Class", content: "Collarless" },
       ]

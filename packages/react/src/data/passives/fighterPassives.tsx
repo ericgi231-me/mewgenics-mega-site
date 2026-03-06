@@ -24,6 +24,7 @@ const FIGHTER_PASSIVE_OBJECTS: GameObject[] = [
     icon_path: "/assets/passives/fighter/ABILITY_Dual_Wield.svg",
     description: "When you use your weapon, automatically use it again for free.",
     description2: "When you use your weapon, automatically use it again for free, and then again! for free!",
+    unlock: "Complete The Boneyard with the Fighter",
     notes: [
       { label: "Class", content: "Fighter" },
     ],
