@@ -46,26 +46,6 @@ import { renderTextWithIcons } from "../utils/renderTextWithIcons";
 const categories = [
   { key: "collars", label: "Collars", items: COLLAR_OBJECTS },
   {
-    key: "passives",
-    label: "Passives",
-    subcategories: [
-      { key: "collarless", label: "Collarless", items: COLLARLESS_PASSIVE_OBJECTS },
-      { key: "fighter", label: "Fighter", items: FIGHTER_PASSIVE_OBJECTS },
-      { key: "hunter", label: "Hunter", items: HUNTER_PASSIVE_OBJECTS },
-      { key: "mage", label: "Mage", items: MAGE_PASSIVE_OBJECTS },
-      { key: "tank", label: "Tank", items: TANK_PASSIVE_OBJECTS },
-      { key: "cleric", label: "Cleric", items: CLERIC_PASSIVE_OBJECTS },
-      { key: "thief", label: "Thief", items: THIEF_PASSIVE_OBJECTS },
-      { key: "necromancer", label: "Necromancer", items: NECROMANCER_PASSIVE_OBJECTS },
-      { key: "tinkerer", label: "Tinkerer", items: TINKERER_PASSIVE_OBJECTS },
-      { key: "butcher", label: "Butcher", items: BUTCHER_PASSIVE_OBJECTS },
-      { key: "druid", label: "Druid", items: DRUID_PASSIVE_OBJECTS },
-      { key: "psychic", label: "Psychic", items: PSYCHIC_PASSIVE_OBJECTS },
-      { key: "monk", label: "Monk", items: MONK_PASSIVE_OBJECTS },
-      { key: "jester", label: "Jester", items: JESTER_PASSIVE_OBJECTS },
-    ],
-  },
-  {
     key: "actives",
     label: "Actives",
     subcategories: [
@@ -83,6 +63,26 @@ const categories = [
       { key: "psychic", label: "Psychic", items: PSYCHIC_ACTIVE_OBJECTS },
       { key: "monk", label: "Monk", items: MONK_ACTIVE_OBJECTS },
       { key: "jester", label: "Jester", items: JESTER_ACTIVE_OBJECTS },
+    ],
+  },
+  {
+    key: "passives",
+    label: "Passives",
+    subcategories: [
+      { key: "collarless", label: "Collarless", items: COLLARLESS_PASSIVE_OBJECTS },
+      { key: "fighter", label: "Fighter", items: FIGHTER_PASSIVE_OBJECTS },
+      { key: "hunter", label: "Hunter", items: HUNTER_PASSIVE_OBJECTS },
+      { key: "mage", label: "Mage", items: MAGE_PASSIVE_OBJECTS },
+      { key: "tank", label: "Tank", items: TANK_PASSIVE_OBJECTS },
+      { key: "cleric", label: "Cleric", items: CLERIC_PASSIVE_OBJECTS },
+      { key: "thief", label: "Thief", items: THIEF_PASSIVE_OBJECTS },
+      { key: "necromancer", label: "Necromancer", items: NECROMANCER_PASSIVE_OBJECTS },
+      { key: "tinkerer", label: "Tinkerer", items: TINKERER_PASSIVE_OBJECTS },
+      { key: "butcher", label: "Butcher", items: BUTCHER_PASSIVE_OBJECTS },
+      { key: "druid", label: "Druid", items: DRUID_PASSIVE_OBJECTS },
+      { key: "psychic", label: "Psychic", items: PSYCHIC_PASSIVE_OBJECTS },
+      { key: "monk", label: "Monk", items: MONK_PASSIVE_OBJECTS },
+      { key: "jester", label: "Jester", items: JESTER_PASSIVE_OBJECTS },
     ],
   },
   {
