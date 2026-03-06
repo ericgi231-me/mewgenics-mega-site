@@ -147,7 +147,9 @@ function HomePage() {
         <SidebarInfoBox selectedItem={sidebarItem} className="hidden lg:flex sticky top-0 h-screen" />
         <div className="flex-1 p-8 pt-0">
           {/* Header with search bar */}
-          <div className="flex items-center my-6 gap-4">
+          <div
+            className="flex items-center gap-4 sticky top-0 z-20 py-4 bg-color-background"
+          >
             <SearchBar value={search} onChange={setSearch} />
           </div>
           {categories.map(cat => {
