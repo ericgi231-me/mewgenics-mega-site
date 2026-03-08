@@ -1,6 +1,6 @@
 import type { GameObject } from "../types";
 import { renderTextWithIcons } from "../utils/renderTextWithIcons";
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 import type { IconSets } from "../utils/renderTextWithIcons";
 
 // Memoized icon text rendering

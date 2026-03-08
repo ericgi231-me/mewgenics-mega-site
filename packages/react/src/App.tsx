@@ -1,7 +1,10 @@
 import { Route, Routes, useLocation } from 'react-router-dom'
-import { HomePage, NotFoundPage } from './pages'
+import { lazy, Suspense } from 'react'
 import ReactGA from "react-ga4";
 import { useEffect } from 'react';
+
+const HomePage = lazy(() => import('./pages/HomePage'));
+const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
 
 ReactGA.initialize("G-VTTP7LRNBH");
 
@@ -14,10 +17,12 @@ function App() {
 
   return (
     <>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="*" element={<NotFoundPage />} />
-      </Routes>
+      <Suspense fallback={<div />}>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="*" element={<NotFoundPage />} />
+        </Routes>
+      </Suspense>
     </>
   )
 }
