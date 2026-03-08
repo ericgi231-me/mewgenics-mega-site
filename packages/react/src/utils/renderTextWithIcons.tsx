@@ -53,7 +53,7 @@ export function renderTextWithIcons(
         keyMap[k.toLowerCase()] = k;
       });
     }
-    const regexStr = `\b(${buildRegexFromKeys(allKeys)})\b`;
+    const regexStr = `\\b(${buildRegexFromKeys(allKeys)})\\b`;
     const combinedRegex = new RegExp(regexStr, 'gi');
     cached = { regex: combinedRegex, keyToType, keyMap };
     regexCache.set(iconSets, cached);
