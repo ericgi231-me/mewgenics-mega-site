@@ -173,7 +173,7 @@ const CLERIC_ACTIVE_OBJECTS: GameObject[] = [
 	},
 	{
 		name: "Divine Protection",
-		icon_path: "/assets/acties/cleric/ABILITY_Divine_Protection.svg",
+		icon_path: "/assets/actives/cleric/ABILITY_Divine_Protection.svg",
 		description: "Give a unit +1 Holy Shield and +1 Kinetic Spikes. That unit becomes The Alpha. If there is an Alpha, this spell costs less and must target it.",
 		description2: "Give a unit anywhere +1 Holy Shield and +2 Kinetic Spikes. That unit becomes The Alpha. If there is an Alpha, this spell costs less and must target it.",
 		notes: [
