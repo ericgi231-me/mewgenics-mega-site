@@ -1,11 +1,22 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useRef } from "react";
 
 function useSearchFilter() {
-  const [search, setSearch] = useState("");
+  const [search, setSearchRaw] = useState("");
+  const [debouncedSearch, setDebouncedSearch] = useState("");
+  const debounceRef = useRef<number | null>(null);
+
+  // Debounced setter
+  const setSearch = (value: string) => {
+    setSearchRaw(value);
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+    debounceRef.current = window.setTimeout(() => {
+      setDebouncedSearch(value);
+    }, 200);
+  };
 
   const matchesSearch = useCallback((obj: any) => {
-    if (!search.trim()) return true;
-    const lower = search.toLowerCase();
+    if (!debouncedSearch.trim()) return true;
+    const lower = debouncedSearch.toLowerCase();
     if (obj.name && obj.name.toLowerCase().includes(lower)) return true;
     if (obj.description && obj.description.toLowerCase().includes(lower)) return true;
     if (obj.description2 && obj.description2.toLowerCase().includes(lower)) return true;
@@ -14,7 +25,7 @@ function useSearchFilter() {
       note.content && note.content.toLowerCase().includes(lower)
     )) return true;
     return false;
-  }, [search]);
+  }, [debouncedSearch]);
 
   return { search, setSearch, matchesSearch };
 }

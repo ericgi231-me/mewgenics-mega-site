@@ -1,5 +1,22 @@
 import type { GameObject } from "../types";
 import { renderTextWithIcons } from "../utils/renderTextWithIcons";
+import React, { useMemo } from "react";
+import type { IconSets } from "../utils/renderTextWithIcons";
+
+// Memoized icon text rendering
+interface IconTextProps {
+  text: string;
+  iconSets?: IconSets;
+}
+function IconText({ text, iconSets }: IconTextProps) {
+  // Memoize iconSets to avoid unnecessary recomputation
+  const memoIconSets = useMemo(() => iconSets, [iconSets]);
+  const rendered = useMemo(
+    () => renderTextWithIcons(text, memoIconSets),
+    [text, memoIconSets]
+  );
+  return <>{rendered}</>;
+}
 
 interface InfoBoxProps {
   selectedItem: GameObject | null;
@@ -21,23 +38,24 @@ function InfoBox({ selectedItem }: InfoBoxProps) {
           alt={item.name}
           className="absolute top-4 right-4 max-w-[80px] max-h-[80px] opacity-30 pointer-events-none select-none object-contain"
           style={{ zIndex: 0 }}
+          loading="lazy"
         />
       )}
       <div className="flex items-start mb-4 relative z-10">
         <div>
           <div className="text-xl font-bold mb-1 underline text-color-primary">{item.name}</div>
-          <div className="mb-2 text-color-text-primary">{renderTextWithIcons(item.description)}</div>
+          <div className="mb-2 text-color-text-primary"><IconText text={item.description} /></div>
         </div>
       </div>
       {item.description2 && (
         <div className="mb-2 relative z-10">
           <div className="text-xl font-bold mb-1 underline text-color-primary">{item.name+'+'}</div>
-          <span className="font-semibold text-color-accent"></span> {renderTextWithIcons(item.description2)}
+          <span className="font-semibold text-color-accent"></span> <IconText text={item.description2} />
         </div>
       )}
       {item.unlock && (
         <div className="mb-2 relative z-10">
-          <span className="font-semibold text-[var(--color-accent)]">Unlock:</span> <span className="text-[var(--color-text-hover)]">{renderTextWithIcons(item.unlock)}</span>
+          <span className="font-semibold text-[var(--color-accent)]">Unlock:</span> <span className="text-[var(--color-text-hover)]"><IconText text={item.unlock} /></span>
         </div>
       )}
       {/* Divider between unlock and notes */}
@@ -48,7 +66,7 @@ function InfoBox({ selectedItem }: InfoBoxProps) {
         <div className="mt-2 w-full relative z-10">
           {item.notes.map((note, i) => (
             <div key={i} className="mb-2">
-              <span className="font-semibold text-[var(--color-accent-light)]">{note.label}:</span> {renderTextWithIcons(note.content)}
+              <span className="font-semibold text-[var(--color-accent-light)]">{note.label}:</span> <IconText text={note.content} />
             </div>
           ))}
         </div>
