@@ -8,7 +8,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Down any ally and steal their mana. It doesn't get injured. (Castable once per turn.)",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "0" },
+			{ label: "Cost", content: "0 MP" },
 		],
 	},
 	{
@@ -18,7 +18,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Take damage equal to half of your max HP, then deal that much damage and inflict Fear 2 on units in an area.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -28,7 +28,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Take 1 damage, heal all allies 1 HP and give them +1 mana.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -38,7 +38,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Remove all status effects from another unit, then inflict Bleed 5 on it. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "8" },
+			{ label: "Cost", content: "8 MP" },
 		],
 	},
 	{
@@ -48,7 +48,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Deal 2 damage and inflict Leech 2. This spell is stronger and castable while you're downed.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -58,7 +58,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Surround a unit with beefy Leeches.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "8" },
+			{ label: "Cost", content: "8 MP" },
 		],
 	},
 	{
@@ -68,7 +68,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Jump to an open tile in range 3. This spell is stronger and castable while you're downed. When downed you can land on units anywhere dealing damage and inflicting Madness 2.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -78,7 +78,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give a unit -4 Luck. (This spell has increased range)",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -88,7 +88,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Destroy an adjacent body. The next 2 spells you cast cost 0 mana.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "2" },
+			{ label: "Cost", content: "2 MP" },
 		],
 	},
 	{
@@ -98,7 +98,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport to a tile. If you teleport into a unit you both take 5 damage, then inflict Fear on it.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -108,7 +108,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Explode a body, dealing damage and Knockback to units in a large area.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "0" },
+			{ label: "Cost", content: "0 MP" },
 		],
 	},
 	{
@@ -118,7 +118,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Deal damage, inflict Weakness and Immobile on an adjacent unit. If you have no weapon, equip a bone.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -128,7 +128,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Explode a body and spawn 5 Leeches.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -138,7 +138,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Injure yourself and take an extra turn. (This spell costs less. This spell can't be cast on extra turns.)",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "10" },
+			{ label: "Cost", content: "10 MP" },
 		],
 	},
 	{
@@ -148,7 +148,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Dig to any tile and unearth 4 zombies. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "16" },
+			{ label: "Cost", content: "16 MP" },
 		],
 	},
 	{
@@ -158,7 +158,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Heal all units in an area 5 HP, then take 10 damage. Castable while you're downed. If you do, take no damage and give what you heal All Stats Up.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -168,7 +168,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Resurrect an enemy body to full HP. It joins your team and takes an extra turn after this one.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "12" },
+			{ label: "Cost", content: "12 MP" },
 		],
 	},
 	{
@@ -178,7 +178,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Fear 1 and Weakness 2 on all enemies.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "15" },
+			{ label: "Cost", content: "15 MP" },
 		],
 	},
 	{
@@ -188,7 +188,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Destroy a body at range. Your basic attack inflicts +1 Leech for the rest of the battle.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "2" },
+			{ label: "Cost", content: "2 MP" },
 		],
 	},
 	{
@@ -198,7 +198,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Down yourself. You don't get injured. Spawn a shadow copy of yourself that fades after its first turn. The copy can't cast this ability or give extra turns to units. (This spell costs 0 mana.)",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -208,7 +208,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "You and all allies lose 10 HP. Summon a flesh golem with one random spell and random passives from each of those units. (Castable once per battle.)",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "0" },
+			{ label: "Cost", content: "0 MP" },
 		],
 	},
 	{
@@ -218,7 +218,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Leech 2, Weakness 5, Poison 2, and Madness 2 on all enemies. There are permanent consequences for casting this spell… but maybe not for you. (Castable once per battle.)",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "0" },
+			{ label: "Cost", content: "0 MP" },
 		],
 	},
 	{
@@ -228,7 +228,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give Lifesteal 3 to units in an area.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -238,7 +238,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spend all of your mana, then drain that much HP from a unit in range 3. Ignores shield.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "X" },
+			{ label: "Cost", content: "X MP" },
 		],
 	},
 	{
@@ -248,7 +248,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Until your next turn, you won't get injured if you're downed. When downed, inflict Confusion 10 on the unit that downed you.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -258,7 +258,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Dig to any tile and unearth 1-3 bodies. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "8" },
+			{ label: "Cost", content: "8 MP" },
 		],
 	},
 	{
@@ -268,7 +268,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Sleep 1 on a unit in range 4.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -278,7 +278,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Leech 1 on each allied unit and Leech 3 on all other units, except yourself.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "12" },
+			{ label: "Cost", content: "12 MP" },
 		],
 	},
 	{
@@ -288,7 +288,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Leech 1 and Mana Leech 1 on a unit.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -298,7 +298,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Drain 2 HP at melee range. This spell is much stronger and castable while you're downed. If this kills a unit, revive with max hp.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -308,7 +308,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Madness on all enemies. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "15" },
+			{ label: "Cost", content: "15 MP" },
 		],
 	},
 	{
@@ -318,7 +318,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Deal 1 damage to all units. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -328,7 +328,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Resurrect a body to full HP. It becomes a Zombie and joins your team.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -338,7 +338,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport into a unit with 10 or less health and destroy it. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -348,7 +348,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport to a tile in range 1, dealing damage to units you land on. Whenever a unit dies, this spell's range and damage increase by 1.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -358,7 +358,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport into a body, destroying it to heal 4 HP and gain All Stats Up.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -368,7 +368,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport into a familiar and destroy it. Refresh your basic attack and heal 5 HP.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -378,7 +378,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport in front of an enemy then inflict Knockback 4 and Fear on each adjacent unit.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -388,7 +388,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn a ghost Familiar that fades after its second turn. Castable while you're downed. If you do, spawn a shadow copy of yourself instead.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -398,7 +398,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "N/A (cannot be upgraded)",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -408,7 +408,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Fear 1, Confusion 2, Madness 2 and drain 2 HP from units within a cone.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "9" },
+			{ label: "Cost", content: "9 MP" },
 		],
 	},
 	{
@@ -418,7 +418,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "N/A (cannot be upgraded)",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "1" },
+			{ label: "Cost", content: "1 MP" },
 		],
 	},
 	{
@@ -428,7 +428,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Soul Link on units in a large area.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -438,7 +438,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give a unit +1 Constitution and heal it 4 HP. You gain -1 Constitution and lose 4 health. This spell can revive units. If the unit revived was an enemy it gets charmed for the battle.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "1" },
+			{ label: "Cost", content: "1 MP" },
 		],
 	},
 	{
@@ -448,7 +448,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Deal 1 damage and inflict Infested 1 on any unit.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -458,7 +458,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Summon a skeleton from a body, anywhere. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -469,7 +469,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
     unlock: "Complete The Caves with the Necromancer",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "13" },
+			{ label: "Cost", content: "13 MP" },
 		],
 	},
 	{
@@ -479,7 +479,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Swap HP with any ally. Castable while you're downed. If this spell downs you or the ally, neither are injured.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -489,7 +489,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Dig up a body. It reanimates at the end of the round. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -499,7 +499,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Soul Link on yourself and every enemy. Gain +2 Constitution and heal 8 HP.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "15" },
+			{ label: "Cost", content: "15 MP" },
 		],
 	},
 	{
@@ -509,7 +509,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give a unit Weakness 5 and All Stats Down.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -519,7 +519,7 @@ const NECROMANCER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Fear 1 and Madness 2 on a unit in range 4.",
 		notes: [
 			{ label: "Class", content: "Necromancer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 ];

@@ -8,7 +8,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A melee attack that can only hit from behind. This attack ignores shield and has 100% crit chance. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "8" },
+			{ label: "Cost", content: "8 MP" },
 		],
 	},
 	{
@@ -18,7 +18,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Backflip out of the way the next time you're targeted by an enemy. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -28,7 +28,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +15% Dodge Chance. Disable this spell if you have more than 80% Dodge Chance.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -38,7 +38,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Until end of turn, your backstabs do +75% more damage, ignore shield, and inflict Bleed and Poison.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -48,7 +48,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Move up to 5 tiles, spreading glass shards on the tiles you walk through.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -58,7 +58,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Throw a projectile that passes through units and then returns to you. At its apex, it deals increased damage and always crits. This can collect pickups.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -68,7 +68,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain temporary +10 Luck until your next turn.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -78,7 +78,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Throw a coin at infinite range with +50% crit chance that ignores shield. RELOAD: Collect a coin. This spell costs more mana each additional time you use it on the same turn.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "X" },
+			{ label: "Cost", content: "X MP" },
 		],
 	},
 	{
@@ -88,7 +88,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Throw 2 nails that knock coins out of units they hit and ignore shield.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -98,7 +98,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A 2-hit melee attack that inflicts -1 Damage and Bleed.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -108,7 +108,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Make any unit look away from you. This has a 33% chance to inflict Confusion.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "2" },
+			{ label: "Cost", content: "2 MP" },
 		],
 	},
 	{
@@ -118,7 +118,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn 3-7 coins on random tiles.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -128,7 +128,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain Stealth 2.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "10" },
+			{ label: "Cost", content: "10 MP" },
 		],
 	},
 	{
@@ -138,7 +138,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport to a tile with coins on it, then spawn 1-2 coins on random tiles.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -148,7 +148,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Confusion 1 on each unit within 3 tiles of you.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -158,7 +158,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Loot 1-3 coins from a body... and possibly something else? (This might not destroy the body) (Your chance of finding 'something else' is significantly increased.)",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -168,7 +168,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Collect a pickup within four tiles of you. Gain +2 Luck instead of its normal effects.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "1" },
+			{ label: "Cost", content: "1 MP" },
 		],
 	},
 	{
@@ -178,7 +178,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Refresh your movement action. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -189,7 +189,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
     unlock: "Complete The Caves with the Thief",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "10" },
+			{ label: "Cost", content: "10 MP" },
 		],
 	},
 	{
@@ -199,7 +199,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Poison 4 on an adjacent unit. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -209,7 +209,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport to a tile on the edge of the map. Gain +2 Damage for the rest of the turn.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -219,7 +219,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Swap positions with any unit. Swap back at the end of your turn. If the unit was an enemy, inflict Confusion 1. (Castable once per turn.)",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "0" },
+			{ label: "Cost", content: "0 MP" },
 		],
 	},
 	{
@@ -229,7 +229,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Steal 3-5 coins from a unit, give it -1 Damage, and apply some extra debuffs at random.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -239,7 +239,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +4 Range. Your attacks pass through units and ignore shield for the rest of the turn. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -249,7 +249,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Throw an infinite range nail that passes through units and ignores shield.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -259,7 +259,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Blind 2 on all units in a larger cone.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -269,7 +269,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spend all your mana. For every 3 mana spent, your basic attack inflicts +1 Poison. (Castable once per battle.)",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "X" },
+			{ label: "Cost", content: "X MP" },
 		],
 	},
 	{
@@ -279,7 +279,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Poison 2 on all units adjacent to you (even diagonally).",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -289,7 +289,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Throw 2 nails that inflict Poison and ignore shield.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -299,7 +299,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Roll in a straight or diagonal line up to five tiles. RELOAD: Backstab a unit.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "0" },
+			{ label: "Cost", content: "0 MP" },
 		],
 	},
 	{
@@ -309,7 +309,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Refresh your basic attack. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -319,7 +319,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A melee attack that rebounds you backwards 10 tiles. Deal damage to any unit you collide with.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -329,7 +329,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A weak melee attack. If this crits inflict Bleed 5 and you gain All Stats Up.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -339,7 +339,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport behind a unit. Your next action has +100% crit chance. Nothin' personnel, kid.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -349,7 +349,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport up to 3 tiles away, leaving behind a shadow that mimics your basic attack. (The shadow fades at the end of your turn.)",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -359,7 +359,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Throw 2 nails that inflict Bleed and ignore shield.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -369,7 +369,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +1 Dexterity and +1 Range until the end of the battle. Automatically cast this spell at the end of each round for free.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -379,7 +379,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Destroy a body in range 3. Enemies won't attack you until your next turn. (This spell is free. Castable once per turn.)",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -389,7 +389,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A melee attack that has all effects of your basic attack and ignores shield. (This spell is free the 1st time you use it each turn.)",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -399,7 +399,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn a shadow up to 5 tiles away that mimics your basic attack. (The shadow fades at the end of your turn.) (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -409,7 +409,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport directly behind a random enemy. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -419,7 +419,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Target any unit. Teleport behind it at the start of your next turn. (Castable once per turn. Costs 0 mana.)",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -429,7 +429,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A melee attack with increased critical hit chance that inflicts Bleed and Bruise 1. If this crits and your trinket slot is empty, gain a kidney, then inflict Bleed 1.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -439,7 +439,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A weak melee attack that inflicts -1 Luck and you gain +1 Luck.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -449,7 +449,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A melee attack with +30% crit chance. If this crits, refresh your basic attack and movement actions.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -459,7 +459,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Take an extra turn at the end of the round. (This spell can't be cast on extra turns. This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "10" },
+			{ label: "Cost", content: "10 MP" },
 		],
 	},
 	{
@@ -469,7 +469,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Throw 3 nails straight and diagonally in front of you 2 times. These nails have the effects of your basic attack and ignore shield.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -479,7 +479,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Throw 2 nails that inflict Poison 1 and ignore shield at each enemy in your line of sight.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -489,7 +489,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Throw 2 nails that inflict Weakness and ignore shield.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -499,7 +499,7 @@ const THIEF_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +1 Range.",
 		notes: [
 			{ label: "Class", content: "Thief" },
-			{ label: "Mana Cost", content: "1" },
+			{ label: "Cost", content: "1 MP" },
 		],
 	},
 ];

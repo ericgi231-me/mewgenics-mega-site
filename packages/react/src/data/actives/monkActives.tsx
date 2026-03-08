@@ -8,7 +8,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A large burst of air that knocks back units diagonally from the target.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "3" }
+			{ label: "Cost", content: "3 MP" }
 		]
 	},
 	{
@@ -18,7 +18,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +1 Shield. This spell costs 0 mana the first time you cast it each turn, and after each time you spend mana on another spell.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "3" }
+			{ label: "Cost", content: "3 MP" }
 		]
 	},
 	{
@@ -28,7 +28,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Your basic attack inflicts Bruise until the end of the turn.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "6" }
+			{ label: "Cost", content: "6 MP" }
 		]
 	},
 	{
@@ -38,7 +38,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Roll up to 4 tiles diagonally or in a straight line.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "4" }
+			{ label: "Cost", content: "4 MP" }
 		]
 	},
 	{
@@ -48,7 +48,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Until end of turn, your basic attack emits +1 Sparkle. Refresh your basic attack.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "3" }
+			{ label: "Cost", content: "3 MP" }
 		]
 	},
 	{
@@ -58,7 +58,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Begin charging a spirit bomb. This ability becomes Throw Spirit Bomb. Allies gain the bonus ability Donate Energy+ until you throw it.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "0" }
+			{ label: "Cost", content: "0 MP" }
 		]
 	},
 	{
@@ -68,7 +68,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A ranged attack that pulls the unit it hits toward you. When this hits, switch into melee stance and refresh your basic attack. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "6" }
+			{ label: "Cost", content: "6 MP" }
 		]
 	},
 	{
@@ -78,7 +78,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A melee attack with Knockback 3. When this hits, switch into ranged stance and refresh your basic attack. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "6" }
+			{ label: "Cost", content: "6 MP" }
 		]
 	},
 	{
@@ -88,7 +88,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Become downed. You don't get injured. At the end of the next round, you're revived with 50% HP, 20 Shield, 2 Holy Shield, and All Stats Up 2.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "0" }
+			{ label: "Cost", content: "0 MP" }
 		]
 	},
 	{
@@ -98,7 +98,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Summon a 1 HP illusion of yourself on any tile that mimics your basic attack, but in the opposite direction of you. It dies at the end of your turn.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	},
 	{
@@ -108,7 +108,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A strong magic damage melee attack with knockback 10 that inflicts Confusion.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "7" }
+			{ label: "Cost", content: "7 MP" }
 		]
 	},
 	{
@@ -118,7 +118,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "You can't cast spells for the rest of the battle. For the rest of the battle, whenever you kill an enemy, take an extra turn. Get an extra turn when you cast this.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "0" }
+			{ label: "Cost", content: "0 MP" }
 		]
 	},
 	{
@@ -128,7 +128,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Dash forward three tiles and attack. This deals 2 damage for each action you've taken this turn. (This spell costs 0 mana. Castable once per turn.)",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "6" }
+			{ label: "Cost", content: "6 MP" }
 		]
 	},
 	{
@@ -138,7 +138,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport next to a random enemy, then switch to melee stance and automatically attack it. This has a chance to repeat multiple times.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	},
 	{
@@ -148,7 +148,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A melee attack that causes a unit to die at the end of its next turn. Bosses fall asleep at the end of their next turn instead. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "7" }
+			{ label: "Cost", content: "7 MP" }
 		]
 	},
 	{
@@ -158,7 +158,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A melee attack with knockback that hits two tiles away from you. This spell's range is increased by 1 and mana cost decreased by 1 each time you use it on the same turn.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	},
 	{
@@ -168,7 +168,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Shoot a high damage energy blast in a straight line.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "9" }
+			{ label: "Cost", content: "9 MP" }
 		]
 	},
 	{
@@ -178,7 +178,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Throw a random adjacent unit two tiles away, dealing damage to it. This deals double damage if it's thrown onto another unit.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "3" }
+			{ label: "Cost", content: "3 MP" }
 		]
 	},
 	{
@@ -188,7 +188,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Jump to any tile, then gain +2 Shield for each enemy adjacent to the tile you land on.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "6" }
+			{ label: "Cost", content: "6 MP" }
 		]
 	},
 	{
@@ -199,7 +199,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
     unlock: "Complete The Caves with the Monk",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "15" }
+			{ label: "Cost", content: "15 MP" }
 		]
 	},
 	{
@@ -209,7 +209,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Fire a magic blast at a unit anywhere within your line of sight. (Castable once per battle. If all your armor slots are empty, castable once per turn.)",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "0" }
+			{ label: "Cost", content: "0 MP" }
 		]
 	},
 	{
@@ -219,7 +219,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Deal 2 damage and knockback adjacent units 2 tiles. Gain +2 Shield.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "3" }
+			{ label: "Cost", content: "3 MP" }
 		]
 	},
 	{
@@ -229,7 +229,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +2 temporary Kinetic Spikes.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "3" }
+			{ label: "Cost", content: "3 MP" }
 		]
 	},
 	{
@@ -239,7 +239,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Heal yourself for 8 HP and gain +8 Shield, All Stats Up 2, and Drowsy 8. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "8" }
+			{ label: "Cost", content: "8 MP" }
 		]
 	},
 	{
@@ -249,7 +249,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +1 Intelligence and +2 Shield. If you have 7 or more Shield, this spell costs 1 mana less.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "4-clamp(floor(X/7), 0, 1)" }
+			{ label: "Cost", content: "4-clamp(floor(X/7), 0, 1)" }
 		]
 	},
 	{
@@ -259,7 +259,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Marked 3 and Magic Weakness 3 on a unit.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "7" }
+			{ label: "Cost", content: "7 MP" }
 		]
 	},
 	{
@@ -269,7 +269,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A one-hit kill punch. It causes a cone of wind that deals 5 damage. Gain All Stats Down on use. This deals 25 damage to bosses instead of killing them. (Castable once per battle.)",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "0" }
+			{ label: "Cost", content: "0 MP" }
 		]
 	},
 	{
@@ -279,7 +279,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +20 Movement Range until the end of the turn and refresh your movement action.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "6" }
+			{ label: "Cost", content: "6 MP" }
 		]
 	},
 	{
@@ -289,7 +289,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +1 Shield and heal 1 HP for each empty armor slot you have, then switch stances.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "4" }
+			{ label: "Cost", content: "4 MP" }
 		]
 	},
 	{
@@ -299,7 +299,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Jump to a tile. Bounce off any unit you land on, damaging and Bruising that unit.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	},
 	{
@@ -309,7 +309,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +2 temporary Brace and +2 temporary Thorns until your next turn. Also Reflect the next projectile you're hit by.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	},
 	{
@@ -319,7 +319,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport two to four tiles away, then switch stances.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "3" }
+			{ label: "Cost", content: "3 MP" }
 		]
 	},
 	{
@@ -329,7 +329,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Dash forward one tile and attack, twice!",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	},
 	{
@@ -339,7 +339,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A melee attack that does 4 more damage each time you use it on the same turn. This attack inflicts all status effects your basic attack does. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	},
 	{
@@ -349,7 +349,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport, then use your basic attack on an enemy within range. This spell's range is increased by 2 for each empty armor slot you have. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "7" }
+			{ label: "Cost", content: "7 MP" }
 		]
 	},
 	{
@@ -359,7 +359,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Run diagonally or in a straight line any distance, through objects. Wind blows over tiles you run through.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "6" }
+			{ label: "Cost", content: "6 MP" }
 		]
 	},
 	{
@@ -369,7 +369,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Emit 10 Sparkles. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "12" }
+			{ label: "Cost", content: "12 MP" }
 		]
 	},
 	{
@@ -379,7 +379,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +8 Shield and knock back adjacent units two tiles. This spell costs 3 mana less and grants 1 extra Shield for each action you've taken this turn. (Castable once per turn.)",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "22-X*3" }
+			{ label: "Cost", content: "22-X*3" }
 		]
 	},
 	{
@@ -389,7 +389,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Move one tile and gain +1 Shield. This spell costs 0 mana the first time you cast it each turn.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "4" }
+			{ label: "Cost", content: "4 MP" }
 		]
 	},
 	{
@@ -399,7 +399,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A melee attack with a 100% critical hit chance. RELOAD: Take damage.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "0" }
+			{ label: "Cost", content: "0 MP" }
 		]
 	},
 	{
@@ -409,7 +409,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Convert your Shield to STRENGTH and DEXTERITY for the rest of the battle.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	},
 	{
@@ -419,7 +419,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Summon a half-sized copy of yourself with half your stats. It's AI-controlled and CAN use spells.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "9" }
+			{ label: "Cost", content: "9 MP" }
 		]
 	},
 	{
@@ -429,7 +429,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Cleanse your debuffs and gain +1 Shield. At the end of each round, automatically cast this spell for free.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "4" }
+			{ label: "Cost", content: "4 MP" }
 		]
 	},
 	{
@@ -439,7 +439,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A weak melee attack that hits two extra times for each empty armor slot you have.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	},
 	{
@@ -449,7 +449,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Dash forward X spaces, gain +X Shield, deal X damage, and deal X knockback. X is equal to twice the number of empty armor slots you have.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "7" }
+			{ label: "Cost", content: "7 MP" }
 		]
 	},
 	{
@@ -459,7 +459,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +1 Dexterity, +1 Speed and +1 Strength. This spell costs 2 mana less for each empty armor slot you have.",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "8-X*2" }
+			{ label: "Cost", content: "8-X*2" }
 		]
 	},
 	{
@@ -469,7 +469,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "For the rest of the battle, you can move an extra time each turn. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "9" }
+			{ label: "Cost", content: "9 MP" }
 		]
 	},
 	{
@@ -479,7 +479,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "For the rest of the battle, you can attack an extra time each turn. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "12" }
+			{ label: "Cost", content: "12 MP" }
 		]
 	},
 	{
@@ -489,7 +489,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "For the rest of the battle, the first spell you cast each turn is cast twice. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "13" }
+			{ label: "Cost", content: "13 MP" }
 		]
 	},
 	{
@@ -499,7 +499,7 @@ const MONK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +1 Brace. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Monk" },
-			{ label: "Mana Cost", content: "9" }
+			{ label: "Cost", content: "9 MP" }
 		]
 	}
 ];

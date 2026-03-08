@@ -8,7 +8,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Your next basic attack has +3 range.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -18,7 +18,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Transform this spell into a random upgraded Fighter spell permanently.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
     unlock: "Complete The Core with the Fighter"
   },
@@ -29,7 +29,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "A target ally moves toward you.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "2" },
+      { label: "Cost", content: "2 MP" },
     ],
   },
   {
@@ -39,7 +39,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Turn any tile into a small grass tile.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "1" },
+      { label: "Cost", content: "1 MP" },
     ],
   },
   {
@@ -49,7 +49,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Trigger the Poison, Bleed, and Burn effects on a unit. If that unit isn't Poisoned, Bleeding, or Burning, they gain 1 of each.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "6" },
+      { label: "Cost", content: "6 MP" },
     ],
   },
   {
@@ -59,7 +59,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Transform this spell into a random upgraded Tank spell permanently.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
     unlock: "Complete The Core with the Tank"
   },
@@ -70,7 +70,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Transform this spell into a random upgraded Mage spell permanently.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "12" },
+      { label: "Cost", content: "12 MP" },
     ],
     unlock: "Complete The Core with the Mage"
   },
@@ -81,7 +81,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Trample over 3 tiles.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -91,7 +91,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Throw a stronger nail that ignores shield. (This spell costs less.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "5" },
+      { label: "Cost", content: "5 MP" },
     ],
   },
   {
@@ -101,7 +101,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "This spell is an upgraded copy of the most recent spell an allied cat cast.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "5" },
+      { label: "Cost", content: "5 MP" },
     ],
   },
   {
@@ -111,7 +111,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Transform this spell into a random upgraded Psychic spell permanently.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
     unlock: "Complete The Core with the Psychic"
   },
@@ -122,7 +122,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "There is a 1 in 6 chance this will kill you. If it doesn't, gain +2 to a random stat and 2-4 coins.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "2" },
+      { label: "Cost", content: "2 MP" },
     ],
   },
   {
@@ -132,7 +132,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Swap a unit's highest and lowest stats. (Ties are chosen at random)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "2" },
+      { label: "Cost", content: "2 MP" },
     ],
   },
   {
@@ -142,7 +142,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Swap positions with any unit. (Castable once per turn.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
   },
   {
@@ -152,7 +152,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Steal all of an ally's mana. (Castable once per turn.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
   },
   {
@@ -162,7 +162,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "You or another unit reflects the next projectile that hits them back at the attacker.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "6" },
+      { label: "Cost", content: "6 MP" },
     ],
   },
   {
@@ -172,7 +172,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Spray a unit with water, cleansing its debuffs and making a puddle. (This spell costs 0 mana. Castable once per battle.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "5" },
+      { label: "Cost", content: "5 MP" },
     ],
   },
   {
@@ -182,7 +182,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Spit attack with infinite range that deals 2 damage in an area.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -192,7 +192,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Spend a coin to spawn a random pickup on an empty tile of your choice. (Castable once per turn.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
   },
   {
@@ -202,7 +202,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Spend 7 coins, summon a Bounty Hunter with 2 All Stats Up. (Castable once per turn.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
   },
   {
@@ -212,7 +212,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Spend 2 coins, teleport to any tile. (Castable once per turn.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
   },
   {
@@ -222,7 +222,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Spend 5 coins, heal 15 HP. (Castable once per turn.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
   },
   {
@@ -232,7 +232,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Spend 5 coins, gain All Stats Up and refresh your basic attack and movement actions. (Castable once per turn.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
   },
   {
@@ -242,7 +242,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Spend 5 coins, gain 15 mana. (Castable once per turn.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
   },
   {
@@ -252,7 +252,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Tiles in an area become random tiles.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "2" },
+      { label: "Cost", content: "2 MP" },
     ],
   },
   {
@@ -262,7 +262,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Spawn a poop on an adjacent tile. Inflict Poison 3 and a 15% chance to Stun if you poop on a unit.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "3" },
+      { label: "Cost", content: "3 MP" },
     ],
   },
   {
@@ -272,7 +272,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Spawn a crate within range 5.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -282,7 +282,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Spawn a big cooked meat pickup.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "5" },
+      { label: "Cost", content: "5 MP" },
     ],
   },
   {
@@ -292,7 +292,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Spawn 'water' tiles in a larger area around yourself.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "2" },
+      { label: "Cost", content: "2 MP" },
     ],
   },
   {
@@ -302,7 +302,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Shoot a Wet hairball that deals more damage in an area.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "7" },
+      { label: "Cost", content: "7 MP" },
     ],
   },
   {
@@ -312,7 +312,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Roll any number of tiles in a diagonal line.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -322,7 +322,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Roll up to ten tiles in a straight line.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -332,7 +332,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Revive an adjacent body to 5 HP. (This spell costs less.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "6" },
+      { label: "Cost", content: "6 MP" },
     ],
   },
   {
@@ -342,7 +342,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Remove all of your debuffs, gain All Stats Up, then fall asleep.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "2" },
+      { label: "Cost", content: "2 MP" },
     ],
   },
   {
@@ -352,7 +352,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Remove 1 stack of a random debuff from and heal 1 HP to yourself and all adjacent units.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -362,7 +362,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Refresh your basic attack, movement, weapon, and trinket action. (This spell costs 0 mana. Castable once per battle.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "8" },
+      { label: "Cost", content: "8 MP" },
     ],
   },
   {
@@ -372,7 +372,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Reduce the cost of ALL of your spells by 1 mana.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "7" },
+      { label: "Cost", content: "7 MP" },
     ],
   },
   {
@@ -382,7 +382,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Pull a unit towards you. Deal 1 damage and inflict 1 Bleed on them.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "3" },
+      { label: "Cost", content: "3 MP" },
     ],
   },
   {
@@ -392,7 +392,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Pull a pickup all the way toward you. (Castable once per turn)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
   },
   {
@@ -402,7 +402,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Transform this spell into a random upgraded Druid spell permanently.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "2" },
+      { label: "Cost", content: "2 MP" },
     ],
     unlock: "Complete The Core with the Druid"
   },
@@ -413,7 +413,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Move two tiles. (Castable once per turn.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
   },
   {
@@ -423,7 +423,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Move up to 3 tiles, leaving a maggot familiar behind you.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -433,7 +433,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Knockback a unit 10 tiles. (This spell costs less.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "3" },
+      { label: "Cost", content: "3 MP" },
     ],
   },
   {
@@ -443,7 +443,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Knead another unit. Allies gain +2 Damage, enemies gain Weakness 2.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "5" },
+      { label: "Cost", content: "5 MP" },
     ],
   },
   {
@@ -453,7 +453,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Inflict Burn 1 and Blind 1 in an area at infinite range.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "6" },
+      { label: "Cost", content: "6 MP" },
     ],
   },
   {
@@ -463,7 +463,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Inflict Burn 1 on a unit in range 5.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "3" },
+      { label: "Cost", content: "3 MP" },
     ],
   },
   {
@@ -473,7 +473,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Inflict 4 Confusion on units in an area.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "5" },
+      { label: "Cost", content: "5 MP" },
     ],
   },
   {
@@ -483,7 +483,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Inflict -1 Damage and -1 Constitution on a unit.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -493,7 +493,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Immobilize a unit in range 4. This only has a 25% chance to work on boss units and large enemies.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -503,7 +503,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Hop up to 4 tiles away.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "3" },
+      { label: "Cost", content: "3 MP" },
     ],
   },
   {
@@ -513,7 +513,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Heal yourself or another unit 1 HP. 50% chance to also give +1 Constitution.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "3" },
+      { label: "Cost", content: "3 MP" },
     ],
   },
   {
@@ -523,7 +523,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Heal yourself HP equal to half your STRENGTH, rounded up. (This spell costs less.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "3" },
+      { label: "Cost", content: "3 MP" },
     ],
   },
   {
@@ -533,7 +533,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Heal yourself 1 and gain +1 to a random stat.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "2" },
+      { label: "Cost", content: "2 MP" },
     ],
   },
   {
@@ -543,7 +543,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Heal a lot of HP, then fall asleep.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "2" },
+      { label: "Cost", content: "2 MP" },
     ],
   },
   {
@@ -553,7 +553,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Heal another unit by 2 HP at infinite range.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -563,7 +563,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Heal an adjacent unit by 2 HP. Healed enemies gain Confusion 3.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -573,7 +573,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Transform this spell into a random upgraded Cleric spell permanently.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
     unlock: "Complete The Core with the Cleric"
   },
@@ -584,7 +584,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Give any unit +2 Charge. (Castable once per turn.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
   },
   {
@@ -594,7 +594,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "This spell becomes a random upgraded Monk spell permanently.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
     unlock: "Complete The Core with the Monk"
   },
@@ -605,7 +605,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Gain 10 random stat ups, then transform this spell into a random upgraded class spell permanently.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
     unlock: "Complete The Core with the Jester"
   },
@@ -616,7 +616,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Gain 0 Shield. Increase this spell's Shield by 3 at the end of each turn. (Castable once per battle.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
   },
   {
@@ -626,7 +626,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Gain 0 mana. Increase this spell's mana gain by 3 at the end of each turn. (Castable once per battle.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
   },
   {
@@ -636,7 +636,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Gain +20% Dodge Chance, +4 Speed, and -2 Damage. (This spell costs 0 mana. Castable once per battle.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "5" },
+      { label: "Cost", content: "5 MP" },
     ],
   },
   {
@@ -646,7 +646,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Gain +2% critical hit chance. If your next attack is critical, deal +200% more damage and spawn more coins.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "2" },
+      { label: "Cost", content: "2 MP" },
     ],
   },
   {
@@ -656,7 +656,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Gain +5 Shield.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "5" },
+      { label: "Cost", content: "5 MP" },
     ],
   },
   {
@@ -666,7 +666,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Gain +1 Thorns. (This spell costs less.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -676,7 +676,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Gain +1 temporary Brace until your next turn and deal 3 knockback to each adjacent unit. (This spell costs less.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "5" },
+      { label: "Cost", content: "5 MP" },
     ],
   },
   {
@@ -686,7 +686,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Gain +1 temporary Brace and +1 temporary Thorns until your next turn.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "3" },
+      { label: "Cost", content: "3 MP" },
     ],
   },
   {
@@ -696,7 +696,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Gain +1 Strength. Bonus Passive: Your basic attack inflicts Bleed.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -706,7 +706,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Gain +1 Speed. Bonus Passive: You're unaffected by tile effects.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -716,7 +716,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Gain +1 Magic Damage until end of turn. (This spell costs less.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "3" },
+      { label: "Cost", content: "3 MP" },
     ],
   },
   {
@@ -726,7 +726,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Gain +1 Luck. You have +99 Luck during your next action.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -736,7 +736,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Gain +1 Intelligence and conjure a random bonus ability.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -746,7 +746,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Gain +1 Dexterity. Bonus Passive: +25% critical hit chance.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -756,7 +756,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Gain +1 Constitution. Bonus Passive: +3 Health Regeneration.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "3" },
+      { label: "Cost", content: "3 MP" },
     ],
   },
   {
@@ -766,7 +766,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Gain +1 Charisma. Bonus Passive: You have a chance to inflict Charm on units that contact or attack you. This chance increases with your Charisma.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "2" },
+      { label: "Cost", content: "2 MP" },
     ],
   },
   {
@@ -776,7 +776,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Fire a magical blast. (This spell costs 0 mana. Castable once per battle.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "7" },
+      { label: "Cost", content: "7 MP" },
     ],
   },
   {
@@ -786,7 +786,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Exchange your movement action for an additional basic attack, and vice versa. (This spell costs 0 mana the first time you cast it each turn.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "3" },
+      { label: "Cost", content: "3 MP" },
     ],
   },
   {
@@ -796,7 +796,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Each unit turns to face you. 20% chance to Confuse enemies.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "2" },
+      { label: "Cost", content: "2 MP" },
     ],
   },
   {
@@ -806,7 +806,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Down yourself. You don't get injured. Revive at the end of the next round at full HP.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
   },
   {
@@ -816,7 +816,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Double a unit's Poison, Bleed, and Burn. (This spell costs 0 mana. Castable once per battle.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "8" },
+      { label: "Cost", content: "8 MP" },
     ],
   },
   {
@@ -826,7 +826,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Gain 1 Charge.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "1" },
+      { label: "Cost", content: "1 MP" },
     ],
   },
   {
@@ -836,7 +836,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Dig up a small rock. (This spell costs less.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -846,7 +846,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Dig to any open tile. (Castable once per battle. This spell costs 0 mana.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "3" },
+      { label: "Cost", content: "3 MP" },
     ],
   },
   {
@@ -856,7 +856,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Transform this spell into a random upgraded Tinkerer spell permanently.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
     unlock: "Complete The Core with the Tinkerer"
   },
@@ -867,7 +867,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Transform this spell into a random Necromancer spell permanently.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
     unlock: "Complete The Core with the Necromancer"
   },
@@ -878,7 +878,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Destroy a body and gain 2 mana.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
   },
   {
@@ -888,7 +888,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Deal 1 ice damage and inflict Slow 1 at infinite range. (This spell costs less.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "6" },
+      { label: "Cost", content: "6 MP" },
     ],
   },
   {
@@ -898,7 +898,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Deal 1 electric damage with a 25% chance to Stun at infinite range.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -908,7 +908,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Deal 1 damage to yourself. Spawn a friendly flea.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "3" },
+      { label: "Cost", content: "3 MP" },
     ],
   },
   {
@@ -918,7 +918,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Deal 1 damage to any unit. If this kills it, gain 5 mana.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "3" },
+      { label: "Cost", content: "3 MP" },
     ],
   },
   {
@@ -928,7 +928,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Deal 2 damage to a random unit. If you kill that unit, take an extra turn. (This spell costs less.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "6" },
+      { label: "Cost", content: "6 MP" },
     ],
   },
   {
@@ -938,7 +938,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Damage, Inflict Poison 6 and Knock Up nearby units in a larger area. There will be permanent consequences for casting this spell… (Castable once per turn.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
   },
   {
@@ -949,7 +949,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     unlock: "Complete The Core with a Collarless cat",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "1" },
+      { label: "Cost", content: "1 MP" },
     ],
   },
   {
@@ -959,7 +959,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Transform this spell into a random upgraded Butcher spell permanently.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "1" },
+      { label: "Cost", content: "1 MP" },
     ],
     unlock: "Complete The Core with the Butcher"
   },
@@ -970,7 +970,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Chuck a rock at a unit, inflicting Stun on that unit. (This spell costs 0 mana. Castable once per battle.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "5" },
+      { label: "Cost", content: "5 MP" },
     ],
   },
   {
@@ -981,7 +981,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     unlock: "Complete The Caves with a Collarless cat",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "5" },
+      { label: "Cost", content: "5 MP" },
     ],
   },
   {
@@ -991,7 +991,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Blow units in a larger cone back 1 tile.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -1001,7 +1001,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Units within three tiles of you turn away from you.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "2" },
+      { label: "Cost", content: "2 MP" },
     ],
   },
   {
@@ -1011,7 +1011,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Adjacent units move away from you. Inflict Fear on them.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "6" },
+      { label: "Cost", content: "6 MP" },
     ],
   },
   {
@@ -1021,7 +1021,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "A weak melee attack with a chance to repeat.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "5" },
+      { label: "Cost", content: "5 MP" },
     ],
   },
   {
@@ -1031,7 +1031,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Transform this spell into a random upgraded Thief spell permanently.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
     unlock: "Complete The Core with the Thief"
   },
@@ -1042,7 +1042,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "A spell that deals 0 damage. Increase this spell's damage by 3 at the end of each turn. (Castable once per battle.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0 MP" },
     ],
   },
   {
@@ -1052,7 +1052,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "A stronger ranged attack that turns anything it kills into meat.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "6" },
+      { label: "Cost", content: "6 MP" },
     ],
   },
   {
@@ -1062,7 +1062,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "A ranged attack that deals damage equal to half your Constitution, rounded up. (This spell costs less.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "6" },
+      { label: "Cost", content: "6 MP" },
     ],
   },
   {
@@ -1072,7 +1072,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "A melee attack that deals damage equal to half your Dexterity, rounded up. (This spell costs less.)",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "6" },
+      { label: "Cost", content: "6 MP" },
     ],
   },
   {
@@ -1082,7 +1082,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Transform this spell into a random upgraded Hunter spell permanently.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "5" },
+      { label: "Cost", content: "5 MP" },
     ],
     unlock: "Complete The Core with the Hunter"
   },
@@ -1093,7 +1093,7 @@ const COLLARLESS_ACTIVE_OBJECTS: GameObject[] = [
     description2: "A lightning bolt that heals allies and has a chance to Stun enemies.",
     notes: [
       { label: "Class", content: "Collarless" },
-      { label: "Mana Cost", content: "7" },
+      { label: "Cost", content: "7 MP" },
     ],
   },
   // ...existing code...

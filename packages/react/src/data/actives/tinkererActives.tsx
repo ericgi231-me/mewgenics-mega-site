@@ -8,7 +8,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Craft a Tinkerer armor piece into one of your or an adjacent unit's empty armor slots.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -18,7 +18,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "You or another unit takes an extra turn after this one. That unit is AI controlled on that turn. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "10" },
+			{ label: "Cost", content: "10 MP" },
 		],
 	},
 	{
@@ -28,7 +28,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn a Bombchu bot in range 4. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -38,7 +38,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn a mini-nuke in range 4 that makes a HUGE explosion when it dies.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "9" },
+			{ label: "Cost", content: "9 MP" },
 		],
 	},
 	{
@@ -48,7 +48,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Summon a rocket turret.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "8" },
+			{ label: "Cost", content: "8 MP" },
 		],
 	},
 	{
@@ -58,7 +58,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn a Catbot and give it your current weapon. Gain +1 Tech and refresh your basic action. (You will not get the weapon back)",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "8" },
+			{ label: "Cost", content: "8 MP" },
 		],
 	},
 	{
@@ -68,7 +68,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Craft and equip a random temporary weapon for yourself or an ally in range 3 (if they have an empty weapon slot).",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -78,7 +78,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spend all of your mana, then deal that much electric damage to an adjacent unit with a 10% Stun chance for each point of mana spent.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "X" },
+			{ label: "Cost", content: "X MP" },
 		],
 	},
 	{
@@ -88,7 +88,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Dig to a tile in a straight line. If you dig into a unit, explode dealing 5 damage in an area (including to yourself).",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -98,7 +98,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Explode and fly to a random tile at least four tiles away. This explosion damages you. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -108,7 +108,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Summon a nail that arcs electricity to neighboring tiles whenever any unit spends mana. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -118,7 +118,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give your weapon +3 electric damage. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -128,7 +128,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +3 Tech. (This spell can only be cast once per battle.)",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -138,7 +138,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport to any tile. You have a 15% chance to equip a piece of Fly armor that breaks any armor pieces it replaces. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -148,7 +148,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give an ally in range 3 a temporary copy of your weapon, if they don't have a weapon. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -158,7 +158,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Refresh your weapon and trinket actions (unless they gain you mana). Repair 1 use to all of your equipment.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "8" },
+			{ label: "Cost", content: "8 MP" },
 		],
 	},
 	{
@@ -168,7 +168,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Throw small 1-damage explosives at all tiles in an area.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -178,7 +178,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give +7 Shield and Burn 3 to yourself or an adjacent unit.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -188,7 +188,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "You or an adjacent unit gain +1 to 2 random stats.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "2" },
+			{ label: "Cost", content: "2 MP" },
 		],
 	},
 	{
@@ -198,7 +198,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +6 Shield. This spell's mana cost is equal to your current Shield.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "1" },
+			{ label: "Cost", content: "1 MP" },
 		],
 	},
 	{
@@ -208,7 +208,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Deal 1 damage to a unit for each unique divisor in its current HP value. If its HP was a prime number, gain 5 mana.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -219,7 +219,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
     unlock: "Complete The Caves with the Tinkerer",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "15" },
+			{ label: "Cost", content: "15 MP" },
 		],
 	},
 	{
@@ -229,7 +229,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn a nurse bot that heals allies. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "9" },
+			{ label: "Cost", content: "9 MP" },
 		],
 	},
 	{
@@ -239,7 +239,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn a Rubber Fist Bot within a large range.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -249,7 +249,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Destroy your weapon to gain +1 Tech and refresh your basic action. This spell costs 1 mana if you haven't used your weapon this turn.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -259,7 +259,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Collect a pickup in range 3. Instead of its normal effect, gain +1 Tech, +1 Shield, and +1 to a random stat.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "1" },
+			{ label: "Cost", content: "1 MP" },
 		],
 	},
 	{
@@ -269,7 +269,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Explode a familiar, dealing 5 damage with knockback in an area. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -279,7 +279,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Repair all uses to all of your or an adjacent unit's equipment.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -289,7 +289,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Lose all Shield, then give Shield equal to your equipment's starting Shield to yourself or another ally.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -299,7 +299,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Conjure a random upgraded spell of your class as a bonus ability.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -309,7 +309,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +1 Tech. Bonus Passive: Crafting subtracts 1 Tech instead of all of it.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -319,7 +319,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn a vacuum bot that collects pickups and shares their effects with your whole team.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -329,7 +329,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Jump to any open tile. Explode when you land. (This explosion also damages you.) (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "8" },
+			{ label: "Cost", content: "8 MP" },
 		],
 	},
 	{
@@ -339,7 +339,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Dash forward in a straight line then explode dealing damage in an larger area (including to yourself).",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -349,7 +349,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Lose 1 Shield. Spawn a junk pile in range 2.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "1" },
+			{ label: "Cost", content: "1 MP" },
 		],
 	},
 	{
@@ -359,7 +359,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Deal 1 electric damage to yourself or a unit in range 5. Cleanse debuffs from that unit, give it a random stat up, and a 25% chance to be Stunned.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -369,7 +369,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Deal damage to all units. The closer a unit is to you the more damage it takes. (Deals more damage to closer units and less damage to further units.)",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -379,7 +379,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Fly to any tile. If you land on a unit, explode dealing 5 damage in an area (including to yourself).",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -389,7 +389,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Deal 2 electric damage with a random amount of knockback (up to 10) to all adjacent units.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -399,7 +399,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Smash your weapon onto an adjacent unit, destroying it and dealing double its damage. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -409,7 +409,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Destroy your weapon and gain one of the following: +4 Shield, +8 Charge, +2 Thorns, or 2 coins.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "1" },
+			{ label: "Cost", content: "1 MP" },
 		],
 	},
 	{
@@ -419,7 +419,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Shoot electric bolts at up to 5 random enemies or robots.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -429,7 +429,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn a decoy that explodes when it dies. When an enemy targets you, swap places with the decoy.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "8" },
+			{ label: "Cost", content: "8 MP" },
 		],
 	},
 	{
@@ -439,7 +439,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Deal 50 damage to and inflict Burn 10 on all enemies. You can pay for this spell over multiple turns. This spell absorbs the mana you spend casting other spells. (This spell's mana cost can't be modified.)",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "50" },
+			{ label: "Cost", content: "50 MP" },
 		],
 	},
 	{
@@ -449,7 +449,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Jump up to 5 tiles away.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "2" },
+			{ label: "Cost", content: "2 MP" },
 		],
 	},
 	{
@@ -459,7 +459,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn a tesla coil in range 7 that shoots lightning bolts at random units with a small chance to inflict Stun.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -469,7 +469,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Shoot an explosive homing missile at a random enemy. This spell has a 66% chance to be disabled on each turn. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -479,7 +479,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Get +6 Shield and +1 temporary Brace. This spell has a 66% chance to be disabled on each turn. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -489,7 +489,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Fully heal a familiar and give it All Stats Up and +1 Holy Shield.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -499,7 +499,7 @@ const TINKERER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport to anything that's electrically conductive. Displace units you teleport onto and deal electric damage to them with a 50% chance to inflict Stun.",
 		notes: [
 			{ label: "Class", content: "Tinkerer" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 ];

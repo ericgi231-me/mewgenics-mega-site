@@ -8,7 +8,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spend all your mana. Give a unit within your line of sight a random stat up for every 2 mana spent (rounded up). Give enemies random stat downs instead.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "X" }
+			{ label: "Cost", content: "X MP" }
 		]
 	},
 	{
@@ -18,7 +18,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Target yourself or a unit within your line of sight and upgrade one of their spells at random for the rest of the battle.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "8" }
+			{ label: "Cost", content: "8 MP" }
 		]
 	},
 	{
@@ -28,7 +28,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Make an asteroid fall onto a tile within your line of sight. The asteroid deals damage, bruises and leaves a boulder.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "9" }
+			{ label: "Cost", content: "9 MP" }
 		]
 	},
 	{
@@ -38,7 +38,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Vaporize everything on a tile within your line of sight. Against a boss, this deals massive damage and inflicts Stun instead.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "14" }
+			{ label: "Cost", content: "14 MP" }
 		]
 	},
 	{
@@ -48,7 +48,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Blind 2 on each enemy within five tiles of you in your line of sight.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	},
 	{
@@ -58,7 +58,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Swap positions with a random unit. If that unit was an enemy, you inflict Confusion on it.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "2" }
+			{ label: "Cost", content: "2 MP" }
 		]
 	},
 	{
@@ -68,7 +68,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Deal damage to a unit in your line of sight, then increase this spell's damage by 1 for the rest of the battle. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "6" }
+			{ label: "Cost", content: "6 MP" }
 		]
 	},
 	{
@@ -78,7 +78,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport to the last tile you targeted with an ability. Displace and damage any units on that tile.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "1" }
+			{ label: "Cost", content: "1 MP" }
 		]
 	},
 	{
@@ -88,7 +88,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Take an extra turn. You have a 75% chance to be stunned and don't regenerate mana on that turn. (This spell can't be cast on extra turns.)",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "4" }
+			{ label: "Cost", content: "4 MP" }
 		]
 	},
 	{
@@ -98,7 +98,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Every ally that hasn't taken their turn yet takes their turn right after yours. Those units get +4 temporary SPEED. You go first next round.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "4" }
+			{ label: "Cost", content: "4 MP" }
 		]
 	},
 	{
@@ -108,7 +108,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport to any tile. At the end of your turn, teleport back to your original tile and deal 10 damage to any unit you teleport into. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "7" }
+			{ label: "Cost", content: "7 MP" }
 		]
 	},
 	{
@@ -118,7 +118,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport two tiles away. Displace any units you teleport into and inflict them with Confusion 2 and Blind 2.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "4" }
+			{ label: "Cost", content: "4 MP" }
 		]
 	},
 	{
@@ -128,7 +128,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Turn a unit within your line of sight 180 degrees. Inflict Confusion 2 and Magic Weakness 1 on that unit.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "4" }
+			{ label: "Cost", content: "4 MP" }
 		]
 	},
 	{
@@ -138,7 +138,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A unit within your line of sight backflips out of the way the next time they're targeted by an enemy. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	},
 	{
@@ -148,7 +148,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Madness and Confusion on a unit in your line of sight.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "7" }
+			{ label: "Cost", content: "7 MP" }
 		]
 	},
 	{
@@ -158,7 +158,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Deal 10 Knockback to adjacent units. If you cast this from full mana, the units take 10 damage on collision and get stunned.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "6" }
+			{ label: "Cost", content: "6 MP" }
 		]
 	},
 	{
@@ -168,7 +168,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Pull units in a larger area toward a tile at infinite range.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "3" }
+			{ label: "Cost", content: "3 MP" }
 		]
 	},
 	{
@@ -178,7 +178,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Deal damage with Knockback 4, Chain Knockback and inflict Bruise 1 in a cone.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "6" }
+			{ label: "Cost", content: "6 MP" }
 		]
 	},
 	{
@@ -188,7 +188,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn a friendly illusion of a random unit that fades away after one turn. The illusion gets +4 Speed and +2 Damage.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "7" }
+			{ label: "Cost", content: "7 MP" }
 		]
 	},
 	{
@@ -198,7 +198,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Slow 1 on each unit in an area around a tile within your line of sight. If you cast this from full mana, instead inflict Immobilize 1 and deal 6 damage.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "3" }
+			{ label: "Cost", content: "3 MP" }
 		]
 	},
 	{
@@ -208,7 +208,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Swap positions with a unit in your line of sight. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "4" }
+			{ label: "Cost", content: "4 MP" }
 		]
 	},
 	{
@@ -218,7 +218,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Every unit within your line of sight turns away from you and is inflicted with Blind 1.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "2" }
+			{ label: "Cost", content: "2 MP" }
 		]
 	},
 	{
@@ -228,7 +228,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport into a unit within your line of sight. Deal damage and displace it.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "6" }
+			{ label: "Cost", content: "6 MP" }
 		]
 	},
 	{
@@ -238,7 +238,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Every enemy in your line of sight takes an extra turn. They are charmed on that turn. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "10" }
+			{ label: "Cost", content: "10 MP" }
 		]
 	},
 	{
@@ -248,7 +248,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Mana Leech 2 and Weakness 2 on all units within 5 tiles of you.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	},
 	{
@@ -258,7 +258,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Damage and throw each unit in a target area to random tiles.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	},
 	{
@@ -268,7 +268,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Target an allied cat within your line of sight. Cast one of their spells at random for free (or use their basic attack if theres no good spells). (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "7" }
+			{ label: "Cost", content: "7 MP" }
 		]
 	},
 	{
@@ -278,7 +278,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Charm an enemy within your line of sight for the rest of the battle. That unit immediately takes an extra turn.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "15" }
+			{ label: "Cost", content: "15 MP" }
 		]
 	},
 	{
@@ -288,7 +288,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give another unit +10 mana and an extra turn after this one. This spell can't be cast during extra turns.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "10" }
+			{ label: "Cost", content: "10 MP" }
 		]
 	},
 	{
@@ -298,7 +298,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Push away each unit near a target area. This inflicts Madness and has a small chance to inflict Stun.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	},
 	{
@@ -308,7 +308,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Magic Weakness 2 and Confusion 1 on all non-allied units in your line of sight.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "7" }
+			{ label: "Cost", content: "7 MP" }
 		]
 	},
 	{
@@ -318,7 +318,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give a unit within your line of sight All Stats Up and force it to move and attack one of its enemies.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "8" }
+			{ label: "Cost", content: "8 MP" }
 		]
 	},
 	{
@@ -328,7 +328,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give a unit within your line of sight an extra turn immediately, then end your turn. Castable only if you haven't taken any actions this turn other than your movement action. (This can't be cast on extra turns.)",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "3" }
+			{ label: "Cost", content: "3 MP" }
 		]
 	},
 	{
@@ -338,7 +338,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Deal 1 damage to any unit within your line of sight. RELOAD: Spend mana. Bonus Passive: +2 Intelligence.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "0" }
+			{ label: "Cost", content: "0 MP" }
 		]
 	},
 	{
@@ -348,7 +348,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Deal damage to and inflict Bruise on a unit within your line of sight. This damage counts as physical damage and scales with STRENGTH.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	},
 	{
@@ -358,7 +358,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport exactly three tiles away. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	},
 	{
@@ -368,7 +368,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Force a unit within your line of sight to attack in the direction it's facing.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "3" }
+			{ label: "Cost", content: "3 MP" }
 		]
 	},
 	{
@@ -378,7 +378,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Replace your spells with upgraded versions of the spells of an ally cat until the end of the turn.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "3" }
+			{ label: "Cost", content: "3 MP" }
 		]
 	},
 	{
@@ -388,7 +388,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Randomize the positions of all units. Enemies get Confused. Non-boss enemies have a 10% chance to be erased from existence.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "6" }
+			{ label: "Cost", content: "6 MP" }
 		]
 	},
 	{
@@ -398,7 +398,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Revive all bodies, fully heal all units, and clear all status effects. Castable while you're downed. It costs 0 mana if you're downed. (This spell can be cast only once per battle.)",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "16" }
+			{ label: "Cost", content: "16 MP" }
 		]
 	},
 	{
@@ -408,7 +408,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Create floating glass shards in an area within your line of sight.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	},
 	{
@@ -418,7 +418,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Dash up to five tiles in a straight line or diagonally. Leave floating glass shards on tiles you pass through.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	},
 	{
@@ -428,7 +428,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Collect any pickup within your line of sight. Gain +1 Luck.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "1" }
+			{ label: "Cost", content: "1 MP" }
 		]
 	},
 	{
@@ -438,7 +438,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Freeze 1, Blind 2, and Confusion 2 on a unit within your line of sight.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "8" }
+			{ label: "Cost", content: "8 MP" }
 		]
 	},
 	{
@@ -448,7 +448,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Cause enemies in a target area within your line of sight to each attack another enemy if they can.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "6" }
+			{ label: "Cost", content: "6 MP" }
 		]
 	},
 	{
@@ -459,7 +459,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
     unlock: "Complete The Caves with the Psychic",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "10" }
+			{ label: "Cost", content: "10 MP" }
 		]
 	},
 	{
@@ -469,7 +469,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Push a unit within your line of sight away from you 10 tiles with Chain Knockback.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "4" }
+			{ label: "Cost", content: "4 MP" }
 		]
 	},
 	{
@@ -479,7 +479,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give a unit within your line of sight +3 temporary Bleed Thorns until the end of its turn. If its was an ally, the Bleed Thorns last for the rest of the battle.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "7" }
+			{ label: "Cost", content: "7 MP" }
 		]
 	},
 	{
@@ -489,7 +489,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Restore all of your mana and fall asleep. (Castable once per turn. This spell costs 0 mana.)",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	},
 	{
@@ -499,7 +499,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport all enemies within a large area as close to the center of that area as possible and inflict Confusion on those units.",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	},
 	{
@@ -509,7 +509,7 @@ const PSYCHIC_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Pull any unit within your line of sight to a tile adjacent to you. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Psychic" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	}
 ];

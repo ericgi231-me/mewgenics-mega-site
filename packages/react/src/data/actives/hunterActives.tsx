@@ -1,4 +1,3 @@
-
 import type { GameObject } from "../../types";
 
 const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
@@ -9,7 +8,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Shoot 5 weak shots, each one has a 50% chance to miss and 50% chance to crit!",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "8" },
+			{ label: "Cost", content: "8 MP" },
 		],
 	},
 	{
@@ -19,7 +18,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "You or another unit gains +1 Bonus Attack at the start of their next turn.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -29,7 +28,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Set a bait trap that attracts enemies and inflicts Poison and Slow when eaten.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -40,7 +39,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
     unlock: "Complete The Caves with the Hunter",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "9" },
+			{ label: "Cost", content: "9 MP" },
 		],
 	},
 	{
@@ -50,7 +49,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Set a trap on any tile that damages and immobilizes units that walk over it.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -60,7 +59,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Toss a large bomb that explodes and knocks units away.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -70,7 +69,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Shoot a projectile that bounces everything adjacent to it back 3 tiles. They take 5 damage if they collide with something.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -80,7 +79,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Fire a shot that spawns brambles in a large area.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -90,7 +89,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn a charmed Tom Tom on any tile.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "9" },
+			{ label: "Cost", content: "9 MP" },
 		],
 	},
 	{
@@ -100,7 +99,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Shoot a random unit within range, twice!",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -110,7 +109,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn a trap that deals damage and inflicts Charm 1. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -120,7 +119,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Destroy a body. Create a big food pickup and equip a piece of Cat Hide armor to an empty armor slot.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -130,7 +129,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Collect all pickups within two tiles of you. Gain +1 Bonus Attack for each pickup instead of their normal effects. (This spell costs 1 mana.)",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "2" },
+			{ label: "Cost", content: "2 MP" },
 		],
 	},
 	{
@@ -140,7 +139,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Shoot four penetrating projectiles in an X shape.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -150,7 +149,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A shot that damages and inflicts Charm 2. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "12" },
+			{ label: "Cost", content: "12 MP" },
 		],
 	},
 	{
@@ -160,7 +159,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Shoot a pebble. All enemies within 3 tiles move toward it and gain Confusion.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -170,7 +169,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn a spider egg trap that deals damage and inflicts Infested 4.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -180,7 +179,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give a unit +20 range and reach until the end of their next turn.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -190,7 +189,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Shoot a projectile with infinite range that inflicts Burn 4 and lights fires.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -200,7 +199,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Shoot a champion flea at a unit.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -210,7 +209,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Shoot a projectile that always crits and ignores shield.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -220,7 +219,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "An attack that hits and immobilizes all units in a perpendicular line.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "9" },
+			{ label: "Cost", content: "9 MP" },
 		],
 	},
 	{
@@ -230,7 +229,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Hook onto something in a straight line and drag yourself to it. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -240,7 +239,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Shoot a high damage shot with a 70% chance to miss and a 50% chance to crit. (This spell has increased range.)",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -250,7 +249,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn bear traps on each tile exactly 2 tiles away.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -260,7 +259,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Toss a spider egg that deals low damage and inflicts Infested 2.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -270,7 +269,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Deal 1 damage to a unit. If this kills it, refresh your basic attack. This ignores shield and can't miss. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -280,7 +279,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A stronger attack that hits all units in a straight line.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -290,7 +289,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Marked on a unit and all other units of the same type.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -300,7 +299,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Shoot a needle that deals damage, gives Thorns, and ignores shield. This deals extra damage to enemies and gives extra Thorns to allies.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "2" },
+			{ label: "Cost", content: "2 MP" },
 		],
 	},
 	{
@@ -310,7 +309,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Marked 5 on a unit. RELOAD: Kill an enemy. This spell starts reloaded.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "0" },
+			{ label: "Cost", content: "0" },
 		],
 	},
 	{
@@ -320,7 +319,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Charm on a unit. It takes an extra turn immediately.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -330,7 +329,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "You and adjacent units each heal 5 HP and gain +1 Damage.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -340,7 +339,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give yourself or any other unit +1 Poison Lace.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -350,7 +349,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Fire a bunch of shots randomly in a large area.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -360,7 +359,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Until next turn, allied cats gain a bonus ability that can let you shoot a tile of their choice. (Castable once per turn. This spell costs 0 mana.)",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -370,7 +369,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Until your next turn, whenever an enemy ends movement in your basic attack range, attack it.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -380,7 +379,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Shoot a projectile that spawns glass in an area and inflicts Bleed 2.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -390,7 +389,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Each familiar in an area gains All Stats Up and heals 4 HP. Other units in the area gain +1 Constitution and heal 2 HP. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -400,7 +399,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Fire a stronger shot exactly 6 tiles away that ignores shield, can't miss, and has a 50% chance to crit.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -410,7 +409,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A ranged shot that heals and inflicts Charmed 2. Against allies this cleanses debuffs and inflicts Charmed 1 instead.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -420,7 +419,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn a champion Maggot familiar.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -430,7 +429,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn 2 pooter familiars.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -440,7 +439,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Set a trap that deals 13 damage.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -450,7 +449,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "End your turn. On your next turn, your ranged abilities deal double damage. (Costs 0 mana. Castable only if you haven't taken any other actions this turn other than your movement action.)",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -460,7 +459,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn brambles in an area.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -470,7 +469,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport up to 5 tiles away. Set a baited bear trap on the tile you teleported from.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -480,7 +479,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport to any grass or water tile. Gain Stealth.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -490,7 +489,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Shoot thrice.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "9" },
+			{ label: "Cost", content: "9 MP" },
 		],
 	},
 	{
@@ -500,7 +499,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A lobbed attack that spawns a baited bear trap if it kills a unit or destroys a body.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -510,7 +509,7 @@ const HUNTER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Set a web trap on any tile that webs non-bug units that walk through it.",
 		notes: [
 			{ label: "Class", content: "Hunter" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 ];

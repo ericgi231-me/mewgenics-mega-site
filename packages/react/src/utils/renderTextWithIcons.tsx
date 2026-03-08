@@ -1,53 +1,83 @@
-import { STAT_ICON_MAPPINGS, COLLAR_ICON_MAPPINGS } from "../data/textToIconMaps";
-import type { Stat, Collar } from "../types";
 
-const STAT_KEYS: Stat[] = Object.keys(STAT_ICON_MAPPINGS) as Stat[];
-const COLLAR_KEYS: Collar[] = Object.keys(COLLAR_ICON_MAPPINGS) as Collar[];
+import { STAT_ICON_MAPPINGS, COLLAR_ICON_MAPPINGS, STATUS_ICON_MAPPINGS } from "../data/textToIconMaps";
 
-export function renderTextWithIcons(text: string) {
-  // Build regex for both stats and collars (case-insensitive)
-  const statRegex = `\\b(${STAT_KEYS.join('|')})\\b`;
-  const collarRegex = `\\b(${COLLAR_KEYS.map(k => k.replace(/([.*+?^=!:${}()|[\\]\/\\])/g, "\\$1")).join('|')})\\b`;
-  const combinedRegex = new RegExp(`${statRegex}|${collarRegex}`, 'gi');
-  // Use matchAll to get indices and values
+type IconMap = {
+  [key: string]: string;
+};
+
+type IconSets = {
+  stats?: IconMap;
+  collars?: IconMap;
+  statuses?: IconMap;
+};
+
+function buildRegexFromKeys(keys: string[]): string {
+  // Escape regex special characters in keys
+  return keys.map(k => k.replace(/([.*+?^=!:${}()|[\\]\/\\])/g, "\\$1")).join('|');
+}
+
+export function renderTextWithIcons(
+  text: string,
+  iconSets: IconSets = {
+    stats: STAT_ICON_MAPPINGS,
+    collars: COLLAR_ICON_MAPPINGS,
+    statuses: STATUS_ICON_MAPPINGS,
+  }
+) {
+  // Collect all keys from all icon sets
+  const allKeys: string[] = [];
+  const keyToType: { [key: string]: string } = {};
+  const keyMap: { [lower: string]: string } = {};
+  if (iconSets.stats) {
+    Object.keys(iconSets.stats).forEach(k => {
+      allKeys.push(k);
+      keyToType[k.toLowerCase()] = 'stat';
+      keyMap[k.toLowerCase()] = k;
+    });
+  }
+  if (iconSets.collars) {
+    Object.keys(iconSets.collars).forEach(k => {
+      allKeys.push(k);
+      keyToType[k.toLowerCase()] = 'collar';
+      keyMap[k.toLowerCase()] = k;
+    });
+  }
+  if (iconSets.statuses) {
+    Object.keys(iconSets.statuses).forEach(k => {
+      allKeys.push(k);
+      keyToType[k.toLowerCase()] = 'status';
+      keyMap[k.toLowerCase()] = k;
+    });
+  }
+  const regexStr = `\\b(${buildRegexFromKeys(allKeys)})\\b`;
+  const combinedRegex = new RegExp(regexStr, 'gi');
   const matches = Array.from(text.matchAll(combinedRegex));
   const result: React.ReactNode[] = [];
   let lastIndex = 0;
   matches.forEach((match, i) => {
     const matchText = match[0];
     const start = match.index ?? 0;
-    // Add text before the match
     if (start > lastIndex) {
       result.push(text.slice(lastIndex, start));
     }
-    // Stat icon rendering (case-insensitive)
-    const statKey = STAT_KEYS.find(k => k.toLowerCase() === matchText.toLowerCase());
-    if (statKey) {
-      const icon = STAT_ICON_MAPPINGS[statKey];
-      result.push(
-        <span key={"stat-" + i} className="inline-flex items-center mr-1 align-middle mb-1">
-          {icon && <img src={icon} alt={statKey} className="w-5 h-5 mr-1 align-middle" />}
-          <span className="align-middle">{matchText}</span>
-        </span>
-      );
-      lastIndex = start + matchText.length;
-      return;
+    const matchType = keyToType[matchText.toLowerCase()];
+    const originalKey = keyMap[matchText.toLowerCase()];
+    let icon = undefined;
+    if (matchType === 'stat' && iconSets.stats && originalKey) {
+      icon = iconSets.stats[originalKey];
+    } else if (matchType === 'collar' && iconSets.collars && originalKey) {
+      icon = iconSets.collars[originalKey];
+    } else if (matchType === 'status' && iconSets.statuses && originalKey) {
+      icon = iconSets.statuses[originalKey];
     }
-    // Collar icon rendering (case-insensitive)
-    const collarKey = COLLAR_KEYS.find(k => k.toLowerCase() === matchText.toLowerCase());
-    if (collarKey) {
-      const icon = COLLAR_ICON_MAPPINGS[collarKey];
-      result.push(
-        <span key={"collar-" + i} className="inline-flex items-center mr-1 align-middle mb-1">
-          {icon && <img src={icon} alt={collarKey} className="w-5 h-5 mr-1 align-middle" />}
-          <span className="align-middle">{matchText}</span>
-        </span>
-      );
-      lastIndex = start + matchText.length;
-      return;
-    }
+    result.push(
+      <span key={matchType + '-' + i} className="inline-flex items-center mr-1 align-middle mb-1">
+        {icon && <img src={icon} alt={originalKey || matchText} className="w-5 h-5 mr-1 align-middle" />}
+        <span className="align-middle">{matchText}</span>
+      </span>
+    );
+    lastIndex = start + matchText.length;
   });
-  // Add any remaining text after the last match
   if (lastIndex < text.length) {
     result.push(text.slice(lastIndex));
   }

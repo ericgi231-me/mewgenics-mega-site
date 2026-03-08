@@ -8,7 +8,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "All units on dirt tiles get tossed to random tiles and take damage when they land. Bonus Passive: All of your spells have Earth element.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -18,7 +18,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +4 Brace until the next time you move. Bonus Passive: Knockback immunity.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -28,7 +28,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Knock back units in a larger area near you 10 tiles.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -38,7 +38,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A melee attack that Immobilizes and gives -2 Speed.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -48,7 +48,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give a unit or object +5 Thorns until your next turn. (You can target yourself.)",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -58,7 +58,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Knock a unit back 10 tiles with Chain Knockback.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -68,7 +68,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Jump to a tile and Immobilize units in an area.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -78,7 +78,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Drop a boulder on an adjacent tile, damaging, Stunning and displacing units it lands on.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -88,7 +88,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "The next time an ally is targeted by an enemy, switch places with that ally and gain +4 Shield.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "2" },
+			{ label: "Cost", content: "2 MP" },
 		],
 	},
 	{
@@ -98,7 +98,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Trample over two tiles diagonally with a 10% chance to inflict Stun.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "2" },
+			{ label: "Cost", content: "2 MP" },
 		],
 	},
 	{
@@ -108,7 +108,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A melee attack with Lifesteal that inflicts Bleed 2 and ignores shield.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -118,7 +118,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Heal yourself more.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -128,7 +128,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Knock 2 enemies in front of you together with +2 knockback damage.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -138,7 +138,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Turn 3 tiles into dirt tiles, smashing any inanimate objects into rocks.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -148,7 +148,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Deal more damage in a cone with a 20% chance to Petrify. Has a chance to spawn rocks. (This spell spawns rocks.)",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -158,7 +158,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Eat a rock to gain +5 Shield and All Stats Up.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "1" },
+			{ label: "Cost", content: "1 MP" },
 		],
 	},
 	{
@@ -168,7 +168,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Fling all units in a straight line onto nearby tiles, dealing more damage.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -178,7 +178,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Pull all units in a wide line towards the center of that line. This has a 15% chance to Petrify and spawns rocks.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -188,7 +188,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Jump up to 4 tiles away, damage units you land on, then gain -1 Speed. If your SPEED is 0, this has increased range and damage. (This spell's mana cost is equal to your SPEED. At 0 SPEED, this spell is Castable once per turn.)",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "spd" },
+			{ label: "Cost", content: "spd MP" },
 		],
 	},
 	{
@@ -198,7 +198,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Deal damage equal to your CONSTITUTION and inflict Stun and Bruise 4. Also stuns yourself.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "8" },
+			{ label: "Cost", content: "8 MP" },
 		],
 	},
 	{
@@ -208,7 +208,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Toss a unit to an empty tile within 6 tiles of you and inflict Bruise, then your allies attack it if they can.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "9" },
+			{ label: "Cost", content: "9 MP" },
 		],
 	},
 	{
@@ -218,7 +218,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Force an enemy anywhere to move towards you. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -228,7 +228,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Dash 10 tiles, damage, inflict Bruise and throw what you hit towards your original tile.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -238,7 +238,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Petrify on all units in your line of sight. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "10" },
+			{ label: "Cost", content: "10 MP" },
 		],
 	},
 	{
@@ -248,7 +248,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Pull a unit within 4 tiles towards you, knocking it into you and inflicting Grappled.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -258,7 +258,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A melee attack that inflicts Stun. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "8" },
+			{ label: "Cost", content: "8 MP" },
 		],
 	},
 	{
@@ -268,7 +268,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Fear on a unit up to five tiles away.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -278,7 +278,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Dash forward up to 10 tiles, gain +4 Shield then damage and knock back adjacent units with +5 knockback damage.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -288,7 +288,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Dash forward one tile, attack with Knockback and inflict Stun. This spell uses up your movement action.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "0" },
+			{ label: "Cost", content: "0 MP" },
 		],
 	},
 	{
@@ -298,7 +298,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Push a unit back 10 tiles. (This spell costs 0 mana the first time it's used each turn.)",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -308,7 +308,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +3 Thorns and +1 Brace. This spell uses up your movement action.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "0" },
+			{ label: "Cost", content: "0 MP" },
 		],
 	},
 	{
@@ -318,7 +318,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +6 Shield and -1 Speed. If you are at 0 SPEED, instead cleanse all of your debuffs and gain All Stats Up. (Castable once per turn.)",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "0" },
+			{ label: "Cost", content: "0 MP" },
 		],
 	},
 	{
@@ -328,7 +328,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Trample over 4 tiles in a straight line destroying any inanimate objects and inflicting Bruise 1 on units you Trample.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -338,7 +338,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Shoot a rock forward with Chain Knockback. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -348,7 +348,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Jump on top of a rock, exploding it. Deal high damage and knock back all adjacent units.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -358,7 +358,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Levitate all rocks. They will automatically fling towards enemies that end movement in line with them. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -368,7 +368,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Damage and Petrify a unit within 5 tiles of you. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "8" },
+			{ label: "Cost", content: "8 MP" },
 		],
 	},
 	{
@@ -378,7 +378,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Throw a rock with a 33% chance to Stun.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -388,7 +388,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Start a sandstorm. (Sandstorm deals 1 damage to all units at the end of round.) If a sandstorm was already active, increase its damage by 1. (This spell costs 0 mana the first time you cast it each turn.)",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -398,7 +398,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +99 Brace until your next turn, then disable this spell until you take a total of 15 damage.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "0" },
+			{ label: "Cost", content: "0 MP" },
 		],
 	},
 	{
@@ -408,7 +408,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Petrify and Knockback on the first unit in a line. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -419,7 +419,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
     unlock: "Complete The Caves with the Tank",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -429,7 +429,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Heal 15 HP, gain -2 Speed and +5 Health Regeneration. (Castable once per battle.)",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "0" },
+			{ label: "Cost", content: "0 MP" },
 		],
 	},
 	{
@@ -439,7 +439,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Swap positions with any unit.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -449,7 +449,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Hit all adjacent and diagonally adjacent units, then spawn a rock.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -459,7 +459,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +1 Constitution. Gain +1 knockback damage and +1 knockback range until the end of the turn.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "2" },
+			{ label: "Cost", content: "2 MP" },
 		],
 	},
 	{
@@ -469,7 +469,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give +3 Shield to units in an area and spawn scrap pickups on the empty tiles in that area.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -479,7 +479,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Jump to a tile adjacent to an ally. Damage and displace any units you land on, or are adjacent to.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -489,7 +489,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Throw an adjacent unit to a tile, dealing bonus damage if it collides with something.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -499,7 +499,7 @@ const TANK_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Dash forward with Trample, then spawn a rock. Deals more damage and has a 20% chance to inflict Stun.",
 		notes: [
 			{ label: "Class", content: "Tank" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 ];

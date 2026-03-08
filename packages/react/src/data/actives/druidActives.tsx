@@ -8,7 +8,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A wind gust that deals 2 damage and 2 Knockback in a line.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -18,7 +18,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give all familiars +3 Damage.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "8" },
+			{ label: "Cost", content: "8 MP" },
 		],
 	},
 	{
@@ -28,7 +28,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give +1 Intelligence and +2 mana to a unit.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -38,7 +38,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give 5 mana to allies in a large area.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -48,7 +48,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Explode a familiar causing damage to all units in range 2 and spawning brambles.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -58,7 +58,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Blow all units back three tiles. Allies are immune to knockback damage during this.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -68,7 +68,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Deal 10 Knockback to all units in a random direction. Allies gain +3 temporary Thorns and are immune to Thorns, tile and Knockback damage during this effect.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -78,7 +78,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Make a target unit The Alpha. PASSIVE: The first spell The Alpha casts each turn is cast twice. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "10" },
+			{ label: "Cost", content: "10 MP" },
 		],
 	},
 	{
@@ -88,7 +88,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Blow a unit ten tiles away from you. This doesn't deal Knockback damage. (This spell costs less and has infinite range.)",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -98,7 +98,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Create a tall grass tile, then all enemies on grass element tiles take 1 damage and gain Poison 1.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -108,7 +108,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Create a water tile, then all allies on water element tiles heal 2 HP and have their debuffs cleansed.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -118,7 +118,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A song that explodes a random enemy. If this hits a boss, it instead inflicts Fear. Inflict Madness on each other enemy.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "13" },
+			{ label: "Cost", content: "13 MP" },
 		],
 	},
 	{
@@ -128,7 +128,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give a familiar an extra turn after this one. (This spell costs less and has increased range.)",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "8" },
+			{ label: "Cost", content: "8 MP" },
 		],
 	},
 	{
@@ -138,7 +138,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Entangle units in an area and spawn bramble tiles.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -148,7 +148,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Move 5 tiles. Plant flowers as you move and where you end up.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -158,7 +158,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Fly over 3-4 tiles.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -168,7 +168,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Enter Elk Form, gaining +8 Speed and Trample 3. You ignore tile effects while moving. Your basic attack becomes Antler Swipe+ and this becomes Prance+.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "0" },
+			{ label: "Cost", content: "0 MP" },
 		],
 	},
 	{
@@ -178,7 +178,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Enter Mockingbird Form, gaining Flying movement and +2 Luck. Your basic attack becomes Mock Song+ and this becomes Tease+.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "0" },
+			{ label: "Cost", content: "0 MP" },
 		],
 	},
 	{
@@ -188,7 +188,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Enter Monkey Form, gaining +2 Dexterity and +2 Luck. Your basic attack becomes Throw Poop and this becomes Monkey Toss+.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "0" },
+			{ label: "Cost", content: "0 MP" },
 		],
 	},
 	{
@@ -198,7 +198,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Enter Raccoon Form, gaining +2 Intelligence and +2 Luck. Your basic attack becomes Pilfer and this becomes Scavenge+.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "0" },
+			{ label: "Cost", content: "0 MP" },
 		],
 	},
 	{
@@ -208,7 +208,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn squirrels on each adjacent tile, then enter Squirrel Form. Your basic attack becomes Chitter and this becomes Birth Squirrel+. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "10" },
+			{ label: "Cost", content: "10 MP" },
 		],
 	},
 	{
@@ -218,7 +218,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Enter Tree Form, gaining -2 Intelligence, +5 Shield, and Brace 4. You become Immobile and immune to Knockback. Your basic attack becomes Timber and this becomes Synthesize+.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "0" },
+			{ label: "Cost", content: "0 MP" },
 		],
 	},
 	{
@@ -228,7 +228,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Enter Turtle Form, getting +2 Constitution, +10 Shield, and -2 Intelligence. Your basic attack becomes Head Bash and this becomes Harden Shell+.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "0" },
+			{ label: "Cost", content: "0 MP" },
 		],
 	},
 	{
@@ -238,7 +238,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Enter Wolf Form, gaining +2 Strength, +2 Speed, -2 Luck, and -2 Intelligence. Your basic attack becomes Wolf Claws+ and this becomes Pounce+.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "0" },
+			{ label: "Cost", content: "0 MP" },
 		],
 	},
 	{
@@ -248,7 +248,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Summon a random animal that falls from the sky onto a random enemy, dealing more damage. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "8" },
+			{ label: "Cost", content: "8 MP" },
 		],
 	},
 	{
@@ -258,7 +258,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give a unit All Stats Up, Charge 2, and heal them 2. You get All Stats Down.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "2" },
+			{ label: "Cost", content: "2 MP" },
 		],
 	},
 	{
@@ -268,7 +268,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain +1 Shield, +1 Thorns, and +1 temporary Brace. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -278,7 +278,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Shoot a long blast of water that deals 10 Knockback. This spell has recoil.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -288,7 +288,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Heal all allies and give them +2 Temporary Damage.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -298,7 +298,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflicts Sleep on units in an area. (This spell costs less and has increased range.)",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "12" },
+			{ label: "Cost", content: "12 MP" },
 		],
 	},
 	{
@@ -308,7 +308,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Throw an adjacent unit to another tile. It takes damage if it's thrown onto something. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -318,7 +318,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Grow tall grass tiles in an area and give units in that area +3 Diminishing Health Regeneration. (This spell costs less and has infinite range.)",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "9" },
+			{ label: "Cost", content: "9 MP" },
 		],
 	},
 	{
@@ -328,7 +328,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn a glowing mushroom anywhere that restores mana and health to nearby units on its turn.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -338,7 +338,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "The next familiar you spawn becomes an elite.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -348,7 +348,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give familiars in a large area +1 Holy Shield.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -358,7 +358,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Summon a crow.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "11" },
+			{ label: "Cost", content: "11 MP" },
 		],
 	},
 	{
@@ -368,7 +368,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give all allies +2 Shield.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -378,7 +378,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give Health Regeneration 1 to units in a larger area. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -388,7 +388,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Spawn flower tiles in a large area.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -398,7 +398,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Summon 5 adult squirrels.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "13" },
+			{ label: "Cost", content: "13 MP" },
 		],
 	},
 	{
@@ -408,7 +408,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Teleport any unit to you.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -418,7 +418,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Swap positions with any unit.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -429,7 +429,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
     unlock: "Complete The Caves with the Druid",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "12" },
+			{ label: "Cost", content: "12 MP" },
 		],
 	},
 	{
@@ -439,7 +439,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Summon a caterpillar with All Stats Up 2. It gains All Stats Up at the end of each turn. It becomes a moth at All Stats Up 5.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -449,7 +449,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Summon a slippery snake! (It has a 66% Dodge Chance.)",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -459,7 +459,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Summon a squirrel to any tile.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -469,7 +469,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Summon a super toad! (It has more damage, health, and can move an extra time each turn)",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -479,7 +479,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Summon a turtle to any tile in range 6.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -489,7 +489,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Move 3 tiles. Plant brambles as you move. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -499,7 +499,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Throw an egg. If the egg lands in an empty tile, it hatches into a random animal friend at the start of its first turn.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -509,7 +509,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Your allies and familiars all attack their closest enemy immediately if they can.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -519,7 +519,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Each familiar gains All Stats Up 2 and heals to full. (This spell costs 0 mana. Castable once per battle.)",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -529,7 +529,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Petrify on a familiar and give it +6 Shield and +2 Thorns.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -539,7 +539,7 @@ const DRUID_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Give a unit +1 Bonus Move and +1 Speed. They take their next turn earlier.",
 		notes: [
 			{ label: "Class", content: "Druid" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 ];

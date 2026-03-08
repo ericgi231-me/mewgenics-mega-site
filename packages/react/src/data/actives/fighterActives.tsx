@@ -8,7 +8,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Move toward the closest enemy. The dumber you are, the farther you move. (This spell costs less.)",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "3" },
+      { label: "Cost", content: "3 MP" },
     ],
   },
   {
@@ -18,7 +18,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "A weak melee attack. If this kills anything, you become The Alpha and gain +2 Strength. If you are The Alpha, this spell deals 5 additional damage and inflicts Bruise.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -28,7 +28,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Gain +7 Strength and Bruise 3. This ability becomes Berserker Dash+.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -38,7 +38,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "A melee attack. This spell's mana cost increases by 1 each time it's cast.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "3" },
+      { label: "Cost", content: "3 MP" },
     ],
   },
   {
@@ -48,7 +48,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Drop to 1 HP. Damage you deal to bleeding units has Lifesteal. This spell becomes Lacerate+. (This spell costs 0 mana.)",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "3" },
+      { label: "Cost", content: "3 MP" },
     ],
   },
   {
@@ -58,7 +58,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Deal damage, knockback, and knockback damage equal to your Strength. Reduce this spell's mana cost by 2 each time you take damage. (Castable once per turn.)",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "15-X" },
+      { label: "Cost", content: "15-X MP" },
     ],
   },
   {
@@ -68,7 +68,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Dash forward and attack with knockback. Repeat this if you hit something.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "6" },
+      { label: "Cost", content: "6 MP" },
     ],
   },
   {
@@ -78,7 +78,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Take an extra turn. You have Madness 1 on that turn. (This spell can't be cast on extra turns.)",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "3" },
+      { label: "Cost", content: "3 MP" },
     ],
   },
   {
@@ -88,7 +88,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Move in front of an enemy. Your next action has +30% critical chance. (This spell costs less.)",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "7" },
+      { label: "Cost", content: "7 MP" },
     ],
   },
   {
@@ -98,7 +98,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Punch a unit into SPACE! They will fall back down at the end of the round. (This spell costs less.)",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "5" },
+      { label: "Cost", content: "5 MP" },
     ],
   },
   {
@@ -108,7 +108,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Preemptively counterattack all attacks until your next turn.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "6" },
+      { label: "Cost", content: "6 MP" },
     ],
   },
   {
@@ -118,7 +118,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Give a unit on any tile +4 Strength and Confusion 2.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "3" },
+      { label: "Cost", content: "3 MP" },
     ],
   },
   {
@@ -128,7 +128,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Refresh your basic attack and movement action. Gain +2 Strength and +4 Speed until end of turn. Fall asleep at the end of the turn.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "8" },
+      { label: "Cost", content: "8 MP" },
     ],
   },
   {
@@ -138,7 +138,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Dash forward any number of tiles and attack with knockback. (This spell's mana cost increases by 2 at the end of each of your turns.)",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "2" },
+      { label: "Cost", content: "2 MP" },
     ],
   },
   {
@@ -148,7 +148,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Charge up a mega dash attack. (This punch will be unleashed on your next turn.) (Castable once per turn.)",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "2" },
+      { label: "Cost", content: "2 MP" },
     ],
   },
   {
@@ -158,7 +158,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "A melee attack that inflicts more Burn the more STRENGTH you have.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "7" },
+      { label: "Cost", content: "7 MP" },
     ],
   },
   {
@@ -168,7 +168,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "You and each allied cat gain +2 Shield, +2 temporary Brace, and knockback adjacent units 2 tiles.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "8" },
+      { label: "Cost", content: "8 MP" },
     ],
   },
   {
@@ -178,7 +178,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "A melee attack that has a chance to hit multiple times.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "6" },
+      { label: "Cost", content: "6 MP" },
     ],
   },
   {
@@ -188,7 +188,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Immobilize an adjacent unit for as long as you remain adjacent. (This spell costs less.)",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -198,7 +198,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Jump to a tile and pull enemies toward you when you land. (This spell costs less.)",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "6" },
+      { label: "Cost", content: "6 MP" },
     ],
   },
   {
@@ -208,7 +208,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "You and each allied cat give adjacent units +1 Damage and +2 Speed. (This spell is free the first time it's cast each battle.)",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "6" },
+      { label: "Cost", content: "6 MP" },
     ],
   },
   {
@@ -218,7 +218,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Toss an adjacent unit at a random unit. (This spell costs less.)",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "5" },
+      { label: "Cost", content: "5 MP" },
     ],
   },
   {
@@ -228,7 +228,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "A much stronger melee attack that inflicts Freeze.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "7" },
+      { label: "Cost", content: "7 MP" },
     ],
   },
   {
@@ -238,7 +238,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Suck all units in a straight line 3 tiles toward you.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "3" },
+      { label: "Cost", content: "3 MP" },
     ],
   },
   {
@@ -248,7 +248,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Your movement range is doubled and you get +4 Strength until the end of the turn.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -258,7 +258,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Jump to an open tile within range, then damage and inflict Bruise on all adjacent units.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "6" },
+      { label: "Cost", content: "6 MP" },
     ],
   },
   {
@@ -268,7 +268,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Jump up to 5 tiles. Damage, knockback, and inflict Burn 3 on the unit you land on and all adjacent units.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "10" },
+      { label: "Cost", content: "10 MP" },
     ],
   },
   {
@@ -278,7 +278,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Force a unit to move towards you. RELOAD: Kill something. Bonus Ability: Slap.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0" },
     ],
   },
   {
@@ -288,7 +288,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "A melee attack that deals 8 damage and inflicts Bruise. (This spell's damage is reduced by 1 and mana cost is reduced by 2 each time it's cast.)",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "max(8-2·X, 0)" },
+      { label: "Cost", content: "max(8-2·X, 0)" },
     ],
   },
   {
@@ -298,7 +298,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Deal 1 damage and inflict Bruise on a unit.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "2" },
+      { label: "Cost", content: "2 MP" },
     ],
   },
   {
@@ -308,7 +308,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "A melee attack that hits thrice! Each punch inflicts Bruise 1.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "8" },
+      { label: "Cost", content: "8 MP" },
     ],
   },
   {
@@ -319,7 +319,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     unlock: "Complete The Caves with the Fighter",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "5" },
+      { label: "Cost", content: "5 MP" },
     ],
   },
   {
@@ -329,7 +329,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "A melee attack that deals 1 damage. (This spell costs less.)",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "2" },
+      { label: "Cost", content: "2 MP" },
     ],
   },
   {
@@ -339,7 +339,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Turn an adjacent unit around and knock it back 2 tiles.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "2" },
+      { label: "Cost", content: "2 MP" },
     ],
   },
   {
@@ -349,7 +349,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "A melee attack that increases its damage by 1 each time you take damage. (This spell starts at 5 damage.)",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -359,7 +359,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Knock back a unit 10 tiles, then dash forward and attack it.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "6" },
+      { label: "Cost", content: "6 MP" },
     ],
   },
   {
@@ -369,7 +369,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "An attack that hits a half circle around you and inflicts Bruise.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "7" },
+      { label: "Cost", content: "7 MP" },
     ],
   },
   {
@@ -379,7 +379,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Inflict Sleep and Bruise on an adjacent unit.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "5" },
+      { label: "Cost", content: "5 MP" },
     ],
   },
   {
@@ -389,7 +389,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Attack everything around you in a wide area 3 times.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "6" },
+      { label: "Cost", content: "6 MP" },
     ],
   },
   {
@@ -399,7 +399,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Equip a temporary Stick! Maybe even a big one? (Your weapon slot must be empty.) (This spell costs less.)",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "5" },
+      { label: "Cost", content: "5 MP" },
     ],
   },
   {
@@ -409,7 +409,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Your INTELLIGENCE becomes 0. You can attack an extra time each turn for the rest of the battle. This ability becomes MORE ANGRIER!!!+",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "6" },
+      { label: "Cost", content: "6 MP" },
     ],
   },
   {
@@ -419,7 +419,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "The next time an enemy moves through an adjacent tile, cancel its movement and attack it. Bonus Passive: While it's not your turn, your basic attack inflicts Bruise 2.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "5" },
+      { label: "Cost", content: "5 MP" },
     ],
   },
   {
@@ -429,7 +429,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "You and each allied cat do a spin attack at the same time. (This spell costs less.)",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "8" },
+      { label: "Cost", content: "8 MP" },
     ],
   },
   {
@@ -439,7 +439,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "An attack that hits 4 tiles in front of and behind you.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "6" },
+      { label: "Cost", content: "6 MP" },
     ],
   },
   {
@@ -449,7 +449,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "All enemies within 5 tiles move toward you.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "4" },
+      { label: "Cost", content: "4 MP" },
     ],
   },
   {
@@ -459,7 +459,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Take damage equal to your Intelligence, then your Intelligence becomes 0. The next spell you cast this turn is free.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "2" },
+      { label: "Cost", content: "2 MP" },
     ],
   },
   {
@@ -469,7 +469,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "A melee attack that inflicts Stun.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "7" },
+      { label: "Cost", content: "7 MP" },
     ],
   },
   {
@@ -479,7 +479,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Move two tiles diagonally.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "2" },
+      { label: "Cost", content: "2 MP" },
     ],
   },
   {
@@ -489,7 +489,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Punch a unit into the air, lobbing it back 3 tiles. Refresh your movement action.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "7" },
+      { label: "Cost", content: "7 MP" },
     ],
   },
   {
@@ -499,7 +499,7 @@ const FIGHTER_ACTIVE_OBJECTS: GameObject[] = [
     description2: "Your movement action becomes a dash attack. Restore all your mana. This ability becomes Reposition+.",
     notes: [
       { label: "Class", content: "Fighter" },
-      { label: "Mana Cost", content: "0" },
+      { label: "Cost", content: "0" },
     ],
   },
 ];

@@ -8,7 +8,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Fart on a unit, inflicting Poison 3 and propelling yourself ten tiles. Units in your path get trampled over.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -18,7 +18,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Gain -1 Speed, +1 Constitution, +1 Strength, and heal 4 HP.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "2" },
+			{ label: "Cost", content: "2 MP" },
 		],
 	},
 	{
@@ -28,7 +28,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Take 5 damage and gain 10 mana. (Castable once per turn.)",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "0" },
+			{ label: "Cost", content: "0 MP" },
 		],
 	},
 	{
@@ -38,7 +38,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Jump to a tile within range 2. Damage both yourself and units you land on equal to 25% of your current HP. This attack inflicts Bruise and has a chance to Stun.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -48,7 +48,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Rot 2 and Poison 2 on a unit and it moves away from you.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -58,7 +58,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Kill every unit with 3 or less health. They become meat. Gain 5 health for each unit killed.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -68,7 +68,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Target any tile. At the beginning of your next turn, jump to that tile. If you land on a unit, damage and Stun it. (This spell costs less.) (Castable once per turn.)",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -78,7 +78,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A wide melee attack with Life Steal. If used on an ally, gain +1 Strength. If used on a pickup, gain double that pickup's effects.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -88,7 +88,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Deal 5 damage to yourself. Refresh your movement action. PASSIVE: You have Trample.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "2" },
+			{ label: "Cost", content: "2 MP" },
 		],
 	},
 	{
@@ -98,7 +98,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Collect all pickups, then become Drowsy. Gain double the effects of these pickups.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -108,7 +108,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Collect a pickup in range 5. Instead of that pickup's normal effects, add Poison 1 to your weapon for the rest of the battle.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "2" },
+			{ label: "Cost", content: "2 MP" },
 		],
 	},
 	{
@@ -118,7 +118,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Take 2 damage. Summon a Champion Rot Fly.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -128,7 +128,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "This spell only damages Shield. Cleave and inflict Stun on units with Shield. Deals 10 Knockback to units without Shield.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -138,7 +138,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Blow wind that inflicts Poison 4 in a cone. The cone is larger the less health you have. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "8" },
+			{ label: "Cost", content: "8 MP" },
 		],
 	},
 	{
@@ -148,7 +148,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Jump to a tile, then inflict Attraction on all enemies within range 4.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "10" },
+			{ label: "Cost", content: "10 MP" },
 		],
 	},
 	{
@@ -158,7 +158,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Lose 25% of your HP, deal that much damage to nearby units, and deal Knockback to them.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -168,7 +168,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Poison 2 and Burn 2 in a small cone.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -178,7 +178,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Heal a unit within range and give that unit +1 Constitution and -1 Speed.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -188,7 +188,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Attack a unit in melee range for more damage. If this kills it, it becomes 3 food pickups.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -198,7 +198,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Lob a hook at an object and pull yourself to it. Trample over tiles in your path. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -208,7 +208,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Light a fire under any tile.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "2" },
+			{ label: "Cost", content: "2 MP" },
 		],
 	},
 	{
@@ -218,7 +218,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Trample over to a tile with meat on it and Cleave all units in your way.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -228,7 +228,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Melee attack that immobilizes and inflicts Bleed 2.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -238,7 +238,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Take 15 damage. You take an extra turn after this one. (This spell can't be cast on extra turns.)",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "2" },
+			{ label: "Cost", content: "2 MP" },
 		],
 	},
 	{
@@ -248,7 +248,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Inflict Bleed 10, Immobilize 2, and Bruise 2 on an adjacent unit. You can't use your weapon for the rest of the battle. (Castable once per battle.)",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "0" },
+			{ label: "Cost", content: "0 MP" },
 		],
 	},
 	{
@@ -258,7 +258,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Jump to any food pickup.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -268,7 +268,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A melee attack with Lifesteal. This spell does more damage the less health you have. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -278,7 +278,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Attack 3-10 times for 1 damage each. These attacks inflict Bleed.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "8" },
+			{ label: "Cost", content: "8 MP" },
 		],
 	},
 	{
@@ -288,7 +288,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Steal an allied cat's next turn for yourself. (This spell costs 1 mana.)",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -298,7 +298,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Puke on a tile in range. You get -1 Constitution and +2 Speed.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "2" },
+			{ label: "Cost", content: "2 MP" },
 		],
 	},
 	{
@@ -308,7 +308,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Take 2 damage and gain Burn 2, then fire a projectile that spawns a lava tile at long range.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -318,7 +318,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Take 2 damage and spawn a big food pickup.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -328,7 +328,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Refresh your weapon and movement action.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -338,7 +338,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Breathe a larger cone of fire.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -348,7 +348,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Throw an adjacent unit to another tile (even if it isn't empty), dealing a lot of damage to that unit and whatever it lands on.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -358,7 +358,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Attack yourself at half damage with Cleave to gain +2 Strength.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "2" },
+			{ label: "Cost", content: "2 MP" },
 		],
 	},
 	{
@@ -368,7 +368,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Your weapon gains +1 damage for the rest of the battle and you gain +1 Damage.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -378,7 +378,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Attack five times with damage that scales with STRENGTH. These attacks inflict all status effects your basic attack does.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "12" },
+			{ label: "Cost", content: "12 MP" },
 		],
 	},
 	{
@@ -388,7 +388,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "A range 4 dash attack that inflicts Stun and knockback. Has a 50% chance to Stun yourself.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 	{
@@ -399,7 +399,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
     unlock: "Complete The Caves with the Butcher",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "9" },
+			{ label: "Cost", content: "9 MP" },
 		],
 	},
 	{
@@ -409,7 +409,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Until your next turn, if a unit in your attack range takes physical damage from a source that isn't you, you attack that unit. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "7" },
+			{ label: "Cost", content: "7 MP" },
 		],
 	},
 	{
@@ -419,7 +419,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Turn all food pickups into Rot Flies. (This spell costs less.)",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "6" },
+			{ label: "Cost", content: "6 MP" },
 		],
 	},
 	{
@@ -429,7 +429,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Collect all pickups within two tiles of you.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "2" },
+			{ label: "Cost", content: "2 MP" },
 		],
 	},
 	{
@@ -439,7 +439,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Eat a unit within range 2 and take damage equal to half of that unit's remaining HP. You can't swallow bosses or large units.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -449,7 +449,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Jump to any open tile and fall asleep. While asleep, inflict Rot 2 and Poison 2 on units that contact you.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -459,7 +459,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Trample two tiles toward the nearest food pickup.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -469,7 +469,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Trample over one tile. If you trample over a unit, you inflict Bruise on that unit.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "3" },
+			{ label: "Cost", content: "3 MP" },
 		],
 	},
 	{
@@ -479,7 +479,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Trample over four tiles. Costs less mana the lower your HP is.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "X" },
+			{ label: "Cost", content: "X" },
 		],
 	},
 	{
@@ -489,7 +489,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "Vomit up the last consumable you ate this battle and equip it. (Castable once per turn.)",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "4" },
+			{ label: "Cost", content: "4 MP" },
 		],
 	},
 	{
@@ -499,7 +499,7 @@ const BUTCHER_ACTIVE_OBJECTS: GameObject[] = [
 		description2: "You and adjacent units fall asleep. You gain All Stats Up and heal 4.",
 		notes: [
 			{ label: "Class", content: "Butcher" },
-			{ label: "Mana Cost", content: "5" },
+			{ label: "Cost", content: "5 MP" },
 		],
 	},
 ];

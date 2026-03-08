@@ -9,7 +9,7 @@ const JESTER_ACTIVE_OBJECTS: GameObject[] = [
     unlock: "Complete The Caves with the Jester",
 		notes: [
 			{ label: "Class", content: "Jester" },
-			{ label: "Mana Cost", content: "1" }
+			{ label: "Cost", content: "1 MP" }
 		]
 	},
 	{
@@ -20,7 +20,7 @@ const JESTER_ACTIVE_OBJECTS: GameObject[] = [
     unlock: "Complete The Caves with the Jester",
 		notes: [
 			{ label: "Class", content: "Jester" },
-			{ label: "Mana Cost", content: "All" }
+			{ label: "Cost", content: "All MP" }
 		]
 	},
 	{
@@ -31,7 +31,7 @@ const JESTER_ACTIVE_OBJECTS: GameObject[] = [
     unlock: "Complete The Caves with the Jester",
 		notes: [
 			{ label: "Class", content: "Jester" },
-			{ label: "Mana Cost", content: "10" }
+			{ label: "Cost", content: "10 MP" }
 		]
 	},
 	{
@@ -42,7 +42,7 @@ const JESTER_ACTIVE_OBJECTS: GameObject[] = [
     unlock: "Complete The Caves with the Jester",
 		notes: [
 			{ label: "Class", content: "Jester" },
-			{ label: "Mana Cost", content: "5" }
+			{ label: "Cost", content: "5 MP" }
 		]
 	}
 ];
