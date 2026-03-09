@@ -9,13 +9,22 @@ interface IconTextProps {
   iconSets?: IconSets;
 }
 function IconText({ text, iconSets }: IconTextProps) {
-  // Memoize iconSets to avoid unnecessary recomputation
   const memoIconSets = useMemo(() => iconSets, [iconSets]);
-  const rendered = useMemo(
-    () => renderTextWithIcons(text, memoIconSets),
-    [text, memoIconSets]
+  const lines = useMemo(() => text.split("\n"), [text]);
+  const renderedLines = useMemo(
+    () => lines.map((line) => renderTextWithIcons(line, memoIconSets)),
+    [lines, memoIconSets]
   );
-  return <>{rendered}</>;
+  return (
+    <>
+      {renderedLines.map((rendered, i) => (
+        <span key={i}>
+          {rendered}
+          {i < renderedLines.length - 1 && <br />}
+        </span>
+      ))}
+    </>
+  );
 }
 
 interface InfoBoxProps {

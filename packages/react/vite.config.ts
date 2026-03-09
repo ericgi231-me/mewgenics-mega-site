@@ -60,6 +60,7 @@ export default defineConfig(({ mode }) => {
               './src/data/passives/tinkererPassives',
             ],
             'data-items': [
+              './src/data/items/consumableItems',
               './src/data/items/faceItems',
               './src/data/items/headItems',
               './src/data/items/neckItems',

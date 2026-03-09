@@ -39,7 +39,8 @@ import {
   NECK_ITEM_OBJECTS,
   FACE_ITEM_OBJECTS,
   TRINKET_ITEM_OBJECTS,
-  MUTATION_OBJECTS
+  MUTATION_OBJECTS,
+  CONSUMABLE_ITEM_OBJECTS
 } from "../data/";
 import { renderTextWithIcons } from "../utils/renderTextWithIcons";
 
@@ -94,6 +95,7 @@ const categories = [
       { key: "neck", label: "Neck", items: NECK_ITEM_OBJECTS },
       { key: "face", label: "Face", items: FACE_ITEM_OBJECTS },
       { key: "trinket", label: "Trinket", items: TRINKET_ITEM_OBJECTS },
+      { key: "consumable", label: "Consumable", items: CONSUMABLE_ITEM_OBJECTS },
     ],
   },
   {
