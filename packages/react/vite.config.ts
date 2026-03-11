@@ -68,8 +68,7 @@ export default defineConfig(({ mode }) => {
               './src/data/items/weaponItems',
             ],
             'data-misc': [
-              './src/data/collars',
-              './src/data/mutations',
+              './src/data/collars'
             ],
           },
         },

@@ -7,7 +7,7 @@ const iconMap = new Map(iconMappings.map(e => [e.text.toLowerCase(), e]));
 // Sort longer entries first so multi-word statuses match before single words
 const escapedTexts = [...iconMappings]
   .sort((a, b) => b.text.length - a.text.length)
-  .map(e => e.text.replace(/([.*+?^=!:${}()|[\]\/\\])/g, "\\$1"));
+  .map(e => e.text.replace(/([.*+?^=!:${}()|[\]/\\])/g, "\\$1"));
 const iconRegex = new RegExp(`\\b(${escapedTexts.join('|')})\\b`, 'gi');
 
 export function renderTextWithIcons(text: string) {
