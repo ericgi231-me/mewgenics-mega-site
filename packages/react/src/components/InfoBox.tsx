@@ -89,7 +89,7 @@ export function SidebarInfoBox(props: InfoBoxProps & { className?: string }) {
   const { className, ...infoProps } = props;
   return (
     <div
-      className={`w-96 flex flex-col items-start justify-start bg-color-background border-r-4 border-color-border p-8 min-h-screen ${className ?? ""}`}
+      className={`w-96 shrink-0 overflow-hidden flex flex-col items-start justify-start bg-color-background border-r-4 border-color-border p-8 min-h-screen ${className ?? ""}`}
     >
       <InfoBox {...infoProps} />
     </div>

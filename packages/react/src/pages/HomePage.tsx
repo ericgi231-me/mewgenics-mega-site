@@ -238,7 +238,7 @@ function HomePage() {
     <div className="flex flex-col min-h-screen dark bg-color-background text-color-text">
       <div className="flex flex-1">
         <SidebarInfoBox selectedItem={sidebarItem} className="hidden lg:flex sticky top-0 h-screen" />
-        <div className="flex-1 p-8 pt-0">
+        <div className="flex-1 min-w-0 p-8 pt-0">
           {/* Header with search bar */}
           <div
             className="flex items-center gap-4 sticky top-0 z-20 py-4 bg-color-background"
