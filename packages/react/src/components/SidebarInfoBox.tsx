@@ -9,7 +9,7 @@ interface SidebarInfoBoxProps {
 function SidebarInfoBox({ selectedItem, className }: SidebarInfoBoxProps) {
   return (
     <div
-      className={`w-96 shrink-0 overflow-hidden flex flex-col items-start justify-start bg-surface p-8 min-h-screen shadow-[inset_-1px_0_0_var(--color-rule)] ${className ?? ""}`}
+      className={`w-80 shrink-0 overflow-hidden flex flex-col items-start justify-start bg-surface p-8 min-h-screen shadow-[inset_-1px_0_0_var(--color-rule)] ${className ?? ""}`}
     >
       <InfoBox selectedItem={selectedItem} />
     </div>
