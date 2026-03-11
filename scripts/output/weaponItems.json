@@ -1,7 +1,7 @@
 [
   {
     "name": ".22 Rifle",
-    "icon_path": "/assets/items/ITEM_-22_Rifle.svg",
+    "icon_path": "/assets/items/ITEM_.22_Rifle.svg",
     "description": "Use: Fire a shot anywhere within your line of sight.",
     "notes": [
       {

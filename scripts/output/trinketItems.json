@@ -3240,7 +3240,7 @@
   },
   {
     "name": "The Box",
-    "icon_path": "/assets/items/ITEM_The_Box1.svg",
+    "icon_path": "/assets/items/ITEM_The_Box.svg",
     "description": "Find an extra chapter item at the end of each battle.",
     "notes": [
       {
@@ -3259,7 +3259,7 @@
   },
   {
     "name": "The bOx",
-    "icon_path": "/assets/items/ITEM_The_Box2.svg",
+    "icon_path": "/assets/items/ITEM_The_bOx.svg",
     "description": "Use: Spawn A lost Spirit. This gains +1 use whenever an allied cat dies.\n(Usable once per battle.)",
     "notes": [
       {
@@ -3278,7 +3278,7 @@
   },
   {
     "name": "The boX",
-    "icon_path": "/assets/items/ITEM_The_Box3.svg",
+    "icon_path": "/assets/items/ITEM_The_boX.svg",
     "description": "Use: Revive all bodies, fully heal all units, and clear all status effects. (Usable once per battle.)",
     "notes": [
       {
@@ -3600,7 +3600,7 @@
   },
   {
     "name": "the box",
-    "icon_path": "/assets/items/ITEM_The_Box4.svg",
+    "icon_path": "/assets/items/ITEM_the_box.svg",
     "description": "Use: Find and equip a random item into one of your empty item slots.",
     "notes": [
       {

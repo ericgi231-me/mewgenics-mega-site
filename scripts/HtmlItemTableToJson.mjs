@@ -133,6 +133,18 @@ const BR_SENTINEL = '\x00BR\x00';
 function parseDescription(node) {
   if (!node) return '';
   let html = node.innerHTML;
+  // Handle inline-stat spans: the stat name only exists as an anchor title attribute,
+  // not as a text node, so we must extract it before stripping all tags.
+  // e.g. <span class="inline-stat">-1 <a title="Intelligence"><img/></a></span>
+  //   → "-1 Intelligence"
+  html = html.replace(/<span class="inline-stat"\s*>([\s\S]*?)<\/span\s*>/g, (_, content) => {
+    const numMatch = content.match(/^\s*([+\-]?\d[\d.]*)/);
+    const num = numMatch ? numMatch[1] : content.replace(/<[\s\S]*/m, '').trim();
+    const titleMatch = content.match(/<a[^>]+title="([^"]+)"/);
+    const altMatch = content.match(/alt="([^"]+)"/);
+    const statName = titleMatch?.[1] ?? altMatch?.[1] ?? '';
+    return [num, statName].filter(Boolean).join(' ');
+  });
   // Replace <br> with a sentinel BEFORE stripping tags so we can split on it later
   html = html.replace(/<br\s*\/?>/gi, BR_SENTINEL);
   html = html.replace(/<[^>]+>/g, '');
@@ -160,7 +172,8 @@ function parseItem(el) {
   // Icon — extract just the filename from the src, strip query strings, rebase to /assets/items/
   const iconEl = el.querySelector(CONFIG.cells.icon);
   const rawSrc = iconEl?.getAttribute('src') ?? '';
-  const filename = rawSrc.split('?')[0].split('/').pop() ?? '';
+  const filename = (rawSrc.split('?')[0].split('/').pop() ?? '')
+    .replace(/%21/g, '-').replace(/%27/g, '-').replace(/%28/g, '-').replace(/%29/g, '-');
   const icon_path = filename ? `/assets/items/${filename}` : '';
 
   // Description
