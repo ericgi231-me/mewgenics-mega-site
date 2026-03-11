@@ -1,6 +1,7 @@
 import type { GameObject } from "../types";
 import { renderTextWithIcons } from "../utils/renderTextWithIcons";
 import { useMemo } from "react";
+import GameImg from "./GameImg";
 // Memoized icon text rendering
 interface IconTextProps {
   text: string;
@@ -38,7 +39,7 @@ function InfoBox({ selectedItem }: InfoBoxProps) {
     <div className="relative" >
       {/* Floating icon in top right, under text */}
       {item.icon_path && (
-        <img
+        <GameImg
           src={item.icon_path}
           alt={item.name}
           className="absolute top-4 right-4 max-w-[80px] max-h-[80px] opacity-30 pointer-events-none select-none object-contain"

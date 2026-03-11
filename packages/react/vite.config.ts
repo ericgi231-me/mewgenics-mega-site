@@ -22,55 +22,15 @@ export default defineConfig(({ mode }) => {
       modulePreload: { polyfill: true },
       rollupOptions: {
         output: {
-          manualChunks: {
-            // Split React runtime into its own chunk
-            'vendor-react': ['react', 'react-dom'],
-            // Split react-window into its own chunk
-            'vendor-react-window': ['react-window'],
-            // Split data into separate chunks per category
-            'data-actives': [
-              './src/data/actives/butcherActives',
-              './src/data/actives/clericActives',
-              './src/data/actives/collarlessActives',
-              './src/data/actives/druidActives',
-              './src/data/actives/fighterActives',
-              './src/data/actives/hunterActives',
-              './src/data/actives/jesterActives',
-              './src/data/actives/mageActives',
-              './src/data/actives/monkActives',
-              './src/data/actives/necromancerActives',
-              './src/data/actives/psychicActives',
-              './src/data/actives/tankActives',
-              './src/data/actives/thiefActives',
-              './src/data/actives/tinkererActives',
-            ],
-            'data-passives': [
-              './src/data/passives/butcherPassives',
-              './src/data/passives/clericPassives',
-              './src/data/passives/collarlessPassives',
-              './src/data/passives/druidPassives',
-              './src/data/passives/fighterPassives',
-              './src/data/passives/hunterPassives',
-              './src/data/passives/jesterPassives',
-              './src/data/passives/magePassives',
-              './src/data/passives/monkPassives',
-              './src/data/passives/necromancerPassives',
-              './src/data/passives/psychicPassives',
-              './src/data/passives/tankPassives',
-              './src/data/passives/thiefPassives',
-              './src/data/passives/tinkererPassives',
-            ],
-            'data-items': [
-              './src/data/items/consumableItems',
-              './src/data/items/faceItems',
-              './src/data/items/headItems',
-              './src/data/items/neckItems',
-              './src/data/items/trinketItems',
-              './src/data/items/weaponItems',
-            ],
-            'data-misc': [
-              './src/data/collars'
-            ],
+          // Function form is required for dynamic imports — Rollup matches against
+          // resolved absolute module IDs, not relative path strings.
+          manualChunks(id) {
+            if (id.includes('node_modules/react-window')) return 'vendor-react-window';
+            if (id.includes('node_modules/react-dom') || id.includes('node_modules/react/') || id.includes('node_modules/react-is')) return 'vendor-react';
+            if (id.includes('/src/data/actives/')) return 'data-actives';
+            if (id.includes('/src/data/passives/')) return 'data-passives';
+            if (id.includes('/src/data/items/')) return 'data-items';
+            if (id.includes('/src/data/collars')) return 'data-misc';
           },
         },
       },

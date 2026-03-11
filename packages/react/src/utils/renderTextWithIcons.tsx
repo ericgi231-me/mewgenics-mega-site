@@ -1,8 +1,19 @@
 
 import iconMappings from "../data/textToIconMaps.json";
+import GameImg from "../components/GameImg";
 
 // Build lookup: lowercase text → entry
 const iconMap = new Map(iconMappings.map(e => [e.text.toLowerCase(), e]));
+
+// Preload all icon images at module-load time so they are already in the
+// browser cache when descriptions are first rendered, eliminating per-render
+// network requests.
+if (typeof window !== "undefined") {
+  iconMappings.forEach(e => {
+    const img = new Image();
+    img.src = e.icon_path;
+  });
+}
 
 // Sort longer entries first so multi-word statuses match before single words
 const escapedTexts = [...iconMappings]
@@ -24,7 +35,7 @@ export function renderTextWithIcons(text: string) {
     if (entry) {
       result.push(
         <span key={i} className="inline-flex items-center mr-1 align-middle mb-1">
-          <img src={entry.icon_path} alt={entry.text} className="w-5 h-5 mr-1 align-middle" loading="lazy" />
+          <GameImg src={entry.icon_path} alt={entry.text} width="20" height="20" className="w-5 h-5 mr-1 align-middle" />
           <span className="align-middle">{matchText}</span>
         </span>
       );

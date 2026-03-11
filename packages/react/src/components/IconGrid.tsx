@@ -1,7 +1,8 @@
 import type { GameObject } from "../types";
 import { Grid } from "react-window";
 import type { CellComponentProps } from "react-window";
-import { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect, useLayoutEffect } from "react";
+import GameImg from "./GameImg";
 
 interface IconGridProps {
   items: GameObject[];
@@ -47,13 +48,14 @@ const CellComponent = ({
       onMouseLeave={() => onHoverEnd && onHoverEnd()}
     >
       <div className="flex items-center justify-center w-full h-full">
-        <img
+        <GameImg
           src={item.icon_path}
           alt={item.name}
           className="object-contain"
           draggable={false}
           style={{ maxWidth: "100%", maxHeight: "100%" }}
-          loading="lazy"
+          loading={rowIndex < 2 ? "eager" : "lazy"}
+          fetchPriority={rowIndex < 2 ? "high" : "auto"}
         />
       </div>
     </div>
@@ -62,8 +64,17 @@ const CellComponent = ({
 
 function IconGrid({ items, selected, setSelected, onHover, onHoverEnd }: IconGridProps) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const [containerWidth, setContainerWidth] = useState(640);
+  const [containerWidth, setContainerWidth] = useState<number | null>(null);
 
+  // Measure synchronously before the browser paints — prevents the initial
+  // wrong-width render that causes horizontal overflow on mobile.
+  useLayoutEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+    setContainerWidth(container.getBoundingClientRect().width);
+  }, []);
+
+  // Keep width up to date when the container is resized.
   useEffect(() => {
     const container = containerRef.current;
     if (!container) return;
@@ -73,26 +84,26 @@ function IconGrid({ items, selected, setSelected, onHover, onHoverEnd }: IconGri
       }
     });
     observer.observe(container);
-    // Set initial width
-    setContainerWidth(container.getBoundingClientRect().width);
     return () => observer.disconnect();
   }, []);
 
-  const columnCount = Math.max(1, Math.floor(containerWidth / CELL_SIZE));
+  const columnCount = containerWidth !== null ? Math.max(1, Math.floor(containerWidth / CELL_SIZE)) : 1;
   const rowCount = Math.ceil(items.length / columnCount);
-  const gridHeight = rowCount * CELL_SIZE; // Exact height: no scrollbar
+  const gridHeight = rowCount * CELL_SIZE;
 
   return (
     <div ref={containerRef} className="w-full">
-      <Grid<CellData>
-        columnCount={columnCount}
-        rowCount={rowCount}
-        columnWidth={CELL_SIZE}
-        rowHeight={CELL_SIZE}
-        style={{ width: containerWidth, height: gridHeight }}
-        cellComponent={CellComponent}
-        cellProps={{ items, selected, setSelected, onHover, onHoverEnd, columnCount }}
-      />
+      {containerWidth !== null && (
+        <Grid<CellData>
+          columnCount={columnCount}
+          rowCount={rowCount}
+          columnWidth={CELL_SIZE}
+          rowHeight={CELL_SIZE}
+          style={{ width: containerWidth, height: gridHeight }}
+          cellComponent={CellComponent}
+          cellProps={{ items, selected, setSelected, onHover, onHoverEnd, columnCount }}
+        />
+      )}
     </div>
   );
 }
