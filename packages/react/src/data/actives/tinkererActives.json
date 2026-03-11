@@ -1,0 +1,803 @@
+[
+	{
+		"name": "Armor Up",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Armor_Up.svg",
+		"description": "Craft a Tinkerer armor piece into one of your empty armor slots.",
+		"description2": "Craft a Tinkerer armor piece into one of your or an adjacent unit's empty armor slots.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "5 MP"
+			}
+		]
+	},
+	{
+		"name": "Autopilot",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Autopilot.svg",
+		"description": "Take an extra turn after this one. You are AI controlled on that turn.",
+		"description2": "You or another unit takes an extra turn after this one. That unit is AI controlled on that turn. (This spell costs less.)",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "10 MP"
+			}
+		]
+	},
+	{
+		"name": "Bombchu",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Bombchu.svg",
+		"description": "Spawn a Bombchu bot.",
+		"description2": "Spawn a Bombchu bot in range 4. (This spell costs less.)",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "7 MP"
+			}
+		]
+	},
+	{
+		"name": "Build Nuke",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Build_Nuke.svg",
+		"description": "Spawn a mini-nuke that makes a HUGE explosion when it dies.",
+		"description2": "Spawn a mini-nuke in range 4 that makes a HUGE explosion when it dies.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "9 MP"
+			}
+		]
+	},
+	{
+		"name": "Build Turret",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Build_Turret.svg",
+		"description": "Summon a turret.",
+		"description2": "Summon a rocket turret.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "8 MP"
+			}
+		]
+	},
+	{
+		"name": "Catbot",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Catbot.svg",
+		"description": "Spawn a Catbot and give it your current weapon. (You will not get the weapon back)",
+		"description2": "Spawn a Catbot and give it your current weapon. Gain +1 Tech and refresh your basic action. (You will not get the weapon back)",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "8 MP"
+			}
+		]
+	},
+	{
+		"name": "Craft",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Craft.svg",
+		"description": "Craft and equip a random temporary weapon.",
+		"description2": "Craft and equip a random temporary weapon for yourself or an ally in range 3 (if they have an empty weapon slot).",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "4 MP"
+			}
+		]
+	},
+	{
+		"name": "Discharge",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Discharge.svg",
+		"description": "Spend all of your mana, then deal that much electric damage to an adjacent unit.",
+		"description2": "Spend all of your mana, then deal that much electric damage to an adjacent unit with a 10% Stun chance for each point of mana spent.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "X MP"
+			}
+		]
+	},
+	{
+		"name": "Drill Down",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Drill_Down.svg",
+		"description": "Dig to an open tile in a straight line.",
+		"description2": "Dig to a tile in a straight line. If you dig into a unit, explode dealing 5 damage in an area (including to yourself).",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "5 MP"
+			}
+		]
+	},
+	{
+		"name": "Eject Button",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Eject_Button.svg",
+		"description": "Explode and fly to a random tile at least four tiles away. This explosion damages you.",
+		"description2": "Explode and fly to a random tile at least four tiles away. This explosion damages you. (This spell costs less.)",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "3 MP"
+			}
+		]
+	},
+	{
+		"name": "Electric Nail",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Electric_Nail.svg",
+		"description": "Summon a nail that arcs electricity to neighboring tiles whenever any unit spends mana.",
+		"description2": "Summon a nail that arcs electricity to neighboring tiles whenever any unit spends mana. (This spell costs less.)",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "5 MP"
+			}
+		]
+	},
+	{
+		"name": "Electrolyze",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Electrolyze.svg",
+		"description": "Give your weapon +3 electric damage.",
+		"description2": "Give your weapon +3 electric damage. (This spell costs less.)",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "7 MP"
+			}
+		]
+	},
+	{
+		"name": "Eureka!",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Eureka-.svg",
+		"description": "Gain +3 Tech and Madness 1. (This spell can only be cast once per battle.)",
+		"description2": "Gain +3 Tech. (This spell can only be cast once per battle.)",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "5 MP"
+			}
+		]
+	},
+	{
+		"name": "Experimental Teleporter",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Experimental_Teleporter.svg",
+		"description": "Teleport to any tile. You have a 15% chance to equip a piece of Fly armor that breaks any armor pieces it replaces.",
+		"description2": "Teleport to any tile. You have a 15% chance to equip a piece of Fly armor that breaks any armor pieces it replaces. (This spell costs less.)",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "7 MP"
+			}
+		]
+	},
+	{
+		"name": "Fabricate",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Fabricate.svg",
+		"description": "Give an ally in range 3 a temporary copy of your weapon, if they don't have a weapon.",
+		"description2": "Give an ally in range 3 a temporary copy of your weapon, if they don't have a weapon. (This spell costs less.)",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "5 MP"
+			}
+		]
+	},
+	{
+		"name": "Fast Hands",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Fast_Hands.svg",
+		"description": "Refresh your weapon and trinket actions (unless they gain you mana).",
+		"description2": "Refresh your weapon and trinket actions (unless they gain you mana). Repair 1 use to all of your equipment.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "8 MP"
+			}
+		]
+	},
+	{
+		"name": "Firecracker",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Firecracker.svg",
+		"description": "Throw 3 small 1-damage explosives at random tiles in an area.",
+		"description2": "Throw small 1-damage explosives at all tiles in an area.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "5 MP"
+			}
+		]
+	},
+	{
+		"name": "Fresh off the Forge",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Fresh_off_the_Forge.svg",
+		"description": "Gain +7 Shield and Burn 3.",
+		"description2": "Give +7 Shield and Burn 3 to yourself or an adjacent unit.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "5 MP"
+			}
+		]
+	},
+	{
+		"name": "Improve",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Improve.svg",
+		"description": "Gain +1 to a random stat.",
+		"description2": "You or an adjacent unit gain +1 to 2 random stats.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "2 MP"
+			}
+		]
+	},
+	{
+		"name": "Instant Barrier",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Instant_Barrier.svg",
+		"description": "Gain +6 Shield. Castable only if you have no Shield.",
+		"description2": "Gain +6 Shield. This spell's mana cost is equal to your current Shield.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "1 MP"
+			}
+		]
+	},
+	{
+		"name": "Math!",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Math-.svg",
+		"description": "Deal 1 damage to a unit for each unique divisor in its current HP value.",
+		"description2": "Deal 1 damage to a unit for each unique divisor in its current HP value. If its HP was a prime number, gain 5 mana.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "5 MP"
+			}
+		]
+	},
+	{
+		"name": "Mech Suit",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Mech_Suit.svg",
+		"description": "Summon a mech suit that can be piloted. (Castable once per battle.)",
+		"description2": "Summon a mech suit that can be piloted. (Costs 0 mana. Castable once per battle.)",
+		"unlock": "Complete The Caves with the Tinkerer",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "15 MP"
+			}
+		]
+	},
+	{
+		"name": "Nurse Bot",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Nurse_Bot.svg",
+		"description": "Spawn a nurse bot that heals allies.",
+		"description2": "Spawn a nurse bot that heals allies. (This spell costs less.)",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "9 MP"
+			}
+		]
+	},
+	{
+		"name": "Punchbot",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Punchbot.svg",
+		"description": "Spawn a Rubber Fist Bot.",
+		"description2": "Spawn a Rubber Fist Bot within a large range.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "6 MP"
+			}
+		]
+	},
+	{
+		"name": "Recycle",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Recycle.svg",
+		"description": "Destroy your weapon to gain +1 Tech and refresh your basic action.",
+		"description2": "Destroy your weapon to gain +1 Tech and refresh your basic action. This spell costs 1 mana if you haven't used your weapon this turn.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "5 MP"
+			}
+		]
+	},
+	{
+		"name": "Refine Materials",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Refine_Materials.svg",
+		"description": "Collect a pickup in range 3. Instead of its normal effect, gain +1 Tech.",
+		"description2": "Collect a pickup in range 3. Instead of its normal effect, gain +1 Tech, +1 Shield, and +1 to a random stat.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "1 MP"
+			}
+		]
+	},
+	{
+		"name": "Remote Detonator",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Remote_Detonator.svg",
+		"description": "Explode a familiar, dealing 5 damage with knockback in an area.",
+		"description2": "Explode a familiar, dealing 5 damage with knockback in an area. (This spell costs less.)",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "4 MP"
+			}
+		]
+	},
+	{
+		"name": "Repair",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Repair.svg",
+		"description": "Repair 1 use to all of your or an adjacent unit's equipment.",
+		"description2": "Repair all uses to all of your or an adjacent unit's equipment.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "5 MP"
+			}
+		]
+	},
+	{
+		"name": "Repair Armor",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Repair_Armor.svg",
+		"description": "Lose all Shield, then gain Shield equal to your equipment's starting Shield.",
+		"description2": "Lose all Shield, then give Shield equal to your equipment's starting Shield to yourself or another ally.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "5 MP"
+			}
+		]
+	},
+	{
+		"name": "Reprogram",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Reprogram.svg",
+		"description": "Conjure a random spell of your class as a bonus ability.",
+		"description2": "Conjure a random upgraded spell of your class as a bonus ability.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "3 MP"
+			}
+		]
+	},
+	{
+		"name": "Research",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Research.svg",
+		"description": "Gain +1 Tech.",
+		"description2": "Gain +1 Tech. Bonus Passive: Crafting subtracts 1 Tech instead of all of it.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "5 MP"
+			}
+		]
+	},
+	{
+		"name": "Robo-Vac",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Robo-Vac.svg",
+		"description": "Spawn a vacuum bot that collects pickups and shares their effects with you.",
+		"description2": "Spawn a vacuum bot that collects pickups and shares their effects with your whole team.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "4 MP"
+			}
+		]
+	},
+	{
+		"name": "Rocket Ride",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Rocket_Ride.svg",
+		"description": "Jump to any open tile. Explode when you land. (This explosion also damages you.)",
+		"description2": "Jump to any open tile. Explode when you land. (This explosion also damages you.) (This spell costs less.)",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "8 MP"
+			}
+		]
+	},
+	{
+		"name": "Rocket Skates",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Rocket_Skates.svg",
+		"description": "Dash forward in a straight line then explode dealing damage in an area (including to yourself).",
+		"description2": "Dash forward in a straight line then explode dealing damage in an larger area (including to yourself).",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "3 MP"
+			}
+		]
+	},
+	{
+		"name": "Shed Scrap",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Shed_Scrap.svg",
+		"description": "Lose 1 Shield. Spawn a junk pile.",
+		"description2": "Lose 1 Shield. Spawn a junk pile in range 2.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "1 MP"
+			}
+		]
+	},
+	{
+		"name": "Shock Therapy",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Shock_Therapy.svg",
+		"description": "Deal 1 electric damage to yourself or an adjacent unit. Cleanse debuffs from that unit, give it a random stat up, and a 25% chance to be Stunned.",
+		"description2": "Deal 1 electric damage to yourself or a unit in range 5. Cleanse debuffs from that unit, give it a random stat up, and a 25% chance to be Stunned.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "5 MP"
+			}
+		]
+	},
+	{
+		"name": "Shockwave",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Shockwave.svg",
+		"description": "Deal damage to all units. The closer a unit is to you the more damage it takes.",
+		"description2": "Deal damage to all units. The closer a unit is to you the more damage it takes. (Deals more damage to closer units and less damage to further units.)",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "7 MP"
+			}
+		]
+	},
+	{
+		"name": "Shoddy Jetpack",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Shoddy_Jetpack.svg",
+		"description": "Fly to a random tile in a large area. If you land on a unit, explode dealing 5 damage in an area (including to yourself).",
+		"description2": "Fly to any tile. If you land on a unit, explode dealing 5 damage in an area (including to yourself).",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "6 MP"
+			}
+		]
+	},
+	{
+		"name": "Short Circuit",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Short_Circuit.svg",
+		"description": "Deal 1 electric damage with a random amount of knockback (up to 3) to all adjacent units.",
+		"description2": "Deal 2 electric damage with a random amount of knockback (up to 10) to all adjacent units.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "3 MP"
+			}
+		]
+	},
+	{
+		"name": "Smash",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Smash.svg",
+		"description": "Smash your weapon onto an adjacent unit, destroying it and dealing double its damage.",
+		"description2": "Smash your weapon onto an adjacent unit, destroying it and dealing double its damage. (This spell costs less.)",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "5 MP"
+			}
+		]
+	},
+	{
+		"name": "Spare Parts",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Spare_Parts.svg",
+		"description": "When you move, spawn a scrap pickup where you moved from.",
+		"description2": "Destroy your weapon and gain one of the following: +4 Shield, +8 Charge, +2 Thorns, or 2 coins.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "1 MP"
+			}
+		]
+	},
+	{
+		"name": "Sparks",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Sparks.svg",
+		"description": "Shoot electric bolts at up to 3 random enemies or robots.",
+		"description2": "Shoot electric bolts at up to 5 random enemies or robots.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "7 MP"
+			}
+		]
+	},
+	{
+		"name": "Spawn Decoy",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Spawn_Decoy.svg",
+		"description": "Spawn a decoy that explodes when it dies.",
+		"description2": "Spawn a decoy that explodes when it dies. When an enemy targets you, swap places with the decoy.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "8 MP"
+			}
+		]
+	},
+	{
+		"name": "Split the Atom",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Split_the_Atom.svg",
+		"description": "Deal 50 damage to and inflict Burn 10 on all enemies. You can pay for this spell over multiple turns. (This spell's mana cost can't be modified.)",
+		"description2": "Deal 50 damage to and inflict Burn 10 on all enemies. You can pay for this spell over multiple turns. This spell absorbs the mana you spend casting other spells. (This spell's mana cost can't be modified.)",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "50 MP"
+			}
+		]
+	},
+	{
+		"name": "Spring Shoes",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Spring_Shoes.svg",
+		"description": "Jump up to 2 tiles away.",
+		"description2": "Jump up to 5 tiles away.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "2 MP"
+			}
+		]
+	},
+	{
+		"name": "Tesla Coil",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Tesla_Coil.svg",
+		"description": "Spawn a tesla coil that shoots lightning bolts at random units with a small chance to inflict Stun.",
+		"description2": "Spawn a tesla coil in range 7 that shoots lightning bolts at random units with a small chance to inflict Stun.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "7 MP"
+			}
+		]
+	},
+	{
+		"name": "Unreliable Missile Launcher",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Unreliable_Missile_Launcher.svg",
+		"description": "Shoot an explosive homing missile at a random enemy. This spell has a 75% chance to be disabled on each turn.",
+		"description2": "Shoot an explosive homing missile at a random enemy. This spell has a 66% chance to be disabled on each turn. (This spell costs less.)",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "4 MP"
+			}
+		]
+	},
+	{
+		"name": "Unreliable Shield Generator",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Unreliable_Shield_Generator.svg",
+		"description": "Gain +6 Shield and +1 temporary Brace. This spell has a 75% chance to be disabled on each turn.",
+		"description2": "Get +6 Shield and +1 temporary Brace. This spell has a 66% chance to be disabled on each turn. (This spell costs less.)",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "4 MP"
+			}
+		]
+	},
+	{
+		"name": "Upgrade",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Upgrade.svg",
+		"description": "Fully heal a familiar and give it All Stats Up.",
+		"description2": "Fully heal a familiar and give it All Stats Up and +1 Holy Shield.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "4 MP"
+			}
+		]
+	},
+	{
+		"name": "Volt Tackle",
+		"icon_path": "/assets/actives/tinkerer/ABILITY_Volt_Tackle.svg",
+		"description": "Teleport to anything that's electrically conductive. Displace units you teleport onto and deal electric damage to them.",
+		"description2": "Teleport to anything that's electrically conductive. Displace units you teleport onto and deal electric damage to them with a 50% chance to inflict Stun.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Tinkerer"
+			},
+			{
+				"label": "Cost",
+				"content": "7 MP"
+			}
+		]
+	}
+]

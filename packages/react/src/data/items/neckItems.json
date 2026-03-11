@@ -1,0 +1,3263 @@
+[
+  {
+    "name": "A Friends Foot",
+    "icon_path": "/assets/items/ITEM_A_Friends_Foot.svg",
+    "description": "+1\nGain +1 when you get a kill.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Human Flesh"
+      }
+    ]
+  },
+  {
+    "name": "Advanced Alloy Armor",
+    "icon_path": "/assets/items/ITEM_Advanced_Alloy_Armor.svg",
+    "description": "+4\n2 Brace, 2 Thorns.\nBrittle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Sets",
+        "content": "Advanced Alloy"
+      }
+    ]
+  },
+  {
+    "name": "Alloy Armor",
+    "icon_path": "/assets/items/ITEM_Alloy_Armor.svg",
+    "description": "+3 Shield\n+1 Brace, +2 Thorns.\nBrittle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Sets",
+        "content": "Alloy"
+      }
+    ]
+  },
+  {
+    "name": "Amoeba (Neck)",
+    "icon_path": "/assets/items/ITEM_Amoeba_-Neck-.svg",
+    "description": "+4 , -1\n+1 Brace. +10% Miss Chance.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Sets",
+        "content": "Amoeba"
+      }
+    ]
+  },
+  {
+    "name": "Ancestor's Bones",
+    "icon_path": "/assets/items/ITEM_Ancestor-s_Bones.svg",
+    "description": "Mimics a class passive.\nWill use it as it's description.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Ancestor,Bone"
+      }
+    ]
+  },
+  {
+    "name": "Angelic Protection",
+    "icon_path": "/assets/items/ITEM_Angelic_Protection.svg",
+    "description": "33% chance to teleport to a random tile when targeted by an enemy.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cleric"
+      }
+    ]
+  },
+  {
+    "name": "Armory Key",
+    "icon_path": "/assets/items/ITEM_Armory_Key.svg",
+    "description": "Find an extra item after each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Asteroid Belt",
+    "icon_path": "/assets/items/ITEM_Asteroid_Belt.svg",
+    "description": "+2 Brace.\n+10% chance to block damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Planet"
+      }
+    ]
+  },
+  {
+    "name": "Back Tentacles",
+    "icon_path": "/assets/items/ITEM_Back_Tentacles.svg",
+    "description": "+2 Shield\nCounterattack ranged attackers with a tentacle slap.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Tentacle"
+      }
+    ]
+  },
+  {
+    "name": "Backpack",
+    "icon_path": "/assets/items/ITEM_Backpack.svg",
+    "description": "50% chance to find an extra consumable item at the end of each combat.\nWhen you use up a consumable or trinket, equip a new consumable item from your inventory if you have any.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Survivalist"
+      }
+    ]
+  },
+  {
+    "name": "Bad Splinters",
+    "icon_path": "/assets/items/ITEM_Bad_Splinters.svg",
+    "description": "-2\n+2 Thorns.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      }
+    ]
+  },
+  {
+    "name": "Barbed Necklace",
+    "icon_path": "/assets/items/ITEM_Barbed_Necklace.svg",
+    "description": "+1 Damage, +1 Thorns, -1 max HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Barbed"
+      }
+    ]
+  },
+  {
+    "name": "Big Rock Necklace",
+    "icon_path": "/assets/items/ITEM_Big_Rock_Necklace.svg",
+    "description": "+6 Shield, -2\nBrace 2.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Bionic Neck Plating",
+    "icon_path": "/assets/items/ITEM_Bionic_Neck_Plating.svg",
+    "description": "+3\nFragile.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Bionic"
+      }
+    ]
+  },
+  {
+    "name": "Bling",
+    "icon_path": "/assets/items/ITEM_Bling.svg",
+    "description": "+4 Shield, -2 , +2",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Blubber",
+    "icon_path": "/assets/items/ITEM_Blubber.svg",
+    "description": "+7 , -5 , -2",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Fatty"
+      }
+    ]
+  },
+  {
+    "name": "Bone Necklace",
+    "icon_path": "/assets/items/ITEM_Bone_Necklace.svg",
+    "description": "+3 Shield\nBreaks when Shield is depleted.\nWhen it breaks, gain +1 and +3 Health Regen for the rest of the battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone"
+      }
+    ]
+  },
+  {
+    "name": "Boxing Charm",
+    "icon_path": "/assets/items/ITEM_Boxing_Charm.svg",
+    "description": "Start with +1 Bonus Attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Fighter,Twine"
+      }
+    ]
+  },
+  {
+    "name": "Brambles",
+    "icon_path": "/assets/items/ITEM_Brambles.svg",
+    "description": "+1 Thorns. Spawn brambles in adjacent tiles when you end your turn.\nYou are immune to tile effects.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Leafy"
+      }
+    ]
+  },
+  {
+    "name": "Brick Necklace",
+    "icon_path": "/assets/items/ITEM_Brick_Necklace.svg",
+    "description": "+4 Shield, -1\nInflict Bruise 1 on units that contact you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Brick"
+      }
+    ]
+  },
+  {
+    "name": "Broken Window",
+    "icon_path": "/assets/items/ITEM_Broken_Window.svg",
+    "description": "+3 Bleed Thorns. Bleed 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Wood"
+      }
+    ]
+  },
+  {
+    "name": "Bubble Boy",
+    "icon_path": "/assets/items/ITEM_Bubble_Boy.svg",
+    "description": "Side Quest Item. All units rebound with Knockback 5 on contact.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Side Quest"
+      }
+    ]
+  },
+  {
+    "name": "Bulletproof Vest",
+    "icon_path": "/assets/items/ITEM_Bulletproof_Vest.svg",
+    "description": "-1 , -1\nInjury immunity.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Cactus Necklace",
+    "icon_path": "/assets/items/ITEM_Cactus_Necklace.svg",
+    "description": "+3 Thorns, Brittle.\nGain +2 permanently and heal 10 HP when this breaks.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Cactus"
+      }
+    ]
+  },
+  {
+    "name": "Carapace Necklace",
+    "icon_path": "/assets/items/ITEM_Carapace_Necklace.svg",
+    "description": "+4 Shield\nCleanse 1 stack of a random negative status effect when you end your turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Carapace"
+      }
+    ]
+  },
+  {
+    "name": "Cardboard Necklace",
+    "icon_path": "/assets/items/ITEM_Cardboard_Necklace.svg",
+    "description": "+2 Shield\nFragile, Flammable, Brittle when Wet.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Cardboard"
+      }
+    ]
+  },
+  {
+    "name": "Cathide Armor",
+    "icon_path": "/assets/items/ITEM_Cathide_Armor.svg",
+    "description": "+2 Shield\n+1 Health Regen.\n5% chance to spawn a Flea Familiar at the end of your turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Cathide"
+      }
+    ]
+  },
+  {
+    "name": "Caveman Necklace",
+    "icon_path": "/assets/items/ITEM_Caveman_Necklace.svg",
+    "description": "-1 , +2\n+33% crit damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Caveman"
+      }
+    ]
+  },
+  {
+    "name": "Cerebellum Implant",
+    "icon_path": "/assets/items/ITEM_Cerebellum_Implant.svg",
+    "description": "+3 Shield, +1\n+10% Crit Chance.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cyborg"
+      }
+    ]
+  },
+  {
+    "name": "Chef's Apron",
+    "icon_path": "/assets/items/ITEM_Chef-s_Apron.svg",
+    "description": "At the end of each turn, gain +1 and spawn a random food pickup within 2 tiles.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Butcher"
+      }
+    ]
+  },
+  {
+    "name": "Chub's Collar",
+    "icon_path": "/assets/items/ITEM_Chub-s_Collar.svg",
+    "description": "+1\nYour basic attack is Spin Attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Leather"
+      }
+    ]
+  },
+  {
+    "name": "Cinder Block",
+    "icon_path": "/assets/items/ITEM_Cinder_Block.svg",
+    "description": "+3 Shield",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Cleric's Relic",
+    "icon_path": "/assets/items/ITEM_Cleric-s_Relic.svg",
+    "description": "+1 Brace.\n+15% chance to inflict Fear on units that contact or attack you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cleric"
+      }
+    ]
+  },
+  {
+    "name": "Coffin Armor",
+    "icon_path": "/assets/items/ITEM_Coffin_Armor.svg",
+    "description": "+3 Shield, +1 Holy Shield\n+1 Thorns.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Wood"
+      }
+    ]
+  },
+  {
+    "name": "Colostomy Bag",
+    "icon_path": "/assets/items/ITEM_Colostomy_Bag.svg",
+    "description": "Spawn Charmed Dips randomly when you move over tiles.\nWhile downed, spawn a Charmed Dip at the end of each round.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Fecal,Used"
+      }
+    ]
+  },
+  {
+    "name": "Cool Shirt",
+    "icon_path": "/assets/items/ITEM_Cool_Shirt.svg",
+    "description": "+2\nFragile",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Cool"
+      }
+    ]
+  },
+  {
+    "name": "Cooties",
+    "icon_path": "/assets/items/ITEM_Cooties.svg",
+    "description": "-1 , -1 , -1 , -1 , -1 , -1 , -1\nYour basic attack inflicts Weakness, Rot and Infested.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      }
+    ]
+  },
+  {
+    "name": "Copycat Scarf",
+    "icon_path": "/assets/items/ITEM_Copycat_Scarf.svg",
+    "description": "Copies your trinket's passive effects.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Copycat"
+      }
+    ]
+  },
+  {
+    "name": "Crucifix",
+    "icon_path": "/assets/items/ITEM_Crucifix.svg",
+    "description": "+1 Holy Shield",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Cleric"
+      }
+    ]
+  },
+  {
+    "name": "Crusty Sock",
+    "icon_path": "/assets/items/ITEM_Crusty_Sock.svg",
+    "description": "Spawn a Gamete familiar at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Used"
+      }
+    ]
+  },
+  {
+    "name": "Cunch",
+    "icon_path": "/assets/items/ITEM_Cunch.svg",
+    "description": "You can use your basic attack and movement action an extra time each turn.\nYour passives are disabled during battle.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      }
+    ]
+  },
+  {
+    "name": "DNA Multiplier",
+    "icon_path": "/assets/items/ITEM_DNA_Multiplier.svg",
+    "description": "Double all status effects that get applied to you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Damage Transmitter",
+    "icon_path": "/assets/items/ITEM_Damage_Transmitter.svg",
+    "description": "-2 Damage Down.\nAll other allies get +1 Damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Transmitter"
+      }
+    ]
+  },
+  {
+    "name": "Dark Friend",
+    "icon_path": "/assets/items/ITEM_Dark_Friend.svg",
+    "description": "At the start of your turn, spawn a Shadow copy that mimics your Basic Attack and fades at the end of the turn, Range 5?.\nUnits that contact or Attack you have a 15% Chance to be Feared.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Demonic"
+      }
+    ]
+  },
+  {
+    "name": "Debris Armor",
+    "icon_path": "/assets/items/ITEM_Debris_Armor.svg",
+    "description": "+2 Shield, -1\n+2 range, +1 Kinetic Spikes.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Debris"
+      }
+    ]
+  },
+  {
+    "name": "Demonic Necklace",
+    "icon_path": "/assets/items/ITEM_Demonic_Necklace.svg",
+    "description": "Bruise 1. When you take damage, gain +2 Damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Demonic"
+      }
+    ]
+  },
+  {
+    "name": "Dino Necklace",
+    "icon_path": "/assets/items/ITEM_Dino_Necklace.svg",
+    "description": "+5 Shield, -1\nAllies gain +1 at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Dino,Bone"
+      }
+    ]
+  },
+  {
+    "name": "Dirt Clod Necklace",
+    "icon_path": "/assets/items/ITEM_Dirt_Clod_Necklace.svg",
+    "description": "+2 Mana Regen, +2 Health Regen.\nFragile and Brittle while Wet.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Dirt Clod"
+      }
+    ]
+  },
+  {
+    "name": "Dirty Bionic Armor",
+    "icon_path": "/assets/items/ITEM_Dirty_Bionic_Armor.svg",
+    "description": "+4\n+2 Mana Regen, +2 Health Regen.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Dirt Clod,Bionic"
+      }
+    ]
+  },
+  {
+    "name": "Diviner's Cloth",
+    "icon_path": "/assets/items/ITEM_Diviner-s_Cloth.svg",
+    "description": "Adjacent allies have +25% Dodge Chance.\nGive +1 Charge to all adjacent allies at the end of your turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Psychic,Rag"
+      }
+    ]
+  },
+  {
+    "name": "Dry Bone Necklace",
+    "icon_path": "/assets/items/ITEM_Dry_Bone_Necklace.svg",
+    "description": "+3 Shield\n+1 Thorns.\nInflict Bruise 1 on units that contact you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone"
+      }
+    ]
+  },
+  {
+    "name": "Elite Alloy Armor",
+    "icon_path": "/assets/items/ITEM_Elite_Alloy_Armor.svg",
+    "description": "+5 Shield\n+2 Brace, +3 Thorns, 1 All Stats Up.\nBrittle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Sets",
+        "content": "Elite Alloy"
+      }
+    ]
+  },
+  {
+    "name": "Empty Generator",
+    "icon_path": "/assets/items/ITEM_Empty_Generator.svg",
+    "description": "+2 Shield\nWhen you spend 12 or more mana in a turn, refresh your basic attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Ethereal Rings",
+    "icon_path": "/assets/items/ITEM_Ethereal_Rings.svg",
+    "description": "+3 Shield\nKinetic Spikes 3. Emit 3 Sparkles when you use your basic attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Experimental Treatment (Neck)",
+    "icon_path": "/assets/items/ITEM_Experimental_Treatment_-Neck-.svg",
+    "description": "+2 of a random stat, -1 of a random stat.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Experimental"
+      }
+    ]
+  },
+  {
+    "name": "Extra Set of Eyes",
+    "icon_path": "/assets/items/ITEM_Extra_Set_of_Eyes.svg",
+    "description": "At the end of each turn, gain +1 Preemptive Counterattack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Space"
+      }
+    ]
+  },
+  {
+    "name": "Fanny Pack",
+    "icon_path": "/assets/items/ITEM_Fanny_Pack.svg",
+    "description": "Spawn 1-2 extra pickups at the start of each battle.\nAfter you collect your 3rd pickup, you can move an extra time each turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Leather,Survivalist"
+      }
+    ]
+  },
+  {
+    "name": "Fatty Necklace",
+    "icon_path": "/assets/items/ITEM_Fatty_Necklace.svg",
+    "description": "Brace 1. Your basic attack has +1 Knockback.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Fatty"
+      }
+    ]
+  },
+  {
+    "name": "Feathered Necklace",
+    "icon_path": "/assets/items/ITEM_Feathered_Necklace.svg",
+    "description": "+15% Dodge Chance.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Feathered"
+      }
+    ]
+  },
+  {
+    "name": "Fecal Necklace",
+    "icon_path": "/assets/items/ITEM_Fecal_Necklace.svg",
+    "description": "-1\nPoisonous 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Fecal"
+      }
+    ]
+  },
+  {
+    "name": "Fighter's Shoulder Pad",
+    "icon_path": "/assets/items/ITEM_Fighter-s_Shoulder_Pad.svg",
+    "description": "+2 Shield\n+15% chance to refresh your basic attack, movement, weapon and trinket actions when you get a kill.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Fighter"
+      }
+    ]
+  },
+  {
+    "name": "Fish Necklace",
+    "icon_path": "/assets/items/ITEM_Fish_Necklace.svg",
+    "description": "+3 Shield, -6\nDamage you deal inflicts Rot 1.\nPoisonous 1.\nAllied Flies have +2 Damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Rotten,Twine"
+      }
+    ]
+  },
+  {
+    "name": "Flower Necklace",
+    "icon_path": "/assets/items/ITEM_Flower_Necklace.svg",
+    "description": "Your basic attack has a +5% chance to inflict Entangled.\nPlants flowers on each tile you move through.\n(Stacking this effect plants flowers in a wider area.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Flower"
+      }
+    ]
+  },
+  {
+    "name": "Fly Carapace",
+    "icon_path": "/assets/items/ITEM_Fly_Carapace.svg",
+    "description": "+3 , -1\n+10% Dodge Chance.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Sets",
+        "content": "Fly"
+      }
+    ]
+  },
+  {
+    "name": "Fortune Necklace",
+    "icon_path": "/assets/items/ITEM_Fortune_Necklace.svg",
+    "description": "Spawn 3-6 coins at the start of each battle.\nFragile.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      }
+    ]
+  },
+  {
+    "name": "Frank Bolts",
+    "icon_path": "/assets/items/ITEM_Frank_Bolts.svg",
+    "description": "+2 Shield\nElectric immunity.\nElectric damage revives you when downed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Bionic,Cyborg"
+      }
+    ]
+  },
+  {
+    "name": "Freezing Baby",
+    "icon_path": "/assets/items/ITEM_Freezing_Baby.svg",
+    "description": "Inflict Freeze 2 on a Random enemy at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Baby"
+      }
+    ]
+  },
+  {
+    "name": "Frozen Necklace",
+    "icon_path": "/assets/items/ITEM_Frozen_Necklace.svg",
+    "description": "+1 Shield\nYour basic attack inflicts Slow and has a +10% chance to Freeze units. Units that contact you gain Slow and have a 10% chance to become Frozen.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Frozen"
+      }
+    ]
+  },
+  {
+    "name": "Furry Dice",
+    "icon_path": "/assets/items/ITEM_Furry_Dice.svg",
+    "description": "+1\nYou can reroll your options when you level up.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Lucky,Twine"
+      }
+    ]
+  },
+  {
+    "name": "Gemstone Necklace",
+    "icon_path": "/assets/items/ITEM_Gemstone_Necklace.svg",
+    "description": "+1 Shield, +1\n+1 Kinetic Spikes.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Gemstone"
+      }
+    ]
+  },
+  {
+    "name": "Glowing Pelt",
+    "icon_path": "/assets/items/ITEM_Glowing_Pelt.svg",
+    "description": "+5 Health Regen.\nWhen you're downed, revive at the end of the round.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Gobbler",
+    "icon_path": "/assets/items/ITEM_Gobbler.svg",
+    "description": "+4 , -2\nUnits that contact you are knocked back 2 tiles.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Fatty"
+      }
+    ]
+  },
+  {
+    "name": "Heal Worm",
+    "icon_path": "/assets/items/ITEM_Heal_Worm.svg",
+    "description": "-1\n+2 Health Regen.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Sets",
+        "content": "Parasite"
+      }
+    ]
+  },
+  {
+    "name": "Healing Gauze",
+    "icon_path": "/assets/items/ITEM_Healing_Gauze.svg",
+    "description": "You have +3 Health Regen as long as you have Shield.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Mummy,Nurse"
+      }
+    ]
+  },
+  {
+    "name": "Heart",
+    "icon_path": "/assets/items/ITEM_Heart.svg",
+    "description": "+2\n+1 Health Regen.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Guts"
+      }
+    ]
+  },
+  {
+    "name": "Hooked Necklace",
+    "icon_path": "/assets/items/ITEM_Hooked_Necklace.svg",
+    "description": "+2 Shield\n+2 Thorns. Cleave units that contact you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Butcher"
+      }
+    ]
+  },
+  {
+    "name": "Hookworm",
+    "icon_path": "/assets/items/ITEM_Hookworm.svg",
+    "description": "-1 , -1\nSpawn a Charmed Leech when you take damage.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      }
+    ]
+  },
+  {
+    "name": "Human Hide",
+    "icon_path": "/assets/items/ITEM_Human_Hide.svg",
+    "description": "-1 , +2\nUnits that contact or attack you have a +25% chance to be Feared.\nSpawn a food pickup at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Human Flesh"
+      }
+    ]
+  },
+  {
+    "name": "Hunter's Quiver",
+    "icon_path": "/assets/items/ITEM_Hunter-s_Quiver.svg",
+    "description": "Start each battle with 2 bonus attacks.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Hunter,Leather"
+      }
+    ]
+  },
+  {
+    "name": "Hybrid Necklace",
+    "icon_path": "/assets/items/ITEM_Hybrid_Necklace.svg",
+    "description": "Start with +5 Charge and Bruise 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Hybrid"
+      }
+    ]
+  },
+  {
+    "name": "Jank Alloy Hat",
+    "icon_path": "/assets/items/ITEM_Jank_Alloy_Hat.svg",
+    "description": "+2 Shield\n+1 Brace.\nBrittle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Sets",
+        "content": "Jank Alloy"
+      }
+    ]
+  },
+  {
+    "name": "Large Shark Tooth",
+    "icon_path": "/assets/items/ITEM_Large_Shark_Tooth.svg",
+    "description": "Your basic attack inflicts +1 Bleed. Take an extra turn at the end of the round for each Bleeding enemy. You are uncontrollable during these turns.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Twine"
+      }
+    ]
+  },
+  {
+    "name": "Lead Shoulder Pads",
+    "icon_path": "/assets/items/ITEM_Lead_Shoulder_Pads.svg",
+    "description": "+6 Shield, -1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Lead"
+      }
+    ]
+  },
+  {
+    "name": "Leafy Necklace",
+    "icon_path": "/assets/items/ITEM_Leafy_Necklace.svg",
+    "description": "+1\nWhile standing in tall grass, you have +3 Health Regen and +1 Mana Regen.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Leafy"
+      }
+    ]
+  },
+  {
+    "name": "Leather Choker",
+    "icon_path": "/assets/items/ITEM_Leather_Choker.svg",
+    "description": "+1 Shield\n+1 Brace.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Leather"
+      }
+    ]
+  },
+  {
+    "name": "Leather Collar",
+    "icon_path": "/assets/items/ITEM_Leather_Collar.svg",
+    "description": "Gain +2 Charge when you take damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Gimp"
+      }
+    ]
+  },
+  {
+    "name": "Leather Jacket",
+    "icon_path": "/assets/items/ITEM_Leather_Jacket.svg",
+    "description": "+3 Shield\nIf you would take exactly 1 damage, take 0 instead.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Leather,Cool"
+      }
+    ]
+  },
+  {
+    "name": "Leech Necklace",
+    "icon_path": "/assets/items/ITEM_Leech_Necklace.svg",
+    "description": "Your spells inflict Leech 1 against enemies.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Necromancer,Leech"
+      }
+    ]
+  },
+  {
+    "name": "Lion Mane",
+    "icon_path": "/assets/items/ITEM_Lion_Mane.svg",
+    "description": "+1 +1 +1 -1 -1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Lost Soul",
+    "icon_path": "/assets/items/ITEM_Lost_Soul.svg",
+    "description": "The first time you are downed each battle, revive to full HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Lucky Horseshoe",
+    "icon_path": "/assets/items/ITEM_Lucky_Horseshoe.svg",
+    "description": "+1\nFragile.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Lucky"
+      }
+    ]
+  },
+  {
+    "name": "Lucky Toe",
+    "icon_path": "/assets/items/ITEM_Lucky_Toe.svg",
+    "description": "Drop a boulder on an adjacent tile, damaging and displacing units it lands on.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Human Flesh,Lucky,Twine"
+      }
+    ]
+  },
+  {
+    "name": "Lucky Twine",
+    "icon_path": "/assets/items/ITEM_Lucky_Twine.svg",
+    "description": "+1\n75% chance to Grapple units that make contact with you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Twine,Lucky"
+      }
+    ]
+  },
+  {
+    "name": "Mage's Scarf",
+    "icon_path": "/assets/items/ITEM_Mage-s_Scarf.svg",
+    "description": "+1\nGain +1 Charge each time an enemy dies.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Mage"
+      }
+    ]
+  },
+  {
+    "name": "Mama Leech",
+    "icon_path": "/assets/items/ITEM_Mama_Leech.svg",
+    "description": "After every 3rd Spell you cast, spawn a Leech Familiar.\n(AI controlled)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Leech,Mother"
+      }
+    ]
+  },
+  {
+    "name": "Man's Tie",
+    "icon_path": "/assets/items/ITEM_Man-s_Tie.svg",
+    "description": "+2",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Man"
+      }
+    ]
+  },
+  {
+    "name": "Mark IV",
+    "icon_path": "/assets/items/ITEM_Mark_IV.svg",
+    "description": "After every fourth spell you cast, gain +2",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Medical Necklace",
+    "icon_path": "/assets/items/ITEM_Medical_Necklace.svg",
+    "description": "All of your stats are increased by 1 for each disorder you have.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Medical"
+      }
+    ]
+  },
+  {
+    "name": "Meek Stone",
+    "icon_path": "/assets/items/ITEM_Meek_Stone.svg",
+    "description": "You have All Stats Up while at 10 or less health.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Gemstone"
+      }
+    ]
+  },
+  {
+    "name": "Mega Poop",
+    "icon_path": "/assets/items/ITEM_Mega_Poop.svg",
+    "description": "+4 Shield, -1\nLeave poop behind when you move.\nSpawn 2-3 pickups whenever you destroy a poop.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Fecal"
+      }
+    ]
+  },
+  {
+    "name": "Miner Pack",
+    "icon_path": "/assets/items/ITEM_Miner_Pack.svg",
+    "description": "Your basic attack has +1 Knockback.\n+1 Knockback damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Miner"
+      }
+    ]
+  },
+  {
+    "name": "Molten Necklace",
+    "icon_path": "/assets/items/ITEM_Molten_Necklace.svg",
+    "description": "Start with Burn 2. Your basic attack inflicts Burn 1. Inflict Burn 1 on units that contact you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Molten"
+      }
+    ]
+  },
+  {
+    "name": "Morphine Drip",
+    "icon_path": "/assets/items/ITEM_Morphine_Drip.svg",
+    "description": "Damage you take is reduced by 3.\nDamage prevented this way is delayed and taken at the end of your turn, all at once.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Medical,Nurse"
+      }
+    ]
+  },
+  {
+    "name": "Mother's Necklace",
+    "icon_path": "/assets/items/ITEM_Mother-s_Necklace.svg",
+    "description": "Spawn a Charmed Tiny Tumor at the start of each battle and whenever you're downed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Mother"
+      }
+    ]
+  },
+  {
+    "name": "Mother's Teeth",
+    "icon_path": "/assets/items/ITEM_Mother-s_Teeth.svg",
+    "description": "+6 Bleed Thorns, +6 Thorns, +6 Bleed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Mother"
+      }
+    ]
+  },
+  {
+    "name": "Mundane Collar",
+    "icon_path": "/assets/items/ITEM_Mundane_Collar.svg",
+    "description": "+1 , +1 , +1 , +1 , +1 , +1 , +1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Collarless,Leather"
+      }
+    ]
+  },
+  {
+    "name": "Neck Grub",
+    "icon_path": "/assets/items/ITEM_Neck_Grub.svg",
+    "description": "+3 Shield\nWhen your Shield is depleted, this transforms into a Maggot familiar.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Grub"
+      }
+    ]
+  },
+  {
+    "name": "Neck Wrap",
+    "icon_path": "/assets/items/ITEM_Neck_Wrap.svg",
+    "description": "+1 Health Regen.\nWhen downed, revive with 15% HP at the end of the round.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Mummy"
+      }
+    ]
+  },
+  {
+    "name": "Nubs Collar",
+    "icon_path": "/assets/items/ITEM_Nubs_Collar.svg",
+    "description": "Your movement action is Belly Flop.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Leather"
+      }
+    ]
+  },
+  {
+    "name": "Nuke",
+    "icon_path": "/assets/items/ITEM_Nuke.svg",
+    "description": "+10 Shield, -2\nTake it to The Infinite and wait for the signal from Dr. Beanies to set it off.\n+2 Brace. If this cat dies, it explodes and damages everything for 50.\nBonus Ability: Trigger the Nuke.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Radioactive"
+      }
+    ]
+  },
+  {
+    "name": "Nurse Necklace",
+    "icon_path": "/assets/items/ITEM_Nurse_Necklace.svg",
+    "description": "+1\n+1 Health Regen. Your heals heal for 1 extra.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Nurse"
+      }
+    ]
+  },
+  {
+    "name": "Obelisk Pauldrons",
+    "icon_path": "/assets/items/ITEM_Obelisk_Pauldrons.svg",
+    "description": "+1 Holy Shield\nGain +2 , +2 and +2 when you kill a unit.\nStats obtained this way are lost when you take damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Obelisk"
+      }
+    ]
+  },
+  {
+    "name": "Obi",
+    "icon_path": "/assets/items/ITEM_Obi.svg",
+    "description": "Start battle with +2 Bonus Movement.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Ninja"
+      }
+    ]
+  },
+  {
+    "name": "Odd Medallion",
+    "icon_path": "/assets/items/ITEM_Odd_Medallion.svg",
+    "description": "+6\nDeal 1 electric damage to units that contact or attack you.\n25% chance to poop every time you take damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Used,Twine,Demonic"
+      }
+    ]
+  },
+  {
+    "name": "Pack of Blades",
+    "icon_path": "/assets/items/ITEM_Pack_of_Blades.svg",
+    "description": "Whenever you Backstab, gain +1 Serrated Claws.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Paper Shoulder Pads",
+    "icon_path": "/assets/items/ITEM_Paper_Shoulder_Pads.svg",
+    "description": "+1 Bleed Thorns.\nYour Basic Attack inflicts Bleed.\nFragile, Brittle, Flammable, Melts in Water.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Paper"
+      }
+    ]
+  },
+  {
+    "name": "Peace Symbol",
+    "icon_path": "/assets/items/ITEM_Peace_Symbol.svg",
+    "description": "If you end your turn without dealing damage, gain +1 Holy Shield.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Hippie,Twine"
+      }
+    ]
+  },
+  {
+    "name": "Phoenix Necklace",
+    "icon_path": "/assets/items/ITEM_Phoenix_Necklace.svg",
+    "description": "+10% Dodge Chance. Each time you end movement, gain +1 and Charge 2.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Phoenix,Feathered"
+      }
+    ]
+  },
+  {
+    "name": "Pinworm",
+    "icon_path": "/assets/items/ITEM_Pinworm.svg",
+    "description": "-1 , -1\nSpawns a Maggot familiar when you take damage.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Sets",
+        "content": "Parasite"
+      }
+    ]
+  },
+  {
+    "name": "Polyp",
+    "icon_path": "/assets/items/ITEM_Polyp.svg",
+    "description": "+1 Health Regen. 25% chance to spawn a Charmed Clot when you take damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Meat,Human Flesh"
+      }
+    ]
+  },
+  {
+    "name": "Pound of Flesh",
+    "icon_path": "/assets/items/ITEM_Pound_of_Flesh.svg",
+    "description": "+1 Damage.\nGain +1 Damage when you kill an enemy.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Meat"
+      }
+    ]
+  },
+  {
+    "name": "Prayer Beads",
+    "icon_path": "/assets/items/ITEM_Prayer_Beads.svg",
+    "description": "Each time you take damage, gain +3 Brace until your next turn.\n(This counts as an empty armor slot.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Monk,Twine"
+      }
+    ]
+  },
+  {
+    "name": "Prowler's Vial",
+    "icon_path": "/assets/items/ITEM_Prowler-s_Vial.svg",
+    "description": "Backstabs Heal you 2 HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Prowler"
+      }
+    ]
+  },
+  {
+    "name": "Pryophina's Toenail",
+    "icon_path": "/assets/items/ITEM_Pryophina-s_Toenail.svg",
+    "description": "+8 Shield\nFire Immunity.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Quartz Necklace",
+    "icon_path": "/assets/items/ITEM_Quartz_Necklace.svg",
+    "description": "+1 Brace",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Gemstone,Twine"
+      }
+    ]
+  },
+  {
+    "name": "Radar Dish",
+    "icon_path": "/assets/items/ITEM_Radar_Dish.svg",
+    "description": "One random enemy becomes Marked at the start of each turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Cyborg,Bionic,Space"
+      }
+    ]
+  },
+  {
+    "name": "Radioactive Necklace",
+    "icon_path": "/assets/items/ITEM_Radioactive_Necklace.svg",
+    "description": "+2 Shield\nAdjacent units get All Stats Down.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Radioactive"
+      }
+    ]
+  },
+  {
+    "name": "Rags",
+    "icon_path": "/assets/items/ITEM_Rags.svg",
+    "description": "+15% Dodge Chance.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Rag"
+      }
+    ]
+  },
+  {
+    "name": "Rat Necklace",
+    "icon_path": "/assets/items/ITEM_Rat_Necklace.svg",
+    "description": "Start battle with a Charmed Pinky.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Rat"
+      }
+    ]
+  },
+  {
+    "name": "Raven Feather",
+    "icon_path": "/assets/items/ITEM_Raven_Feather.svg",
+    "description": "Inflict Soul Link on 2 random enemies at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Feathered"
+      }
+    ]
+  },
+  {
+    "name": "Recycled Necklace",
+    "icon_path": "/assets/items/ITEM_Recycled_Necklace.svg",
+    "description": "+2 Shield\nBrittle. Find a common item when this breaks.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Recycled"
+      }
+    ]
+  },
+  {
+    "name": "Ring of Mushrooms",
+    "icon_path": "/assets/items/ITEM_Ring_of_Mushrooms.svg",
+    "description": "All of your area abilities gain +1 area.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Druid,Twine"
+      }
+    ]
+  },
+  {
+    "name": "Robo Arm",
+    "icon_path": "/assets/items/ITEM_Robo_Arm.svg",
+    "description": "Start with +1 Bonus Attack. Collect all adjacent pickups when you end your turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Bionic,Cyborg"
+      }
+    ]
+  },
+  {
+    "name": "Rock Necklace",
+    "icon_path": "/assets/items/ITEM_Rock_Necklace.svg",
+    "description": "+6 Shield, -1\nBrittle. Your basic attack has +1 Knockback. Gain coins when this breaks.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Rocky Necklace",
+    "icon_path": "/assets/items/ITEM_Rocky_Necklace.svg",
+    "description": "+10 Shield\nBreaks when Shield is depleted.\nWhen this breaks, gain Bruise 3.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Rotten Meat Armor",
+    "icon_path": "/assets/items/ITEM_Rotten_Meat_Armor.svg",
+    "description": "-1\nSpawn a Charmed Maggot or Fly when you end your turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Rotten"
+      }
+    ]
+  },
+  {
+    "name": "Ruffle",
+    "icon_path": "/assets/items/ITEM_Ruffle.svg",
+    "description": "-3\nTriple the effects of your Face armor.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Jester"
+      }
+    ]
+  },
+  {
+    "name": "Rune of Perthro",
+    "icon_path": "/assets/items/ITEM_Rune_of_Perthro.svg",
+    "description": "+4 Shield\nThis item counts for all item sets.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Rune *"
+      }
+    ]
+  },
+  {
+    "name": "Sabertooth Pelt",
+    "icon_path": "/assets/items/ITEM_Sabertooth_Pelt.svg",
+    "description": "+3 Shield\n+2 Health Regen. Ice immunity.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Wooly"
+      }
+    ]
+  },
+  {
+    "name": "Scapular",
+    "icon_path": "/assets/items/ITEM_Scapular.svg",
+    "description": "+1 Holy Shield, +1 ,+1 , +1 ,+1 , +1 ,+1 , +1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cleric"
+      }
+    ]
+  },
+  {
+    "name": "Scarf",
+    "icon_path": "/assets/items/ITEM_Scarf.svg",
+    "description": "+1 Ice Immunity.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      }
+    ]
+  },
+  {
+    "name": "Scrap Metal Armor",
+    "icon_path": "/assets/items/ITEM_Scrap_Metal_Armor.svg",
+    "description": "+4 Shield",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Scrap"
+      }
+    ]
+  },
+  {
+    "name": "Scrapper's Backpack",
+    "icon_path": "/assets/items/ITEM_Scrapper-s_Backpack.svg",
+    "description": "When you break an item, recover it at the end of the battle with 1 durability.\n(Excludes temporary items)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Tinkerer,Survivalist"
+      }
+    ]
+  },
+  {
+    "name": "Scrubs",
+    "icon_path": "/assets/items/ITEM_Scrubs.svg",
+    "description": "Gain +2 Healing from all sources.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Nurse,Medical"
+      }
+    ]
+  },
+  {
+    "name": "Slimy Necklace",
+    "icon_path": "/assets/items/ITEM_Slimy_Necklace.svg",
+    "description": "-1\n+15% chance to catch projectiles. Inflict Immobile 1 on units that contact you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Slimy"
+      }
+    ]
+  },
+  {
+    "name": "Sludge Necklace",
+    "icon_path": "/assets/items/ITEM_Sludge_Necklace.svg",
+    "description": "+1 Shield, -1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Sets",
+        "content": "Sludge"
+      }
+    ]
+  },
+  {
+    "name": "Small Rune",
+    "icon_path": "/assets/items/ITEM_Small_Rune.svg",
+    "description": "+10% Dodge Chance.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Rune,Twine"
+      }
+    ]
+  },
+  {
+    "name": "Space Boosters",
+    "icon_path": "/assets/items/ITEM_Space_Boosters.svg",
+    "description": "+3\nYour movement action is Jump.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Space"
+      }
+    ]
+  },
+  {
+    "name": "Spiked Collar",
+    "icon_path": "/assets/items/ITEM_Spiked_Collar.svg",
+    "description": "+2 Thorns.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Spinal Chip",
+    "icon_path": "/assets/items/ITEM_Spinal_Chip.svg",
+    "description": "-1 , -1\nYour spells cost -1 mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Chip"
+      }
+    ]
+  },
+  {
+    "name": "Steven (Neck Armor 1)",
+    "icon_path": "/assets/items/ITEM_Steven_-Neck_Armor_1-.svg",
+    "description": "Your Holy Element spells cost -1 mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Steven (Neck Armor 2)",
+    "icon_path": "/assets/items/ITEM_Steven_-Neck_Armor_2-.svg",
+    "description": "While you're downed, receiving any damage revives you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Steven's Friend",
+    "icon_path": "/assets/items/ITEM_Steven-s_Friend.svg",
+    "description": "Each time you cast a spell, spawn a Shadow copy of yourself that mimics your basic attack and fades at the end of your turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Steven's Gobbler",
+    "icon_path": "/assets/items/ITEM_Steven-s_Gobbler.svg",
+    "description": "+6 -99\nUnits that contact you get knocked back. Knockback you deal is increased by 10 and inflicts Bruise 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Stomach",
+    "icon_path": "/assets/items/ITEM_Stomach.svg",
+    "description": "Consumables you use have double the effect.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Guts"
+      }
+    ]
+  },
+  {
+    "name": "Stone Orbit",
+    "icon_path": "/assets/items/ITEM_Stone_Orbit.svg",
+    "description": "+2 Shield\nSpawn a small rock when you take damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock,Planet"
+      }
+    ]
+  },
+  {
+    "name": "Storage Locker",
+    "icon_path": "/assets/items/ITEM_Storage_Locker.svg",
+    "description": "Side Quest Item. Your team's active ability level ups offer rare items instead.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Side Quest"
+      }
+    ]
+  },
+  {
+    "name": "Stunning Chain",
+    "icon_path": "/assets/items/ITEM_Stunning_Chain.svg",
+    "description": "Your Head and Face Item effects are doubled.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Stunning"
+      }
+    ]
+  },
+  {
+    "name": "Superhero Cape",
+    "icon_path": "/assets/items/ITEM_Superhero_Cape.svg",
+    "description": "+3\nFlying",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Superhero"
+      }
+    ]
+  },
+  {
+    "name": "Survivalist's Gaiter",
+    "icon_path": "/assets/items/ITEM_Survivalist-s_Gaiter.svg",
+    "description": "+40% Dodge Chance while standing in tall grass.\nStart each battle with Stealth 1. Lose this stealth when you use your basic attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Survivalist"
+      }
+    ]
+  },
+  {
+    "name": "Tank's Pads",
+    "icon_path": "/assets/items/ITEM_Tank-s_Pads.svg",
+    "description": "+2 Shield\nYour knockback damage has a +10% chance to inflict Stun.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Tank"
+      }
+    ]
+  },
+  {
+    "name": "Tattered Scrap",
+    "icon_path": "/assets/items/ITEM_Tattered_Scrap.svg",
+    "description": "When you take damage, spawn a scrap pickup.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Tinkerer,Scrap"
+      }
+    ]
+  },
+  {
+    "name": "The Soul",
+    "icon_path": "/assets/items/ITEM_The_Soul.svg",
+    "description": "+7 .",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Godhead"
+      }
+    ]
+  },
+  {
+    "name": "The Tick",
+    "icon_path": "/assets/items/ITEM_The_Tick.svg",
+    "description": "-1\nInflict All Stats Down on bosses and minibosses at the start of each battle.\nHeal +12 HP at the end of each battle.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Parasite"
+      }
+    ]
+  },
+  {
+    "name": "Thick Hide",
+    "icon_path": "/assets/items/ITEM_Thick_Hide.svg",
+    "description": "+3 Shield\n+1 Brace. Immunity to Slow and Freeze.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cathide"
+      }
+    ]
+  },
+  {
+    "name": "Thief's Cloak",
+    "icon_path": "/assets/items/ITEM_Thief-s_Cloak.svg",
+    "description": "+10% Dodge Chance and +10% Crit Chance.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Thief"
+      }
+    ]
+  },
+  {
+    "name": "Thrumming Charm",
+    "icon_path": "/assets/items/ITEM_Thrumming_Charm.svg",
+    "description": "If you end your turn without casting any spells, gain +1 Magic Damage and +1 Charge.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Thrumming"
+      }
+    ]
+  },
+  {
+    "name": "Tire",
+    "icon_path": "/assets/items/ITEM_Tire.svg",
+    "description": "+2 Shield\nUnits that contact you are knocked back 2 tiles.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Rubber"
+      }
+    ]
+  },
+  {
+    "name": "Tombstone",
+    "icon_path": "/assets/items/ITEM_Tombstone.svg",
+    "description": "+6 Shield, -2\nYour basic attack has +2 Knockback and a +10% chance to Stun.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Twine Armor",
+    "icon_path": "/assets/items/ITEM_Twine_Armor.svg",
+    "description": "+1 Shield\n+50% chance to Grapple units that contact you.\nFlammable.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Twine"
+      }
+    ]
+  },
+  {
+    "name": "Two of Spades",
+    "icon_path": "/assets/items/ITEM_Two_of_Spades.svg",
+    "description": "Double cast Spells that cost 1 or 2 Mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Twine"
+      }
+    ]
+  },
+  {
+    "name": "Used Shirt",
+    "icon_path": "/assets/items/ITEM_Used_Shirt.svg",
+    "description": "+1 Shield",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Used"
+      }
+    ]
+  },
+  {
+    "name": "Veiny Necklace",
+    "icon_path": "/assets/items/ITEM_Veiny_Necklace.svg",
+    "description": "When you damage a Bleeding unit, heal 3 HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Veiny"
+      }
+    ]
+  },
+  {
+    "name": "Water Feeder",
+    "icon_path": "/assets/items/ITEM_Water_Feeder.svg",
+    "description": "+1 HP Regen.\nBecome Wet at the start of your turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      }
+    ]
+  },
+  {
+    "name": "White Rabbit Paw",
+    "icon_path": "/assets/items/ITEM_White_Rabbit_Paw.svg",
+    "description": "+5",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Lucky,Twine"
+      }
+    ]
+  },
+  {
+    "name": "Witch's Cape",
+    "icon_path": "/assets/items/ITEM_Witch-s_Cape.svg",
+    "description": "+1 Magic Damage",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Witch"
+      }
+    ]
+  },
+  {
+    "name": "Wood Shoulder Pads",
+    "icon_path": "/assets/items/ITEM_Wood_Shoulder_Pads.svg",
+    "description": "+2 Shield\n+1 Thorns.\nFragile, Flammable.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Wood"
+      }
+    ]
+  },
+  {
+    "name": "Zaratana's Turd",
+    "icon_path": "/assets/items/ITEM_Zaratana-s_Turd.svg",
+    "description": "+8 Shield\nKnockback immunity.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Fecal,Rock"
+      }
+    ]
+  },
+  {
+    "name": "Zodiacs Poncho",
+    "icon_path": "/assets/items/ITEM_Zodiacs_Poncho.svg",
+    "description": "+1 Range. During your turn, one random enemy has a Bounty.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Neck"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Rag"
+      }
+    ]
+  }
+]

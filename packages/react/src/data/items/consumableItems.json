@@ -1,0 +1,990 @@
+[
+  {
+    "name": "A Snack",
+    "icon_path": "/assets/items/ITEM_A_Snack.svg",
+    "description": "Eat to heal 12 HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Ability Syringe",
+    "icon_path": "/assets/items/ITEM_Ability_Syringe.svg",
+    "description": "Use to immediately teach a cat the ability.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      }
+    ]
+  },
+  {
+    "name": "Antidote",
+    "icon_path": "/assets/items/ITEM_Antidote.svg",
+    "description": "Use: Cleanse all debuffs.\nThis can be used on adjacent units.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "2"
+      }
+    ]
+  },
+  {
+    "name": "Bag of Grass",
+    "icon_path": "/assets/items/ITEM_Bag_of_Grass.svg",
+    "description": "Gain 10 mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "5"
+      }
+    ]
+  },
+  {
+    "name": "Big Bucket of Lard",
+    "icon_path": "/assets/items/ITEM_Big_Bucket_of_Lard.svg",
+    "description": "Heal yourself and all adjacent units to max HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Big Toe",
+    "icon_path": "/assets/items/ITEM_Big_Toe_-Consumable-.svg",
+    "description": "Use: Heal 6, gain +1 Health Regen and cleanse your debuffs.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      },
+      {
+        "label": "Sets",
+        "content": "Human Flesh"
+      }
+    ]
+  },
+  {
+    "name": "Brain Candy",
+    "icon_path": "/assets/items/ITEM_Brain_Candy.svg",
+    "description": "Eat to gain +5 for the rest of the battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Bullseye",
+    "icon_path": "/assets/items/ITEM_Bullseye.svg",
+    "description": "Use: All damage you deal until the end of the turn is critical and can't miss.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "4"
+      }
+    ]
+  },
+  {
+    "name": "Cat Food",
+    "icon_path": "/assets/items/ITEM_Cat_Food.svg",
+    "description": "Use: Heal 24 HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Citrus Berry",
+    "icon_path": "/assets/items/ITEM_Citrus_Berry.svg",
+    "description": "Eat to heal 25% Hp.\nAutomatically eaten if equipped cat's HP drops below 50%.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Clover",
+    "icon_path": "/assets/items/ITEM_Clover.svg",
+    "description": "Gain +5 for the rest of combat.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Dead Hummingbird",
+    "icon_path": "/assets/items/ITEM_Dead_Hummingbird.svg",
+    "description": "Use: Gain +20 and +50% Dodge Chance.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "2"
+      },
+      {
+        "label": "Sets",
+        "content": "Feathered"
+      }
+    ]
+  },
+  {
+    "name": "Disco Biscuit",
+    "icon_path": "/assets/items/ITEM_Disco_Biscuit.svg",
+    "description": "Use: Gain +5 for the rest of the battle and gain 6 mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Enema",
+    "icon_path": "/assets/items/ITEM_Enema.svg",
+    "description": "Cleanse all buffs and debuffs.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "5"
+      }
+    ]
+  },
+  {
+    "name": "Experiment X",
+    "icon_path": "/assets/items/ITEM_Experiment_X.svg",
+    "description": "Use: ???",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Experimental"
+      }
+    ]
+  },
+  {
+    "name": "Eyeball",
+    "icon_path": "/assets/items/ITEM_Eyeball.svg",
+    "description": "Heal 8 HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      },
+      {
+        "label": "Sets",
+        "content": "Guts"
+      }
+    ]
+  },
+  {
+    "name": "Forbidden Fruit",
+    "icon_path": "/assets/items/ITEM_Forbidden_Fruit.svg",
+    "description": "Gain max health, max mana and +2 to all stats. There will be permanent consequences for eating this...",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1-3"
+      }
+    ]
+  },
+  {
+    "name": "Forbidden Pill",
+    "icon_path": "/assets/items/ITEM_Forbidden_Pill.svg",
+    "description": "Use: Temporarily upgrade all of your active abilities.\nThere will be permanent consequences for taking this pill.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Gizzard",
+    "icon_path": "/assets/items/ITEM_Gizzard.svg",
+    "description": "Use: Enter Mockingbird Form. Gain a random bird mutation at the end of the battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      },
+      {
+        "label": "Sets",
+        "content": "Guts"
+      }
+    ]
+  },
+  {
+    "name": "Jar Of Chaos",
+    "icon_path": "/assets/items/ITEM_Jar_Of_Chaos.svg",
+    "description": "Bring it to Dr. Beanies.\n...or drink it to permanently gain All Stats Up 2 and upgrade all of your spells.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Quest"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      },
+      {
+        "label": "Sets",
+        "content": "Radioactive"
+      }
+    ]
+  },
+  {
+    "name": "Joker Card",
+    "icon_path": "/assets/items/ITEM_Joker_Card.svg",
+    "description": "Use: Duplicate one of your equipped items.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      },
+      {
+        "label": "Sets",
+        "content": "Jester,Paper"
+      }
+    ]
+  },
+  {
+    "name": "Kidney",
+    "icon_path": "/assets/items/ITEM_Kidney.svg",
+    "description": "Use: Use to heal 10, gain +2 Health Regen, and cleanse debuffs.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Kilo of Catnip",
+    "icon_path": "/assets/items/ITEM_Kilo_of_Catnip.svg",
+    "description": "Use: Restore all your mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Large Catnip Baggy",
+    "icon_path": "/assets/items/ITEM_Large_Catnip_Baggy.svg",
+    "description": "Gain 12 Mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Metal Coat",
+    "icon_path": "/assets/items/ITEM_Metal_Coat.svg",
+    "description": "Use: Make your weapon unbreakable for the rest of the adventure.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Missing Nipple",
+    "icon_path": "/assets/items/ITEM_Missing_Nipple.svg",
+    "description": "Use: Give an adjacent unit +1 Health Regen.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "6"
+      }
+    ]
+  },
+  {
+    "name": "Mushrooms",
+    "icon_path": "/assets/items/ITEM_Mushrooms.svg",
+    "description": "Gain All Stats Up 2.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Druid"
+      }
+    ]
+  },
+  {
+    "name": "PCP",
+    "icon_path": "/assets/items/ITEM_PCP.svg",
+    "description": "Use: Gain +5 Damage and Madness 3. This can be used on adjacent units.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "3"
+      }
+    ]
+  },
+  {
+    "name": "Pearl",
+    "icon_path": "/assets/items/ITEM_Pearl.svg",
+    "description": "+2\nUse: Gain 10-30 coins.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Percs",
+    "icon_path": "/assets/items/ITEM_Percs.svg",
+    "description": "Use: Gain +10 Shield.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Raptor Egg",
+    "icon_path": "/assets/items/ITEM_Raptor_Egg.svg",
+    "description": "Use: Heal to full. 10% chance to break at the end of each turn and summon a Charmed Raptor Kitten.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Red Pill",
+    "icon_path": "/assets/items/ITEM_Red_Pill.svg",
+    "description": "Use: 50% chance to get Chungus (+4 ), otherwise take 8 damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Roid Rage",
+    "icon_path": "/assets/items/ITEM_Roid_Rage.svg",
+    "description": "Use: Gain +5 for the rest of the battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      }
+    ]
+  },
+  {
+    "name": "Rotisserie Chicken",
+    "icon_path": "/assets/items/ITEM_Rotisserie_Chicken.svg",
+    "description": "Use: Heal 15 HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "3"
+      }
+    ]
+  },
+  {
+    "name": "Rotten Meat",
+    "icon_path": "/assets/items/ITEM_Rotten_Meat.svg",
+    "description": "Use: Gain Poison 1, then your basic attack becomes Puke Shot. (Usable once per battle)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Rotten,Meat"
+      }
+    ]
+  },
+  {
+    "name": "Shoe Polish",
+    "icon_path": "/assets/items/ITEM_Shoe_Polish.svg",
+    "description": "Use: Fully repair your weapon. Refresh your weapon action.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Small Catnip Baggy",
+    "icon_path": "/assets/items/ITEM_Small_Catnip_Baggy.svg",
+    "description": "Use: Gain 7 mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Smelling Salts",
+    "icon_path": "/assets/items/ITEM_Smelling_Salts.svg",
+    "description": "Use: Revive an adjacent unit at 1 HP.\nAutomatically used on yourself at the end of the round if you're downed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "3"
+      }
+    ]
+  },
+  {
+    "name": "Speedball",
+    "icon_path": "/assets/items/ITEM_Speedball.svg",
+    "description": "Use: Gain +5 for the rest of the battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Star",
+    "icon_path": "/assets/items/ITEM_Star.svg",
+    "description": "Use: Gain Invincibility, +10 Thorns, and Trample until the start of your next turn. Refresh your movement action.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Stem Cells",
+    "icon_path": "/assets/items/ITEM_Stem_Cells.svg",
+    "description": "Use: Gain +3 Health Regen until the end of the battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Steven (Consumable 1)",
+    "icon_path": "/assets/items/ITEM_Steven_-Consumable_1-.svg",
+    "description": "Use: Permanently upgrade a random spell or passive ability.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Steven (Consumable 2)",
+    "icon_path": "/assets/items/ITEM_Steven_-Consumable_2-.svg",
+    "description": "Use: Spawn a controllable copy of yourself.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Super Bandage",
+    "icon_path": "/assets/items/ITEM_Super_Bandage.svg",
+    "description": "Use: Cure a random injury.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "4"
+      },
+      {
+        "label": "Sets",
+        "content": "Nurse"
+      }
+    ]
+  },
+  {
+    "name": "The D6",
+    "icon_path": "/assets/items/ITEM_The_D6.svg",
+    "description": "Use: Permanently upgrade one of your active abilities at random.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Unstable DNA",
+    "icon_path": "/assets/items/ITEM_Unstable_DNA.svg",
+    "description": "Use: Gain 6 random stat ups and 3 random stat downs, then gain 3 Mutations at the end of combat.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1-3"
+      }
+    ]
+  },
+  {
+    "name": "Upper",
+    "icon_path": "/assets/items/ITEM_Upper.svg",
+    "description": "Gain +5 for the rest of the battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Viper Bottle",
+    "icon_path": "/assets/items/ITEM_Viper_Bottle.svg",
+    "description": "Use: Take 5 damage and gain +1 to a random stat permanently.\nMay have side effects...",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Void Seal",
+    "icon_path": "/assets/items/ITEM_Void_Seal.svg",
+    "description": "Use: Permanently turn into a Collarless cat.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Whole Turkey",
+    "icon_path": "/assets/items/ITEM_Whole_Turkey.svg",
+    "description": "Use: Heal 15 HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "7"
+      }
+    ]
+  },
+  {
+    "name": "Wish Bone",
+    "icon_path": "/assets/items/ITEM_Wish_Bone.svg",
+    "description": "Use: Gain +99 until end of turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone"
+      }
+    ]
+  },
+  {
+    "name": "Witch's Eye",
+    "icon_path": "/assets/items/ITEM_Witch-s_Eye.svg",
+    "description": "Gain Backflip 2.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Consumable"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  }
+]

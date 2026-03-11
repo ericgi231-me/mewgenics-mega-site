@@ -1,0 +1,4129 @@
+[
+  {
+    "name": ".22 Rifle",
+    "icon_path": "/assets/items/ITEM_-22_Rifle.svg",
+    "description": "Use: Fire a shot anywhere within your line of sight.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "2-4"
+      }
+    ]
+  },
+  {
+    "name": "Air Horn",
+    "icon_path": "/assets/items/ITEM_Air_Horn.svg",
+    "description": "Side Quest Item. You are Ambushed every battle. Use to make some noise!",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Side Quest"
+      }
+    ]
+  },
+  {
+    "name": "Alien Blaster",
+    "icon_path": "/assets/items/ITEM_Alien_Blaster.svg",
+    "description": "Use: A laser attack. Gains +1 damage for the rest of the battle each time it's used.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Sets",
+        "content": "Space"
+      }
+    ]
+  },
+  {
+    "name": "Alien Tech",
+    "icon_path": "/assets/items/ITEM_Alien_Tech.svg",
+    "description": "Use: Target an area. Unleash a hyper beam attack in that area at the start of your next turn.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Space"
+      }
+    ]
+  },
+  {
+    "name": "American Flag",
+    "icon_path": "/assets/items/ITEM_American_Flag.svg",
+    "description": "+1 , +1 , +1 , +1 , +1 , +1 , +1\nUse: Force a unit to attack one of its enemies.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Amplified Air Horn",
+    "icon_path": "/assets/items/ITEM_Amplified_Air_Horn.svg",
+    "description": "Use: Apply Madness to a unit within 5 tiles in your line of sight.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Anarchist Cookbook",
+    "icon_path": "/assets/items/ITEM_Anarchist_Cookbook.svg",
+    "description": "Use: Summon 3-5 grenades that explode at the end of the round or when destroyed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Paper"
+      }
+    ]
+  },
+  {
+    "name": "Anointing Oil",
+    "icon_path": "/assets/items/ITEM_Anointing_Oil.svg",
+    "description": "Use: Cleanse debuffs from an adjacent unit or yourself.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cleric"
+      }
+    ]
+  },
+  {
+    "name": "Arrow of Infinity",
+    "icon_path": "/assets/items/ITEM_Arrow_of_Infinity.svg",
+    "description": "Use: Your next basic attack has +5 range, +100% Crit Chance, ignores shield and can't miss.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Hunter"
+      }
+    ]
+  },
+  {
+    "name": "Bag Of Chum",
+    "icon_path": "/assets/items/ITEM_Bag_Of_Chum.svg",
+    "description": "Use: Spawn a Charmed Maggot.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Guts"
+      }
+    ]
+  },
+  {
+    "name": "Bag o' Glass",
+    "icon_path": "/assets/items/ITEM_Bag_o-_Glass.svg",
+    "description": "Use: Spawn Glass on an adjacent tile.\n5% chance to break when used.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Stunning"
+      }
+    ]
+  },
+  {
+    "name": "Bag o' Glitter",
+    "icon_path": "/assets/items/ITEM_Bag_o-_Glitter.svg",
+    "description": "Use: Inflict Blind 2 on an adjacent unit.\n5% chance to break when used.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Stunning"
+      }
+    ]
+  },
+  {
+    "name": "Bag o' Meat",
+    "icon_path": "/assets/items/ITEM_Bag_o-_Meat.svg",
+    "description": "Use: Spawn Meat on an adjacent tile.\n5% chance to break when used.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Meat"
+      }
+    ]
+  },
+  {
+    "name": "Bag o' Stuff",
+    "icon_path": "/assets/items/ITEM_Bag_o-_Stuff.svg",
+    "description": "Use: Spawn a random pickup on an adjacent tile.\n5% chance to break when used.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      }
+    ]
+  },
+  {
+    "name": "Bag of Rocks",
+    "icon_path": "/assets/items/ITEM_Bag_of_Rocks.svg",
+    "description": "Use: A melee attack that inflicts Bruise.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Ball-Peen Hammer",
+    "icon_path": "/assets/items/ITEM_Ball-Peen_Hammer.svg",
+    "description": "Use: A melee attack. If used on an ally, give +1 use to all of their items instead of dealing damage.\n5% chance to break when used to repair items.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Tinkerer"
+      }
+    ]
+  },
+  {
+    "name": "Barbed Paw",
+    "icon_path": "/assets/items/ITEM_Barbed_Paw.svg",
+    "description": "-1\nUse: A melee attack that inflicts Bleed 1.\nPassive: +1 Thorns.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Barbed"
+      }
+    ]
+  },
+  {
+    "name": "Battery",
+    "icon_path": "/assets/items/ITEM_Battery.svg",
+    "description": "Use: A ranged lightning attack with a 10% chance to Stun.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "3/6"
+      }
+    ]
+  },
+  {
+    "name": "Battle Axe",
+    "icon_path": "/assets/items/ITEM_Battle_Axe.svg",
+    "description": "Use: A melee spin attack.\nThis uses up both your movement and attack action.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Fighter"
+      }
+    ]
+  },
+  {
+    "name": "Bear Traps",
+    "icon_path": "/assets/items/ITEM_Bear_Traps.svg",
+    "description": "Use: Place a Bear Trap.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "6"
+      },
+      {
+        "label": "Sets",
+        "content": "Hunter,Survivalist"
+      }
+    ]
+  },
+  {
+    "name": "Bent Spoon",
+    "icon_path": "/assets/items/ITEM_Bent_Spoon.svg",
+    "description": "Use: Pull any unit 1 tile toward you and deal 1 damage to it.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Psychic"
+      }
+    ]
+  },
+  {
+    "name": "Big Spring",
+    "icon_path": "/assets/items/ITEM_Big_Spring.svg",
+    "description": "Use: Throw an adjacent unit to a tile.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Scrap"
+      }
+    ]
+  },
+  {
+    "name": "Big Stick",
+    "icon_path": "/assets/items/ITEM_Big_Stick.svg",
+    "description": "Use: A melee attack with +2 reach.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "8-12"
+      },
+      {
+        "label": "Sets",
+        "content": "Wood"
+      }
+    ]
+  },
+  {
+    "name": "Biggest Stick",
+    "icon_path": "/assets/items/ITEM_Biggest_Stick.svg",
+    "description": "Use: A melee attack with +3 reach.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "8-12"
+      },
+      {
+        "label": "Sets",
+        "content": "Wood"
+      }
+    ]
+  },
+  {
+    "name": "Black Mushroom",
+    "icon_path": "/assets/items/ITEM_Black_Mushroom.svg",
+    "description": "Use: A ranged attack that inflicts Weakness 2.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Druid"
+      }
+    ]
+  },
+  {
+    "name": "Black Shard",
+    "icon_path": "/assets/items/ITEM_Black_Shard.svg",
+    "description": "Use: Absorb a unit with 1 or less health to power this item up.\nTransforms after 20 absorptions.\n(Saves its power across multiple runs.)\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Obelisk"
+      }
+    ]
+  },
+  {
+    "name": "Blackjack",
+    "icon_path": "/assets/items/ITEM_Blackjack.svg",
+    "description": "Use: A melee attack with a 5% chance to Stun.\nAutomatically use this when you stop next to an enemy or an enemy stops next to you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Thief,Prowler"
+      }
+    ]
+  },
+  {
+    "name": "Blessed Anointing Oil",
+    "icon_path": "/assets/items/ITEM_Blessed_Anointing_Oil.svg",
+    "description": "Use: Cleanse debuffs and heal an adjacent unit or yourself.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cleric"
+      }
+    ]
+  },
+  {
+    "name": "Blood Bucket",
+    "icon_path": "/assets/items/ITEM_Blood_Bucket.svg",
+    "description": "Use: A lobbed attack that creates a creep puddle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Bloody Bag of Glass",
+    "icon_path": "/assets/items/ITEM_Bloody_Bag_of_Glass.svg",
+    "description": "Use: Throw a projectile that creates glass.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Bloody Bear Traps",
+    "icon_path": "/assets/items/ITEM_Bloody_Bear_Traps.svg",
+    "description": "Use: Place a Bear Trap.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Hunter,Survivalist"
+      }
+    ]
+  },
+  {
+    "name": "Bloody Knife",
+    "icon_path": "/assets/items/ITEM_Bloody_Knife.svg",
+    "description": "Use: A multi-hit melee attack with Lifesteal that inflicts Bleed.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Bloody Meat Hook",
+    "icon_path": "/assets/items/ITEM_Bloody_Meat_Hook.svg",
+    "description": "Use: Pull a unit towards you, Cleaving and inflicting Bleed 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Butcher,Barbed"
+      }
+    ]
+  },
+  {
+    "name": "Bloody Soul Claw",
+    "icon_path": "/assets/items/ITEM_Bloody_Soul_Claw.svg",
+    "description": "Use: A melee attack that deals damage equal to the number of uses this has left.\nWhen this weapon kills a unit, it gains +2 uses and you heal 5 HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "8"
+      }
+    ]
+  },
+  {
+    "name": "Bloody Spikes",
+    "icon_path": "/assets/items/ITEM_Bloody_Spikes.svg",
+    "description": "+1 Thorns.\nUse: A ranged attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Bloody Stick",
+    "icon_path": "/assets/items/ITEM_Bloody_Stick.svg",
+    "description": "+1 Health Regen.\nUse: A melee attack with +1 reach.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Wood"
+      }
+    ]
+  },
+  {
+    "name": "Bo",
+    "icon_path": "/assets/items/ITEM_Bo.svg",
+    "description": "Use: A melee attack. On hit, jump forward 2 tiles.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Monk,Wood"
+      }
+    ]
+  },
+  {
+    "name": "Bomb",
+    "icon_path": "/assets/items/ITEM_Bomb.svg",
+    "description": "Use: Throw a bomb that explodes.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Bone Club",
+    "icon_path": "/assets/items/ITEM_Bone_Club.svg",
+    "description": "Use: A melee attack.\nThis weapon has a 15% chance to break each time it's used.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone"
+      }
+    ]
+  },
+  {
+    "name": "Book Of Belial",
+    "icon_path": "/assets/items/ITEM_Book_Of_Belial.svg",
+    "description": "Use: Gain +3 Damage.\nRELOAD: Kill an enemy.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Demonic,Paper"
+      }
+    ]
+  },
+  {
+    "name": "Bottles",
+    "icon_path": "/assets/items/ITEM_Bottles.svg",
+    "description": "Use: A lobbed attack that spawns a glass tile.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "6"
+      }
+    ]
+  },
+  {
+    "name": "Bottles of Blood",
+    "icon_path": "/assets/items/ITEM_Bottles_of_Blood.svg",
+    "description": "Use: A lobbed attack that creates glass tiles in an area.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Bricks",
+    "icon_path": "/assets/items/ITEM_Bricks.svg",
+    "description": "Use: A lobbed attack that inflicts Stun.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Brick"
+      }
+    ]
+  },
+  {
+    "name": "Bubbles",
+    "icon_path": "/assets/items/ITEM_Bubbles.svg",
+    "description": "Use: Throw a bubble with Wind and Water Element that inflicts Confusion.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Bucket of Blood",
+    "icon_path": "/assets/items/ITEM_Bucket_of_Blood.svg",
+    "description": "Use: Gain +2 and -1 , then heal 4 HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Bucket of Lard",
+    "icon_path": "/assets/items/ITEM_Bucket_of_Lard.svg",
+    "description": "Use: Gain +2 Constitution and -1 Speed, then heal 4 HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "4/7"
+      },
+      {
+        "label": "Sets",
+        "content": "Fatty"
+      }
+    ]
+  },
+  {
+    "name": "Bug",
+    "icon_path": "/assets/items/ITEM_Bug.svg",
+    "description": "Your basic attack is Metronome.\nUse: Cast a random spell.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Bunga's Bone",
+    "icon_path": "/assets/items/ITEM_Bunga-s_Bone.svg",
+    "description": "Use: A melee attack with Knockback 5.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone"
+      }
+    ]
+  },
+  {
+    "name": "Burning Coals",
+    "icon_path": "/assets/items/ITEM_Burning_Coals.svg",
+    "description": "Use: A lobbed attack that inflicts Burn 2 and +2 .\nPassive: Gain Burn 1 and +2 at the start of each turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Molten"
+      }
+    ]
+  },
+  {
+    "name": "Butcher's Cleaver",
+    "icon_path": "/assets/items/ITEM_Butcher-s_Cleaver.svg",
+    "description": "Use: A melee attack with Cleave that can hit diagonally.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Butcher"
+      }
+    ]
+  },
+  {
+    "name": "Butterfly Knife",
+    "icon_path": "/assets/items/ITEM_Butterfly_Knife.svg",
+    "description": "Use: A multi-hit melee attack that inflicts Bleed.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cool"
+      }
+    ]
+  },
+  {
+    "name": "Car Battery",
+    "icon_path": "/assets/items/ITEM_Car_Battery.svg",
+    "description": "Use: An Electric melee attack that has a 50% chance to chain to another enemy within 3 tiles. Can only be used while at full mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Cat Paw",
+    "icon_path": "/assets/items/ITEM_Cat_Paw.svg",
+    "description": "+2\nUse: A melee attack that has a 25% chance to refresh itself when used.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Hybrid"
+      }
+    ]
+  },
+  {
+    "name": "Chainsaw",
+    "icon_path": "/assets/items/ITEM_Chainsaw.svg",
+    "description": "Use: A multi-hit melee attack with a 25% chance to Cleave.\n(Usable once per battle.)\nPassive: +2 Thorns.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cool"
+      }
+    ]
+  },
+  {
+    "name": "Charged Soul Dagger",
+    "icon_path": "/assets/items/ITEM_Charged_Soul_Dagger.svg",
+    "description": "Use: A melee attack with Lifesteal. If this weapon damages an allied cat, gain one of their spells at random in your bonus ability slot.\nLoses its Charge at the end of the battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      }
+    ]
+  },
+  {
+    "name": "Cheese",
+    "icon_path": "/assets/items/ITEM_Cheese.svg",
+    "description": "Use: Gain +1 Constitution and heal 2 HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Chum Bucket",
+    "icon_path": "/assets/items/ITEM_Chum_Bucket.svg",
+    "description": "Use: A lobbed attack that creates a creep puddle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "6"
+      },
+      {
+        "label": "Sets",
+        "content": "Guts,Meat"
+      }
+    ]
+  },
+  {
+    "name": "Creepy Photo",
+    "icon_path": "/assets/items/ITEM_Creepy_Photo.svg",
+    "description": "Use: A melee attack that inflicts Fear 1.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Crisp Paper",
+    "icon_path": "/assets/items/ITEM_Crisp_Paper.svg",
+    "description": "Use: A ranged attack that inflicts Bleed 3.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Paper"
+      }
+    ]
+  },
+  {
+    "name": "Crossbow",
+    "icon_path": "/assets/items/ITEM_Crossbow.svg",
+    "description": "Use: A ranged attack that ignores shield and inflicts Bleed 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "6"
+      },
+      {
+        "label": "Sets",
+        "content": "Wood"
+      }
+    ]
+  },
+  {
+    "name": "Crowbar",
+    "icon_path": "/assets/items/ITEM_Crowbar.svg",
+    "description": "Use: A melee attack that destroys trash bags and crates, scattering extra pickups.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Death's Scythe",
+    "icon_path": "/assets/items/ITEM_Death-s_Scythe.svg",
+    "description": "Use: A spin attack. After using this, die at the end of your turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Deathbot",
+    "icon_path": "/assets/items/ITEM_Deathbot.svg",
+    "description": "Use: Spawn a Deathbot with a flamethrower.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      },
+      {
+        "label": "Sets",
+        "content": "Tinkerer"
+      }
+    ]
+  },
+  {
+    "name": "Demon Core",
+    "icon_path": "/assets/items/ITEM_Demon_Core.svg",
+    "description": "Start each battle with Poison 5. Inflict All Stats Down 2 on bosses and minibosses at the start of the battle.\nUse: A melee attack that causes a unit to die at the end of its next turn. Bosses fall asleep at the end of their next turn instead.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Radioactive"
+      }
+    ]
+  },
+  {
+    "name": "Dry Ice",
+    "icon_path": "/assets/items/ITEM_Dry_Ice.svg",
+    "description": "Use: An Ice Element melee attack that inflicts Slow.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Frozen"
+      }
+    ]
+  },
+  {
+    "name": "Energy Drink",
+    "icon_path": "/assets/items/ITEM_Energy_Drink.svg",
+    "description": "Use: Gain +1 Dexterity and +1 Speed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Ether Soaked Rag",
+    "icon_path": "/assets/items/ITEM_Ether_Soaked_Rag.svg",
+    "description": "Use: Put an adjacent unit or yourself to Sleep. That unit gets +5 Health Regen and +5 Mana Regen until it wakes up.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Rag"
+      }
+    ]
+  },
+  {
+    "name": "Extra Limb",
+    "icon_path": "/assets/items/ITEM_Extra_Limb.svg",
+    "description": "An attack that copies your basic attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "6"
+      },
+      {
+        "label": "Sets",
+        "content": "Hybrid"
+      }
+    ]
+  },
+  {
+    "name": "Fate",
+    "icon_path": "/assets/items/ITEM_Fate.svg",
+    "description": "Use: Summon meteors that hit random tiles everywhere. These meteors have a chance to Stun, spawn fires, or leave rocks behind.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Feather Darts",
+    "icon_path": "/assets/items/ITEM_Feather_Darts.svg",
+    "description": "Use: A ranged attack that can hit any unit in your line of sight.\nCan be used 3 times per turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "99"
+      },
+      {
+        "label": "Sets",
+        "content": "Feathered"
+      }
+    ]
+  },
+  {
+    "name": "Feathered Wing",
+    "icon_path": "/assets/items/ITEM_Feathered_Wing.svg",
+    "description": "Use: A wide Wind attack with Knockback 3.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Uses",
+        "content": "20"
+      },
+      {
+        "label": "Sets",
+        "content": "Feathered"
+      }
+    ]
+  },
+  {
+    "name": "Finger Bone",
+    "icon_path": "/assets/items/ITEM_Finger_Bone.svg",
+    "description": "Use: A straight ranged attack that inflicts Immobile 3.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone"
+      }
+    ]
+  },
+  {
+    "name": "Fire Flower",
+    "icon_path": "/assets/items/ITEM_Fire_Flower.svg",
+    "description": "Use: Shoot a fireball that inflicts Burn 2 in an area.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Flower"
+      }
+    ]
+  },
+  {
+    "name": "Flower Mix",
+    "icon_path": "/assets/items/ITEM_Flower_Mix.svg",
+    "description": "Use: Plant flowers in a large area. (Usable once per battle)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Flower"
+      }
+    ]
+  },
+  {
+    "name": "Frayed Wires",
+    "icon_path": "/assets/items/ITEM_Frayed_Wires.svg",
+    "description": "Use: An electric melee attack that can chain through adjacent units.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Gambit's Dice",
+    "icon_path": "/assets/items/ITEM_Gambit-s_Dice.svg",
+    "description": "Use: Throw a projectile that deals 1-6 damage at random.\nRELOAD: Cast a spell that costs exactly 6 mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Garbage",
+    "icon_path": "/assets/items/ITEM_Garbage.svg",
+    "description": "Use: A lobbed attack that inflicts Poison 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      },
+      {
+        "label": "Sets",
+        "content": "Recycled"
+      }
+    ]
+  },
+  {
+    "name": "Geode",
+    "icon_path": "/assets/items/ITEM_Geode.svg",
+    "description": "Use: A melee attack with a 5% chance to break when used.\nWhen it breaks, gain 15-30 coins.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock,Gemstone"
+      }
+    ]
+  },
+  {
+    "name": "Girder",
+    "icon_path": "/assets/items/ITEM_Girder.svg",
+    "description": "Use: A melee attack with Knockback 10 and Chain Knockback.\n(Usable once per battle.)\nPassive: +1 Brace while this weapon is usable.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Tank"
+      }
+    ]
+  },
+  {
+    "name": "Glass Cannon",
+    "icon_path": "/assets/items/ITEM_Glass_Cannon.svg",
+    "description": "Side Quest Item. Fill the map with glass at the start of each battle.\nUse: Shoot a glass ball.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Side Quest"
+      }
+    ]
+  },
+  {
+    "name": "Glass Cannon (Fixed)",
+    "icon_path": "/assets/items/ITEM_Glass_Cannon_-Fixed-.svg",
+    "description": "Use: Shoot a glass ball anywhere.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Glowing Black Shard",
+    "icon_path": "/assets/items/ITEM_Glowing_Black_Shard.svg",
+    "description": "Stab it into The Coven!\nUse: Deal 5 damage with Lifesteal, inflict Burn 5, and purge all buffs. Instantly kills The Coven.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Obelisk"
+      }
+    ]
+  },
+  {
+    "name": "Glowing Bone",
+    "icon_path": "/assets/items/ITEM_Glowing_Bone.svg",
+    "description": "Mimics a class spell.\nWill use it as its description.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone"
+      }
+    ]
+  },
+  {
+    "name": "Gnarled Claw",
+    "icon_path": "/assets/items/ITEM_Gnarled_Claw.svg",
+    "description": "Use: A melee attack.\nThis weapon gains +1 damage and +1 use when it gets a kill.\nDamage resets at the end of the adventure.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "13"
+      }
+    ]
+  },
+  {
+    "name": "Golden Pickaxe",
+    "icon_path": "/assets/items/ITEM_Golden_Pickaxe.svg",
+    "description": "Use: A melee attack that ignores shield.\nIf used on static or inanimate objects it destroys them and spawns a Coin.\nSpawn a coin on a random tile at the end of each turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Miner"
+      }
+    ]
+  },
+  {
+    "name": "Grappling Hook",
+    "icon_path": "/assets/items/ITEM_Grappling_Hook.svg",
+    "description": "Pull yourself towards a unit or object.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Barbed,Ninja"
+      }
+    ]
+  },
+  {
+    "name": "Grenade",
+    "icon_path": "/assets/items/ITEM_Grenade.svg",
+    "description": "Use: Throw a grenade that explodes and shreds 5 stacks of random buffs off of whatever it hits.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Grip Trainer",
+    "icon_path": "/assets/items/ITEM_Grip_Trainer.svg",
+    "description": "Use: Gain +1 .",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Fighter"
+      }
+    ]
+  },
+  {
+    "name": "Harpy's Claw",
+    "icon_path": "/assets/items/ITEM_Harpy-s_Claw.svg",
+    "description": "Use: A melee attack that inflicts Poison 1, Bleed 1, Confusion 1, Weakness 1, and Slow 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Heavy Mace",
+    "icon_path": "/assets/items/ITEM_Heavy_Mace.svg",
+    "description": "-6\nUse: A melee attack with Knockback 2 that deals damage equal to your .\nCleaves and deals double damage to units with Shield.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Fighter"
+      }
+    ]
+  },
+  {
+    "name": "Hell Hook",
+    "icon_path": "/assets/items/ITEM_Hell_Hook.svg",
+    "description": "Use: Pull a unit toward you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Demonic,Barbed,Butcher"
+      }
+    ]
+  },
+  {
+    "name": "Hitler's Pistol",
+    "icon_path": "/assets/items/ITEM_Hitler-s_Pistol.svg",
+    "description": "Use: Fire a shot in a straight line.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "8"
+      }
+    ]
+  },
+  {
+    "name": "Holy Grail",
+    "icon_path": "/assets/items/ITEM_Holy_Grail.svg",
+    "description": "Use: Heal an adjacent unit or yourself for 5 HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cleric"
+      }
+    ]
+  },
+  {
+    "name": "Ice Cubes",
+    "icon_path": "/assets/items/ITEM_Ice_Cubes.svg",
+    "description": "Use: A lobbed attack that Freezes units.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Frozen"
+      }
+    ]
+  },
+  {
+    "name": "Irradiated Object",
+    "icon_path": "/assets/items/ITEM_Irradiated_Object.svg",
+    "description": "Use: A melee attack that inflicts {Status Effect} 1.\nMimics a random passive trinket\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Radioactive"
+      }
+    ]
+  },
+  {
+    "name": "Jitte",
+    "icon_path": "/assets/items/ITEM_Jitte.svg",
+    "description": "Use: A melee attack that deals damage equal to half your rounded up, inflicts Weakness 1, and gives you +1 and +1 HP on hit.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Ninja"
+      }
+    ]
+  },
+  {
+    "name": "Johnny's Stool",
+    "icon_path": "/assets/items/ITEM_Johnny-s_Stool.svg",
+    "description": "Use: A melee attack with Knockback 2.\nIf you end your turn with a unused movement actions, heal 3 HP and gain 3 Charge.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Wood"
+      }
+    ]
+  },
+  {
+    "name": "Kebab",
+    "icon_path": "/assets/items/ITEM_Kebab.svg",
+    "description": "Use: A melee attack with +1 reach that penetrates through units.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "8"
+      }
+    ]
+  },
+  {
+    "name": "Laced Needle",
+    "icon_path": "/assets/items/ITEM_Laced_Needle.svg",
+    "description": "Use: A melee attack that inflicts Poison 1.\nCan be used 3 times per turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "10-14"
+      },
+      {
+        "label": "Sets",
+        "content": "Thief"
+      }
+    ]
+  },
+  {
+    "name": "Les Toxin",
+    "icon_path": "/assets/items/ITEM_Les_Toxin.svg",
+    "description": "Use: A ranged attack that inflicts Poison 2.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Thief"
+      }
+    ]
+  },
+  {
+    "name": "Lighter",
+    "icon_path": "/assets/items/ITEM_Lighter.svg",
+    "description": "Use: Inflict Burn 1 on an adjacent unit.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "8-12"
+      },
+      {
+        "label": "Sets",
+        "content": "Cool"
+      }
+    ]
+  },
+  {
+    "name": "Lil' Kitty",
+    "icon_path": "/assets/items/ITEM_Lil-_Kitty.svg",
+    "description": "Use: Spawn a Flea familiar.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Lil' Slugger",
+    "icon_path": "/assets/items/ITEM_Lil-_Slugger.svg",
+    "description": "Use: Knock back a unit 5 tiles.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Wood"
+      }
+    ]
+  },
+  {
+    "name": "Lip Filler",
+    "icon_path": "/assets/items/ITEM_Lip_Filler.svg",
+    "description": "+1 and +2 Mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Log",
+    "icon_path": "/assets/items/ITEM_Log.svg",
+    "description": "Use: A wide attack that hits all units in an area.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "8"
+      },
+      {
+        "label": "Sets",
+        "content": "Wood"
+      }
+    ]
+  },
+  {
+    "name": "Mammoth Tusk",
+    "icon_path": "/assets/items/ITEM_Mammoth_Tusk.svg",
+    "description": "Use: A melee attack that inflicts Bruise 2 and Confusion. Become Drowsy after use.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Wooly"
+      }
+    ]
+  },
+  {
+    "name": "Manhole Cover",
+    "icon_path": "/assets/items/ITEM_Manhole_Cover.svg",
+    "description": "Brace 2.\nUse: A ranged attack with Knockback 2 that passes through units and returns to you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Meat Bomb",
+    "icon_path": "/assets/items/ITEM_Meat_Bomb.svg",
+    "description": "Use: Throw a bomb that explodes.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Meat"
+      }
+    ]
+  },
+  {
+    "name": "Meat Cleaver",
+    "icon_path": "/assets/items/ITEM_Meat_Cleaver.svg",
+    "description": "Use: A melee attack with Cleave that deals damage equal to half the target's current HP.\nBosses take 1/6th of their current HP in damage instead.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Butcher"
+      }
+    ]
+  },
+  {
+    "name": "Meat Hook",
+    "icon_path": "/assets/items/ITEM_Meat_Hook.svg",
+    "description": "Use: Pull a unit towards you.\nInnate",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Barbed,Butcher"
+      }
+    ]
+  },
+  {
+    "name": "Meat Slugger",
+    "icon_path": "/assets/items/ITEM_Meat_Slugger.svg",
+    "description": "Use: A melee attack with Knockback 10 that inflicts Bruise.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Mega Alien Blaster",
+    "icon_path": "/assets/items/ITEM_Mega_Alien_Blaster.svg",
+    "description": "Use: A laser attack. Gains +5 damage for the rest of the battle each time it's used.\nTake 5 damage when used.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Space"
+      }
+    ]
+  },
+  {
+    "name": "Melon Baller",
+    "icon_path": "/assets/items/ITEM_Melon_Baller.svg",
+    "description": "Use: A melee attack that inflicts Blind 3 and gives you a random eye trinket if you don't have a trinket equipped.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "4-6"
+      }
+    ]
+  },
+  {
+    "name": "Mini Jetpack",
+    "icon_path": "/assets/items/ITEM_Mini_Jetpack.svg",
+    "description": "Use: Fly to a random tile within a target area. If you land on a unit, explode dealing 5 damage in an area (including to yourself).",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "3-6"
+      },
+      {
+        "label": "Sets",
+        "content": "Experimental"
+      }
+    ]
+  },
+  {
+    "name": "Mini Nuke",
+    "icon_path": "/assets/items/ITEM_Mini_Nuke.svg",
+    "description": "Use: Throw a mini nuke that makes a HUGE explosion that spawns toxic sludge.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      },
+      {
+        "label": "Sets",
+        "content": "Radioactive"
+      }
+    ]
+  },
+  {
+    "name": "Mjolnir",
+    "icon_path": "/assets/items/ITEM_Mjolnir.svg",
+    "description": "Use: A ranged attack that passes through units and returns to you after you throw it. At its apex, it deals electric damage.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Superhero"
+      }
+    ]
+  },
+  {
+    "name": "Modded Hairspray",
+    "icon_path": "/assets/items/ITEM_Modded_Hairspray.svg",
+    "description": "Use: Deal fire damage in a cone.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "8-12"
+      }
+    ]
+  },
+  {
+    "name": "Modeling Clay",
+    "icon_path": "/assets/items/ITEM_Modeling_Clay.svg",
+    "description": "Changes into a different Weapon each time it's used. Lobbed Attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Dirt Clod"
+      }
+    ]
+  },
+  {
+    "name": "Molars",
+    "icon_path": "/assets/items/ITEM_Molars.svg",
+    "description": "Use: A low-damage lobbed attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "10-20"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone"
+      }
+    ]
+  },
+  {
+    "name": "Mom's Knife",
+    "icon_path": "/assets/items/ITEM_Mom-s_Knife.svg",
+    "description": "Use: Throw a penetrating projectile that returns to you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Mother"
+      }
+    ]
+  },
+  {
+    "name": "Mom's Toenail",
+    "icon_path": "/assets/items/ITEM_Mom-s_Toenail.svg",
+    "description": "Use: A melee attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Sets",
+        "content": "Mother"
+      }
+    ]
+  },
+  {
+    "name": "Money Bag",
+    "icon_path": "/assets/items/ITEM_Money_Bag.svg",
+    "description": "Becomes 25 coins when you return home.\nUse: A melee attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Money Bag",
+    "icon_path": "/assets/items/ITEM_Money_Bag.svg",
+    "description": "Becomes 10 coins when you return home.\nUse: A melee attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      }
+    ]
+  },
+  {
+    "name": "Money Bag",
+    "icon_path": "/assets/items/ITEM_Money_Bag.svg",
+    "description": "Becomes 100 coins when you return home.\nUse: A melee attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Money Bag",
+    "icon_path": "/assets/items/ITEM_Money_Bag.svg",
+    "description": "Becomes 50 coins when you return home.\nUse: A melee attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Monk Fist",
+    "icon_path": "/assets/items/ITEM_Monk_Fist.svg",
+    "description": "You can use your basic attack an extra time each turn.\nInnate",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      }
+    ]
+  },
+  {
+    "name": "Mysterious Bone",
+    "icon_path": "/assets/items/ITEM_Mysterious_Bone.svg",
+    "description": "Use: A melee attack with a 25% chance to inflict Charm.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone"
+      }
+    ]
+  },
+  {
+    "name": "Nail Board",
+    "icon_path": "/assets/items/ITEM_Nail_Board.svg",
+    "description": "Use: A wide melee attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "4"
+      },
+      {
+        "label": "Sets",
+        "content": "Wood"
+      }
+    ]
+  },
+  {
+    "name": "Nail Gun",
+    "icon_path": "/assets/items/ITEM_Nail_Gun.svg",
+    "description": "Use: Fire a shot in a straight line that inflicts +1 Thorns.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Necronomicon",
+    "icon_path": "/assets/items/ITEM_Necronomicon.svg",
+    "description": "Unearth 5 Zombie Kittens within 5 Tiles from you, they each have a 33% Chance of having Madness.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Necromancer,Demonic"
+      }
+    ]
+  },
+  {
+    "name": "Nuclear Gun",
+    "icon_path": "/assets/items/ITEM_Nuclear_Gun.svg",
+    "description": "Use: Deals 40 damage to a target and 20 damage to EVERYTHING ELSE. 20% chance to break on use.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Radioactive"
+      }
+    ]
+  },
+  {
+    "name": "Nuclear Knife",
+    "icon_path": "/assets/items/ITEM_Nuclear_Knife.svg",
+    "description": "Side Quest Item. Use: Melee Attack with damage = charges ({aux}). Permanenetly gains 1 Charge at the end of each turn.\nIf charges go above 10, this weapon explodes.\nLoses half of its charges when it gets a kill.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Side Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Radioactive"
+      }
+    ]
+  },
+  {
+    "name": "Nuclear Knife (Glowing)",
+    "icon_path": "/assets/items/ITEM_Nuclear_Knife_-Glowing-.svg",
+    "description": "Side Quest Item. It's about to explode! Get a kill with this now to quench it.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Side Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Radioactive"
+      }
+    ]
+  },
+  {
+    "name": "Obsidian Chunk",
+    "icon_path": "/assets/items/ITEM_Obsidian_Chunk.svg",
+    "description": "Use: A melee attack.\nThis weapon gains +2 damage each time it's used.\nDamage resets at the end of the adventure.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "9"
+      },
+      {
+        "label": "Sets",
+        "content": "Obelisk"
+      }
+    ]
+  },
+  {
+    "name": "Ocarina",
+    "icon_path": "/assets/items/ITEM_Ocarina.svg",
+    "description": "Use: Cast a random musical spell.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Medium"
+      }
+    ]
+  },
+  {
+    "name": "Odd Remote",
+    "icon_path": "/assets/items/ITEM_Odd_Remote.svg",
+    "description": "Cast a random spell.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Experimental"
+      }
+    ]
+  },
+  {
+    "name": "Old Extinguisher",
+    "icon_path": "/assets/items/ITEM_Old_Extinguisher.svg",
+    "description": "Use: Extinguishes fires in a cone with Knockback 5.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Old Hose",
+    "icon_path": "/assets/items/ITEM_Old_Hose.svg",
+    "description": "Use: A water attack that hits an entire line with Knockback 10.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Rubber"
+      }
+    ]
+  },
+  {
+    "name": "Party Detonator",
+    "icon_path": "/assets/items/ITEM_Party_Detonator.svg",
+    "description": "Side Quest Item. All units explode when they die.\nUse: Explode a random other unit, once per battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Side Quest"
+      }
+    ]
+  },
+  {
+    "name": "Party Detonator (Fixed)",
+    "icon_path": "/assets/items/ITEM_Party_Detonator_-Fixed-.svg",
+    "description": "Use: Explode a random unit within a target radius.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Paw Shards",
+    "icon_path": "/assets/items/ITEM_Paw_Shards.svg",
+    "description": "Your basic attack inflicts Bleed 1. Gain +1 Bleed each time you use your basic attack.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      }
+    ]
+  },
+  {
+    "name": "Persuasion Device",
+    "icon_path": "/assets/items/ITEM_Persuasion_Device.svg",
+    "description": "-2\nSide Quest Item. Use to permanently charm a non-boss enemy. It joins your party.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Side Quest"
+      }
+    ]
+  },
+  {
+    "name": "Pharaoh's Staff",
+    "icon_path": "/assets/items/ITEM_Pharaoh-s_Staff.svg",
+    "description": "Use: Summon a swarm of charmed flies.\nWhen you destroy a corpse, restore this weapon's use.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Pickaxe",
+    "icon_path": "/assets/items/ITEM_Pickaxe.svg",
+    "description": "Use: A melee attack that ignores shield.\nIf used on static or inanimate objects it destroys them and spawns a Rock. Restore 1 use when used this way.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Miner"
+      }
+    ]
+  },
+  {
+    "name": "Pinwheel",
+    "icon_path": "/assets/items/ITEM_Pinwheel.svg",
+    "description": "Use: A melee wind attack with Knockback 1.\nCan be used 3 times per turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "10-16"
+      },
+      {
+        "label": "Sets",
+        "content": "Paper"
+      }
+    ]
+  },
+  {
+    "name": "Pipe",
+    "icon_path": "/assets/items/ITEM_Pipe.svg",
+    "description": "Use: A melee attack with a 10% chance to inflict Stun.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Lead"
+      }
+    ]
+  },
+  {
+    "name": "Pliers",
+    "icon_path": "/assets/items/ITEM_Pliers.svg",
+    "description": "Use: A melee attack that inflicts Weakness 3.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Pogo Stick",
+    "icon_path": "/assets/items/ITEM_Pogo_Stick.svg",
+    "description": "Use: Jump to a tile and damage units you land on.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "3-7"
+      }
+    ]
+  },
+  {
+    "name": "Polymorph Remote",
+    "icon_path": "/assets/items/ITEM_Polymorph_Remote.svg",
+    "description": "Use: Transform a non-boss enemy into another random enemy from the same chapter.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Pop Cap",
+    "icon_path": "/assets/items/ITEM_Pop_Cap.svg",
+    "description": "Use: A lobbed attack with Knockback 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "6-10"
+      }
+    ]
+  },
+  {
+    "name": "Probe",
+    "icon_path": "/assets/items/ITEM_Probe.svg",
+    "description": "Use: Inflict Charm 3. Can only hit from behind.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Space"
+      }
+    ]
+  },
+  {
+    "name": "Purple Mushroom",
+    "icon_path": "/assets/items/ITEM_Purple_Mushroom.svg",
+    "description": "Use: A ranged attack that inflicts Confusion 2.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "2-4"
+      },
+      {
+        "label": "Sets",
+        "content": "Druid"
+      }
+    ]
+  },
+  {
+    "name": "Puzzle Box",
+    "icon_path": "/assets/items/ITEM_Puzzle_Box.svg",
+    "description": "Use: Shoot hooks in 8 directions that inflict Bleed 1 and pull units towards you.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Gimp,Demonic"
+      }
+    ]
+  },
+  {
+    "name": "Railroad Spikes",
+    "icon_path": "/assets/items/ITEM_Railroad_Spikes.svg",
+    "description": "Use: A ranged attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "8"
+      },
+      {
+        "label": "Sets",
+        "content": "Lead"
+      }
+    ]
+  },
+  {
+    "name": "Rain Staff",
+    "icon_path": "/assets/items/ITEM_Rain_Staff.svg",
+    "description": "Use: Spawn a large puddle of water anywhere.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Druid,Wood"
+      }
+    ]
+  },
+  {
+    "name": "Rainbow Remote",
+    "icon_path": "/assets/items/ITEM_Rainbow_Remote.svg",
+    "description": "Use: Cast a targeted random spell.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Experimental"
+      }
+    ]
+  },
+  {
+    "name": "Rat Bomb",
+    "icon_path": "/assets/items/ITEM_Rat_Bomb_-Item-.svg",
+    "description": "Use: Toss a Bomb that explodes at the end of the round.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "5"
+      },
+      {
+        "label": "Sets",
+        "content": "Rat"
+      }
+    ]
+  },
+  {
+    "name": "Red Mushroom",
+    "icon_path": "/assets/items/ITEM_Red_Mushroom.svg",
+    "description": "Use: A ranged attack that inflicts Charm 3.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Druid"
+      }
+    ]
+  },
+  {
+    "name": "Revolver",
+    "icon_path": "/assets/items/ITEM_Revolver.svg",
+    "description": "Use: Fire a shot in a straight line that instakills units and deals 25 damage to bosses.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "6"
+      }
+    ]
+  },
+  {
+    "name": "Robotic Arm",
+    "icon_path": "/assets/items/ITEM_Robotic_Arm.svg",
+    "description": "Use: A melee attack with a chance to repeat. Gains 1 damage for the rest of the battle each time it's used.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cyborg"
+      }
+    ]
+  },
+  {
+    "name": "Rocket Launcher",
+    "icon_path": "/assets/items/ITEM_Rocket_Launcher.svg",
+    "description": "Use: Fire a rocket anywhere that explodes.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "5"
+      }
+    ]
+  },
+  {
+    "name": "Rocks",
+    "icon_path": "/assets/items/ITEM_Rocks.svg",
+    "description": "Use: A lobbed attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "8"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Roll of Pennies",
+    "icon_path": "/assets/items/ITEM_Roll_of_Pennies.svg",
+    "description": "Use: A weak melee attack that has a 50% chance to spawn a coin.\n5% chance to break when used.\nGain a lot of coins when it breaks.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Rubber Bat",
+    "icon_path": "/assets/items/ITEM_Rubber_Bat.svg",
+    "description": "Use: A melee attack that inflicts Confusion 1 and turns the unit to the right.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Rubber"
+      }
+    ]
+  },
+  {
+    "name": "Rubber Fist",
+    "icon_path": "/assets/items/ITEM_Rubber_Fist.svg",
+    "description": "Use: A melee attack with Knockback 1 that inflicts Confusion.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Rubber"
+      }
+    ]
+  },
+  {
+    "name": "Rusted Rod",
+    "icon_path": "/assets/items/ITEM_Rusted_Rod.svg",
+    "description": "Use: A melee attack with damage equal to uses.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "9"
+      }
+    ]
+  },
+  {
+    "name": "Rusty Razor",
+    "icon_path": "/assets/items/ITEM_Rusty_Razor.svg",
+    "description": "Use: A melee attack that inflicts Poison 1 and Bleed 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "6-9"
+      }
+    ]
+  },
+  {
+    "name": "Sawblades",
+    "icon_path": "/assets/items/ITEM_Sawblades.svg",
+    "description": "Use: Throw a blade in a straight line that inflicts Bleed 1 and passes through units.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "9-16"
+      }
+    ]
+  },
+  {
+    "name": "Scalding Orb",
+    "icon_path": "/assets/items/ITEM_Scalding_Orb.svg",
+    "description": "Feed it to the Man in the Moon.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Molten"
+      }
+    ]
+  },
+  {
+    "name": "Seed Bombs",
+    "icon_path": "/assets/items/ITEM_Seed_Bombs.svg",
+    "description": "Use: A lobbed projectile that spawns tall grass.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Shard of Glass",
+    "icon_path": "/assets/items/ITEM_Shard_of_Glass.svg",
+    "description": "Use: A melee attack that inflicts Bleed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "7-12"
+      }
+    ]
+  },
+  {
+    "name": "Sharp Straw",
+    "icon_path": "/assets/items/ITEM_Sharp_Straw.svg",
+    "description": "Use: A weak melee attack.\nIf it kills a unit, heal 10 HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Shoe Horn",
+    "icon_path": "/assets/items/ITEM_Shoe_Horn.svg",
+    "description": "+2 .",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Shotgun",
+    "icon_path": "/assets/items/ITEM_Shotgun.svg",
+    "description": "Use: Fires 5 projectiles in a cone.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "2"
+      }
+    ]
+  },
+  {
+    "name": "Shovel",
+    "icon_path": "/assets/items/ITEM_Shovel.svg",
+    "description": "Use: A melee attack that lobs a unit back 2 tiles and digs up a corpse.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Signal Amplifier",
+    "icon_path": "/assets/items/ITEM_Signal_Amplifier.svg",
+    "description": "Place it on a floating head inside The Rift.\nSpawn a random robot miniboss with Madness at the end of the first round.\nUse: Energize all robots and give yourself All Stats Up.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Bionic,Cyborg"
+      }
+    ]
+  },
+  {
+    "name": "Six Pack",
+    "icon_path": "/assets/items/ITEM_Six_Pack.svg",
+    "description": "Use: A lobbed water attack that deals splash damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "6"
+      }
+    ]
+  },
+  {
+    "name": "Slag Might",
+    "icon_path": "/assets/items/ITEM_Slag_Might.svg",
+    "description": "Use: A melee attack with Bruise 1 and Knockback 5.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Sleep Dart",
+    "icon_path": "/assets/items/ITEM_Sleep_Dart.svg",
+    "description": "Use: A straight ranged attack that inflicts Sleep 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Uses",
+        "content": "1-2"
+      }
+    ]
+  },
+  {
+    "name": "Slingshot",
+    "icon_path": "/assets/items/ITEM_Slingshot.svg",
+    "description": "Use: A ranged attack with a 33% chance to inflict Blind 2.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "5-9"
+      },
+      {
+        "label": "Sets",
+        "content": "Wood"
+      }
+    ]
+  },
+  {
+    "name": "Small Bomb",
+    "icon_path": "/assets/items/ITEM_Small_Bomb.svg",
+    "description": "Use: Throw a bomb that explodes.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Small Meteor",
+    "icon_path": "/assets/items/ITEM_Small_Meteor.svg",
+    "description": "Mimics a collarless spell.\nWill use it as it's description.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Planet"
+      }
+    ]
+  },
+  {
+    "name": "Sniper Rifle",
+    "icon_path": "/assets/items/ITEM_Sniper_Rifle.svg",
+    "description": "Use: Fire a shot that instakills units and deals 25 damage to bosses.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "2-4"
+      }
+    ]
+  },
+  {
+    "name": "Soul Claw",
+    "icon_path": "/assets/items/ITEM_Soul_Claw.svg",
+    "description": "Use: A melee attack that deals damage equal to the number of uses this has left.\nWhen this weapon kills a unit, it gains +2 uses.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "7"
+      },
+      {
+        "label": "Sets",
+        "content": "Demonic"
+      }
+    ]
+  },
+  {
+    "name": "Soul Dagger",
+    "icon_path": "/assets/items/ITEM_Soul_Dagger.svg",
+    "description": "Use: A melee attack. If this weapon damages an allied cat, gain one of their spells at random in your bonus ability slot.\nIf this weapon downs an ally it becomes Charged for the rest of the battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      }
+    ]
+  },
+  {
+    "name": "Spear of Destiny",
+    "icon_path": "/assets/items/ITEM_Spear_of_Destiny.svg",
+    "description": "Use: A melee attack with +1 reach that penetrates through units.\nRELOAD: Collect a blessing pickup or get hit by a Holy Element spell.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Spider Webber",
+    "icon_path": "/assets/items/ITEM_Spider_Webber.svg",
+    "description": "Use: A ranged attack that inflicts Webbed.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      }
+    ]
+  },
+  {
+    "name": "Spinnerets",
+    "icon_path": "/assets/items/ITEM_Spinnerets.svg",
+    "description": "Use: A ranged attack that inflicts Webbed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "6"
+      }
+    ]
+  },
+  {
+    "name": "Spitball",
+    "icon_path": "/assets/items/ITEM_Spitball.svg",
+    "description": "Use: A ranged attack that inflicts Slow.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "4-8"
+      }
+    ]
+  },
+  {
+    "name": "Splinters",
+    "icon_path": "/assets/items/ITEM_Splinters.svg",
+    "description": "+1 , -1\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      }
+    ]
+  },
+  {
+    "name": "Spring Board",
+    "icon_path": "/assets/items/ITEM_Spring_Board.svg",
+    "description": "Use: A melee attack that lobs a unit back 3 tiles.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Wood"
+      }
+    ]
+  },
+  {
+    "name": "Stacy 100",
+    "icon_path": "/assets/items/ITEM_Stacy_100.svg",
+    "description": "Use: Spawn a Stacy.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Staff of Flame",
+    "icon_path": "/assets/items/ITEM_Staff_of_Flame.svg",
+    "description": "Use: A fire attack that inflicts Burn 5.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Mage"
+      }
+    ]
+  },
+  {
+    "name": "Staff of the Underworld",
+    "icon_path": "/assets/items/ITEM_Staff_of_the_Underworld.svg",
+    "description": "Use: A melee attack with Knockback 1.\nPassive: Start each battle with a Zombie Cat familiar.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Necromancer,Bone"
+      }
+    ]
+  },
+  {
+    "name": "Steel Ball",
+    "icon_path": "/assets/items/ITEM_Steel_Ball.svg",
+    "description": "Use: Summon an invulnerable Fly familiar.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Steven (Weapon 1)",
+    "icon_path": "/assets/items/ITEM_Steven_-Weapon_1-.svg",
+    "description": "Use: A melee attack. If this hits an allied cat, spawn a quarter-sized copy of them with 25% of their stats. The copy is AI controlled.\nRELOAD: An allied cat dies.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Steven (Weapon 2)",
+    "icon_path": "/assets/items/ITEM_Steven_-Weapon_2-.svg",
+    "description": "Use: A lobbed attack that inflicts Petrify.\nRELOAD: Kill a rock.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Steven's Bag of Rocks",
+    "icon_path": "/assets/items/ITEM_Steven-s_Bag_of_Rocks.svg",
+    "description": "Use: A melee attack with a chance to repeat that inflicts Bruise.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Steven's Bottle",
+    "icon_path": "/assets/items/ITEM_Steven-s_Bottle.svg",
+    "description": "Use: A ranged attack that creates a Tar tile.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Steven's Gristle",
+    "icon_path": "/assets/items/ITEM_Steven-s_Gristle.svg",
+    "description": "Units don't leave corpses.\nUse: A melee attack.\nThis weapon gains +1 damage and +1 use when it gets a kill.\nDamage resets at the end of the adventure.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "99"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Steven's Shotgun",
+    "icon_path": "/assets/items/ITEM_Steven-s_Shotgun.svg",
+    "description": "Use: Fires 5 projectiles in a cone. Using this recoils you 10 tiles backwards and Confuses you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Stick",
+    "icon_path": "/assets/items/ITEM_Stick.svg",
+    "description": "Use: A melee attack with +1 reach.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "4"
+      },
+      {
+        "label": "Sets",
+        "content": "Wood"
+      }
+    ]
+  },
+  {
+    "name": "Stopwatch (Fixed)",
+    "icon_path": "/assets/items/ITEM_Stopwatch_-Fixed-.svg",
+    "description": "Use: You or a target unit takes an AI controlled bonus turn.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Strong Magnet",
+    "icon_path": "/assets/items/ITEM_Strong_Magnet.svg",
+    "description": "Use: Pull a unit 2 tiles toward you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Stun Gun",
+    "icon_path": "/assets/items/ITEM_Stun_Gun.svg",
+    "description": "Use: An electric melee attack with a 50% chance to inflict Stun.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "2-4"
+      }
+    ]
+  },
+  {
+    "name": "Submachine Gun",
+    "icon_path": "/assets/items/ITEM_Submachine_Gun.svg",
+    "description": "Use: Fire 5 shots in a straight line.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "3"
+      }
+    ]
+  },
+  {
+    "name": "Tesla Cannon",
+    "icon_path": "/assets/items/ITEM_Tesla_Cannon.svg",
+    "description": "Use: Fire a ranged electric shot that passes through units in a straight line with a 50% chance to Stun.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "3"
+      },
+      {
+        "label": "Sets",
+        "content": "Experimental"
+      }
+    ]
+  },
+  {
+    "name": "Textbook",
+    "icon_path": "/assets/items/ITEM_Textbook.svg",
+    "description": "+2 until the end of battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Paper"
+      }
+    ]
+  },
+  {
+    "name": "The Bible",
+    "icon_path": "/assets/items/ITEM_The_Bible.svg",
+    "description": "Cleanse 1 stack of a Random Debuff from a unit at Melee range. Passive: When you Heal a unit, Heal +1 HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Cleric"
+      }
+    ]
+  },
+  {
+    "name": "The Kandarian",
+    "icon_path": "/assets/items/ITEM_The_Kandarian.svg",
+    "description": "Use: A melee attack that always crits and inflicts Bleed 10.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      },
+      {
+        "label": "Sets",
+        "content": "Demonic,Bone"
+      }
+    ]
+  },
+  {
+    "name": "The Loner",
+    "icon_path": "/assets/items/ITEM_The_Loner.svg",
+    "description": "Side Quest Item. Kill all of your allies at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Side Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Cool"
+      }
+    ]
+  },
+  {
+    "name": "The Loner Mark 2",
+    "icon_path": "/assets/items/ITEM_The_Loner_Mark_2.svg",
+    "description": "Use: Deals 5 damage to anything in your line of sight.\nRELOAD: Any ally dies.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cool,Used"
+      }
+    ]
+  },
+  {
+    "name": "The Pact",
+    "icon_path": "/assets/items/ITEM_The_Pact.svg",
+    "description": "Use: Permanently lose 1 to gain +1 , +2 and +2 for the rest of the battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Demonic"
+      }
+    ]
+  },
+  {
+    "name": "Throbbing Gristle",
+    "icon_path": "/assets/items/ITEM_Throbbing_Gristle.svg",
+    "description": "Take it to the Wall of Flesh in the Caves.\nAll units die when they get downed.\nUse: A melee attack that turns things it kills into Meat.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Meat"
+      }
+    ]
+  },
+  {
+    "name": "Tina's Larynx",
+    "icon_path": "/assets/items/ITEM_Tina-s_Larynx.svg",
+    "description": "Use: Inflict Fear on all enemies.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Guts"
+      }
+    ]
+  },
+  {
+    "name": "Toy Gun",
+    "icon_path": "/assets/items/ITEM_Toy_Gun.svg",
+    "description": "Use: A melee attack with Knockback 10 and Chain Knockback that inflicts Bruise.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Jester"
+      }
+    ]
+  },
+  {
+    "name": "Tractor Beam",
+    "icon_path": "/assets/items/ITEM_Tractor_Beam.svg",
+    "description": "Use: Pull a unit within 3 tiles all the way towards you. Requires line of sight.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Space"
+      }
+    ]
+  },
+  {
+    "name": "Trash Can Lid",
+    "icon_path": "/assets/items/ITEM_Trash_Can_Lid.svg",
+    "description": "+5 Shield\nUse: A melee attack with Knockback 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Trowel",
+    "icon_path": "/assets/items/ITEM_Trowel.svg",
+    "description": "Use: A melee attack with Knockback 1 that spawns a rock.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "6-8"
+      }
+    ]
+  },
+  {
+    "name": "USA Shield",
+    "icon_path": "/assets/items/ITEM_USA_Shield.svg",
+    "description": "Use: A ranged attack that inflicts Stun.\n(Usable once per battle.)\nPassive: +2 Brace while this weapon is usable.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Superhero"
+      }
+    ]
+  },
+  {
+    "name": "Uranium Rod",
+    "icon_path": "/assets/items/ITEM_Uranium_Rod.svg",
+    "description": "-6\nUse: A melee attack that inflicts -1 , Poison 2 and Weakness 1.\nAt the end of each battle, if you are downed, gain a random mutation.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Radioactive"
+      }
+    ]
+  },
+  {
+    "name": "Vial of Acid",
+    "icon_path": "/assets/items/ITEM_Vial_of_Acid.svg",
+    "description": "Use: A melee attack that inflicts random status effects.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Whetstone",
+    "icon_path": "/assets/items/ITEM_Whetstone.svg",
+    "description": "Use: Gain +1 damage for the rest of the battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Zapper",
+    "icon_path": "/assets/items/ITEM_Zapper.svg",
+    "description": "Use: A ranged electric attack that inflicts Stun.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "4"
+      }
+    ]
+  },
+  {
+    "name": "Zodiac's Six Shooter",
+    "icon_path": "/assets/items/ITEM_Zodiac-s_Six_Shooter.svg",
+    "description": "Use: Fire a shot anywhere within your line of sight.\nAutomatically use this whenever an enemy ends movement within your line of sight.\nReloads at the end of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Weapon"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "6"
+      },
+      {
+        "label": "Sets",
+        "content": "Cool"
+      }
+    ]
+  }
+]

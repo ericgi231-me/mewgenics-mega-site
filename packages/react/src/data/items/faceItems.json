@@ -1,0 +1,3266 @@
+[
+  {
+    "name": "Advanced Alloy Mask",
+    "icon_path": "/assets/items/ITEM_Advanced_Alloy_Mask.svg",
+    "description": "+4 Shield\n+2 Brace, +2 Thorns.\nBrittle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Sets",
+        "content": "Advanced Alloy"
+      }
+    ]
+  },
+  {
+    "name": "Alloy Mask",
+    "icon_path": "/assets/items/ITEM_Alloy_Mask_-Face-.svg",
+    "description": "+3 Shield\n+1 Brace, +2 Thorns.\nBrittle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Sets",
+        "content": "Alloy"
+      }
+    ]
+  },
+  {
+    "name": "Amoeba (Face)",
+    "icon_path": "/assets/items/ITEM_Amoeba_-Face-.svg",
+    "description": "+4 , -1\n+1 Brace. +10% Miss Chance.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Sets",
+        "content": "Amoeba"
+      }
+    ]
+  },
+  {
+    "name": "Ancestor's Jaw",
+    "icon_path": "/assets/items/ITEM_Ancestor-s_Jaw.svg",
+    "description": "Mimics a class passive.\nWill use it as it's description.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Ancestor,Bone"
+      }
+    ]
+  },
+  {
+    "name": "Angry Face",
+    "icon_path": "/assets/items/ITEM_Angry_Face.svg",
+    "description": "Side Quest Item. Equipped cat is an enemy, must be downed to win the battle, and can still receive level ups. Can't be equipped to a Collarless cat. Cursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Side Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Paper"
+      }
+    ]
+  },
+  {
+    "name": "Attractive Hair Clip",
+    "icon_path": "/assets/items/ITEM_Attractive_Hair_Clip.svg",
+    "description": "After you're downed, the next time an allied cat takes a turn, they take an extra turn",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Used"
+      }
+    ]
+  },
+  {
+    "name": "Ball Gag",
+    "icon_path": "/assets/items/ITEM_Ball_Gag.svg",
+    "description": "Gain +2 Charge when you take damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Gimp"
+      }
+    ]
+  },
+  {
+    "name": "Bandage",
+    "icon_path": "/assets/items/ITEM_Bandage.svg",
+    "description": "+ 2 Health Regen, -1 .",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Nurse"
+      }
+    ]
+  },
+  {
+    "name": "Bandages",
+    "icon_path": "/assets/items/ITEM_Bandages.svg",
+    "description": "Heals heal you for twice as much.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Nurse"
+      }
+    ]
+  },
+  {
+    "name": "Bandit Mask",
+    "icon_path": "/assets/items/ITEM_Bandit_Mask.svg",
+    "description": "Your basic attack spawns 1 coin when it deals damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Thief"
+      }
+    ]
+  },
+  {
+    "name": "Barbed Mask",
+    "icon_path": "/assets/items/ITEM_Barbed_Mask.svg",
+    "description": "+1 Damage, +1 Thorns, -1 max HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Barbed"
+      }
+    ]
+  },
+  {
+    "name": "Barbed Scrap",
+    "icon_path": "/assets/items/ITEM_Barbed_Scrap.svg",
+    "description": "+4 Shield\n+1 Thorns, +1 Damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Barbed,Scrap"
+      }
+    ]
+  },
+  {
+    "name": "Bear Trap Mask",
+    "icon_path": "/assets/items/ITEM_Bear_Trap_Mask.svg",
+    "description": "+4 Shield\n+1 Bleed Thorns.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Lead"
+      }
+    ]
+  },
+  {
+    "name": "Big Rock Mask",
+    "icon_path": "/assets/items/ITEM_Big_Rock_Mask.svg",
+    "description": "+6 Shield, -2\nBrace 2.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Bionic Face Plating",
+    "icon_path": "/assets/items/ITEM_Bionic_Face_Plating.svg",
+    "description": "+3\nFragile.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Bionic"
+      }
+    ]
+  },
+  {
+    "name": "Black Belt",
+    "icon_path": "/assets/items/ITEM_Black_Belt.svg",
+    "description": "25% chance to block attacks and counter attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Blessed Ashes",
+    "icon_path": "/assets/items/ITEM_Blessed_Ashes.svg",
+    "description": "+3 Shield.\nGain +3 Shield once per battle when your HP is 3 or less.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Cleric"
+      }
+    ]
+  },
+  {
+    "name": "Bozo",
+    "icon_path": "/assets/items/ITEM_Bozo.svg",
+    "description": "+2 , -1\nYour basic attack has a +15% chance to inflict Fear.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Jester"
+      }
+    ]
+  },
+  {
+    "name": "Brick Mask",
+    "icon_path": "/assets/items/ITEM_Brick_Mask.svg",
+    "description": "+4 Shield, -1\nInflict Bruise 1 on units that contact you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Brick"
+      }
+    ]
+  },
+  {
+    "name": "Brown Belt",
+    "icon_path": "/assets/items/ITEM_Brown_Belt.svg",
+    "description": "+1 Damage.\nIf you end your turn with unused basic attacks, gain that many Backflip.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Cactus Mask",
+    "icon_path": "/assets/items/ITEM_Cactus_Mask.svg",
+    "description": "+3 Thorns, Brittle.\nGain +2 permanently and heal 10 HP when this breaks.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Cactus"
+      }
+    ]
+  },
+  {
+    "name": "Callus",
+    "icon_path": "/assets/items/ITEM_Callus.svg",
+    "description": "Permanently gain +2 Shield each time you end a battle with 1 or more Shield.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Carapace Mask",
+    "icon_path": "/assets/items/ITEM_Carapace_Mask.svg",
+    "description": "+4 Shield\nCleanse 1 stack of a random negative status effect when you end your turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Carapace"
+      }
+    ]
+  },
+  {
+    "name": "Cardboard Mask",
+    "icon_path": "/assets/items/ITEM_Cardboard_Mask.svg",
+    "description": "+2 Shield\nFragile, Flammable, Brittle when Wet.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Cardboard"
+      }
+    ]
+  },
+  {
+    "name": "Cathide Mask",
+    "icon_path": "/assets/items/ITEM_Cathide_Mask.svg",
+    "description": "+2 Shield\n+1 Health Regen.\n5% chance to spawn a Flea Familiar at the end of your turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Cathide"
+      }
+    ]
+  },
+  {
+    "name": "Caveman Eyebrows",
+    "icon_path": "/assets/items/ITEM_Caveman_Eyebrows.svg",
+    "description": "+2 , -1\nYour weapons deal double damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Caveman"
+      }
+    ]
+  },
+  {
+    "name": "Cerebral Chip",
+    "icon_path": "/assets/items/ITEM_Cerebral_Chip.svg",
+    "description": "-1 , -1\nYour spells cost -1 mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Chip"
+      }
+    ]
+  },
+  {
+    "name": "Champion's Mask",
+    "icon_path": "/assets/items/ITEM_Champion-s_Mask.svg",
+    "description": "Gain +1 (stat) until the end of the battle each time you kill a unit.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Child of the Glowing One (Face)",
+    "icon_path": "/assets/items/ITEM_Child_of_the_Glowing_One_-Face-.svg",
+    "description": "Gain +1 Damage and heal 1 HP every time you use your basic attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Clam",
+    "icon_path": "/assets/items/ITEM_Clam.svg",
+    "description": "-1\n5% chance to break when you take damage.\nWhen this breaks, find a Pearl.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      }
+    ]
+  },
+  {
+    "name": "Cleric's Tears",
+    "icon_path": "/assets/items/ITEM_Cleric-s_Tears.svg",
+    "description": "+1 Holy Shield\nGain +1 Holy Shield each time an ally is downed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cleric"
+      }
+    ]
+  },
+  {
+    "name": "Clown Makeup",
+    "icon_path": "/assets/items/ITEM_Clown_Makeup.svg",
+    "description": "-3\nTriple the effects of your Head armor.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Jester"
+      }
+    ]
+  },
+  {
+    "name": "Conjoined Ameoba",
+    "icon_path": "/assets/items/ITEM_Conjoined_Ameoba.svg",
+    "description": "-2\nBrace 2. +2 Health Regen. Units that contact you are knocked back 2 tiles.\n20% chance to spawn a Charmed Ameoba at the end of the turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Amoeba"
+      }
+    ]
+  },
+  {
+    "name": "Cool Glasses",
+    "icon_path": "/assets/items/ITEM_Cool_Glasses.svg",
+    "description": "+2\nFragile",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Cool"
+      }
+    ]
+  },
+  {
+    "name": "Cool Rocks",
+    "icon_path": "/assets/items/ITEM_Cool_Rocks.svg",
+    "description": "+4 Shield +2 -1\nYour basic attack has +1 Knockback.\nWhen you are downed, gain coins.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cool,Rock"
+      }
+    ]
+  },
+  {
+    "name": "Copycat Mask",
+    "icon_path": "/assets/items/ITEM_Copycat_Mask.svg",
+    "description": "Copies your trinket's passive effects.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Copycat"
+      }
+    ]
+  },
+  {
+    "name": "Crimson Mask",
+    "icon_path": "/assets/items/ITEM_Crimson_Mask.svg",
+    "description": "+1 Damage.\nGain +1 Damage when you kill an enemy.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Meat"
+      }
+    ]
+  },
+  {
+    "name": "Cymothoa Exigua",
+    "icon_path": "/assets/items/ITEM_Cymothoa_Exigua.svg",
+    "description": "+2 , +2 , -2\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Sets",
+        "content": "Parasite"
+      }
+    ]
+  },
+  {
+    "name": "Death Mask",
+    "icon_path": "/assets/items/ITEM_Death_Mask.svg",
+    "description": "Get downed at the start of each battle, then revive at the end of the first round with full HP and +2 Shield.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Necromancer"
+      }
+    ]
+  },
+  {
+    "name": "Debris",
+    "icon_path": "/assets/items/ITEM_Debris.svg",
+    "description": "+1 Brace.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Debris,Scrap"
+      }
+    ]
+  },
+  {
+    "name": "Debris Mask",
+    "icon_path": "/assets/items/ITEM_Debris_Mask.svg",
+    "description": "+2 Shield, -1\n+2 range, +1 Kinetic Spikes.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Debris"
+      }
+    ]
+  },
+  {
+    "name": "Demonic Mask",
+    "icon_path": "/assets/items/ITEM_Demonic_Mask.svg",
+    "description": "+3 Bleed Thorns.\nTrample. Bleed 3.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Demonic"
+      }
+    ]
+  },
+  {
+    "name": "Dino Mask",
+    "icon_path": "/assets/items/ITEM_Dino_Mask.svg",
+    "description": "+5 Shield, -1\nAllies gain +1 at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Dino,Bone"
+      }
+    ]
+  },
+  {
+    "name": "Dirt Clod Mask",
+    "icon_path": "/assets/items/ITEM_Dirt_Clod_Mask.svg",
+    "description": "+2 Mana Regen, +2 Health Regen.\nFragile and Brittle while Wet.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Dirt Clod"
+      }
+    ]
+  },
+  {
+    "name": "Disorder Decoder",
+    "icon_path": "/assets/items/ITEM_Disorder_Decoder.svg",
+    "description": "Your spells cost 1 less for each disorder you have.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Experimental"
+      }
+    ]
+  },
+  {
+    "name": "Doodie Mask",
+    "icon_path": "/assets/items/ITEM_Doodie_Mask.svg",
+    "description": "-2\nSpawn a Charmed Fly at the end of your turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Fecal"
+      }
+    ]
+  },
+  {
+    "name": "Dry Bone Mask",
+    "icon_path": "/assets/items/ITEM_Dry_Bone_Mask.svg",
+    "description": "+3 Shield\n+1 Thorns.\nInflict Bruise 1 on units that contact you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone"
+      }
+    ]
+  },
+  {
+    "name": "Elite Alloy Mask",
+    "icon_path": "/assets/items/ITEM_Elite_Alloy_Mask.svg",
+    "description": "+5 Shield\n+2 Brace, +3 Thorns, All Stats Up 1.\nBrittle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Sets",
+        "content": "Elite Alloy"
+      }
+    ]
+  },
+  {
+    "name": "Energy Transmitter",
+    "icon_path": "/assets/items/ITEM_Energy_Transmitter.svg",
+    "description": "-4\nAll allies get +2 .",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Transmitter"
+      }
+    ]
+  },
+  {
+    "name": "Ethereal Eyes",
+    "icon_path": "/assets/items/ITEM_Ethereal_Eyes.svg",
+    "description": "+15% Dodge Chance.\nGain +5% Dodge Chance each time you take damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Experimental Treatment (Face)",
+    "icon_path": "/assets/items/ITEM_Experimental_Treatment_-Face-.svg",
+    "description": "+2 of a random stat, -1 of a random stat.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Experimental"
+      }
+    ]
+  },
+  {
+    "name": "Experimental Treatment (Quest)",
+    "icon_path": "/assets/items/ITEM_Experimental_Treatment_-Quest-.svg",
+    "description": "Side Quest Item. Your team's passive ability level ups offer disorders instead.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Side Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Experimental"
+      }
+    ]
+  },
+  {
+    "name": "Eye Of God",
+    "icon_path": "/assets/items/ITEM_Eye_Of_God.svg",
+    "description": "+1 Holy Shield\n+10 range.\nYour ranged attacks can't miss.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Hybrid"
+      }
+    ]
+  },
+  {
+    "name": "Eye Worm",
+    "icon_path": "/assets/items/ITEM_Eye_Worm.svg",
+    "description": "+10% Miss Chance. 75% chance to equip a piece of Grub armor at the start of each battle.\nThis will destroy any armor it replaces.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Sets",
+        "content": "Parasite"
+      }
+    ]
+  },
+  {
+    "name": "Eye of Ra",
+    "icon_path": "/assets/items/ITEM_Eye_of_Ra.svg",
+    "description": "Your basic attack inflicts Burn 1 and Blind 1.\nInflict Burn 1 and Blind 1 on units that contact or attack you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Face Brand",
+    "icon_path": "/assets/items/ITEM_Face_Brand.svg",
+    "description": "Each time you use your basic attack, gain +1 Shield.\n(This counts as an empty armor slot.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Monk"
+      }
+    ]
+  },
+  {
+    "name": "Face Covering",
+    "icon_path": "/assets/items/ITEM_Face_Covering.svg",
+    "description": "+1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Medical,Nurse"
+      }
+    ]
+  },
+  {
+    "name": "Face Grub",
+    "icon_path": "/assets/items/ITEM_Face_Grub.svg",
+    "description": "+3 Shield\nWhen your Shield is depleted, this transforms into a Maggot familiar.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Grub"
+      }
+    ]
+  },
+  {
+    "name": "Face Shards",
+    "icon_path": "/assets/items/ITEM_Face_Shards.svg",
+    "description": "+2 Thorns.\nGain +1 Bleed each time you take damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      }
+    ]
+  },
+  {
+    "name": "Face Tentacle",
+    "icon_path": "/assets/items/ITEM_Face_Tentacle.svg",
+    "description": "+2 Shield\nYour basic attack has a +33% chance to inflict Entangle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Tentacle"
+      }
+    ]
+  },
+  {
+    "name": "Face Wrap",
+    "icon_path": "/assets/items/ITEM_Face_Wrap.svg",
+    "description": "+1 Health Regen.\nWhen downed, revive with 15% HP at the end of the round.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Mummy"
+      }
+    ]
+  },
+  {
+    "name": "Fart Face",
+    "icon_path": "/assets/items/ITEM_Fart_Face.svg",
+    "description": "Side Quest Item. Apply Poison 1 to everything at the start of the battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Side Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Human Flesh"
+      }
+    ]
+  },
+  {
+    "name": "Fatty Mask",
+    "icon_path": "/assets/items/ITEM_Fatty_Mask.svg",
+    "description": "Brace 1. Your basic attack has +1 Knockback.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Fatty"
+      }
+    ]
+  },
+  {
+    "name": "Feathered Mask",
+    "icon_path": "/assets/items/ITEM_Feathered_Mask.svg",
+    "description": "+10% Dodge Chance.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Feathered"
+      }
+    ]
+  },
+  {
+    "name": "Feathered Veil",
+    "icon_path": "/assets/items/ITEM_Feathered_Veil.svg",
+    "description": "Counterattack melee attackers.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Feathered"
+      }
+    ]
+  },
+  {
+    "name": "Fecal Mask",
+    "icon_path": "/assets/items/ITEM_Fecal_Mask.svg",
+    "description": "-1\nPoisonous 1.\nCursed",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Fecal"
+      }
+    ]
+  },
+  {
+    "name": "Feebis",
+    "icon_path": "/assets/items/ITEM_Feebis.svg",
+    "description": "Your spells cost -2 mana and the first one you cast each turn is double cast.\nYour basic attack is Poke and your movement range is 1.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      }
+    ]
+  },
+  {
+    "name": "Fighter's Scar",
+    "icon_path": "/assets/items/ITEM_Fighter-s_Scar.svg",
+    "description": "+2 Shield\n+15% chance to refresh your basic attack, movement, weapon and trinket actions when you get a kill.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Fighter"
+      }
+    ]
+  },
+  {
+    "name": "Flesh Kid",
+    "icon_path": "/assets/items/ITEM_Flesh_Kid.svg",
+    "description": "+4\nYou can't get injuries.\nWhen you're downed, revive at the end of the round.\nYour movement action is Jump.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Meat,Human Flesh"
+      }
+    ]
+  },
+  {
+    "name": "Flower",
+    "icon_path": "/assets/items/ITEM_Flower.svg",
+    "description": "Spawn flowers under you when you end your turn.\n+1 Health Regen.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Flower"
+      }
+    ]
+  },
+  {
+    "name": "Flower Mask",
+    "icon_path": "/assets/items/ITEM_Flower_Mask.svg",
+    "description": "Your basic attack has a +5% chance to inflict Entangled.\nPlants flowers on each tile you move through.\n(Stacking this effect plants flowers in a wider area.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Flower"
+      }
+    ]
+  },
+  {
+    "name": "Fly Mask",
+    "icon_path": "/assets/items/ITEM_Fly_Mask.svg",
+    "description": "+3 , -1\n+10% Dodge Chance.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Sets",
+        "content": "Fly"
+      }
+    ]
+  },
+  {
+    "name": "Frozen Mask",
+    "icon_path": "/assets/items/ITEM_Frozen_Mask.svg",
+    "description": "+1 Shield\nYour basic attack inflicts Slow and has a +10% chance to Freeze units. Units that contact you gain Slow and have a 10% chance to become Frozen.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Frozen"
+      }
+    ]
+  },
+  {
+    "name": "Fukumen",
+    "icon_path": "/assets/items/ITEM_Fukumen.svg",
+    "description": "Counter the first two attacks you receive each combat.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Ninja"
+      }
+    ]
+  },
+  {
+    "name": "Gemstone Bones",
+    "icon_path": "/assets/items/ITEM_Gemstone_Bones.svg",
+    "description": "+4 Shield +1\n+1 Kinetic Spikes. When you take damage, gain +2 . When you are downed, emit 6 Sparkles.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone,Gemstone"
+      }
+    ]
+  },
+  {
+    "name": "Gemstone Mask",
+    "icon_path": "/assets/items/ITEM_Gemstone_Mask.svg",
+    "description": "+1 Shield, +1\n+1 Kinetic Spikes.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Gemstone"
+      }
+    ]
+  },
+  {
+    "name": "Glasses",
+    "icon_path": "/assets/items/ITEM_Glasses.svg",
+    "description": "+2 , -1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Glyph of Protection",
+    "icon_path": "/assets/items/ITEM_Glyph_of_Protection.svg",
+    "description": "Gain +1 Shield each time you cast a spell.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cleric"
+      }
+    ]
+  },
+  {
+    "name": "Greenman Mask",
+    "icon_path": "/assets/items/ITEM_Greenman_Mask.svg",
+    "description": "+3 Brace while standing in tall grass.\n+3 Mana Regen while standing in water.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Druid,Leafy"
+      }
+    ]
+  },
+  {
+    "name": "Guillotina's Head",
+    "icon_path": "/assets/items/ITEM_Guillotina-s_Head.svg",
+    "description": "Take it to the Meat Altar in the Throbbing Domain. All battles are Hard battles. Enemies will attack you instead of your allies if they can. Units that contact or attack you have a chance to be Feared. Your basic attack has a +10% chance to inflict Fear. Cursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Guts"
+      }
+    ]
+  },
+  {
+    "name": "Happy Face",
+    "icon_path": "/assets/items/ITEM_Happy_Face.svg",
+    "description": "Spawn near enemies and take an AI controlled bonus turn at the start of every battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Paper"
+      }
+    ]
+  },
+  {
+    "name": "Hitler's Mustache",
+    "icon_path": "/assets/items/ITEM_Hitler-s_Mustache.svg",
+    "description": "Permanent Madness.\nTake 2 extra turns at the start of each round.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Man,Used"
+      }
+    ]
+  },
+  {
+    "name": "Hockey Mask",
+    "icon_path": "/assets/items/ITEM_Hockey_Mask.svg",
+    "description": "+5 Shield\nWhile downed, you have a 25% chance to revive with 1 at the end of the round.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Holy Tears",
+    "icon_path": "/assets/items/ITEM_Holy_Tears.svg",
+    "description": "+2 Holy Shield\nAllies gain 2 Holy Shield when you are downed.\nYour spells cost -1 mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cleric"
+      }
+    ]
+  },
+  {
+    "name": "Horse Blinders",
+    "icon_path": "/assets/items/ITEM_Horse_Blinders.svg",
+    "description": "Your abilities have 100% accuracy and +50% Crit Chance.\nYou are unable to hit any unit that isn't in a straight line directly in front of you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Leather,Gimp"
+      }
+    ]
+  },
+  {
+    "name": "Human Face",
+    "icon_path": "/assets/items/ITEM_Human_Face.svg",
+    "description": "+2 , -1\nYour basic attack has a +25% chance to inflict Fear.\nSpawn a food pickup at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Human Flesh"
+      }
+    ]
+  },
+  {
+    "name": "Hunter's Monocle",
+    "icon_path": "/assets/items/ITEM_Hunter-s_Monocle.svg",
+    "description": "+2 range.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Hunter"
+      }
+    ]
+  },
+  {
+    "name": "Hybrid Mask",
+    "icon_path": "/assets/items/ITEM_Hybrid_Mask.svg",
+    "description": "Start with a Bonus Attack and Poison 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Hybrid,Rat"
+      }
+    ]
+  },
+  {
+    "name": "Infamous Mask",
+    "icon_path": "/assets/items/ITEM_Infamous_Mask.svg",
+    "description": "-2 Speed You block attacks from the front.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Lead"
+      }
+    ]
+  },
+  {
+    "name": "Intestines",
+    "icon_path": "/assets/items/ITEM_Intestines.svg",
+    "description": "+2\n+1 Health Regen.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Guts"
+      }
+    ]
+  },
+  {
+    "name": "Intruder",
+    "icon_path": "/assets/items/ITEM_Intruder.svg",
+    "description": "Is it your baby?\nParasite.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Iron Jaw",
+    "icon_path": "/assets/items/ITEM_Iron_Jaw.svg",
+    "description": "+3 Shield\nCounterattack melee attackers with a bite that deals 3 damage with Lifesteal.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Butcher,Tinkerer"
+      }
+    ]
+  },
+  {
+    "name": "Jank Alloy Mask",
+    "icon_path": "/assets/items/ITEM_Jank_Alloy_Mask.svg",
+    "description": "+2 Shield\n+1 Brace.\nBrittle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Sets",
+        "content": "Jank Alloy"
+      }
+    ]
+  },
+  {
+    "name": "Jawbone",
+    "icon_path": "/assets/items/ITEM_Jawbone.svg",
+    "description": "+3 Shield\nBreaks when Shield is depleted.\nWhen it breaks, gain +1 and +3 Health Regen for the rest of the battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone"
+      }
+    ]
+  },
+  {
+    "name": "Lead Mask",
+    "icon_path": "/assets/items/ITEM_Lead_Mask.svg",
+    "description": "+6 Shield, -1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Lead"
+      }
+    ]
+  },
+  {
+    "name": "Leafy Mask",
+    "icon_path": "/assets/items/ITEM_Leafy_Mask.svg",
+    "description": "+1\nWhile standing in tall grass, you have +40% Dodge Chance.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Leafy"
+      }
+    ]
+  },
+  {
+    "name": "Leather Hide Mask",
+    "icon_path": "/assets/items/ITEM_Leather_Hide_Mask.svg",
+    "description": "+4 Shield\n+1 Brace, +1 Health Regen, 5% chance to spawn a Charmed Flea each turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cathide,Leather"
+      }
+    ]
+  },
+  {
+    "name": "Leather Mask",
+    "icon_path": "/assets/items/ITEM_Leather_Mask.svg",
+    "description": "+1 Shield\n+1 Brace.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Leather"
+      }
+    ]
+  },
+  {
+    "name": "Leech Brood",
+    "icon_path": "/assets/items/ITEM_Leech_Brood.svg",
+    "description": "Inflict Leech 1 to all enemies at the start of each battle.\nStart each battle at 50% health.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Leech"
+      }
+    ]
+  },
+  {
+    "name": "Lil' Tumor",
+    "icon_path": "/assets/items/ITEM_Lil-_Tumor.svg",
+    "description": "At the end of each battle, gain -1 to three random stats, then gain a mutation.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Mother"
+      }
+    ]
+  },
+  {
+    "name": "Lucky Clover",
+    "icon_path": "/assets/items/ITEM_Lucky_Clover.svg",
+    "description": "+1\nFragile.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Lucky,Leafy"
+      }
+    ]
+  },
+  {
+    "name": "Mage's Robe",
+    "icon_path": "/assets/items/ITEM_Mage-s_Robe.svg",
+    "description": "+1\nGain +1 Charge when you deal damage with your basic attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Mage"
+      }
+    ]
+  },
+  {
+    "name": "Magic Mirror",
+    "icon_path": "/assets/items/ITEM_Magic_Mirror.svg",
+    "description": "+20% chance to reflect projectiles. Spawn a friendly Spookie when downed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Magic Mirror (Broken)",
+    "icon_path": "/assets/items/ITEM_Magic_Mirror_-Broken-.svg",
+    "description": "Side Quest Item. Your team has very bad luck during events. +2 Thorns.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Side Quest"
+      }
+    ]
+  },
+  {
+    "name": "Man's Glasses",
+    "icon_path": "/assets/items/ITEM_Man-s_Glasses.svg",
+    "description": "Physical attacks can't miss.\nSpawn 1-2 extra pickups at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Man"
+      }
+    ]
+  },
+  {
+    "name": "Mark of the Beast",
+    "icon_path": "/assets/items/ITEM_Mark_of_the_Beast.svg",
+    "description": "+6 Damage. Holy Element heals damage you instead.\nWhen downed, your body is destroyed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      }
+    ]
+  },
+  {
+    "name": "Medical Mask",
+    "icon_path": "/assets/items/ITEM_Medical_Mask.svg",
+    "description": "All of your stats are increased by 1 for each disorder you have.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Medical"
+      }
+    ]
+  },
+  {
+    "name": "Miner Implant",
+    "icon_path": "/assets/items/ITEM_Miner_Implant.svg",
+    "description": "+7 Shield +1\n+1 range, +1 reach.\nPoison Immunity.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Miner,Cyborg"
+      }
+    ]
+  },
+  {
+    "name": "Miner Mask",
+    "icon_path": "/assets/items/ITEM_Miner_Mask.svg",
+    "description": "+4 Shield\nPoison Immunity.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Miner"
+      }
+    ]
+  },
+  {
+    "name": "Miner's Beard",
+    "icon_path": "/assets/items/ITEM_Miner-s_Beard.svg",
+    "description": "When you take damage, spawn scrap.\nWhen you end turn, spawn a coin on a random tile.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Miner,Man"
+      }
+    ]
+  },
+  {
+    "name": "Molten Mask",
+    "icon_path": "/assets/items/ITEM_Molten_Mask.svg",
+    "description": "Start with Burn 2. Your basic attack inflicts Burn 1. Inflict Burn 1 on units that contact you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Molten"
+      }
+    ]
+  },
+  {
+    "name": "Monocle",
+    "icon_path": "/assets/items/ITEM_Monocle.svg",
+    "description": "+1\nYour physical attacks can't miss.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Mother's Mask",
+    "icon_path": "/assets/items/ITEM_Mother-s_Mask.svg",
+    "description": "Spawn a Charmed Tiny Tumor at the start of each battle and whenever you're downed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Mother"
+      }
+    ]
+  },
+  {
+    "name": "Mud Mask",
+    "icon_path": "/assets/items/ITEM_Mud_Mask.svg",
+    "description": "+3 Shield.\nFragile and Brittle while wet.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Dirt Clod"
+      }
+    ]
+  },
+  {
+    "name": "Muertos Mask",
+    "icon_path": "/assets/items/ITEM_Muertos_Mask.svg",
+    "description": "+6 Corpse Health.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Necromancer"
+      }
+    ]
+  },
+  {
+    "name": "Mustache",
+    "icon_path": "/assets/items/ITEM_Mustache.svg",
+    "description": "+1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Man"
+      }
+    ]
+  },
+  {
+    "name": "Muzzle",
+    "icon_path": "/assets/items/ITEM_Muzzle.svg",
+    "description": "+2 Shield, -2 , +1 , +1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Gimp"
+      }
+    ]
+  },
+  {
+    "name": "Mystic Eye",
+    "icon_path": "/assets/items/ITEM_Mystic_Eye.svg",
+    "description": "+25% chance to Reflect projectiles. Your tile-targeted spells have +2 range.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Psychic"
+      }
+    ]
+  },
+  {
+    "name": "Mystical Blindfold",
+    "icon_path": "/assets/items/ITEM_Mystical_Blindfold.svg",
+    "description": "+4 , +2\nYour physical attacks and abilities always miss.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Rag"
+      }
+    ]
+  },
+  {
+    "name": "Ninja Bandana",
+    "icon_path": "/assets/items/ITEM_Ninja_Bandana.svg",
+    "description": "Your Basic Attack has a 10% chance to grant a Bonus Attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Ninja"
+      }
+    ]
+  },
+  {
+    "name": "Nurse Mask",
+    "icon_path": "/assets/items/ITEM_Nurse_Mask.svg",
+    "description": "+1\n+1 Health Regen. Your heals heal for 1 extra.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Nurse"
+      }
+    ]
+  },
+  {
+    "name": "Obelisk Jewel",
+    "icon_path": "/assets/items/ITEM_Obelisk_Jewel.svg",
+    "description": "+1 Holy Shield\nGain +2 and +2 when you kill a unit.\nStats obtained this way are lost when you take damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Obelisk"
+      }
+    ]
+  },
+  {
+    "name": "Optic Nerve Implant",
+    "icon_path": "/assets/items/ITEM_Optic_Nerve_Implant.svg",
+    "description": "+3 Shield, +1\n+1 range, +1 reach.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cyborg"
+      }
+    ]
+  },
+  {
+    "name": "Ordinary Whiskers",
+    "icon_path": "/assets/items/ITEM_Ordinary_Whiskers.svg",
+    "description": "+1 , +1 , +1 , +1 , +1 , +1 , +1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Collarless"
+      }
+    ]
+  },
+  {
+    "name": "Paper Bag",
+    "icon_path": "/assets/items/ITEM_Paper_Bag.svg",
+    "description": "Your is equal to your highest other stat.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Paper Mask",
+    "icon_path": "/assets/items/ITEM_Paper_Mask.svg",
+    "description": "+1 Bleed Thorns.\nYour Basic Attack inflicts Bleed.\nFragile, Brittle, Flammable, Melts in Water.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Paper"
+      }
+    ]
+  },
+  {
+    "name": "Peace Symbol Face Paint",
+    "icon_path": "/assets/items/ITEM_Peace_Symbol_Face_Paint.svg",
+    "description": "Damage you deal to allies is reduced to 0.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Hippie"
+      }
+    ]
+  },
+  {
+    "name": "Phantom Mask",
+    "icon_path": "/assets/items/ITEM_Phantom_Mask.svg",
+    "description": "+3 Shield\n+10% chance to Block attacks.\nWhen you take damage, this becomes an invincible familiar.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Phoenix Mask",
+    "icon_path": "/assets/items/ITEM_Phoenix_Mask.svg",
+    "description": "+10% Dodge Chance. Each time you end movement, gain +1 and Charge 2.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Phoenix,Feathered"
+      }
+    ]
+  },
+  {
+    "name": "Pins and Needles",
+    "icon_path": "/assets/items/ITEM_Pins_and_Needles.svg",
+    "description": "+1 Thorns.\nGain +1 Charge when you deal damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Gimp"
+      }
+    ]
+  },
+  {
+    "name": "Prowler's Mask",
+    "icon_path": "/assets/items/ITEM_Prowler-s_Mask.svg",
+    "description": "Backstabs inflict Bleed 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Prowler"
+      }
+    ]
+  },
+  {
+    "name": "Rad Glasses",
+    "icon_path": "/assets/items/ITEM_Rad_Glasses.svg",
+    "description": "+2\nYour explosions deal +1 damage and have +1 area.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cool"
+      }
+    ]
+  },
+  {
+    "name": "Radioactive Mask",
+    "icon_path": "/assets/items/ITEM_Radioactive_Mask.svg",
+    "description": "+2 Shield\nAdjacent units get All Stats Down.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Radioactive"
+      }
+    ]
+  },
+  {
+    "name": "Rag Mask",
+    "icon_path": "/assets/items/ITEM_Rag_Mask.svg",
+    "description": "+15% Dodge Chance.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Rag"
+      }
+    ]
+  },
+  {
+    "name": "Rat Mask",
+    "icon_path": "/assets/items/ITEM_Rat_Mask.svg",
+    "description": "Start battle with a Charmed Pinky.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Rat"
+      }
+    ]
+  },
+  {
+    "name": "Recycled Ball Gag",
+    "icon_path": "/assets/items/ITEM_Recycled_Ball_Gag.svg",
+    "description": "+2 Shield\nGain +2 Charge when you take damage.\nFind a common item when you are downed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Gimp,Recycled"
+      }
+    ]
+  },
+  {
+    "name": "Recycled Mask",
+    "icon_path": "/assets/items/ITEM_Recycled_Mask.svg",
+    "description": "+2 Shield\nBrittle. Find a common item when this breaks.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Recycled"
+      }
+    ]
+  },
+  {
+    "name": "Redacted",
+    "icon_path": "/assets/items/ITEM_Redacted.svg",
+    "description": "Side Quest Item. Health bars and status icons are hidden in battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Side Quest"
+      }
+    ]
+  },
+  {
+    "name": "Rhinestone Stickers",
+    "icon_path": "/assets/items/ITEM_Rhinestone_Stickers.svg",
+    "description": "Emit 4 Sparkles at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Gemstone"
+      }
+    ]
+  },
+  {
+    "name": "Ringworm",
+    "icon_path": "/assets/items/ITEM_Ringworm.svg",
+    "description": "-3\nYour basic attack inflicts Weakness 3.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Sets",
+        "content": "Parasite"
+      }
+    ]
+  },
+  {
+    "name": "Robo Fart Face",
+    "icon_path": "/assets/items/ITEM_Robo_Fart_Face.svg",
+    "description": "Apply Poison 1 to all enemies at the start of the battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Bionic"
+      }
+    ]
+  },
+  {
+    "name": "Rock Mask",
+    "icon_path": "/assets/items/ITEM_Rock_Mask.svg",
+    "description": "+6 Shield, -1\nBrittle. Your basic attack has +1 Knockback. Gain coins when this breaks.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Rocky Mask",
+    "icon_path": "/assets/items/ITEM_Rocky_Mask.svg",
+    "description": "+10 Shield\nBreaks when Shield is depleted.\nWhen this breaks, gain Bruise 3.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Rotten Meat Mask",
+    "icon_path": "/assets/items/ITEM_Rotten_Meat_Mask.svg",
+    "description": "-1\nSpawn a Charmed Maggot or Fly when you end your turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Rotten"
+      }
+    ]
+  },
+  {
+    "name": "Rubber Band",
+    "icon_path": "/assets/items/ITEM_Rubber_Band.svg",
+    "description": "+1 reach",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Rubber"
+      }
+    ]
+  },
+  {
+    "name": "Rubber Mask",
+    "icon_path": "/assets/items/ITEM_Rubber_Mask.svg",
+    "description": "+2 Shield\nUnits that contact you are knocked back 2 tiles.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Rubber"
+      }
+    ]
+  },
+  {
+    "name": "Rune of Hagalaz",
+    "icon_path": "/assets/items/ITEM_Rune_of_Hagalaz.svg",
+    "description": "Your Weapons hit twice.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Rune"
+      }
+    ]
+  },
+  {
+    "name": "Sacculina Carcini",
+    "icon_path": "/assets/items/ITEM_Sacculina_Carcini.svg",
+    "description": "+5 , -1\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      }
+    ]
+  },
+  {
+    "name": "Scabies",
+    "icon_path": "/assets/items/ITEM_Scabies.svg",
+    "description": "Bruise 2. Spawn a charmed Flea when you take damage.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Sets",
+        "content": "Parasite"
+      }
+    ]
+  },
+  {
+    "name": "Scary Baby",
+    "icon_path": "/assets/items/ITEM_Scary_Baby.svg",
+    "description": "Inflict Fear 2 on a random enemy at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Baby"
+      }
+    ]
+  },
+  {
+    "name": "Scrap Metal Mask",
+    "icon_path": "/assets/items/ITEM_Scrap_Metal_Mask.svg",
+    "description": "+4 Shield",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Scrap"
+      }
+    ]
+  },
+  {
+    "name": "Scrapper's Mask",
+    "icon_path": "/assets/items/ITEM_Scrapper-s_Mask.svg",
+    "description": "+3 Shield\nWhen you break an item, gain +3 Shield.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Tinkerer,Scrap"
+      }
+    ]
+  },
+  {
+    "name": "Slimy Mask",
+    "icon_path": "/assets/items/ITEM_Slimy_Mask.svg",
+    "description": "-1\n+15% chance to catch projectiles. Inflict Immobile 1 on units that contact you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Slimy"
+      }
+    ]
+  },
+  {
+    "name": "Sludge Mask",
+    "icon_path": "/assets/items/ITEM_Sludge_Mask.svg",
+    "description": "+1 Shield, -1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Sets",
+        "content": "Sludge"
+      }
+    ]
+  },
+  {
+    "name": "Soul Sucker",
+    "icon_path": "/assets/items/ITEM_Soul_Sucker.svg",
+    "description": "-1\nRestore 2 mana when you kill an enemy.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Sets",
+        "content": "Parasite"
+      }
+    ]
+  },
+  {
+    "name": "Space Helmet",
+    "icon_path": "/assets/items/ITEM_Space_Helmet.svg",
+    "description": "+1 Brace.\n30% chance to block negative status effects.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Space"
+      }
+    ]
+  },
+  {
+    "name": "Steven (Face Armor 1)",
+    "icon_path": "/assets/items/ITEM_Steven_-Face_Armor_1-.svg",
+    "description": "Your musical abilities are always double cast.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Steven (Face Armor 2)",
+    "icon_path": "/assets/items/ITEM_Steven_-Face_Armor_2-.svg",
+    "description": "While you're downed, spawn a random charmed enemy familiar at the end of each round.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Steven's Fart Face",
+    "icon_path": "/assets/items/ITEM_Steven-s_Fart_Face.svg",
+    "description": "At the end of your turn, inflict Poison 1 on all units. Repeat for each turn you've taken this battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Steven's Mustache",
+    "icon_path": "/assets/items/ITEM_Steven-s_Mustache.svg",
+    "description": "+5 , -2",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Stunning Beard",
+    "icon_path": "/assets/items/ITEM_Stunning_Beard.svg",
+    "description": "Your head and neck item effects are doubled.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Stunning"
+      }
+    ]
+  },
+  {
+    "name": "Superhero Mask",
+    "icon_path": "/assets/items/ITEM_Superhero_Mask.svg",
+    "description": "+1 Damage. Your basic attack knocks units into the air, lobbing them back 3 tiles.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Superhero"
+      }
+    ]
+  },
+  {
+    "name": "Survivalist's Mask",
+    "icon_path": "/assets/items/ITEM_Survivalist-s_Mask.svg",
+    "description": "Bodies you destroy spawn food, catnip and a coin.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Survivalist"
+      }
+    ]
+  },
+  {
+    "name": "Tank's Tattoo",
+    "icon_path": "/assets/items/ITEM_Tank-s_Tattoo.svg",
+    "description": "All Knockback inflicted by you is increased by 2.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Tank"
+      }
+    ]
+  },
+  {
+    "name": "The Body",
+    "icon_path": "/assets/items/ITEM_The_Body.svg",
+    "description": "+7 .",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Godhead"
+      }
+    ]
+  },
+  {
+    "name": "Thief's Tattoo",
+    "icon_path": "/assets/items/ITEM_Thief-s_Tattoo.svg",
+    "description": "+5% Dodge Chance and +5% Crit Chance.\nYour basic attack inflicts Poison.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Thief"
+      }
+    ]
+  },
+  {
+    "name": "Third Eye",
+    "icon_path": "/assets/items/ITEM_Third_Eye.svg",
+    "description": "+1 range.\nYour ranged attacks can't miss.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Psychic,Hybrid"
+      }
+    ]
+  },
+  {
+    "name": "Thrumming Spectacles",
+    "icon_path": "/assets/items/ITEM_Thrumming_Spectacles.svg",
+    "description": "If you end your turn without using your movement action, gain +1 Health Regen and +1 Shield.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Thrumming"
+      }
+    ]
+  },
+  {
+    "name": "Tina's Best Friend",
+    "icon_path": "/assets/items/ITEM_Tina-s_Best_Friend.svg",
+    "description": "Spawn a large Charmed Fly at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Fly"
+      }
+    ]
+  },
+  {
+    "name": "Tiny Planet",
+    "icon_path": "/assets/items/ITEM_Tiny_Planet.svg",
+    "description": "+1 Shield, -1\nYour basic attack pulls units towards you.\nInflict Bruise on units who contact you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Planet"
+      }
+    ]
+  },
+  {
+    "name": "Twine Mask",
+    "icon_path": "/assets/items/ITEM_Twine_Mask.svg",
+    "description": "+1 Shield\n+50% chance to Grapple units that contact you.\nFlammable.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Twine"
+      }
+    ]
+  },
+  {
+    "name": "Ultra Vision 3000",
+    "icon_path": "/assets/items/ITEM_Ultra_Vision_3000.svg",
+    "description": "Side Quest Item. Events are harder. All normal events trigger 2 extra events.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Side Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Bionic"
+      }
+    ]
+  },
+  {
+    "name": "Ultra Vision 3000 v1.1",
+    "icon_path": "/assets/items/ITEM_Ultra_Vision_3000_v1.1.svg",
+    "description": "+4\nYour basic attack inflicts Marked.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Bionic"
+      }
+    ]
+  },
+  {
+    "name": "Used Glasses",
+    "icon_path": "/assets/items/ITEM_Used_Glasses.svg",
+    "description": "+1 Shield",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Used"
+      }
+    ]
+  },
+  {
+    "name": "Veiny Mask",
+    "icon_path": "/assets/items/ITEM_Veiny_Mask.svg",
+    "description": "When you damage a Bleeding unit, gain +1 .",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Veiny"
+      }
+    ]
+  },
+  {
+    "name": "Vision Plugin",
+    "icon_path": "/assets/items/ITEM_Vision_Plugin.svg",
+    "description": "+1 Range.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Cyborg,Bionic,Chip"
+      }
+    ]
+  },
+  {
+    "name": "White Belt",
+    "icon_path": "/assets/items/ITEM_White_Belt.svg",
+    "description": "+1 Brace.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      }
+    ]
+  },
+  {
+    "name": "Witch's Nose",
+    "icon_path": "/assets/items/ITEM_Witch-s_Nose.svg",
+    "description": "+1 File:STATUS Magic Damage Icon.svgMagic Damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Witch"
+      }
+    ]
+  },
+  {
+    "name": "Wood Mask",
+    "icon_path": "/assets/items/ITEM_Wood_Mask.svg",
+    "description": "+2 Shield\n+1 Thorns.\nFragile, Flammable.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Wood"
+      }
+    ]
+  },
+  {
+    "name": "Wooly Beard",
+    "icon_path": "/assets/items/ITEM_Wooly_Beard.svg",
+    "description": "+3 Shield\nBrace 2. Ice immunity.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Face"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Wooly,Caveman"
+      }
+    ]
+  }
+]

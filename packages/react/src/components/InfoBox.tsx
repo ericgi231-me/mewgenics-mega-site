@@ -1,19 +1,15 @@
 import type { GameObject } from "../types";
 import { renderTextWithIcons } from "../utils/renderTextWithIcons";
 import { useMemo } from "react";
-import type { IconSets } from "../utils/renderTextWithIcons";
-
 // Memoized icon text rendering
 interface IconTextProps {
   text: string;
-  iconSets?: IconSets;
 }
-function IconText({ text, iconSets }: IconTextProps) {
-  const memoIconSets = useMemo(() => iconSets, [iconSets]);
+function IconText({ text }: IconTextProps) {
   const lines = useMemo(() => text.split("\n"), [text]);
   const renderedLines = useMemo(
-    () => lines.map((line) => renderTextWithIcons(line, memoIconSets)),
-    [lines, memoIconSets]
+    () => lines.map((line) => renderTextWithIcons(line)),
+    [lines]
   );
   return (
     <>

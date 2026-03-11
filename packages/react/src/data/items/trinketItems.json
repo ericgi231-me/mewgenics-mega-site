@@ -1,0 +1,3620 @@
+[
+  {
+    "name": "AAA Battery",
+    "icon_path": "/assets/items/ITEM_AAA_Battery.svg",
+    "description": "Every time you cast 3 spells, gain +3 Charge.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Angel Wing",
+    "icon_path": "/assets/items/ITEM_Angel_Wing.svg",
+    "description": "If an attack would down you, instead lower your HP to 1. While at 1 HP, this has no effect.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Feathered"
+      }
+    ]
+  },
+  {
+    "name": "Ankh",
+    "icon_path": "/assets/items/ITEM_Ankh.svg",
+    "description": "While you're downed, you have a 50% chance to revive with 33% HP at the end of each round.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Bag o' Bags",
+    "icon_path": "/assets/items/ITEM_Bag_o-_Bags.svg",
+    "description": "Use: Throw a trash bag on an adjacent tile.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "13"
+      }
+    ]
+  },
+  {
+    "name": "Bag of Seeds",
+    "icon_path": "/assets/items/ITEM_Bag_of_Seeds.svg",
+    "description": "Use: Spawn grass, flowers, or brambles on an adjacent tile.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Druid"
+      }
+    ]
+  },
+  {
+    "name": "Ball of Bandages",
+    "icon_path": "/assets/items/ITEM_Ball_of_Bandages.svg",
+    "description": "Cleanse one stack of a random debuff at the end of each turn.\n+1 Health Regen",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Nurse"
+      }
+    ]
+  },
+  {
+    "name": "Ball of Yarn",
+    "icon_path": "/assets/items/ITEM_Ball_of_Yarn.svg",
+    "description": "Spawn a Charmed Kitten with All Stats Up 2 at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Twine"
+      }
+    ]
+  },
+  {
+    "name": "Bee Stinger",
+    "icon_path": "/assets/items/ITEM_Bee_Stinger.svg",
+    "description": "Your basic attack inflicts Poison 1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Big Toe",
+    "icon_path": "/assets/items/ITEM_Big_Toe_-Item-.svg",
+    "description": "After your 3rd turn, spawn a Charmed Spookie with Madness on a random tile.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      }
+    ]
+  },
+  {
+    "name": "Binoculars",
+    "icon_path": "/assets/items/ITEM_Binoculars.svg",
+    "description": "+2 Range.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Bird Feed",
+    "icon_path": "/assets/items/ITEM_Bird_Feed.svg",
+    "description": "+50% chance for an extra bird to spawn at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Bird Head",
+    "icon_path": "/assets/items/ITEM_Bird_Head.svg",
+    "description": "Your basic attack inflicts Soul Link.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Feathered"
+      }
+    ]
+  },
+  {
+    "name": "Bishop",
+    "icon_path": "/assets/items/ITEM_Bishop.svg",
+    "description": "Use: Move any number of tiles in a diagonal line.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Blinking Eyeball",
+    "icon_path": "/assets/items/ITEM_Blinking_Eyeball.svg",
+    "description": "Your line of sight restrictions are ignored.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Sets",
+        "content": "Guts"
+      }
+    ]
+  },
+  {
+    "name": "Bloody Coin",
+    "icon_path": "/assets/items/ITEM_Bloody_Coin.svg",
+    "description": "Use: Flip a coin.\nHeads: Refresh your basic attack.\nTails: Lose 50% of your HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Bloody"
+      }
+    ]
+  },
+  {
+    "name": "Bloody Razor",
+    "icon_path": "/assets/items/ITEM_Bloody_Razor.svg",
+    "description": "Use: Deal 5 damage to yourself to gain +3 Damage and +1 Magic Damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Bloody"
+      }
+    ]
+  },
+  {
+    "name": "Body Spray",
+    "icon_path": "/assets/items/ITEM_Body_Spray.svg",
+    "description": "+1 .",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      }
+    ]
+  },
+  {
+    "name": "Bone Marrow",
+    "icon_path": "/assets/items/ITEM_Bone_Marrow.svg",
+    "description": "Heal to full at the end of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Meat,Bone"
+      }
+    ]
+  },
+  {
+    "name": "Book",
+    "icon_path": "/assets/items/ITEM_Book.svg",
+    "description": "+1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Paper"
+      }
+    ]
+  },
+  {
+    "name": "Botfly Larva",
+    "icon_path": "/assets/items/ITEM_Botfly_Larva.svg",
+    "description": "-1 , -1\nSpawns 2 Pooter familiars when you're downed.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      }
+    ]
+  },
+  {
+    "name": "Brass Knuckles",
+    "icon_path": "/assets/items/ITEM_Brass_Knuckles.svg",
+    "description": "Your basic attack inflicts Bruise 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Fighter"
+      }
+    ]
+  },
+  {
+    "name": "Breakfast",
+    "icon_path": "/assets/items/ITEM_Breakfast.svg",
+    "description": "+2 Health Regen.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Cardboard"
+      }
+    ]
+  },
+  {
+    "name": "Broken Mirror (Trinket)",
+    "icon_path": "/assets/items/ITEM_Broken_Mirror_-Trinket-.svg",
+    "description": "-99",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Used"
+      }
+    ]
+  },
+  {
+    "name": "Butter Bean",
+    "icon_path": "/assets/items/ITEM_Butter_Bean.svg",
+    "description": "Use: Fart at an adjacent unit, knocking it back 1 tile.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      }
+    ]
+  },
+  {
+    "name": "Cambion Conception",
+    "icon_path": "/assets/items/ITEM_Cambion_Conception_-Item-.svg",
+    "description": "Use: Summon a half-sized copy of yourself that has 66% of your stats and is AI controlled.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "2"
+      },
+      {
+        "label": "Sets",
+        "content": "Necromancer,Demonic,Baby"
+      }
+    ]
+  },
+  {
+    "name": "Cancer",
+    "icon_path": "/assets/items/ITEM_Cancer.svg",
+    "description": "At the end of each combat, gain -1 to three random stats, then gain a mutation.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Mother"
+      }
+    ]
+  },
+  {
+    "name": "Carving Knife",
+    "icon_path": "/assets/items/ITEM_Carving_Knife.svg",
+    "description": "Use: Take 2 damage and spawn a Meat pickup.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Cat Rib",
+    "icon_path": "/assets/items/ITEM_Cat_Rib.svg",
+    "description": "When your body is destroyed, you are reborn as a kitten!",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone"
+      }
+    ]
+  },
+  {
+    "name": "Cat o' Nine Tails",
+    "icon_path": "/assets/items/ITEM_Cat_o-_Nine_Tails.svg",
+    "description": "Use: Take 1 damage and cleanse one random debuff.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Gimp"
+      }
+    ]
+  },
+  {
+    "name": "Charon's Obol",
+    "icon_path": "/assets/items/ITEM_Charon-s_Obol.svg",
+    "description": "+6 corpse health. Spawn a Charmed Reaper when you are downed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Necromancer"
+      }
+    ]
+  },
+  {
+    "name": "Checkers",
+    "icon_path": "/assets/items/ITEM_Checkers.svg",
+    "description": "Use: Move 1 tile diagonally. If a unit is in the way, leap 2 tiles over it instead, dealing 4 damage to it and refresh this. You cannot use this to move to a tile you've previously occupied this turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Chupacabra Tongue",
+    "icon_path": "/assets/items/ITEM_Chupacabra_Tongue.svg",
+    "description": "Your basic attack has Lifesteal.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Guts"
+      }
+    ]
+  },
+  {
+    "name": "Coin Purse",
+    "icon_path": "/assets/items/ITEM_Coin_Purse.svg",
+    "description": "Equipped cat gains 1 extra coin whenever it picks up a coin.\nGain 1 extra coin at the end of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Mother"
+      }
+    ]
+  },
+  {
+    "name": "Conductor",
+    "icon_path": "/assets/items/ITEM_Conductor_-Item-.svg",
+    "description": "Your Electric Element damage is increased by 1 and has +10% chance to Stun.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Cookbook",
+    "icon_path": "/assets/items/ITEM_Cookbook.svg",
+    "description": "When you kill a unit or destroy a corpse, it becomes meat.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Butcher,Paper"
+      }
+    ]
+  },
+  {
+    "name": "Counterfeit Coin",
+    "icon_path": "/assets/items/ITEM_Counterfeit_Coin.svg",
+    "description": "Use to flip a coin. Heads: Gain 5 coins. Tails: Lose 5 coins.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Cryogenic Time Chamber",
+    "icon_path": "/assets/items/ITEM_Cryogenic_Time_Chamber.svg",
+    "description": "Put the Throbbing King's heart inside it.\nAll enemy bodies revive to 30% health at the end of each round (except bosses). Find a random pill at the end of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Quest"
+      }
+    ]
+  },
+  {
+    "name": "Cryogenic Time Chamber (Throbbing)",
+    "icon_path": "/assets/items/ITEM_Cryogenic_Time_Chamber_-Throbbing-.svg",
+    "description": "Use it on the time machine in the Lab.\nAll enemy bodies revive to full health at the end of each round (except bosses). +2 Health Regen.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Quest"
+      }
+    ]
+  },
+  {
+    "name": "Cursed Hairball",
+    "icon_path": "/assets/items/ITEM_Cursed_Hairball.svg",
+    "description": "Your basic attack inflicts Poison 2. Start each battle with Poison 3.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      }
+    ]
+  },
+  {
+    "name": "Cursed Rock",
+    "icon_path": "/assets/items/ITEM_Cursed_Rock.svg",
+    "description": "+6 Shield, -2",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      }
+    ]
+  },
+  {
+    "name": "Cursed Stickman",
+    "icon_path": "/assets/items/ITEM_Cursed_Stickman.svg",
+    "description": "Gain All Stats Up when you deal damage to a party member.\n10% chance to gain Madness at the start of your turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Wood,Demonic"
+      }
+    ]
+  },
+  {
+    "name": "D6",
+    "icon_path": "/assets/items/ITEM_D6.svg",
+    "description": "You can reroll your options when you level up.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      }
+    ]
+  },
+  {
+    "name": "Dream Catcher",
+    "icon_path": "/assets/items/ITEM_Dream_Catcher.svg",
+    "description": "Whenever you fall asleep, gain All Stats Up, restore all your mana, and heal a random injury.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Twine"
+      }
+    ]
+  },
+  {
+    "name": "Druid's Whistle",
+    "icon_path": "/assets/items/ITEM_Druid-s_Whistle.svg",
+    "description": "Use: Spawn a random animal familiar on an adjacent tile.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Druid"
+      }
+    ]
+  },
+  {
+    "name": "Dumbbell",
+    "icon_path": "/assets/items/ITEM_Dumbbell.svg",
+    "description": "+1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Lead"
+      }
+    ]
+  },
+  {
+    "name": "Dybbuk's Rib",
+    "icon_path": "/assets/items/ITEM_Dybbuk-s_Rib.svg",
+    "description": "Charm a random enemy at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone"
+      }
+    ]
+  },
+  {
+    "name": "Egg Sack",
+    "icon_path": "/assets/items/ITEM_Egg_Sack.svg",
+    "description": "Use: Spawn Spiderlings in an area.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Electric Coin",
+    "icon_path": "/assets/items/ITEM_Electric_Coin.svg",
+    "description": "Use: Flip a coin.\nHeads: Refresh your movement action.\nTails: Gain Slow 2.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Ember",
+    "icon_path": "/assets/items/ITEM_Ember.svg",
+    "description": "Your Fire Element damage is increased by 1 and inflicts +1 Burn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Molten"
+      }
+    ]
+  },
+  {
+    "name": "Empty Hand",
+    "icon_path": "/assets/items/ITEM_Empty_Hand.svg",
+    "description": "Use: Gain +3 Shield for each empty armor slot you have.\nWhen this breaks, gain +1 permanently.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "4"
+      },
+      {
+        "label": "Sets",
+        "content": "Monk"
+      }
+    ]
+  },
+  {
+    "name": "Empty Sack",
+    "icon_path": "/assets/items/ITEM_Empty_Sack.svg",
+    "description": "Spawn 3 pickups at the start of each battle.\nFind an extra common item at the end of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommmon"
+      },
+      {
+        "label": "Sets",
+        "content": "Leather,Human Flesh"
+      }
+    ]
+  },
+  {
+    "name": "Empty Syringe",
+    "icon_path": "/assets/items/ITEM_Empty_Syringe.svg",
+    "description": "When you inflict Bleed or Poison, inflict +1 Bleed or Poison.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Medical"
+      }
+    ]
+  },
+  {
+    "name": "Empty Water Bottle",
+    "icon_path": "/assets/items/ITEM_Empty_Water_Bottle.svg",
+    "description": "Use: Throw it at something.\nRefills when affected by Water Element effects.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Uses",
+        "content": "0"
+      }
+    ]
+  },
+  {
+    "name": "Enchanting Poop",
+    "icon_path": "/assets/items/ITEM_Enchanting_Poop.svg",
+    "description": "Spawn a poop at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Sets",
+        "content": "Fecal"
+      }
+    ]
+  },
+  {
+    "name": "Euhaplorchis Californiensis",
+    "icon_path": "/assets/items/ITEM_Euhaplorchis_Californiensis.svg",
+    "description": "+4\nStart with Confusion 3.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      }
+    ]
+  },
+  {
+    "name": "Feather",
+    "icon_path": "/assets/items/ITEM_Feather.svg",
+    "description": "Take your turn earlier.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Feathered"
+      }
+    ]
+  },
+  {
+    "name": "Feed Bag",
+    "icon_path": "/assets/items/ITEM_Feed_Bag.svg",
+    "description": "Familiars you spawn gain +2 max HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Druid,Hunter"
+      }
+    ]
+  },
+  {
+    "name": "Fetus in a Jar",
+    "icon_path": "/assets/items/ITEM_Fetus_in_a_Jar.svg",
+    "description": "At the start of each battle, equip a temporary Bomb if your weapon slot is open.\nAt the end of each turn, if you didn't use your basic attack, equip another Bomb.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Baby"
+      }
+    ]
+  },
+  {
+    "name": "Fireworks",
+    "icon_path": "/assets/items/ITEM_Fireworks.svg",
+    "description": "Use: Emit 5 Sparkles.\nIf you end your turn with 0 mana, this gains +1 use.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "3"
+      },
+      {
+        "label": "Sets",
+        "content": "Tinkerer"
+      }
+    ]
+  },
+  {
+    "name": "Fish Hook",
+    "icon_path": "/assets/items/ITEM_Fish_Hook.svg",
+    "description": "If you would knockback a unit, instead deal extra damage to it equal to the knockback.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Barbed"
+      }
+    ]
+  },
+  {
+    "name": "Fly Larva",
+    "icon_path": "/assets/items/ITEM_Fly_Larva.svg",
+    "description": "Your basic attack inflicts Rot 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Fly"
+      }
+    ]
+  },
+  {
+    "name": "Fork",
+    "icon_path": "/assets/items/ITEM_Fork.svg",
+    "description": "Heal 5 HP when you kill a unit or destroy a corpse.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Friendship Bracelet",
+    "icon_path": "/assets/items/ITEM_Friendship_Bracelet.svg",
+    "description": "Use: Permanently Charm a non-boss enemy. It joins your party.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "3"
+      },
+      {
+        "label": "Sets",
+        "content": "Druid"
+      }
+    ]
+  },
+  {
+    "name": "Furniture Box",
+    "icon_path": "/assets/items/ITEM_Furniture_Box.svg",
+    "description": "+8 Shield, -5\nBreaks when Shield is depleted.\nBecomes a random piece of furniture when you return home.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Gallon of Water",
+    "icon_path": "/assets/items/ITEM_Gallon_of_Water.svg",
+    "description": "Use: Heal +5 HP and gain Heatwave immunity.\nRefills when affected by Water Element effects.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "8"
+      }
+    ]
+  },
+  {
+    "name": "Glitch",
+    "icon_path": "/assets/items/ITEM_Glitch.svg",
+    "description": "Use: Scramble the last spell you used. Permanently.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Glowing Coin",
+    "icon_path": "/assets/items/ITEM_Glowing_Coin.svg",
+    "description": "50% chance to double your mana, 50% chance to lose all your mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Glowing Flask",
+    "icon_path": "/assets/items/ITEM_Glowing_Flask_-Full-.svg",
+    "description": "Use: Heal 5 HP. This refills at the end of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "3"
+      }
+    ]
+  },
+  {
+    "name": "Glowing Seed",
+    "icon_path": "/assets/items/ITEM_Glowing_Seed.svg",
+    "description": "Your basic attack spawns tall grass.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Glue",
+    "icon_path": "/assets/items/ITEM_Glue.svg",
+    "description": "Use: Gain +20% Dodge Chance, -1 and Confusion 2.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Uses",
+        "content": "5"
+      },
+      {
+        "label": "Sets",
+        "content": "Slimy"
+      }
+    ]
+  },
+  {
+    "name": "Golden Egg",
+    "icon_path": "/assets/items/ITEM_Golden_Egg.svg",
+    "description": "Find 3-5 extra coins at the end of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Golden Idol",
+    "icon_path": "/assets/items/ITEM_Golden_Idol.svg",
+    "description": "-2\nBecomes 500 coins when you return home.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      }
+    ]
+  },
+  {
+    "name": "Golden Tooth",
+    "icon_path": "/assets/items/ITEM_Golden_Tooth.svg",
+    "description": "+4\nBecomes 125 coins when you return home.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      }
+    ]
+  },
+  {
+    "name": "Gorgon's Eye",
+    "icon_path": "/assets/items/ITEM_Gorgon-s_Eye.svg",
+    "description": "Petrify all nearby units in your line of sight.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Guts,Rock"
+      }
+    ]
+  },
+  {
+    "name": "Green Drink",
+    "icon_path": "/assets/items/ITEM_Green_Drink.svg",
+    "description": "Use: Gain 5 mana.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Green Whistle",
+    "icon_path": "/assets/items/ITEM_Green_Whistle.svg",
+    "description": "Use: Summon a really big Leg.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Heartworm",
+    "icon_path": "/assets/items/ITEM_Heartworm.svg",
+    "description": "+3\nWhen downed, your body is destroyed.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Uses",
+        "content": "1"
+      }
+    ]
+  },
+  {
+    "name": "Heavy Rock",
+    "icon_path": "/assets/items/ITEM_Heavy_Rock.svg",
+    "description": "Rocks you knock back deal +5 damage and have Chain Knockback.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Hexagram Sigil",
+    "icon_path": "/assets/items/ITEM_Hexagram_Sigil.svg",
+    "description": "+3 , +3\n+3 Magic Damage.\nYou are immune to buffs and debuffs.\nWhen you die, you don't leave a corpse.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Demonic"
+      }
+    ]
+  },
+  {
+    "name": "Holy Water",
+    "icon_path": "/assets/items/ITEM_Holy_Water.svg",
+    "description": "Heal 2 HP in an area.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Cleric"
+      }
+    ]
+  },
+  {
+    "name": "Hot Lunch",
+    "icon_path": "/assets/items/ITEM_Hot_Lunch.svg",
+    "description": "Spawn a Flaming Meat pickup.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Paper"
+      }
+    ]
+  },
+  {
+    "name": "Human Brain",
+    "icon_path": "/assets/items/ITEM_Human_Brain.svg",
+    "description": "+2",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Human Flesh,Guts"
+      }
+    ]
+  },
+  {
+    "name": "Human Eye",
+    "icon_path": "/assets/items/ITEM_Human_Eye.svg",
+    "description": "+2",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Human Flesh,Guts"
+      }
+    ]
+  },
+  {
+    "name": "Human Foot",
+    "icon_path": "/assets/items/ITEM_Human_Foot.svg",
+    "description": "+2",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Human Flesh"
+      }
+    ]
+  },
+  {
+    "name": "Human Hand",
+    "icon_path": "/assets/items/ITEM_Human_Hand.svg",
+    "description": "+2",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Human Flesh"
+      }
+    ]
+  },
+  {
+    "name": "Human Head",
+    "icon_path": "/assets/items/ITEM_Human_Head.svg",
+    "description": "+1 , +1 , +1 , +1 , +1 , +1 , +1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Human Flesh"
+      }
+    ]
+  },
+  {
+    "name": "Human Heart",
+    "icon_path": "/assets/items/ITEM_Human_Heart.svg",
+    "description": "+2",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Human Flesh,Guts"
+      }
+    ]
+  },
+  {
+    "name": "Human Leg Bone",
+    "icon_path": "/assets/items/ITEM_Human_Leg_Bone.svg",
+    "description": "+2",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone"
+      }
+    ]
+  },
+  {
+    "name": "Human Toe",
+    "icon_path": "/assets/items/ITEM_Human_Toe.svg",
+    "description": "+2",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Human Flesh"
+      }
+    ]
+  },
+  {
+    "name": "Hunter's Flute",
+    "icon_path": "/assets/items/ITEM_Hunter-s_Flute.svg",
+    "description": "Spawn 2-3 random familiars on adjacent tiles.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Hunter"
+      }
+    ]
+  },
+  {
+    "name": "Immaculate Heart",
+    "icon_path": "/assets/items/ITEM_Immaculate_Heart.svg",
+    "description": "+2 Damage, +1 Magic Damage. Emit 3 Sparkles when you use your basic attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Ipecac",
+    "icon_path": "/assets/items/ITEM_Ipecac.svg",
+    "description": "Your basic attack is No active found: Explosive Shot.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Medical"
+      }
+    ]
+  },
+  {
+    "name": "Jar Of Nothing",
+    "icon_path": "/assets/items/ITEM_Jar_Of_Nothing.svg",
+    "description": "It's trash now.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      }
+    ]
+  },
+  {
+    "name": "Jar of Leeches",
+    "icon_path": "/assets/items/ITEM_Jar_of_Leeches.svg",
+    "description": "Your basic attack inflicts Leeches 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Leech"
+      }
+    ]
+  },
+  {
+    "name": "Jar of Radiated Blood",
+    "icon_path": "/assets/items/ITEM_Jar_of_Radiated_Blood.svg",
+    "description": "Add a bit of Chaos to it from The Rift.\nWhenever you take damage, spawn a friendly Clot that can grow into a copy of yourself. At the end of each battle, gain +2 to a random stat and -2 to a random stat, permanently.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Radioactive"
+      }
+    ]
+  },
+  {
+    "name": "Jar of Radiation",
+    "icon_path": "/assets/items/ITEM_Jar_of_Radiation.svg",
+    "description": "Fill it with the blood of the Throbbing King.\nAt the end of your turn, deal 1 damage to EVERYTHING. At the end of each battle, gain +1 to a random stat and -1 to a random stat, permanently.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Radioactive"
+      }
+    ]
+  },
+  {
+    "name": "Jazzercise VHS Tape",
+    "icon_path": "/assets/items/ITEM_Jazzercise_VHS_Tape.svg",
+    "description": "+1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      }
+    ]
+  },
+  {
+    "name": "Knight",
+    "icon_path": "/assets/items/ITEM_Knight.svg",
+    "description": "Use: Jump in an L shape.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Large Meteor",
+    "icon_path": "/assets/items/ITEM_Large_Meteor.svg",
+    "description": "Mimics a collarless passive.\nWill use it as it's description.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Planet"
+      }
+    ]
+  },
+  {
+    "name": "Libra",
+    "icon_path": "/assets/items/ITEM_Libra.svg",
+    "description": "Balances all stats. This applies after all stat modifiers.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Space"
+      }
+    ]
+  },
+  {
+    "name": "Lil' Battery",
+    "icon_path": "/assets/items/ITEM_Lil-_Battery.svg",
+    "description": "Use: Refresh all items and spells with a once per battle restriction.\nCan be used on allies.\n(Usable once per battle. Can't be refreshed.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Liquid Metal",
+    "icon_path": "/assets/items/ITEM_Liquid_Metal.svg",
+    "description": "+25% Dodge Chance.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Liquid Nitrogen",
+    "icon_path": "/assets/items/ITEM_Liquid_Nitrogen.svg",
+    "description": "Your Ice Element damage is increased by 2.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Frozen"
+      }
+    ]
+  },
+  {
+    "name": "Lucifer Sigil",
+    "icon_path": "/assets/items/ITEM_Lucifer_Sigil.svg",
+    "description": "Summon a Charmed Brute at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Demonic"
+      }
+    ]
+  },
+  {
+    "name": "Lucky Coin",
+    "icon_path": "/assets/items/ITEM_Lucky_Coin.svg",
+    "description": "+2\nCoins that spawn at the start of each battle are doubled.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommmon"
+      },
+      {
+        "label": "Sets",
+        "content": "Lucky"
+      }
+    ]
+  },
+  {
+    "name": "Lucky Coin Purse",
+    "icon_path": "/assets/items/ITEM_Lucky_Coin_Purse.svg",
+    "description": "Gain +2 each time you gain a coin.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Thief,Lucky"
+      }
+    ]
+  },
+  {
+    "name": "Lucky Penny",
+    "icon_path": "/assets/items/ITEM_Lucky_Penny.svg",
+    "description": "+1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Lucky"
+      }
+    ]
+  },
+  {
+    "name": "Lunch Box",
+    "icon_path": "/assets/items/ITEM_Lunch_Box.svg",
+    "description": "Heal 5 HP. This gains +1 use each time you eat a food item.\nFood pickups do not heal you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Magic Seed",
+    "icon_path": "/assets/items/ITEM_Magic_Seed.svg",
+    "description": "Equipped cat's basic attack creates bramble tiles.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Match Stick",
+    "icon_path": "/assets/items/ITEM_Match_Stick.svg",
+    "description": "Your basic attack inflicts Burn 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Me Stone",
+    "icon_path": "/assets/items/ITEM_Me_Stone.svg",
+    "description": "Side Quest Item. This cat always levels up, and can level up even if it was downed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Meat Cube",
+    "icon_path": "/assets/items/ITEM_Meat_Cube.svg",
+    "description": "Start with a Flesh Lad familiar.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Meat"
+      }
+    ]
+  },
+  {
+    "name": "Metal Plate",
+    "icon_path": "/assets/items/ITEM_Metal_Plate.svg",
+    "description": "Gain +1 Brace when you kill an enemy.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Scrap"
+      }
+    ]
+  },
+  {
+    "name": "Metronome",
+    "icon_path": "/assets/items/ITEM_Metronome_-Item-.svg",
+    "description": "Use: Cast a random upgraded spell.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Jester"
+      }
+    ]
+  },
+  {
+    "name": "Mind Stone",
+    "icon_path": "/assets/items/ITEM_Mind_Stone.svg",
+    "description": "Your collarless spells cost -2 mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Mom's Ring",
+    "icon_path": "/assets/items/ITEM_Mom-s_Ring.svg",
+    "description": "+1 Damage. Find a pill at the end of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Mother"
+      }
+    ]
+  },
+  {
+    "name": "Mother's Love",
+    "icon_path": "/assets/items/ITEM_Mother-s_Love.svg",
+    "description": "+6 Shield, +6\n+6 Health Regen.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Mother"
+      }
+    ]
+  },
+  {
+    "name": "Multiplier",
+    "icon_path": "/assets/items/ITEM_Multiplier.svg",
+    "description": "You can use your weapon an extra time each turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Mundane Stone",
+    "icon_path": "/assets/items/ITEM_Mundane_Stone.svg",
+    "description": "Your basic attack damage is increased by your lowest stat minus 2.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "My Shadow",
+    "icon_path": "/assets/items/ITEM_My_Shadow.svg",
+    "description": "Use: Move 3 tiles, leaving a shadow copy behind that mimics your basic attack.\nThe shadow fades at the end of the turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "6"
+      },
+      {
+        "label": "Sets",
+        "content": "Demonic"
+      }
+    ]
+  },
+  {
+    "name": "Mysterious Dice",
+    "icon_path": "/assets/items/ITEM_Mysterious_Dice.svg",
+    "description": "Side Quest Item. Your team's level up options are complete chaos!",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Side Quest"
+      }
+    ]
+  },
+  {
+    "name": "Natural 20",
+    "icon_path": "/assets/items/ITEM_Natural_20.svg",
+    "description": "Your weapons have +50% Crit Chance.\nYour basic attack has +10% Crit Chance.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Neverstone",
+    "icon_path": "/assets/items/ITEM_Neverstone.svg",
+    "description": "Never level up.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock,Gemstone"
+      }
+    ]
+  },
+  {
+    "name": "Nightshade",
+    "icon_path": "/assets/items/ITEM_Nightshade_-Item-.svg",
+    "description": "When you inflict Poison, inflict +2 Poison.\nStart with Poison 2.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Flower"
+      }
+    ]
+  },
+  {
+    "name": "Ninny Stick",
+    "icon_path": "/assets/items/ITEM_Ninny_Stick.svg",
+    "description": "Reroll your other equipped items at the end of each battle.\nYou can reroll your options when you level up.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Jester"
+      }
+    ]
+  },
+  {
+    "name": "Old Shoe",
+    "icon_path": "/assets/items/ITEM_Old_Shoe.svg",
+    "description": "+1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Used,Leather"
+      }
+    ]
+  },
+  {
+    "name": "Parous Worm",
+    "icon_path": "/assets/items/ITEM_Parous_Worm.svg",
+    "description": "-1\n66% chance to find a random parasite at the end of each battle.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Sets",
+        "content": "Worm"
+      }
+    ]
+  },
+  {
+    "name": "Pawn",
+    "icon_path": "/assets/items/ITEM_Pawn.svg",
+    "description": "Use: Move 1 tile toward the closest enemy.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      }
+    ]
+  },
+  {
+    "name": "Pentagram Sigil",
+    "icon_path": "/assets/items/ITEM_Pentagram_Sigil.svg",
+    "description": "Use: Take 5 damage and refresh your basic attack and movement actions.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "5"
+      },
+      {
+        "label": "Sets",
+        "content": "Demonic"
+      }
+    ]
+  },
+  {
+    "name": "Petrified Pinky",
+    "icon_path": "/assets/items/ITEM_Petrified_Pinky.svg",
+    "description": "If an attack would down you, instead this breaks and you regain 50% of your max HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Rat,Rock"
+      }
+    ]
+  },
+  {
+    "name": "Petrified Poop",
+    "icon_path": "/assets/items/ITEM_Petrified_Poop.svg",
+    "description": "+2 Shield\nFamiliars you spawn gain +2 Shield.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock,Fecal"
+      }
+    ]
+  },
+  {
+    "name": "Prayer Card",
+    "icon_path": "/assets/items/ITEM_Prayer_Card.svg",
+    "description": "33% chance to gain +1 Holy Shield each time you take damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cleric,Cardboard,Paper"
+      }
+    ]
+  },
+  {
+    "name": "Pull Tab",
+    "icon_path": "/assets/items/ITEM_Pull_Tab.svg",
+    "description": "+4 Shield",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Scrap"
+      }
+    ]
+  },
+  {
+    "name": "Purple Drink",
+    "icon_path": "/assets/items/ITEM_Purple_Drink.svg",
+    "description": "Use: Heal 2 , gain 2 and +1 Shield.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Putrid Pile",
+    "icon_path": "/assets/items/ITEM_Putrid_Pile.svg",
+    "description": "-1\nAdjacent units move away from you at the end of their turns.\nYour basic attack inflicts Poison.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Pyrophina's Collar",
+    "icon_path": "/assets/items/ITEM_Pyrophina-s_Collar.svg",
+    "description": "Pyrophina joins you on your journey. She wishes to activate an obelisk on the moon.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Used"
+      }
+    ]
+  },
+  {
+    "name": "Queen",
+    "icon_path": "/assets/items/ITEM_Queen.svg",
+    "description": "Use: Move any number of tiles in a straight or diagonal line.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "8"
+      }
+    ]
+  },
+  {
+    "name": "Rage Juice",
+    "icon_path": "/assets/items/ITEM_Rage_Juice.svg",
+    "description": "Use: Gain +4 , +4 , Brace 2 and Madness for the rest of the battle.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Fighter"
+      }
+    ]
+  },
+  {
+    "name": "Rare Furniture Box",
+    "icon_path": "/assets/items/ITEM_Rare_Furniture_Box.svg",
+    "description": "+4 Shield, -5 , +5\nBreaks when Shield is depleted.\nBecomes a random piece of rare furniture when you return home.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Rat Bezoar",
+    "icon_path": "/assets/items/ITEM_Rat_Bezoar.svg",
+    "description": "Poisonous 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Rat"
+      }
+    ]
+  },
+  {
+    "name": "Rat Heart",
+    "icon_path": "/assets/items/ITEM_Rat_Heart.svg",
+    "description": "+1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Rat,Guts"
+      }
+    ]
+  },
+  {
+    "name": "Rat Tail",
+    "icon_path": "/assets/items/ITEM_Rat_Tail.svg",
+    "description": "+1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Rat"
+      }
+    ]
+  },
+  {
+    "name": "Razor Blade",
+    "icon_path": "/assets/items/ITEM_Razor_Blade.svg",
+    "description": "Use: Take 5 damage and gain +2 and +2 .",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Red Drink",
+    "icon_path": "/assets/items/ITEM_Red_Drink.svg",
+    "description": "Heal 5 HP",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Ring of Frost",
+    "icon_path": "/assets/items/ITEM_Ring_of_Frost.svg",
+    "description": "Freezes tiles you walk over. +25% chance to inflict Freeze on units that contact or attack you.\nYour Ice Element damage is increased by 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Mage,Frozen"
+      }
+    ]
+  },
+  {
+    "name": "Rook",
+    "icon_path": "/assets/items/ITEM_Rook.svg",
+    "description": "Use: Move any number of tiles in a straight line.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Roundworm",
+    "icon_path": "/assets/items/ITEM_Roundworm.svg",
+    "description": "-1\nUnits that contact you get knocked back 5 tiles.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      }
+    ]
+  },
+  {
+    "name": "Rubber Cement",
+    "icon_path": "/assets/items/ITEM_Rubber_Cement.svg",
+    "description": "Your projectiles bounce to another enemy within 2 tiles.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Rubber,Slimy"
+      }
+    ]
+  },
+  {
+    "name": "Sack o' Meat",
+    "icon_path": "/assets/items/ITEM_Sack_o-_Meat.svg",
+    "description": "Use: Heal 4 HP.\nThis gains +1 use each time you destroy a corpse.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "2"
+      },
+      {
+        "label": "Sets",
+        "content": "Butcher"
+      }
+    ]
+  },
+  {
+    "name": "Sacred Heart",
+    "icon_path": "/assets/items/ITEM_Sacred_Heart.svg",
+    "description": "+1 Damage. Emit 2 Sparkles when you use your basic attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cleric"
+      }
+    ]
+  },
+  {
+    "name": "Satanic Bible",
+    "icon_path": "/assets/items/ITEM_Satanic_Bible.svg",
+    "description": "Heal 3 HP and gain +3 Charge each time you damage a party member.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Demonic,Paper"
+      }
+    ]
+  },
+  {
+    "name": "Scorched Earth",
+    "icon_path": "/assets/items/ITEM_Scorched_Earth.svg",
+    "description": "Your Earth and Fire Element spells cost -1 mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Dirt Clod"
+      }
+    ]
+  },
+  {
+    "name": "Scrap Bag",
+    "icon_path": "/assets/items/ITEM_Scrap_Bag.svg",
+    "description": "Craft a temporary weapon at the start of the battle if you don't have a weapon.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommmon"
+      },
+      {
+        "label": "Sets",
+        "content": "Scrap,Tinkerer"
+      }
+    ]
+  },
+  {
+    "name": "Self-Destruct Button",
+    "icon_path": "/assets/items/ITEM_Self-Destruct_Button.svg",
+    "description": "Use: Vaporize yourself and deal 50 damage to adjacent units.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Skill Split",
+    "icon_path": "/assets/items/ITEM_Skill_Split.svg",
+    "description": "Gain a temporary copy of your first passive ability at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Skill Stone",
+    "icon_path": "/assets/items/ITEM_Skill_Stone.svg",
+    "description": "Spells that match your class cost -1 mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Skull Of Glorg",
+    "icon_path": "/assets/items/ITEM_Skull_Of_Glorg.svg",
+    "description": "Your spells cost -1 mana for each parasite you have equipped.\nParasite.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone"
+      }
+    ]
+  },
+  {
+    "name": "Small Eye",
+    "icon_path": "/assets/items/ITEM_Small_Eye.svg",
+    "description": "+15% Dodge Chance. Your basic attack has a +10% chance to inflict Fear.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Guts"
+      }
+    ]
+  },
+  {
+    "name": "Snaggle Tooth",
+    "icon_path": "/assets/items/ITEM_Snaggle_Tooth.svg",
+    "description": "Your basic attack inflicts Bleed 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone"
+      }
+    ]
+  },
+  {
+    "name": "Snake Eyes",
+    "icon_path": "/assets/items/ITEM_Snake_Eyes.svg",
+    "description": "While you are at exactly 2 HP, you have +222",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Soul Jar",
+    "icon_path": "/assets/items/ITEM_Soul_Jar_-Trinket_1-.svg",
+    "description": "When your body is destroyed, this item is recovered and permanently gains the ability to summon a ghost copy of you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Soul Jar",
+    "icon_path": "/assets/items/ITEM_Soul_Jar_-Trinket_1-.svg",
+    "description": "Use: Summon a ghost copy of {aux_cat_name}.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Soy Milk",
+    "icon_path": "/assets/items/ITEM_Soy_Milk.svg",
+    "description": "Your basic attack cannot deal more than 1 damage.\nYou can attack 2 extra times each turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Spell Book",
+    "icon_path": "/assets/items/ITEM_Spell_Book.svg",
+    "description": "Use: Gain 10 mana and conjure a random Mage spell as a bonus ability.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "2"
+      },
+      {
+        "label": "Sets",
+        "content": "Mage,Paper"
+      }
+    ]
+  },
+  {
+    "name": "Spider Egg",
+    "icon_path": "/assets/items/ITEM_Spider_Egg_-Item-.svg",
+    "description": "Your basic attack inflicts Infested.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      }
+    ]
+  },
+  {
+    "name": "Spoon Bender",
+    "icon_path": "/assets/items/ITEM_Spoon_Bender.svg",
+    "description": "Your basic attack can't miss and emits a Sparkle when used.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Psychic"
+      }
+    ]
+  },
+  {
+    "name": "Spotted Mushroom",
+    "icon_path": "/assets/items/ITEM_Spotted_Mushroom.svg",
+    "description": "+2 , -1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Druid"
+      }
+    ]
+  },
+  {
+    "name": "Spring",
+    "icon_path": "/assets/items/ITEM_Spring.svg",
+    "description": "Your movement action is Jump.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Scrap"
+      }
+    ]
+  },
+  {
+    "name": "Stance Switcher",
+    "icon_path": "/assets/items/ITEM_Stance_Switcher.svg",
+    "description": "Use: Switch between melee and ranged stances.\nYou have Brace 1 while in melee stance.\nInnate",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Innate"
+      }
+    ]
+  },
+  {
+    "name": "Steroids",
+    "icon_path": "/assets/items/ITEM_Steroids.svg",
+    "description": "Use: Gain +1 , permanently. For the rest of the adventure, you have a +2% chance to gain Madness at the start of each turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Uses",
+        "content": "9"
+      },
+      {
+        "label": "Sets",
+        "content": "Fighter"
+      }
+    ]
+  },
+  {
+    "name": "Steven (Trinket 1)",
+    "icon_path": "/assets/items/ITEM_Steven_-Trinket_1-.svg",
+    "description": "Your basic attack inflicts Slow and has a +10% chance to Freeze.\nYou can damage frozen units.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Steven (Trinket 2)",
+    "icon_path": "/assets/items/ITEM_Steven_-Trinket_2-.svg",
+    "description": "Your basic attack inflicts Confusion.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Steven Marrow",
+    "icon_path": "/assets/items/ITEM_Steven_Marrow.svg",
+    "description": "+4 Shield, -3\nAny Shield you gain is increased by 4.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Steven Stone",
+    "icon_path": "/assets/items/ITEM_Steven_Stone.svg",
+    "description": "+2\nYour collarless spells cost -2 mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Stickman",
+    "icon_path": "/assets/items/ITEM_Stickman.svg",
+    "description": "Gain All Stats Up when you deal damage to a party member.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Wood,Demonic"
+      }
+    ]
+  },
+  {
+    "name": "Stopwatch",
+    "icon_path": "/assets/items/ITEM_Stopwatch.svg",
+    "description": "Side Quest Item. You have 5 seconds to make decisions in battle, otherwise cats will act randomly.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Side Quest"
+      }
+    ]
+  },
+  {
+    "name": "Strange Marble",
+    "icon_path": "/assets/items/ITEM_Strange_Marble.svg",
+    "description": "Your basic attack inflicts Mana Leeches 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Suck Stone",
+    "icon_path": "/assets/items/ITEM_Suck_Stone.svg",
+    "description": "At the end of your turn, drain up to 5 mana from each of your allies.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "TV",
+    "icon_path": "/assets/items/ITEM_TV.svg",
+    "description": "Your bonus ability is Waste Time.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Tank Juice",
+    "icon_path": "/assets/items/ITEM_Tank_Juice.svg",
+    "description": "Use: Gain -1 , then, for the rest of the turn, all damage you deal has Knockback 2 and Chain Knockback.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Tank"
+      }
+    ]
+  },
+  {
+    "name": "Tank Toy",
+    "icon_path": "/assets/items/ITEM_Tank_Toy.svg",
+    "description": "+5 Shield\nTrample.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Tank"
+      }
+    ]
+  },
+  {
+    "name": "Tapeworm",
+    "icon_path": "/assets/items/ITEM_Tapeworm.svg",
+    "description": "-2\nYour basic attack inflicts Poison 1.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      }
+    ]
+  },
+  {
+    "name": "Tarot Deck",
+    "icon_path": "/assets/items/ITEM_Tarot_Deck.svg",
+    "description": "Use: Conjure a random, single-use spell as a bonus ability.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Psychic,Cardboard,Paper"
+      }
+    ]
+  },
+  {
+    "name": "Technology",
+    "icon_path": "/assets/items/ITEM_Technology.svg",
+    "description": "Use: Shoot a laser beam.\n(Usable once per battle.)\nRefreshes when affected by Electricity.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cyborg,Bionic"
+      }
+    ]
+  },
+  {
+    "name": "Teleport!",
+    "icon_path": "/assets/items/ITEM_Teleport-.svg",
+    "description": "Use: Teleport to any open tile.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Experimental"
+      }
+    ]
+  },
+  {
+    "name": "The Box",
+    "icon_path": "/assets/items/ITEM_The_Box1.svg",
+    "description": "Find an extra chapter item at the end of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cardboard"
+      }
+    ]
+  },
+  {
+    "name": "The bOx",
+    "icon_path": "/assets/items/ITEM_The_Box2.svg",
+    "description": "Use: Spawn A lost Spirit. This gains +1 use whenever an allied cat dies.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Wood"
+      }
+    ]
+  },
+  {
+    "name": "The boX",
+    "icon_path": "/assets/items/ITEM_The_Box3.svg",
+    "description": "Use: Revive all bodies, fully heal all units, and clear all status effects. (Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Tinker Tools",
+    "icon_path": "/assets/items/ITEM_Tinker_Tools.svg",
+    "description": "Repair 1 use to your items at the end of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Tinkerer"
+      }
+    ]
+  },
+  {
+    "name": "Tiny Cage",
+    "icon_path": "/assets/items/ITEM_Tiny_Cage.svg",
+    "description": "Spawn a random animal familiar at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Druid"
+      }
+    ]
+  },
+  {
+    "name": "Tiny Pebble",
+    "icon_path": "/assets/items/ITEM_Tiny_Pebble.svg",
+    "description": "+10% Dodge Chance.\nGain +2% Dodge Chance when you dodge an attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Tool Box",
+    "icon_path": "/assets/items/ITEM_Tool_Box.svg",
+    "description": "Equipped items lose Brittle and Fragile. Every piece of equipped armor grants +1 Shield at the start of battle. Equipped weapons have a 25% chance to restore 1 durability on use.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Tinkerer"
+      }
+    ]
+  },
+  {
+    "name": "Triachnid",
+    "icon_path": "/assets/items/ITEM_Triachnid.svg",
+    "description": "Spawn Triachnid at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Truck Stop Pills",
+    "icon_path": "/assets/items/ITEM_Truck_Stop_Pills.svg",
+    "description": "+3 Brace. You count as a rock.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Unidentified Pills",
+    "icon_path": "/assets/items/ITEM_Unidentified_Pills.svg",
+    "description": "+8 Shield\nSide Quest Item. The adventure is harder!",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Side Quest"
+      }
+    ]
+  },
+  {
+    "name": "Vibrating Meteorite",
+    "icon_path": "/assets/items/ITEM_Vibrating_Meteorite.svg",
+    "description": "+3 , , , , , , and .\nThis item loses 1 of each stat at the end of each battle, permanently.\n(This can go negative.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Vibrating Skull",
+    "icon_path": "/assets/items/ITEM_Vibrating_Skull.svg",
+    "description": "Your basic attack inflicts Magic Weakness 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone,Space"
+      }
+    ]
+  },
+  {
+    "name": "Video Game Cart",
+    "icon_path": "/assets/items/ITEM_Video_Game_Cart.svg",
+    "description": "It's broken.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Used"
+      }
+    ]
+  },
+  {
+    "name": "Wafer",
+    "icon_path": "/assets/items/ITEM_Wafer.svg",
+    "description": "+2 Holy Shield",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cleric"
+      }
+    ]
+  },
+  {
+    "name": "Water Bottle",
+    "icon_path": "/assets/items/ITEM_Water_Bottle.svg",
+    "description": "Use: Heal +5 HP and gain Heatwave immunity.\nRefills when affected by Water Element effects.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Uses",
+        "content": "2"
+      }
+    ]
+  },
+  {
+    "name": "Weight",
+    "icon_path": "/assets/items/ITEM_Weight.svg",
+    "description": "Trample. Take your turn later.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Lead"
+      }
+    ]
+  },
+  {
+    "name": "Weird Egg",
+    "icon_path": "/assets/items/ITEM_Weird_Egg.svg",
+    "description": "10% chance to spawn a controllable fetus familiar at the end of each turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Baby"
+      }
+    ]
+  },
+  {
+    "name": "Whistle",
+    "icon_path": "/assets/items/ITEM_Whistle.svg",
+    "description": "Use: Summon a Fly, Maggot or Flea familiar.\n(Usable once per battle.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Uses",
+        "content": "once per battle"
+      },
+      {
+        "label": "Sets",
+        "content": "Druid,Hunter"
+      }
+    ]
+  },
+  {
+    "name": "Wiz Cheese",
+    "icon_path": "/assets/items/ITEM_Wiz_Cheese.svg",
+    "description": "+1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      }
+    ]
+  },
+  {
+    "name": "Zaratana's Collar",
+    "icon_path": "/assets/items/ITEM_Zaratana-s_Collar.svg",
+    "description": "Zaratana joins you on your journey. She wishes to activate an obelisk in the Core.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Used"
+      }
+    ]
+  },
+  {
+    "name": "the box",
+    "icon_path": "/assets/items/ITEM_The_Box4.svg",
+    "description": "Use: Find and equip a random item into one of your empty item slots.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Trinket"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  }
+]

@@ -1,0 +1,303 @@
+[
+	{
+		"name": "Bed Bugs",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Bed_Bugs.svg",
+		"description": "You start battles with 2 beefy leech familiars.",
+		"description2": "You start battles with 4 beefy leech familiars.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Cambion Conception",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Cambion_Conception.svg",
+		"description": "When you're downed, spawn a demon kitten familiar.",
+		"description2": "When you're downed, spawn 2 demon kitten familiars.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Chains of Guilt",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Chains_of_Guilt.svg",
+		"description": "When an enemy downs you and it wasn't a boss, it joins your party permanently.",
+		"description2": "When an enemy downs you and it wasn't a boss, it joins your party permanently. If it was a boss, inflict Stun 3 on it.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Corpse Connoisseur",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Corpse_Connoisseur.svg",
+		"description": "Start each battle with 2-3 corpses near you. When you destroy a corpse, heal 2 HP and spawn a food pickup.",
+		"description2": "Start each battle with 3-4 corpses near you. When you destroy a corpse, heal 8 HP and spawn a food pickup.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Dark Priest",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Dark_Priest.svg",
+		"description": "At the start of each battle, if you don't have a weapon, gain a temporary Soul Dagger weapon.",
+		"description2": "At the start of each battle, if you don't have a weapon, gain a temporary Soul Dagger weapon. You can use your weapon action an extra time each turn.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Eternal Health",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Eternal_Health.svg",
+		"description": "Suffer only Jinxed when downed. When your party wins a battle, if you were downed, heal to full.",
+		"description2": "Suffer only Jinxed when downed. When your party wins a battle, if you were downed, heal to full. Your body is indestructible. When you're downed, allies get +1 Luck for each Jinxed injury you have.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Immortal Leeches",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Immortal_Leeches.svg",
+		"description": "When a unit you inflicted Leeches on dies or loses its Leeches, your next basic attack inflicts that many additional Leeches.",
+		"description2": "When a unit you inflicted Leeches on dies or loses its Leeches, your next basic attack inflicts that many additional Leeches. Your basic attack inflicts +1 leech.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Infected",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Infected.svg",
+		"description": "When you down a unit, reanimate it with 50% HP.",
+		"description2": "When you down a unit, reanimate it with full HP.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Infinite Rebirth",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Infinite_Rebirth.svg",
+		"description": "At the end of each round, if there is a body on the map and you're downed, you respawn on that tile with 1 HP and +10 temporary Speed. If that body was a party member, you spawn with full HP instead.",
+		"description2": "At the end of each round, if there is a body on the map and you're downed, you respawn on that tile with 25% HP and +10 temporary Speed. If that body was a party member, you spawn with full HP instead.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Last Grasp",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Last_Grasp.svg",
+		"description": "When you're downed, deal 6 damage to each enemy and heal 6 HP to all allies. Bonus ability: Seppuku",
+		"description2": "When you're downed, deal 10 damage to each enemy and heal 10 HP to all allies. Bonus ability: Seppuku",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Leech Mother",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Leech_Mother.svg",
+		"description": "Your basic attack spawns a leech familiar.",
+		"description2": "Your basic attack spawns a beefy leech familiar.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Numbing Leeches",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Numbing_Leeches.svg",
+		"description": "Your basic attack deals 0 damage but its status and hit effects are tripled.",
+		"description2": "Your basic attack deals 0 damage, but its status and hit effects are tripled. Your basic attack inflicts Mana Leech.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Offload Pain",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Offload_Pain.svg",
+		"description": "When you heal, deal 1 damage to each enemy.",
+		"description2": "When you heal, deal 2 damage to each enemy and you gain +1 Thorns.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "One With Nothing",
+		"icon_path": "/assets/passives/necromancer/ABILITY_One_With_Nothing.svg",
+		"description": "If you end your turn with 0 mana, your Mana Regeneration is doubled.",
+		"description2": "If you end your turn with 0 mana, your Mana Regeneration is doubled. Bonus ability: Slit Wrists",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Parasitic",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Parasitic.svg",
+		"description": "When you gain health, spawn a leech familiar.",
+		"description2": "When you gain health, spawn a leech familiar. 50% of the time, spawn a beefy leech instead.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Relentless Dead",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Relentless_Dead.svg",
+		"description": "At the end of each round, spawn a Zombie kitten familiar onto a random tile.",
+		"description2": "At the end of each round, spawn 2 Zombie kitten familiars onto random tiles.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Sacrificial Lamb",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Sacrificial_Lamb.svg",
+		"description": "When you're downed, allies gain All Stats Up and take an extra turn.",
+		"description2": "When you're downed, allies gain All Stats Up and take an extra turn. You can't get injuries.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Servus Mortem",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Servus_Mortem.svg",
+		"description": "Destroy a random non-boss enemy at the start of each battle.",
+		"description2": "Destroy a random enemy at the start of each battle. If this hits a boss, deal 50 damage instead.",
+		"unlock": "Complete The Boneyard with the Necromancer",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Soul Bond",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Soul_Bond.svg",
+		"description": "Your basic attack inflicts Soul Link.",
+		"description2": "Your basic attack inflicts Soul Link. Inflict Soul Link on a random enemy at the start of the battle.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Spread Sorrow",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Spread_Sorrow.svg",
+		"description": "When you inflict a debuff to an enemy, inflict that same debuff on another random enemy.",
+		"description2": "When you inflict a debuff to an enemy, inflict that same debuff on 2 other random enemies.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Superstition",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Superstition.svg",
+		"description": "Your basic attack inflicts -1 Luck. When a unit damages you, inflict -1 Luck on it.",
+		"description2": "Your basic attack inflicts -1 Luck and has a 15% chance to inflict Fear. When a unit damages you, inflict -1 Luck and a 15% to Fear on it.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Torpor",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Torpor.svg",
+		"description": "While you're downed, your basic attack is Haunt. Your body gains +6 corpse HP.",
+		"description2": "While you're downed, your basic attack is Haunt and your spells are Spook. Your body gains +6 corpse HP.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Undeath",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Undeath.svg",
+		"description": "When you're downed, reanimate each ally to 33% HP. (Once per battle.)",
+		"description2": "When you're downed, reanimate each ally to max HP. (Once per battle.)",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Vampirism",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Vampirism.svg",
+		"description": "Your basic attack has Lifesteal.",
+		"description2": "Your basic attack has Lifesteal. Your spells have 50% Lifesteal.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	},
+	{
+		"name": "Worm Lord",
+		"icon_path": "/assets/passives/necromancer/ABILITY_Worm_Lord.svg",
+		"description": "When you take damage, spawn a leech familiar.",
+		"description2": "When you take damage, spawn a leech familiar. Your basic attack spawns leech familiars.",
+		"notes": [
+			{
+				"label": "Class",
+				"content": "Necromancer"
+			}
+		]
+	}
+]

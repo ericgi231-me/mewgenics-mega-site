@@ -1,0 +1,3477 @@
+[
+  {
+    "name": "Advanced Alloy Hat",
+    "icon_path": "/assets/items/ITEM_Advanced_Alloy_Hat.svg",
+    "description": "+4 Shield\n+2 Brace, +2 Thorns.\nBrittle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Sets",
+        "content": "Advanced Alloy"
+      }
+    ]
+  },
+  {
+    "name": "Alien Stalk",
+    "icon_path": "/assets/items/ITEM_Alien_Stalk.svg",
+    "description": "Cast a random spell each time you take damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Space,Amoeba"
+      }
+    ]
+  },
+  {
+    "name": "Alloy Hat",
+    "icon_path": "/assets/items/ITEM_Alloy_Hat.svg",
+    "description": "+3 Shield\n+1 Brace, +2 Thorns.\nBrittle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Sets",
+        "content": "Alloy"
+      }
+    ]
+  },
+  {
+    "name": "Alluring Doodie",
+    "icon_path": "/assets/items/ITEM_Alluring_Doodie.svg",
+    "description": "10% chance to eat poop and gain Poison 1 each turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Uses",
+        "content": "5"
+      },
+      {
+        "label": "Sets",
+        "content": "Fecal"
+      }
+    ]
+  },
+  {
+    "name": "Amoeba (Head)",
+    "icon_path": "/assets/items/ITEM_Amoeba_-Head-.svg",
+    "description": "+4 , -1\n+1 Brace. +10% Miss Chance.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Sets",
+        "content": "Amoeba"
+      }
+    ]
+  },
+  {
+    "name": "Ancestor's Skull",
+    "icon_path": "/assets/items/ITEM_Ancestor-s_Skull.svg",
+    "description": "Mimics a class passive.\nWill use it as it's description.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Ancestor,Bone"
+      }
+    ]
+  },
+  {
+    "name": "Angry Worm",
+    "icon_path": "/assets/items/ITEM_Angry_Worm.svg",
+    "description": "-1\nYour basic attack hits an extra time for 1 damage.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Sets",
+        "content": "Parasite"
+      }
+    ]
+  },
+  {
+    "name": "Antenna",
+    "icon_path": "/assets/items/ITEM_Antenna.svg",
+    "description": "Units that contact or attack you get hit with a lightning bolt that has a 10% chance to Stun.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Asteroid",
+    "icon_path": "/assets/items/ITEM_Asteroid_-Item-.svg",
+    "description": "+4 Shield\n20% chance to call down a Meteor on a random enemy when you take damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Planet"
+      }
+    ]
+  },
+  {
+    "name": "Barbed Hat",
+    "icon_path": "/assets/items/ITEM_Barbed_Hat.svg",
+    "description": "+1 Damage, +1 Thorns, -1 max HP.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Barbed"
+      }
+    ]
+  },
+  {
+    "name": "Bean Parasite",
+    "icon_path": "/assets/items/ITEM_Bean_Parasite.svg",
+    "description": "+5\nConfusion 99.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Parasite"
+      }
+    ]
+  },
+  {
+    "name": "Beepis",
+    "icon_path": "/assets/items/ITEM_Beepis.svg",
+    "description": "Your passives are duplicated during battle.\nYour spells cost +2 mana and can only be used once per turn.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      }
+    ]
+  },
+  {
+    "name": "Best Bud",
+    "icon_path": "/assets/items/ITEM_Best_Bud.svg",
+    "description": "-1 , -1\nSpawns 2 Pooter familiars when you're downed.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Sets",
+        "content": "Parasite"
+      }
+    ]
+  },
+  {
+    "name": "Big Rock Hat",
+    "icon_path": "/assets/items/ITEM_Big_Rock_Hat.svg",
+    "description": "+6 Shield, -2\nBrace 2.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Bionic Skull Plating",
+    "icon_path": "/assets/items/ITEM_Bionic_Skull_Plating.svg",
+    "description": "+3\nFragile.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Bionic"
+      }
+    ]
+  },
+  {
+    "name": "Bird Poop",
+    "icon_path": "/assets/items/ITEM_Bird_Poop.svg",
+    "description": "-1\n+50% chance for an extra bird to spawn at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Sets",
+        "content": "Fecal"
+      }
+    ]
+  },
+  {
+    "name": "Black Candle",
+    "icon_path": "/assets/items/ITEM_Black_Candle.svg",
+    "description": "Cursed\n+1 Shield\nYou can remove Cursed Items equipped to you, except this one.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Demonic"
+      }
+    ]
+  },
+  {
+    "name": "Blessed Halo",
+    "icon_path": "/assets/items/ITEM_Blessed_Halo.svg",
+    "description": "+3 Holy Shield\n50% chance to gain +1 Holy Shield when you take damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Boris' Brain",
+    "icon_path": "/assets/items/ITEM_Boris-_Brain.svg",
+    "description": "Trample. When you take damage, move 1 tile towards what damaged you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Guts"
+      }
+    ]
+  },
+  {
+    "name": "Brain Chip",
+    "icon_path": "/assets/items/ITEM_Brain_Chip.svg",
+    "description": "+1 , +1 , +1 , +1 , +1 , +1 , +1\nBecome AI controlled.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Chip"
+      }
+    ]
+  },
+  {
+    "name": "Brain In A Jar",
+    "icon_path": "/assets/items/ITEM_Brain_In_A_Jar.svg",
+    "description": "-5\nThe first spell you cast each turn is free.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Guts"
+      }
+    ]
+  },
+  {
+    "name": "Brain Maggot",
+    "icon_path": "/assets/items/ITEM_Brain_Maggot.svg",
+    "description": "-3\nRevive with 50% HP 2 rounds after you are downed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Sets",
+        "content": "Parasite"
+      }
+    ]
+  },
+  {
+    "name": "Brick Hat",
+    "icon_path": "/assets/items/ITEM_Brick_Hat.svg",
+    "description": "+4 Shield, -1\nInflict Bruise 1 on units that contact you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Brick"
+      }
+    ]
+  },
+  {
+    "name": "Broken Mirror (Head Armor)",
+    "icon_path": "/assets/items/ITEM_Broken_Mirror_-Head_Armor-.svg",
+    "description": "+4 Shield, -7\n+3 Bleed Thorns. Your basic attack inflicts +1 Bleed and spawns glass.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Used"
+      }
+    ]
+  },
+  {
+    "name": "Bunga's Crown",
+    "icon_path": "/assets/items/ITEM_Bunga-s_Crown.svg",
+    "description": "+2 , +1 , -4\nYour weapons always crit.\nEquip a Bone Club weapon when you kill a unit.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Cactus Hat",
+    "icon_path": "/assets/items/ITEM_Cactus_Hat.svg",
+    "description": "+3 Thorns, Brittle.\nGain +2 permanently and heal 10 HP when this breaks.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Cactus"
+      }
+    ]
+  },
+  {
+    "name": "Cap and Bells",
+    "icon_path": "/assets/items/ITEM_Cap_and_Bells.svg",
+    "description": "-3\nTriple the effects of your Trinket.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Jester"
+      }
+    ]
+  },
+  {
+    "name": "Carapace Hat",
+    "icon_path": "/assets/items/ITEM_Carapace_Hat.svg",
+    "description": "+4 Shield\nCleanse 1 stack of a random negative status effect when you end your turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Carapace"
+      }
+    ]
+  },
+  {
+    "name": "Cardboard Hat",
+    "icon_path": "/assets/items/ITEM_Cardboard_Hat.svg",
+    "description": "+2 Shield\nFragile, Flammable, Brittle when Wet.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Cardboard"
+      }
+    ]
+  },
+  {
+    "name": "Cathide Hat",
+    "icon_path": "/assets/items/ITEM_Cathide_Hat.svg",
+    "description": "+2 Shield\n+1 Health Regen.\n5% chance to spawn a Flea Familiar at the end of your turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Cathide"
+      }
+    ]
+  },
+  {
+    "name": "Caveman Wig",
+    "icon_path": "/assets/items/ITEM_Caveman_Wig.svg",
+    "description": "+2 , -1\nSpawn 1-3 Charmed Lice at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Caveman"
+      }
+    ]
+  },
+  {
+    "name": "Chaos Controller",
+    "icon_path": "/assets/items/ITEM_Chaos_Controller.svg",
+    "description": "Abilities from all classes are offered when you level up. You can reroll your levelup options thrice.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Experimental"
+      }
+    ]
+  },
+  {
+    "name": "Chaos Device",
+    "icon_path": "/assets/items/ITEM_Chaos_Device.svg",
+    "description": "Side Quest Item. When any cat levels up they are offered abilities from all classes.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Side Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Experimental"
+      }
+    ]
+  },
+  {
+    "name": "Charming Baby",
+    "icon_path": "/assets/items/ITEM_Charming_Baby.svg",
+    "description": "Inflict Charmed 2 on a random enemy at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Baby"
+      }
+    ]
+  },
+  {
+    "name": "Child of the Glowing One (Head)",
+    "icon_path": "/assets/items/ITEM_Child_of_the_Glowing_One_-Head-.svg",
+    "description": "Gain +1 Holy Shield every time you end your movement.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Child's Crown",
+    "icon_path": "/assets/items/ITEM_Child-s_Crown.svg",
+    "description": "Your basic attack becomes holy and can heal allies.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Child's Skull",
+    "icon_path": "/assets/items/ITEM_Child-s_Skull.svg",
+    "description": "+3 Shield\nYour basic attack is a weak tear shot. You can use your basic attack an extra time each turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone"
+      }
+    ]
+  },
+  {
+    "name": "Cleric's Mitre",
+    "icon_path": "/assets/items/ITEM_Cleric-s_Mitre.svg",
+    "description": "+2 Shield\nYour heals heal for 2 extra.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cleric"
+      }
+    ]
+  },
+  {
+    "name": "Confusing Hat",
+    "icon_path": "/assets/items/ITEM_Confusing_Hat.svg",
+    "description": "Apply Confusion 2 to yourself and all enemies at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Conjoined Eye",
+    "icon_path": "/assets/items/ITEM_Conjoined_Eye.svg",
+    "description": "+10% Dodge Chance.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Hybrid"
+      }
+    ]
+  },
+  {
+    "name": "Cool Hat",
+    "icon_path": "/assets/items/ITEM_Cool_Hat.svg",
+    "description": "+2\nFragile",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Cool"
+      }
+    ]
+  },
+  {
+    "name": "Copycat Hat",
+    "icon_path": "/assets/items/ITEM_Copycat_Hat.svg",
+    "description": "Copies your trinket's passive effects.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Copycat"
+      }
+    ]
+  },
+  {
+    "name": "Cordyceps",
+    "icon_path": "/assets/items/ITEM_Cordyceps.svg",
+    "description": "30% chance to gain +2 and become AI controlled at the start of your turn.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Sets",
+        "content": "Parasite"
+      }
+    ]
+  },
+  {
+    "name": "Cow Skull",
+    "icon_path": "/assets/items/ITEM_Cow_Skull.svg",
+    "description": "+3 Shield, +2\n+2 Thorns. Your basic attack is Push Attack.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone"
+      }
+    ]
+  },
+  {
+    "name": "Crown Of Thorns",
+    "icon_path": "/assets/items/ITEM_Crown_Of_Thorns.svg",
+    "description": "+4 Thorns. Gain +1 Thorns whenever you take damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cleric"
+      }
+    ]
+  },
+  {
+    "name": "Crown of Chaos",
+    "icon_path": "/assets/items/ITEM_Crown_of_Chaos.svg",
+    "description": "+2 level up Rerolls. Abilities from all classes are offered when you level up.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Hybrid"
+      }
+    ]
+  },
+  {
+    "name": "Crown of Feculence",
+    "icon_path": "/assets/items/ITEM_Crown_of_Feculence.svg",
+    "description": "Poops you spawn are alive!",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Fecal"
+      }
+    ]
+  },
+  {
+    "name": "Crown of Horns",
+    "icon_path": "/assets/items/ITEM_Crown_of_Horns.svg",
+    "description": "When you take damage while you have Thorns, lose 1 Thorns, then shoot needles that deal 2 damage in eight directions.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Demonic,Barbed"
+      }
+    ]
+  },
+  {
+    "name": "Crown of Pestilence",
+    "icon_path": "/assets/items/ITEM_Crown_of_Pestilence.svg",
+    "description": "Your basic attack becomes Pestilence",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Necromancer"
+      }
+    ]
+  },
+  {
+    "name": "Death Shroud",
+    "icon_path": "/assets/items/ITEM_Death_Shroud.svg",
+    "description": "When you're downed, permanently gain +1 to a random stat.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Rag"
+      }
+    ]
+  },
+  {
+    "name": "Debris Hat",
+    "icon_path": "/assets/items/ITEM_Debris_Hat.svg",
+    "description": "+2 Shield, -1\n+2 range, +1 Kinetic Spikes.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Debris"
+      }
+    ]
+  },
+  {
+    "name": "Demonic Hat",
+    "icon_path": "/assets/items/ITEM_Demonic_Hat.svg",
+    "description": "+3 Thorns. Trample.\nYou can no longer heal.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Demonic"
+      }
+    ]
+  },
+  {
+    "name": "Dino Hat",
+    "icon_path": "/assets/items/ITEM_Dino_Hat.svg",
+    "description": "+5 Shield, -1\nAllies gain +1 at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Dino,Bone"
+      }
+    ]
+  },
+  {
+    "name": "Dirt Clod Hat",
+    "icon_path": "/assets/items/ITEM_Dirt_Clod_Hat.svg",
+    "description": "+2 Mana Regen, +2 Health Regen.\nFragile and Brittle while Wet.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Dirt Clod"
+      }
+    ]
+  },
+  {
+    "name": "Dry Bone Helm",
+    "icon_path": "/assets/items/ITEM_Dry_Bone_Helm.svg",
+    "description": "+3 Shield\n+1 Thorns.\nInflict Bruise 1 on units that contact you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone"
+      }
+    ]
+  },
+  {
+    "name": "Dunce Cap",
+    "icon_path": "/assets/items/ITEM_Dunce_Cap.svg",
+    "description": "-2\nYour Spells Cost -1 Mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Paper"
+      }
+    ]
+  },
+  {
+    "name": "Dust Devil's Horn",
+    "icon_path": "/assets/items/ITEM_Dust_Devil-s_Horn.svg",
+    "description": "+1 Shield\n+1 Thorns. After you use your basic attack, do a dash attack that leaves a tornado behind.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Elite Alloy Hat",
+    "icon_path": "/assets/items/ITEM_Elite_Alloy_Hat.svg",
+    "description": "+5 Shield\n+2 Brace, +3 Thorns, All Stats Up 1.\nBrittle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Sets",
+        "content": "Elite Alloy"
+      }
+    ]
+  },
+  {
+    "name": "Emo Wig",
+    "icon_path": "/assets/items/ITEM_Emo_Wig.svg",
+    "description": "-1 , -1 , -1 , -1 , -1 ,-1 , -1\nAdjacent units get All Stats Down 2.\nWhen you take damage, all units within 2 tiles heal 1 HP and gain a temporary +1 Damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Necromancer,Used"
+      }
+    ]
+  },
+  {
+    "name": "Experimental Treatment (Head)",
+    "icon_path": "/assets/items/ITEM_Experimental_Treatment_-Head-.svg",
+    "description": "+2 of a random stat, -1 of a random stat.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Experimental"
+      }
+    ]
+  },
+  {
+    "name": "Fancy Bow",
+    "icon_path": "/assets/items/ITEM_Fancy_Bow.svg",
+    "description": "It's fancy.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Fatty Hat",
+    "icon_path": "/assets/items/ITEM_Fatty_Hat.svg",
+    "description": "Brace 1. Your basic attack has +1 Knockback.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Fatty"
+      }
+    ]
+  },
+  {
+    "name": "Feathered Cap",
+    "icon_path": "/assets/items/ITEM_Feathered_Cap.svg",
+    "description": "+4",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Feathered"
+      }
+    ]
+  },
+  {
+    "name": "Fecal Hood",
+    "icon_path": "/assets/items/ITEM_Fecal_Hood.svg",
+    "description": "-1\nPoisonous 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Fecal"
+      }
+    ]
+  },
+  {
+    "name": "Fighter's Helm",
+    "icon_path": "/assets/items/ITEM_Fighter-s_Helm.svg",
+    "description": "+2 Shield\n+15% chance to refresh your basic attack, movement, weapon and trinket actions when you get a kill.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Fighter"
+      }
+    ]
+  },
+  {
+    "name": "Flesh Shroud",
+    "icon_path": "/assets/items/ITEM_Flesh_Shroud.svg",
+    "description": "Gain +1 Shield each time you heal.\nWhen you kill a unit or destroy a corpse, it becomes meat.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Butcher,Human Flesh"
+      }
+    ]
+  },
+  {
+    "name": "Flower Hat",
+    "icon_path": "/assets/items/ITEM_Flower_Hat.svg",
+    "description": "Your basic attack has a +5% chance to inflict Entangled.\nPlants flowers on each tile you move through.\n(Stacking this effect plants flowers in a wider area.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Flower"
+      }
+    ]
+  },
+  {
+    "name": "Fly Hat",
+    "icon_path": "/assets/items/ITEM_Fly_Hat.svg",
+    "description": "+3 , -1\n+10% Dodge Chance.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Sets",
+        "content": "Fly"
+      }
+    ]
+  },
+  {
+    "name": "Focus Band",
+    "icon_path": "/assets/items/ITEM_Focus_Band.svg",
+    "description": "Your crits knock units back 10 tiles with Chain Knockback.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Friendly Amoeba",
+    "icon_path": "/assets/items/ITEM_Friendly_Amoeba.svg",
+    "description": "+3 Shield, -1\nBrace 1, +2 Health Regen, Shield 3. Units that contact you get knocked back 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Amoeba"
+      }
+    ]
+  },
+  {
+    "name": "Frontal Lobe Implant",
+    "icon_path": "/assets/items/ITEM_Frontal_Lobe_Implant.svg",
+    "description": "+3 Shield, +1\n10% chance to teleport to a neighboring tile when targeted by an enemy.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cyborg"
+      }
+    ]
+  },
+  {
+    "name": "Frozen Hat",
+    "icon_path": "/assets/items/ITEM_Frozen_Hat.svg",
+    "description": "+1 Shield\nYour basic attack inflicts Slow and has a +10% chance to Freeze units. Units that contact you gain Slow and have a 10% chance to become Frozen.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Frozen"
+      }
+    ]
+  },
+  {
+    "name": "Frying Pan",
+    "icon_path": "/assets/items/ITEM_Frying_Pan.svg",
+    "description": "Block and Counter attack Backstabs.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Lead"
+      }
+    ]
+  },
+  {
+    "name": "Gemstone Crown",
+    "icon_path": "/assets/items/ITEM_Gemstone_Crown.svg",
+    "description": "+1 Shield, +1\n+1 Kinetic Spikes.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Gemstone"
+      }
+    ]
+  },
+  {
+    "name": "Halo",
+    "icon_path": "/assets/items/ITEM_Halo.svg",
+    "description": "+1 Holy Shield.\n+33% Chance to gain +1 Holy Shield when you take damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Cleric"
+      }
+    ]
+  },
+  {
+    "name": "Happy Helmet",
+    "icon_path": "/assets/items/ITEM_Happy_Helmet.svg",
+    "description": "+10 Shield\nFragile. Gain Psychosis when this breaks.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Bionic,Cyborg"
+      }
+    ]
+  },
+  {
+    "name": "Head Brand",
+    "icon_path": "/assets/items/ITEM_Head_Brand.svg",
+    "description": "Your movement action is Jump.\nIf you land on a unit, deal 1 damage to it and bounce to an adjacent tile.\n(This counts as an empty armor slot.)",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Monk"
+      }
+    ]
+  },
+  {
+    "name": "Head Cheese",
+    "icon_path": "/assets/items/ITEM_Head_Cheese.svg",
+    "description": "+2 Health Regen.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Head Grub",
+    "icon_path": "/assets/items/ITEM_Head_Grub.svg",
+    "description": "+3 Shield\nWhen your Shield is depleted, this transforms into a Maggot familiar.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Grub"
+      }
+    ]
+  },
+  {
+    "name": "Head Spring",
+    "icon_path": "/assets/items/ITEM_Head_Spring.svg",
+    "description": "Melee attackers get knocked back 10 tiles when they hit you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Scrap"
+      }
+    ]
+  },
+  {
+    "name": "Head Tentacle",
+    "icon_path": "/assets/items/ITEM_Head_Tentacle.svg",
+    "description": "+2 Shield\nYour basic attack pulls you towards units or objects it hits.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Tentacle"
+      }
+    ]
+  },
+  {
+    "name": "Head Wrap",
+    "icon_path": "/assets/items/ITEM_Head_Wrap.svg",
+    "description": "+1 Health Regen.\nWhen downed, revive with 15% HP at the end of the round.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Mummy"
+      }
+    ]
+  },
+  {
+    "name": "Helmet",
+    "icon_path": "/assets/items/ITEM_Helmet.svg",
+    "description": "+4 Shield",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      }
+    ]
+  },
+  {
+    "name": "Hitler's Toupe",
+    "icon_path": "/assets/items/ITEM_Hitler-s_Toupe.svg",
+    "description": "+2 , +2\nPermanent Madness. Give Madness to a random enemy at the end of your turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Man,Used"
+      }
+    ]
+  },
+  {
+    "name": "Horns",
+    "icon_path": "/assets/items/ITEM_Horns.svg",
+    "description": "1\n+1 Thorns",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Human Scalp",
+    "icon_path": "/assets/items/ITEM_Human_Scalp.svg",
+    "description": "+2 , -1\nYour crit hits inflict Fear.\nSpawn a food pickup at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Human Flesh"
+      }
+    ]
+  },
+  {
+    "name": "Hunter's Cap",
+    "icon_path": "/assets/items/ITEM_Hunter-s_Cap.svg",
+    "description": "+1\nYour familiars gain All Stats Up.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Hunter"
+      }
+    ]
+  },
+  {
+    "name": "Hybrid Hat",
+    "icon_path": "/assets/items/ITEM_Hybrid_Hat.svg",
+    "description": "Start with a Bonus Move and Bleed 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Hybrid"
+      }
+    ]
+  },
+  {
+    "name": "Jank Alloy Armor",
+    "icon_path": "/assets/items/ITEM_Jank_Alloy_Armor.svg",
+    "description": "+2 Shield\n+1 Brace.\nBrittle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Sets",
+        "content": "Jank Alloy"
+      }
+    ]
+  },
+  {
+    "name": "Jester Cap",
+    "icon_path": "/assets/items/ITEM_Jester_Cap.svg",
+    "description": "+1\nYou can reroll your options twice when you level up.\nAbilities from all classes are offered after rerolling.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Jester"
+      }
+    ]
+  },
+  {
+    "name": "Jewel of Drog",
+    "icon_path": "/assets/items/ITEM_Jewel_of_Drog.svg",
+    "description": "The first time you reach Full Mana each battle, gain +1 Magic Damage and Reduce the cost of your Spells by 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Gemstone"
+      }
+    ]
+  },
+  {
+    "name": "Johnny's Undies",
+    "icon_path": "/assets/items/ITEM_Johnny-s_Undies.svg",
+    "description": "Spawn a Charmed Cultist at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Used"
+      }
+    ]
+  },
+  {
+    "name": "King's Crown",
+    "icon_path": "/assets/items/ITEM_King-s_Crown.svg",
+    "description": "Metal\nBecome The Alpha at the start of each battle.\nThe Alpha gains +1 All Stats.\nLose The Alpha when you take Damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Lead Helmet",
+    "icon_path": "/assets/items/ITEM_Lead_Helmet.svg",
+    "description": "+6 Shield, -1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Lead"
+      }
+    ]
+  },
+  {
+    "name": "Leafy Hat",
+    "icon_path": "/assets/items/ITEM_Leafy_Hat.svg",
+    "description": "+1\nWhile standing in tall grass, you have +3 Mana Regen and +1 Health Regen.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Leafy"
+      }
+    ]
+  },
+  {
+    "name": "Leaky Brain",
+    "icon_path": "/assets/items/ITEM_Leaky_Brain.svg",
+    "description": "-2\nWhen you spend mana, adjacent allies gain that amount of mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Guts"
+      }
+    ]
+  },
+  {
+    "name": "Leather Cap",
+    "icon_path": "/assets/items/ITEM_Leather_Cap.svg",
+    "description": "+1 Shield\n+1 Brace.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Leather"
+      }
+    ]
+  },
+  {
+    "name": "Leather Hood",
+    "icon_path": "/assets/items/ITEM_Leather_Hood.svg",
+    "description": "Gain +2 Charge when you take damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Gimp"
+      }
+    ]
+  },
+  {
+    "name": "Lice",
+    "icon_path": "/assets/items/ITEM_Lice.svg",
+    "description": "Bruise 1. Spawn a charmed Louse when you take damage.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      }
+    ]
+  },
+  {
+    "name": "Liver",
+    "icon_path": "/assets/items/ITEM_Liver.svg",
+    "description": "+2\n+1 Health Regen.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Guts"
+      }
+    ]
+  },
+  {
+    "name": "Lucky Hat",
+    "icon_path": "/assets/items/ITEM_Lucky_Hat.svg",
+    "description": "+1\nFragile.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Lucky"
+      }
+    ]
+  },
+  {
+    "name": "Mage's Hat",
+    "icon_path": "/assets/items/ITEM_Mage-s_Hat.svg",
+    "description": "+1\nGain +1 Charge each time you cast a spell.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Mage"
+      }
+    ]
+  },
+  {
+    "name": "Magneto",
+    "icon_path": "/assets/items/ITEM_Magneto.svg",
+    "description": "+1 Shield\nWhen you end your movement, pull all adjacent pickups towards you.\nWhen you gain coins, gain that much Shield.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Malaria",
+    "icon_path": "/assets/items/ITEM_Malaria.svg",
+    "description": "+0\nAt the end of each battle, all of your stats are permanently reduced by 1.\nSpawn 2 Charmed Fly Swarms when you're downed.\nIf your is 0 or less, start each battle downed.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Sets",
+        "content": "Parasite"
+      }
+    ]
+  },
+  {
+    "name": "Man's Hairpiece",
+    "icon_path": "/assets/items/ITEM_Man-s_Hairpiece.svg",
+    "description": "+2",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Man"
+      }
+    ]
+  },
+  {
+    "name": "Mangy Wig",
+    "icon_path": "/assets/items/ITEM_Mangy_Wig.svg",
+    "description": "Spawn a Spiderling for every 4 you have at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Used"
+      }
+    ]
+  },
+  {
+    "name": "Medic Hat",
+    "icon_path": "/assets/items/ITEM_Medic_Hat.svg",
+    "description": "-1 Damage Down\nYour Basic Attack Heals allies.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Nurse,Medical"
+      }
+    ]
+  },
+  {
+    "name": "Medical Hat",
+    "icon_path": "/assets/items/ITEM_Medical_Hat.svg",
+    "description": "All of your stats are increased by 1 for each disorder you have.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Medical"
+      }
+    ]
+  },
+  {
+    "name": "Medieval Helmet",
+    "icon_path": "/assets/items/ITEM_Medieval_Helmet.svg",
+    "description": "+2 Brace.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Fighter"
+      }
+    ]
+  },
+  {
+    "name": "Metal Rod",
+    "icon_path": "/assets/items/ITEM_Metal_Rod.svg",
+    "description": "-1 , -1\nUse: A melee attack with Knockback 1 and a 10% chance to inflict Stun.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      }
+    ]
+  },
+  {
+    "name": "Miner Hat",
+    "icon_path": "/assets/items/ITEM_Miner_Hat.svg",
+    "description": "+4 Shield\nPhysical attacks can't miss.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Miner"
+      }
+    ]
+  },
+  {
+    "name": "Mini Moon",
+    "icon_path": "/assets/items/ITEM_Mini_Moon.svg",
+    "description": "Your basic attack has a +25% chance to shoot an asteroid at what it hits.\n+10% chance to Block.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Planet"
+      }
+    ]
+  },
+  {
+    "name": "Molten Hat",
+    "icon_path": "/assets/items/ITEM_Molten_Hat.svg",
+    "description": "Start with Burn 2. Your basic attack inflicts Burn 1. Inflict Burn 1 on units that contact you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Molten"
+      }
+    ]
+  },
+  {
+    "name": "Mother's Hat",
+    "icon_path": "/assets/items/ITEM_Mother-s_Hat.svg",
+    "description": "Spawn a Charmed Tiny Tumor at the start of each battle and whenever you're downed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Mother"
+      }
+    ]
+  },
+  {
+    "name": "Mushroom Hat",
+    "icon_path": "/assets/items/ITEM_Mushroom_Hat.svg",
+    "description": "Inflict Confusion 2 on units that contact or attack you.\nFamiliars you spawn inflict Confusion.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Druid"
+      }
+    ]
+  },
+  {
+    "name": "Naegleria Fowleri",
+    "icon_path": "/assets/items/ITEM_Naegleria_Fowleri.svg",
+    "description": "+0\nBrace 1.\nGain -1 at the end of each battle, permanently.\nThis gains +2 Shield and +1 Brace at the end of each battle.\nIf your is 0 or less, start each battle downed.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Sets",
+        "content": "Parasite"
+      }
+    ]
+  },
+  {
+    "name": "Nightmare Hat",
+    "icon_path": "/assets/items/ITEM_Nightmare_Hat.svg",
+    "description": "After you kill 3 units, you can attack an extra time each turn",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Leather"
+      }
+    ]
+  },
+  {
+    "name": "Nisshōki Bandana",
+    "icon_path": "/assets/items/ITEM_Nissh%C5%8Dki_Bandana.svg",
+    "description": "When at 3 HP or less, gain an Extra Movement and +3 Damage Up.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Normal Ears",
+    "icon_path": "/assets/items/ITEM_Normal_Ears.svg",
+    "description": "+1 , +1 , +1 , +1 , +1 , +1 , +1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Collarless"
+      }
+    ]
+  },
+  {
+    "name": "Nurse Hat",
+    "icon_path": "/assets/items/ITEM_Nurse_Hat.svg",
+    "description": "+1\n+1 Health Regen. Your heals heal for 1 extra.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Nurse"
+      }
+    ]
+  },
+  {
+    "name": "Oak Helmet",
+    "icon_path": "/assets/items/ITEM_Oak_Helmet.svg",
+    "description": "+3 Shield\nFlammable.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Wood"
+      }
+    ]
+  },
+  {
+    "name": "Obelisk Helmet",
+    "icon_path": "/assets/items/ITEM_Obelisk_Helmet.svg",
+    "description": "+1 Holy Shield\nGain +2 and +2 when you kill a unit.\nStats obtained this way are lost when you take damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Obelisk"
+      }
+    ]
+  },
+  {
+    "name": "Ocular Chip",
+    "icon_path": "/assets/items/ITEM_Ocular_Chip.svg",
+    "description": "-1 , -1\nYour spells cost -1 mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Chip"
+      }
+    ]
+  },
+  {
+    "name": "Pale Sabertooth Pelt",
+    "icon_path": "/assets/items/ITEM_Pale_Sabertooth_Pelt.svg",
+    "description": "+2\nWhen you kill a unit, all nearby cats gain +1 Damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Wooly"
+      }
+    ]
+  },
+  {
+    "name": "Paper Hat",
+    "icon_path": "/assets/items/ITEM_Paper_Hat.svg",
+    "description": "+1 Bleed Thorns.\nYour Basic Attack inflicts Bleed.\nFragile, Brittle, Flammable, Melts in Water.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Paper"
+      }
+    ]
+  },
+  {
+    "name": "Paper Rags",
+    "icon_path": "/assets/items/ITEM_Paper_Rags.svg",
+    "description": "+20% Dodge Chance.+1 Bleed Thorns.\nYour basic attack inflicts Bleed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Paper,Rag"
+      }
+    ]
+  },
+  {
+    "name": "Phoenix Hat",
+    "icon_path": "/assets/items/ITEM_Phoenix_Hat.svg",
+    "description": "+10% Dodge Chance. Each time you end movement, gain +1 and Charge 2.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Phoenix,Feathered"
+      }
+    ]
+  },
+  {
+    "name": "Princess Hat",
+    "icon_path": "/assets/items/ITEM_Princess_Hat.svg",
+    "description": "+10 Shield\nSide Quest Item. Fragile. Equipped cat cannot use any actions except Move.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Side Quest"
+      }
+    ]
+  },
+  {
+    "name": "Propeller Cap",
+    "icon_path": "/assets/items/ITEM_Propeller_Cap.svg",
+    "description": "+2 Shield\nFlying.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Protection Transmitter",
+    "icon_path": "/assets/items/ITEM_Protection_Transmitter.svg",
+    "description": "Bruise 2.\nAll allies gain Brace 1.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Transmitter"
+      }
+    ]
+  },
+  {
+    "name": "Prowler's Cap",
+    "icon_path": "/assets/items/ITEM_Prowler-s_Cap.svg",
+    "description": "Backstabs have +25% critical chance.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Prowler"
+      }
+    ]
+  },
+  {
+    "name": "Putrid Leech",
+    "icon_path": "/assets/items/ITEM_Putrid_Leech.svg",
+    "description": "Take it to the Throbbing Artery in the Boneyard.\nYou never level up and die when downed. You have Lifesteal on all of your attacks and abilities.\nParasite.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Leech"
+      }
+    ]
+  },
+  {
+    "name": "Queen's Crown",
+    "icon_path": "/assets/items/ITEM_Queen-s_Crown.svg",
+    "description": "+4 Shield\nYour basic attack has Knockback and Chain Knockback.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Radioactive Hat",
+    "icon_path": "/assets/items/ITEM_Radioactive_Hat.svg",
+    "description": "+2 Shield\nAdjacent units get All Stats Down.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Radioactive"
+      }
+    ]
+  },
+  {
+    "name": "Rag Hood",
+    "icon_path": "/assets/items/ITEM_Rag_Hood.svg",
+    "description": "+15% Dodge Chance.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Rag"
+      }
+    ]
+  },
+  {
+    "name": "Rain Hat",
+    "icon_path": "/assets/items/ITEM_Rain_Hat.svg",
+    "description": "Gain +1 All Stats Up while Wet.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      }
+    ]
+  },
+  {
+    "name": "Rat Hat",
+    "icon_path": "/assets/items/ITEM_Rat_Hat.svg",
+    "description": "Start battle with a Charmed Pinky.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Rat"
+      }
+    ]
+  },
+  {
+    "name": "Receiver Antenna",
+    "icon_path": "/assets/items/ITEM_Receiver_Antenna.svg",
+    "description": "+8 Shield\nPlace it far in the past.\nAll events cause special happenings.\nGain +2 Charge whenever an ally spends mana.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Bionic,Cyborg"
+      }
+    ]
+  },
+  {
+    "name": "Recycled Hat",
+    "icon_path": "/assets/items/ITEM_Recycled_Hat.svg",
+    "description": "+2 Shield\nBrittle. Find a common item when this breaks.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Recycled"
+      }
+    ]
+  },
+  {
+    "name": "Red Cap",
+    "icon_path": "/assets/items/ITEM_Red_Cap.svg",
+    "description": "+1 Damage.\nGain +1 Damage when you kill an enemy.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Meat"
+      }
+    ]
+  },
+  {
+    "name": "Rock Hat",
+    "icon_path": "/assets/items/ITEM_Rock_Hat.svg",
+    "description": "+6 Shield, -1\nBrittle. Your basic attack has +1 Knockback. Gain coins when this breaks.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Rocky Hat",
+    "icon_path": "/assets/items/ITEM_Rocky_Hat.svg",
+    "description": "+10 Shield\nBreaks when Shield is depleted.\nWhen this breaks, gain Bruise 3.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Rotten Guts",
+    "icon_path": "/assets/items/ITEM_Rotten_Guts.svg",
+    "description": "+2 -1\n+2 Health Regen. Spawn a Charmed Maggot or Fly when you end your turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Guts,Rotten"
+      }
+    ]
+  },
+  {
+    "name": "Rotten Meat Hat",
+    "icon_path": "/assets/items/ITEM_Rotten_Meat_Hat.svg",
+    "description": "-1\nSpawn a Charmed Maggot or Fly when you end your turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Rotten"
+      }
+    ]
+  },
+  {
+    "name": "Rubber Hat",
+    "icon_path": "/assets/items/ITEM_Rubber_Hat.svg",
+    "description": "+2 Shield\nUnits that contact you are knocked back 2 tiles.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Rubber"
+      }
+    ]
+  },
+  {
+    "name": "Rune of Jera",
+    "icon_path": "/assets/items/ITEM_Rune_of_Jera.svg",
+    "description": "Your trinket effects are doubled.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Rune"
+      }
+    ]
+  },
+  {
+    "name": "Rusting Helmet",
+    "icon_path": "/assets/items/ITEM_Rusting_Helmet.svg",
+    "description": "+1 Shield\nGain +1 Shield at the end of each turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Used"
+      }
+    ]
+  },
+  {
+    "name": "Sabertooth Hat",
+    "icon_path": "/assets/items/ITEM_Sabertooth_Hat.svg",
+    "description": "+3 Shield\n+2 Thorns. Ice immunity.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Wooly"
+      }
+    ]
+  },
+  {
+    "name": "Scrap Metal Hat",
+    "icon_path": "/assets/items/ITEM_Scrap_Metal_Hat.svg",
+    "description": "+4 Shield",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Scrap"
+      }
+    ]
+  },
+  {
+    "name": "Scrapper's Hat",
+    "icon_path": "/assets/items/ITEM_Scrapper-s_Hat.svg",
+    "description": "+3 Shield\nWhen you break an item, spawn 3 random pickups.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Tinkerer,Scrap"
+      }
+    ]
+  },
+  {
+    "name": "Skull Cap",
+    "icon_path": "/assets/items/ITEM_Skull_Cap.svg",
+    "description": "+3 Shield\nBreaks when Shield is depleted.\nWhen it breaks, gain +1 and +3 Health Regen for the rest of the battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Bone"
+      }
+    ]
+  },
+  {
+    "name": "Skull Clamp",
+    "icon_path": "/assets/items/ITEM_Skull_Clamp.svg",
+    "description": "+10 Shield, -6\nBrace 2\n+25% chance to inflict Stun on units that contact you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Slag Tight",
+    "icon_path": "/assets/items/ITEM_Slag_Tight.svg",
+    "description": "+5 Shield, -4\nBrace 1. Your basic attack inflicts Bruise 1.\nCursed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      }
+    ]
+  },
+  {
+    "name": "Slimy Hat",
+    "icon_path": "/assets/items/ITEM_Slimy_Hat.svg",
+    "description": "-1\n+15% chance to catch projectiles. Inflict Immobile 1 on units that contact you.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Slimy"
+      }
+    ]
+  },
+  {
+    "name": "Sludge Hat",
+    "icon_path": "/assets/items/ITEM_Sludge_Hat.svg",
+    "description": "+1 Shield, -1",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Sets",
+        "content": "Sludge"
+      }
+    ]
+  },
+  {
+    "name": "Snakeskin Hat",
+    "icon_path": "/assets/items/ITEM_Snakeskin_Hat.svg",
+    "description": "Spawn a Charmed Rattlesnek at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Leather"
+      }
+    ]
+  },
+  {
+    "name": "Space Antenna",
+    "icon_path": "/assets/items/ITEM_Space_Antenna.svg",
+    "description": "+3 Shield\nGain 0-4 mana at start of each turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Space"
+      }
+    ]
+  },
+  {
+    "name": "Spare Parts",
+    "icon_path": "/assets/items/ITEM_Spare_Parts_-Item-.svg",
+    "description": "When you move, spawn a scrap pickup where you moved from.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Tinkerer,Scrap"
+      }
+    ]
+  },
+  {
+    "name": "Spider Baby",
+    "icon_path": "/assets/items/ITEM_Spider_Baby.svg",
+    "description": "Spawn a Spiderling when you take damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Necromancer"
+      }
+    ]
+  },
+  {
+    "name": "Spider Baby (Reward)",
+    "icon_path": "/assets/items/ITEM_Spider_Baby_-Reward-.svg",
+    "description": "Apply Infested 1 to all enemies at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      }
+    ]
+  },
+  {
+    "name": "Spider Hat",
+    "icon_path": "/assets/items/ITEM_Spider_Hat.svg",
+    "description": "When you destroy a corpse, spawn 2 Spiderlings.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Necromancer"
+      }
+    ]
+  },
+  {
+    "name": "Spider Injector",
+    "icon_path": "/assets/items/ITEM_Spider_Injector.svg",
+    "description": "Side Quest Item. Apply Infested 4 to all allies at the start of each battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Side Quest"
+      }
+    ]
+  },
+  {
+    "name": "Splintered Crown",
+    "icon_path": "/assets/items/ITEM_Splintered_Crown.svg",
+    "description": "Gain +1 Thorns when you take damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Wood"
+      }
+    ]
+  },
+  {
+    "name": "Steven (Head Armor 1)",
+    "icon_path": "/assets/items/ITEM_Steven_-Head_Armor_1-.svg",
+    "description": "Your explosions are much, much bigger! You have explosion immunity.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Steven (Head Armor 2)",
+    "icon_path": "/assets/items/ITEM_Steven_-Head_Armor_2-.svg",
+    "description": "Each time you cast a spell, gain +1 range and +1 reach until the end of the turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Steven's Hat",
+    "icon_path": "/assets/items/ITEM_Steven-s_Hat.svg",
+    "description": "-9 ,-9\nYour spells cost 0. You can only cast each of your spells once per turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Steven's Helmet",
+    "icon_path": "/assets/items/ITEM_Steven-s_Helmet.svg",
+    "description": "+20 Shield\nWhen you are downed, give another allied cat 2 random disorders, or to yourself if you're alone.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Steven"
+      }
+    ]
+  },
+  {
+    "name": "Stone Helmet",
+    "icon_path": "/assets/items/ITEM_Stone_Helmet.svg",
+    "description": "+1 Brace.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Rock"
+      }
+    ]
+  },
+  {
+    "name": "Stunning Haircut",
+    "icon_path": "/assets/items/ITEM_Stunning_Haircut.svg",
+    "description": "Your Face and Neck Item effects are Doubled.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Stunning"
+      }
+    ]
+  },
+  {
+    "name": "Superhero Hat",
+    "icon_path": "/assets/items/ITEM_Superhero_Hat.svg",
+    "description": "+1\n+2 Health Regen.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Superhero"
+      }
+    ]
+  },
+  {
+    "name": "Survivalist Hat",
+    "icon_path": "/assets/items/ITEM_Survivalist_Hat.svg",
+    "description": "+25% chance to ambush when entering battle. 10% chance to gain Stealth 1 at the end of turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Survivalist"
+      }
+    ]
+  },
+  {
+    "name": "Tank's Helmet",
+    "icon_path": "/assets/items/ITEM_Tank-s_Helmet.svg",
+    "description": "+1\n+1 Knockback damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Tank"
+      }
+    ]
+  },
+  {
+    "name": "The Mind",
+    "icon_path": "/assets/items/ITEM_The_Mind.svg",
+    "description": "+7 .",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Godhead"
+      }
+    ]
+  },
+  {
+    "name": "The Relic",
+    "icon_path": "/assets/items/ITEM_The_Relic.svg",
+    "description": "+1 Holy Shield\nWhen you lose Holy Shield, emit a Sparkle for every point of damage blocked.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Cleric"
+      }
+    ]
+  },
+  {
+    "name": "Thief's Hood",
+    "icon_path": "/assets/items/ITEM_Thief-s_Hood.svg",
+    "description": "+5% Dodge Chance and +5% Crit Chance.\nYour basic attack inflicts Bleed.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Thief"
+      }
+    ]
+  },
+  {
+    "name": "Throbbing Crown",
+    "icon_path": "/assets/items/ITEM_Throbbing_Crown.svg",
+    "description": "Tentacles attack all adjacent tiles at the end of your turn.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Hybrid"
+      }
+    ]
+  },
+  {
+    "name": "Thrumming Circlet",
+    "icon_path": "/assets/items/ITEM_Thrumming_Circlet.svg",
+    "description": "If you end your turn without using your basic attack, gain +1 Damage and +1 Thorns.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Thrumming"
+      }
+    ]
+  },
+  {
+    "name": "Tie Dye Bandana",
+    "icon_path": "/assets/items/ITEM_Tie_Dye_Bandana.svg",
+    "description": "Spawn a Catnip pickup when you take damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Hippie"
+      }
+    ]
+  },
+  {
+    "name": "Tina's Belly Button",
+    "icon_path": "/assets/items/ITEM_Tina-s_Belly_Button.svg",
+    "description": "When you get a kill, gain +1 Health Regen.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Tinfoil Hat",
+    "icon_path": "/assets/items/ITEM_Tinfoil_Hat.svg",
+    "description": "+2\nYou are immune to Charm, Madness, Fear and Confusion.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Psychic,Scrap"
+      }
+    ]
+  },
+  {
+    "name": "Top Hat",
+    "icon_path": "/assets/items/ITEM_Top_Hat.svg",
+    "description": "Start with a Bomb if you have no weapon equipped. Your explosions have +1 area.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Cool"
+      }
+    ]
+  },
+  {
+    "name": "Toxic Canister",
+    "icon_path": "/assets/items/ITEM_Toxic_Canister.svg",
+    "description": "All units start with Poison 1.\nYour Basic Attack inflicts Poison 1.\nInflict Poison 1 to Attackers.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Radioactive"
+      }
+    ]
+  },
+  {
+    "name": "Training Band",
+    "icon_path": "/assets/items/ITEM_Training_Band.svg",
+    "description": "+20% Crit Chance.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      }
+    ]
+  },
+  {
+    "name": "Transmitter Antenna",
+    "icon_path": "/assets/items/ITEM_Transmitter_Antenna.svg",
+    "description": "Place it far in the future.\nYour spells cost -2 mana. Every time you or another cat casts a spell, scramble that spell for the rest of the battle.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Quest"
+      },
+      {
+        "label": "Sets",
+        "content": "Bionic,Cyborg"
+      }
+    ]
+  },
+  {
+    "name": "TrashCan",
+    "icon_path": "/assets/items/ITEM_TrashCan.svg",
+    "description": "+10 Shield\nBrace 4. Blind.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Very Rare"
+      }
+    ]
+  },
+  {
+    "name": "Twine Hat",
+    "icon_path": "/assets/items/ITEM_Twine_Hat.svg",
+    "description": "+3 Shield\n+50% chance to Grapple units that contact you.\nFlammable.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Twine"
+      }
+    ]
+  },
+  {
+    "name": "Used Hat",
+    "icon_path": "/assets/items/ITEM_Used_Hat.svg",
+    "description": "+1 Shield",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Used"
+      }
+    ]
+  },
+  {
+    "name": "Used Princess Hat",
+    "icon_path": "/assets/items/ITEM_Used_Princess_Hat.svg",
+    "description": "+6 Shield",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Used"
+      }
+    ]
+  },
+  {
+    "name": "Veiny Hat",
+    "icon_path": "/assets/items/ITEM_Veiny_Hat.svg",
+    "description": "When you damage a Bleeding unit, gain +1 .",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Veiny"
+      }
+    ]
+  },
+  {
+    "name": "Wig",
+    "icon_path": "/assets/items/ITEM_Wig.svg",
+    "description": "+2",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Used"
+      }
+    ]
+  },
+  {
+    "name": "Witch's Hat",
+    "icon_path": "/assets/items/ITEM_Witch-s_Hat.svg",
+    "description": "+1 File:STATUS Magic Damage Icon.svgMagic Damage.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Rare"
+      },
+      {
+        "label": "Sets",
+        "content": "Witch"
+      }
+    ]
+  },
+  {
+    "name": "Wood Hat",
+    "icon_path": "/assets/items/ITEM_Wood_Hat.svg",
+    "description": "+2 Shield\n+1 Thorns.\nFragile, Flammable.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Common"
+      },
+      {
+        "label": "Sets",
+        "content": "Wood"
+      }
+    ]
+  },
+  {
+    "name": "Zukin",
+    "icon_path": "/assets/items/ITEM_Zukin.svg",
+    "description": "Start battle with +2 Backflip.",
+    "notes": [
+      {
+        "label": "Type",
+        "content": "Head"
+      },
+      {
+        "label": "Rarity",
+        "content": "Uncommon"
+      },
+      {
+        "label": "Sets",
+        "content": "Ninja"
+      }
+    ]
+  }
+]
