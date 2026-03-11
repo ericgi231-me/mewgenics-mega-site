@@ -51,6 +51,8 @@ const CellComponent = ({
         <GameImg
           src={item.icon_path}
           alt={item.name}
+          width={64}
+          height={64}
           className="object-contain"
           draggable={false}
           style={{ maxWidth: "100%", maxHeight: "100%" }}

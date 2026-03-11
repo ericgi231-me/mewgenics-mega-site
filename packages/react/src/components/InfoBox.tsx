@@ -42,6 +42,8 @@ function InfoBox({ selectedItem }: InfoBoxProps) {
         <GameImg
           src={item.icon_path}
           alt={item.name}
+          width={80}
+          height={80}
           className="absolute top-4 right-4 max-w-[80px] max-h-[80px] opacity-30 pointer-events-none select-none object-contain"
           style={{ zIndex: 0 }}
           loading="lazy"

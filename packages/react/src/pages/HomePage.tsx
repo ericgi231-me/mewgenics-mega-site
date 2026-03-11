@@ -213,6 +213,17 @@ function HomePage() {
     setSubCollapsed(prev => ({ ...prev, [`${catKey}-${subKey}`]: !prev[`${catKey}-${subKey}`] }));
   }, []);
 
+  // Precompute which data keys have at least one item matching the current search.
+  // Keyed on loadedData + matchesSearch, so hover/selection state changes do not
+  // retrigger this work.
+  const visibleKeys = useMemo(() => {
+    const keys = new Set<string>();
+    for (const [key, items] of Object.entries(loadedData)) {
+      if (items.some(matchesSearch)) keys.add(key);
+    }
+    return keys;
+  }, [loadedData, matchesSearch]);
+
   // Fire all dynamic imports in parallel on mount — the browser fetches all
   // data chunks simultaneously rather than discovering them one-by-one.
   useEffect(() => {
@@ -236,13 +247,12 @@ function HomePage() {
           </div>
           {categories.map(cat => {
             const isCollapsed = collapsed[cat.key];
-            // Show category header while data is loading; hide only when loaded and empty after filter
             const hasItems = cat.subcategories
               ? cat.subcategories.some(sub => {
-                  const data = loadedData[`${cat.key}-${sub.key}`];
-                  return !data || data.some(matchesSearch);
+                  const key = `${cat.key}-${sub.key}`;
+                  return !(key in loadedData) || visibleKeys.has(key);
                 })
-              : (() => { const data = loadedData[cat.key]; return !data || data.some(matchesSearch); })();
+              : !(cat.key in loadedData) || visibleKeys.has(cat.key);
             if (!hasItems) return null;
             return (
               <React.Fragment key={cat.key}>
@@ -257,7 +267,7 @@ function HomePage() {
                   const subKey = `${cat.key}-${sub.key}`;
                   const subIsCollapsed = subCollapsed[subKey];
                   const subData = loadedData[subKey] ?? [];
-                  if (subData.length > 0 && !subData.some(matchesSearch)) return null;
+                  if (subData.length > 0 && !visibleKeys.has(subKey)) return null;
                   return (
                     <React.Fragment key={sub.key}>
                       <div className="flex items-center my-1 cursor-pointer select-none pl-8" onClick={() => toggleSubCollapse(cat.key, sub.key)}>

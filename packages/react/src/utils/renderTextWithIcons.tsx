@@ -2,27 +2,35 @@
 import iconMappings from "../data/textToIconMaps.json";
 import GameImg from "../components/GameImg";
 
-// Build lookup: lowercase text → entry
-const iconMap = new Map(iconMappings.map(e => [e.text.toLowerCase(), e]));
+type IconEntry = (typeof iconMappings)[number];
 
-// Preload all icon images at module-load time so they are already in the
-// browser cache when descriptions are first rendered, eliminating per-render
-// network requests.
-if (typeof window !== "undefined") {
-  iconMappings.forEach(e => {
-    const img = new Image();
-    img.src = e.icon_path;
-  });
+// All setup is deferred to first call — nothing runs at module parse/execute time.
+let iconMap: Map<string, IconEntry> | null = null;
+let iconRegex: RegExp | null = null;
+
+function ensureInitialized() {
+  if (iconMap !== null) return;
+
+  iconMap = new Map(iconMappings.map(e => [e.text.toLowerCase(), e]));
+
+  // Sort longer entries first so multi-word statuses match before single words
+  const escapedTexts = [...iconMappings]
+    .sort((a, b) => b.text.length - a.text.length)
+    .map(e => e.text.replace(/([.*+?^=!:${}()|[\]/\\])/g, "\\$1"));
+  iconRegex = new RegExp(`\\b(${escapedTexts.join('|')})\\b`, 'gi');
+
+  // Preload all icon images now that the module is actually needed
+  if (typeof window !== "undefined") {
+    iconMappings.forEach(e => {
+      const img = new Image();
+      img.src = e.icon_path;
+    });
+  }
 }
 
-// Sort longer entries first so multi-word statuses match before single words
-const escapedTexts = [...iconMappings]
-  .sort((a, b) => b.text.length - a.text.length)
-  .map(e => e.text.replace(/([.*+?^=!:${}()|[\]/\\])/g, "\\$1"));
-const iconRegex = new RegExp(`\\b(${escapedTexts.join('|')})\\b`, 'gi');
-
 export function renderTextWithIcons(text: string) {
-  const matches = Array.from(text.matchAll(iconRegex));
+  ensureInitialized();
+  const matches = Array.from(text.matchAll(iconRegex!));
   const result: React.ReactNode[] = [];
   let lastIndex = 0;
   matches.forEach((match, i) => {
@@ -31,7 +39,7 @@ export function renderTextWithIcons(text: string) {
     if (start > lastIndex) {
       result.push(text.slice(lastIndex, start));
     }
-    const entry = iconMap.get(matchText.toLowerCase());
+    const entry = iconMap!.get(matchText.toLowerCase());
     if (entry) {
       result.push(
         <span key={i} className="inline-flex items-center mr-1 align-middle mb-1">
