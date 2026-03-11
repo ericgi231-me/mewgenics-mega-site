@@ -37,13 +37,13 @@ function CategorySection({
         className="flex items-center my-3 cursor-pointer select-none"
         onClick={onToggle}
       >
-        <span className="mx-2 text-2xl font-bold text-color-primary drop-shadow-[0_1px_2px_var(--color-border-dark)]">
+        <span className="mx-2 text-2xl font-bold text-heading">
           {cat.label}
-          <span className="ml-2 text-base align-middle text-color-secondary">
+          <span className="ml-2 text-base align-middle text-muted">
             {isCollapsed ? "▲" : "▼"}
           </span>
         </span>
-        <div className="flex-1 border-t border-color-border" />
+        <div className="flex-1 border-t border-rule" />
       </div>
 
       {!isCollapsed && cat.subcategories && cat.subcategories.map(sub => {
@@ -57,9 +57,9 @@ function CategorySection({
               className="flex items-center my-1 cursor-pointer select-none pl-8"
               onClick={() => onSubToggle(cat.key, sub.key)}
             >
-              <span className="mx-2 text-lg font-semibold text-color-secondary">
+              <span className="mx-2 text-lg font-semibold text-body">
                 {renderTextWithIcons(sub.label)}
-                <span className="ml-2 text-sm align-middle text-color-primary-dark">
+                <span className="ml-2 text-sm align-middle text-muted">
                   {subIsCollapsed ? "▲" : "▼"}
                 </span>
               </span>

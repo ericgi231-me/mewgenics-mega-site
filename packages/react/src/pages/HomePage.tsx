@@ -28,14 +28,14 @@ function HomePage() {
   }, [loadedData, matchesSearch]);
 
   return (
-    <div className="flex flex-col min-h-screen dark bg-color-background text-color-text">
+    <div className="flex flex-col min-h-screen bg-page text-body">
       <div className="flex flex-1">
         <SidebarInfoBox
           selectedItem={selection.hoveredItem}
           className="hidden lg:flex sticky top-0 h-screen"
         />
         <div className="flex-1 min-w-0 p-8 pt-0">
-          <div className="flex items-center gap-4 sticky top-0 z-20 py-4 bg-color-background">
+          <div className="flex items-center gap-4 sticky top-0 z-20 py-4">
             <SearchBar value={search} onChange={setSearch} />
           </div>
           {categories.map(cat => {

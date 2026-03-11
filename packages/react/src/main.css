@@ -1,97 +1,31 @@
 @import "tailwindcss";
 
+/* ─── Design tokens ───────────────────────────────────────────────────────────
+   Edit only this block to restyle the whole application.
+   All Tailwind utilities like bg-page, text-heading, etc. resolve here.
+──────────────────────────────────────────────────────────────────────────────*/
 @theme {
-	/* Primary Colors */
-	--color-primary: #b8a6d9;
-	--color-primary-light: #cfc2e6;
-	--color-primary-dark: #7c6a9f;
+  /* Surfaces */
+  --color-page:    #463939;   /* main background — near-black */
+  --color-surface: #272727;   /* sidebar, modal, info panels */
+  --color-card:    #333333;   /* hover / selected card tint */
 
-	/* Secondary Colors */
-	--color-secondary: #a89ac2;
-	--color-secondary-light: #cfc2e6;
-	--color-secondary-dark: #443a5c;
+  /* Text */
+  --color-heading: #f0eeff;   /* category & item names */
+  --color-body:    #d4d0e8;   /* body copy */
+  --color-muted:   #8b87a8;   /* secondary labels, chevrons */
+  --color-accent:  #a48fe8;   /* unlock labels, highlights */
+  --color-link:    #fbbf24;   /* inline icon-text links (amber) */
 
-	/* Accent Colors */
-	--color-accent: #6ee7b7;
-	--color-accent-light: #a7f3d0;
-	--color-accent-dark: #047857;
+  /* Borders — used sparingly */
+  --color-rule:    #3d3d3d;   /* subtle divider lines */
 
-	/* Backgrounds */
-	--color-background: #23243a;
-	--color-background-alt: #1a1b2b;
-	--color-surface: #2c2236;
-
-	/* Text */
-	--color-text: #e2e8f0;
-	--color-text-secondary: #a89ac2;
-	--color-text-hover: #fbbf24;
-	--color-text-inverse: #23243a;
-
-	/* Borders */
-	--color-border: #3a3550;
-	--color-border-dark: #443a5c;
-
-	/* Shadows */
-	--shadow-sm: 0 1px 2px 0 rgba(0,0,0,0.10);
-	--shadow-md: 0 4px 6px -1px rgba(0,0,0,0.15), 0 2px 4px -2px rgba(0,0,0,0.15);
-	--shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.18), 0 4px 6px -4px rgba(0,0,0,0.18);
-
-	/* Spacing */
-	--spacing-xs: 4px;
-	--spacing-sm: 8px;
-	--spacing-md: 16px;
-	--spacing-lg: 32px;
-	--spacing-xl: 64px;
-
-	/* Font */
-	--font-family-sans: 'Inter', 'Segoe UI', Arial, sans-serif;
-	--font-family-mono: 'Fira Mono', 'Consolas', monospace;
-
-	/* Transitions */
-	--transition-fast: 0.15s cubic-bezier(0.4,0,0.2,1);
-	--transition-base: 0.3s cubic-bezier(0.4,0,0.2,1);
+  /* Font */
+  --font-family-sans: 'Inter', 'Segoe UI', Arial, sans-serif;
 }
 
-/* Dark mode overrides - NO @theme block here */
-.dark {
-	/* Primary Colors - Dark Mode */
-	--color-primary: #cfc2e6;
-	--color-primary-light: #e2e8f0;
-	--color-primary-dark: #b8a6d9;
-
-	/* Secondary Colors - Dark Mode */
-	--color-secondary: #cfc2e6;
-	--color-secondary-light: #e2e8f0;
-	--color-secondary-dark: #a89ac2;
-
-	/* Accent Colors - Dark Mode */
-	--color-accent: #a7f3d0;
-	--color-accent-light: #6ee7b7;
-	--color-accent-dark: #10b981;
-
-	/* Backgrounds - Dark Mode */
-	--color-background: #181828;
-	--color-background-alt: #23243a;
-	--color-surface: #2c2236;
-
-	/* Text - Dark Mode */
-	--color-text: #e2e8f0;
-	--color-text-secondary: #b8a6d9;
-	--color-text-hover: #fbbf24;
-	--color-text-inverse: #181828;
-
-	/* Borders - Dark Mode */
-	--color-border: #443a5c;
-	--color-border-dark: #3a3550;
-
-	/* Shadows - Dark Mode */
-	--shadow-sm: 0 1px 2px 0 rgba(0,0,0,0.18);
-	--shadow-md: 0 4px 6px -1px rgba(0,0,0,0.22), 0 2px 4px -2px rgba(0,0,0,0.22);
-	--shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.25), 0 4px 6px -4px rgba(0,0,0,0.25);
-}
-
-body {
-	background-color: var(--color-background);
-	color: var(--color-text);
-	font-family: var(--font-family-sans);
+html, body {
+  background-color: var(--color-page);
+  color: var(--color-body);
+  font-family: var(--font-family-sans);
 }

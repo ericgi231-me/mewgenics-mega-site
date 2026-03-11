@@ -29,30 +29,30 @@ function InfoBox({ selectedItem }: InfoBoxProps) {
       )}
       <div className="flex items-start mb-4 relative z-10">
         <div>
-          <div className="text-xl font-bold mb-1 underline text-color-primary">{item.name}</div>
-          <div className="mb-2 text-color-text-primary"><IconText text={item.description} /></div>
+          <div className="text-xl font-bold mb-1 underline text-heading">{item.name}</div>
+          <div className="mb-2 text-body"><IconText text={item.description} /></div>
         </div>
       </div>
       {item.description2 && (
         <div className="mb-2 relative z-10">
-          <div className="text-xl font-bold mb-1 underline text-color-primary">{item.name+'+'}</div>
-          <span className="font-semibold text-color-accent"></span> <IconText text={item.description2} />
+          <div className="text-xl font-bold mb-1 underline text-heading">{item.name+'+'}</div>
+          <span className="font-semibold text-accent"></span> <IconText text={item.description2} />
         </div>
       )}
       {item.unlock && (
         <div className="mb-2 relative z-10">
-          <span className="font-semibold text-accent">Unlock:</span> <span className="text-text-hover"><IconText text={item.unlock} /></span>
+          <span className="font-semibold text-accent">Unlock:</span> <span className="text-link"><IconText text={item.unlock} /></span>
         </div>
       )}
       {/* Divider between unlock and notes */}
       {item.notes && item.notes.length > 0 && (
-        <hr className="w-full border-t border-border my-2 opacity-60" />
+        <hr className="w-full border-t border-rule my-2 opacity-60" />
       )}
       {item.notes && item.notes.length > 0 && (
         <div className="mt-2 w-full relative z-10">
           {item.notes.map((note, i) => (
             <div key={i} className="mb-2">
-              <span className="font-semibold text-accent-light">{note.label}:</span> <IconText text={note.content} />
+              <span className="font-semibold text-accent">{note.label}:</span> <IconText text={note.content} />
             </div>
           ))}
         </div>

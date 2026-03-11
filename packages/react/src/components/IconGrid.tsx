@@ -13,7 +13,7 @@ interface IconGridProps {
 
 function IconGrid({ items, selected, setSelected, onHover, onHoverEnd }: IconGridProps) {
   return (
-    <div style={{ display: "grid", gridTemplateColumns: `repeat(auto-fill, ${CELL_SIZE}px)` }}>
+    <div style={{ display: "grid", gridTemplateColumns: `repeat(auto-fill, ${CELL_SIZE}px)`, justifyContent: "center" }}>
       {items.map((item, idx) => (
         <div
           key={idx}
