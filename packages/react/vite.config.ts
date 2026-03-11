@@ -19,6 +19,7 @@ export default defineConfig(({ mode }) => {
       port: port,
     },
     build: {
+      modulePreload: { polyfill: true },
       rollupOptions: {
         output: {
           manualChunks: {

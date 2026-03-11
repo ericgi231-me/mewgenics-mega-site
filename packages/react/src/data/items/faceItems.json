@@ -3117,7 +3117,7 @@
   },
   {
     "name": "Ultra Vision 3000 v1.1",
-    "icon_path": "/assets/items/ITEM_Ultra_Vision_3000_v1.1.svg",
+    "icon_path": "/assets/items/ITEM_Ultra_Vision_3000_v1-1.svg",
     "description": "+4 Luck\nYour basic attack inflicts Marked.\nCursed.",
     "notes": [
       {

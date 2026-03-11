@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365 440" width="365" height="440">
+  <defs>
+    <!-- Clip medal circle for stripes -->
+    <clipPath id="medalClip">
+      <circle cx="182" cy="265" r="160"/>
+    </clipPath>
+    <!-- Clip prohibition outer ring for slash line -->
+    <clipPath id="prohibitClip">
+      <circle cx="182" cy="265" r="111"/>
+    </clipPath>
+    <!-- Subtle metallic gradient for medal base -->
+    <linearGradient id="medalGrad" x1="15%" y1="10%" x2="85%" y2="90%">
+      <stop offset="0%"   stop-color="#c0c0c0"/>
+      <stop offset="35%"  stop-color="#979797"/>
+      <stop offset="100%" stop-color="#606060"/>
+    </linearGradient>
+    <!-- Lighter highlight color for stripes -->
+    <linearGradient id="stripeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#d8d8d8"/>
+      <stop offset="100%" stop-color="#b8b8b8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ═══ HOOK / BAIL ═══ -->
+  <!-- Outer gray ring of the hook -->
+  <circle cx="182" cy="90" r="19" fill="#979797"/>
+  <!-- Inner hole (transparent) -->
+  <circle cx="182" cy="90" r="11" fill="black"/>
+  <!-- Dark outline around hook for depth -->
+  <circle cx="182" cy="90" r="19" fill="none" stroke="#444" stroke-width="1.5"/>
+
+  <!-- ═══ MAIN MEDAL CIRCLE ═══ -->
+  <circle cx="182" cy="265" r="160" fill="url(#medalGrad)"/>
+
+  <!-- ═══ DIAGONAL HIGHLIGHT STRIPES ═══ (clipped to medal) -->
+  <g clip-path="url(#medalClip)">
+    <!-- Three lighter diagonal bands at ~-40° to match the metallic sheen in the source -->
+    <rect x="10"  y="-450" width="74" height="1100" fill="url(#stripeGrad)" opacity="0.55" transform="rotate(-40, 182, 265)"/>
+    <rect x="120" y="-450" width="74" height="1100" fill="url(#stripeGrad)" opacity="0.55" transform="rotate(-40, 182, 265)"/>
+    <rect x="230" y="-450" width="74" height="1100" fill="url(#stripeGrad)" opacity="0.55" transform="rotate(-40, 182, 265)"/>
+  </g>
+
+  <!-- ═══ PROHIBITION / NO-COLLAR SYMBOL ═══ -->
+
+  <!-- Outer black filled circle (the ring body) -->
+  <circle cx="182" cy="265" r="111" fill="black"/>
+
+  <!-- Inner white circle (the centre opening) -->
+  <circle cx="182" cy="265" r="75" fill="white"/>
+
+  <!-- Diagonal slash — endpoint coords lie on the outer circle at 45°
+       (182 ± 78.5, 265 ∓ 78.5) extended 12 px so clip gives a clean edge -->
+  <line
+    x1="93"  y1="356"
+    x2="271" y2="174"
+    stroke="black"
+    stroke-width="31"
+    stroke-linecap="butt"
+    clip-path="url(#prohibitClip)"
+  />
+
+  <!-- ═══ SIDE KNOBS (left & right pegs of the ring) ═══ -->
+  <circle cx="71"  cy="265" r="15.5" fill="black"/>
+  <circle cx="293" cy="265" r="15.5" fill="black"/>
+</svg>
